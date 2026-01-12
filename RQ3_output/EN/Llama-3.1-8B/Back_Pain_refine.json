@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sore back. Radiates down right leg. Pain all day. Trouble sleeping. Unable to work due to pain. No fever, cough, or shortness of breath. No smoking/alcohol. Request: Wants pain relief.",
+  "Objective": "BP: 120/80. HR: 70. Temp: 36.8°C. Back: normal. Legs: normal. Strength: normal. Reflexes: normal. Pregabalin prescribed.",
+  "Assessment": "Lumbosacral radicular syndrome, susp. HNP. No signs of cauda equina.",
+  "Plan": [
+    "Pregabalin (build up dose slowly).",
+    "Physiotherapy (exercises to make back more flexible).",
+    "Follow-up in 1 week to discuss pain relief.",
+    "Contact doctor if symptoms worsen (e.g. no feeling in riding breeches area, no strength in leg).",
+    "No surgery or scan necessary at this time."
+  ]
+}

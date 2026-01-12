@@ -1,0 +1,12 @@
+{
+    "Subjective": "Headache, 2 months, worsening; right-sided, sometimes bilateral; nausea, no vomiting; glare, no flashes; prefers dark room; no fever, no cough, no shortness of breath; no recent stress; occasional alcohol use, no smoking, no drugs; family history of migraines and cluster headaches; impact on daily life: unable to play volleyball, scuba dive, or participate in social activities; Request: wants to know cause and best course of action; worried about migraines or cluster headaches.",
+    "Objective": "BP 120/80; pulse 50/min; cranial nerves intact; fingertip-nose test good; arm and leg strength good; Romberg's normal; gait slightly off; no other abnormalities.",
+    "Assessment": "Probable migraine; ruled out cluster headaches; no signs of serious underlying conditions.",
+    "Plan": [
+     "Read about migraines on thuisarts.nl",
+        "Start pain relief (paracetamol, ibuprofen) as soon as symptoms start",
+        "Keep headache diary to track symptoms and identify patterns",
+        "Return in 4 weeks for follow-up, or sooner if symptoms worsen or change",
+        "Monitor for factors that make symptoms worse (e.g. stress, coffee)"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "Subjective": "Sore throat for 3 days; Fever this morning; Cough last week; Painful swallowing; Took paracetamol and ibuprofen; No shortness of breath; No runny nose; No cough currently; Concern about abscess; Friend had abscess.",
+  "Objective": "Fever: 38.3°C; Pharyngeal arch: slightly red; Tonsils: enlarged with slough; Ears: normal; Lymph nodes: small, non-pathological; Lungs: vesicular breath sounds; Oxygen saturation: 98%",
+  "Assessment": "Viral pharyngitis; No bacterial pharyngitis; No abscess; No respiratory distress",
+  "Plan": [
+    "Continue paracetamol and ibuprofen as needed",
+    "Stay hydrated; Cold compresses or popsicles for pain",
+    "Monitor for difficulty swallowing or shortness of breath",
+    "Follow-up if symptoms worsen or persist beyond a few days"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sudden onset dizziness x3 days, started on waking. Vertigo (room spinning) > light-headedness. Triggered by head movements; minimal when still. Associated mild nausea, transient palpitations when dizzy. Affects daily activities. No vomiting, headache, hearing loss, tinnitus, speech difficulty, focal weakness, or syncope. Recent cold, no prolonged bed rest. Social: No smoking, alcohol, or drug use. Concern: Fear of brain tumor (friend's diagnosis). Request: Diagnosis and treatment to resolve dizziness.",
+  "Objective": "Vitals: BP 110/70, HR 62. Neuro Exam: Cranial nerves II-XII grossly intact. Motor strength 5/5 throughout. No pronator drift. Cerebellar: Finger-to-nose intact. Gait steady, tandem gait normal. Vestibular Exam: Smooth pursuits normal, no nystagmus. Head Impulse Test (HIT) negative bilaterally. Dix-Hallpike test positive, provoking vertigo, nausea, and visible nystagmus; symptoms more intense on one side.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV). Brain tumor ruled out.",
+  "Plan": [
+    "Reassurance provided: condition is benign, not a brain tumor.",
+    "Explained pathophysiology of BPPV (vestibular crystals).",
+    "Epley maneuver performed in office today.",
+    "Provided instructions for home Epley maneuver (via thuisarts.nl).",
+    "Follow-up as needed."
+  ]
+}

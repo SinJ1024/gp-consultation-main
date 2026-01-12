@@ -1,0 +1,12 @@
+{
+  "Subjective": "Dizziness x 3 days, started upon waking. Vertigo, room spinning, also light-headed. Worse with head movement. Mild nausea. Occasional rapid heart rate. Fear of serious cause (brain tumor) due to friend's history. Unable to do much due to symptoms. No vomiting, headache, hearing issues, speech problems, limb weakness, fainting, recent illness, smoking, alcohol, or drugs.",
+  "Objective": "Vitals: BP 110/70, Pulse 62. Neuro exam: Facial sensation intact, EOM intact, facial nerve intact, tongue protrusion intact, shoulder shrug intact, muscle strength intact, Romberg negative, gait normal, tandem gait normal. Dix-Hallpike maneuver positive for vertigo and nystagmus (R>L). HIT test negative.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV). Rule out central causes (tumor) based on negative neurological exam and specific positional triggers.",
+  "Plan": [
+    "Diagnosis: Benign Paroxysmal Positional Vertigo (BPPV). Reassurance regarding tumor concern - symptoms inconsistent with CNS pathology.",
+    "Treatment: Epley maneuver performed in office today.",
+    "Self-care: Instructions for home Epley maneuver via thuisarts.nl.",
+    "Follow-up: Not specified, implied if symptoms persist or worsen.",
+    "Safety Netting: Return if symptoms worsen, new neurological deficits (weakness, speech changes, vision changes), or severe headache."
+  ]
+}

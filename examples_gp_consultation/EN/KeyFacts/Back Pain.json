@@ -1,0 +1,51 @@
+{
+  "Subjective": [
+    "For the past 1.5 weeks, the patient has had continuous pain in the lower right back.",
+    "Pain radiates down the dorsal side of the right upper leg.",
+    "Pain radiates down the lateral side of the right lower leg to the right foot.",
+    "Paracetamol does not relieve the pain.",
+    "Ibuprofen does not relieve the pain.",
+    "The pain interferes with sleep.",
+    "The pain interferes with work.",
+    "The pain interferes with sports",
+    "Patient does not experience any subjective loss of strength in the legs.",
+    "Movement is restricted by the pain",
+    "The patient experiences a dull sensation on the outside of the right lower leg extending to the foot.",
+    "The patient experiences slight tingling on the outside of the right lower leg extending to the foot.",
+    "There is no loss of sensation in the riding breeches area.",
+    "There are no urinary problems.",
+    "There are no bowel problems.",
+    "The patient mainly wants to reduce the pain."
+  ],
+  "Objective": [
+    "There are no visible abnormalities on the back.",
+    "There are no visible abnormalities on the legs.",
+    "There is no pressure pain across the spine.",
+    "Straight Leg Raise on the right is positive.",
+    "Straight Leg Raise left is negative.",
+    "There is hypesthesia on the lateral side of the right lower leg.",
+    "There is hypesthesia on the lateral side of the right foot.",
+    "The strength in both legs is symmetrical.",
+    "The strength in both legs is normal.",
+    "The tendon reflexes in the legs are normal"
+  ],
+  "Assessment": [
+    "There is a right-sided lumbar radicular syndrome, suspected herniated nucleus pulposus.",
+    "There are no indications of cauda equina syndrome.",
+    "There are no indications of severe neurological deficit."
+  ],
+  "Plan": [
+    "Starting with pregabalin.",
+    "Pregabalin will be slowly increased according to schedule.",
+    "The advice is to not drive a car during the pregabalin build-up phase.",
+    "The patient will be referred for physiotherapy.",
+    "Information has been provided about herniated nucleus pulposus/lumbar radicular syndrome.",
+    "Information has been provided about the expected course of the symptoms.",
+    "Information has been provided about the expected treatment.",
+    "Contact us immediately in case of new loss of strength.",
+    "Contact us immediately in case of loss of sensation in the riding breeches area.",
+    "Contact us immediately in case of urinary problems.",
+    "Contact us immediately in case of bowel problems.",
+    "A follow-up appointment has been schedled in 1 week."
+  ]
+}

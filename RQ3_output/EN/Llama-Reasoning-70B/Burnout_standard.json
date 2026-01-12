@@ -1,0 +1,13 @@
+{
+  "Subjective": "Palpitations; Shortness of breath; Rapid breathing; Muscle tension; Fatigue; Sleep disturbance (6 hours/night); Symptoms worsened over 2 weeks. No chest pain; No dizziness; No irregular heartbeat; No abdominal complaints. Works full-time as a doctor in internal medicine; No smoking/alcohol. Request: Rule out somatic causes (e.g., anemia); Wants to discuss with practice nurse.",
+  "Objective": "BP 120/60; HR 65; RR 14; SpO2 98%. Normal heart and lung exam; No murmurs or abnormalities.",
+  "Assessment": "Stress-related symptoms, likely anxiety. No somatic cause identified on exam. Ruled out: Anemia, thyroid dysfunction, other somatic causes.",
+  "Plan": [
+    "Order blood tests (Hgb, TSH, LFTs, KFTs)",
+    "Refer to mental health nurse for stress management",
+    "Recommend relaxation techniques: coffee breaks, social calls, exercise",
+    "Advise regular sleep schedule and work-life balance",
+    "Suggest occupational health consultation for workload adjustment",
+    "Follow-up as needed; patient can return if symptoms worsen"
+  ]
+}

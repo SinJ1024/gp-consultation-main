@@ -1,0 +1,37 @@
+{
+  "Subjective": [
+    "The patient has been constipated for approximately 3 months.",
+    "The patient has hard stools.",
+    "The patient has defecation breaks of 2 to 3 days.",
+    "The patient experiences abdominal pain when constipated.",
+    "The patient experiences abdominal cramps when constipated.",
+    "The patient experiences bloating when constipated.",
+    "The patient has no change in appetite.",
+    "The patient has a normal eating pattern.",
+    "The patient is underweight.",
+    "The patient has not recently lost any weight.",
+    "The patient does not see blood in their stools.",
+    "Request for help: the patient wants advice on how to have softer stools."
+  ],
+  "Objective": [
+    "Abdomen: normal peristalsis.",
+    "Abdomen: variable tympany.",
+    "Abdomen: pressure pain in the lower left abdomen.",
+    "Abdomen: percussion dullness in the lower left abdomen."
+  ],
+  "Assessment": [
+    "There is constipation.",
+    "The pattern of symptoms is consistent with a constipation variant of irritable bowel syndrome.",
+    "There are no alarm signals."
+  ],
+  "Plan": [
+    "Patient starts with psyllium fibre in sachets.",
+    "Psyllium fibre must be taken daily with sufficient water.",
+    "Treatment duration with psyllium fibre is 6 weeks.",
+    "A follow-up appointment is scheduled in 6 weeks.",
+    "Patient should contact us sooner if abdominal pain increases.",
+    "Patient should contact us sooner if they develop a fever.",
+    "Patient should contact us sooner if there is blood in their stool.",
+    "We are considering referring the patient to a dietician at the next consultation."
+  ]
+}

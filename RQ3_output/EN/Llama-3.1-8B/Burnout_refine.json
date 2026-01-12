@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sore throat; unable to play tennis due to fatigue; busy job; tension in body; stiff muscles; quick breathing; palpitations; heart beating; stress-related symptoms; worried about health; unsure if physical cause; anaemia suspected; want to rule out physical causes; good support system; friends and colleagues understand; discuss with practice nurse; want to know if there's a somatic cause; worried about burnout; want to take care of self; need relaxation moments; regularity in life important; occupational health and safety service; adjust schedules for peace of mind.",
+  "Objective": "BP: 120/60; HR: 65/min; O2: 98%; breathing calmly; normal heart sounds; no murmurs; no abdominal complaints; no dizziness or light-headedness; no chest pain; no irregular heartbeat; no shortness of breath; no fever; no headache; no cough.",
+  "Assessment": "Stress-related symptoms; likely due to work overload; possible burnout; no physical cause found; anaemia ruled out; thyroid, liver, and kidney function to be tested; discuss with practice nurse; consider occupational health and safety service.",
+  "Plan": [
+    "Blood test for haemoglobin, thyroid, liver, and kidney function",
+    "Discuss with practice nurse",
+    "Consider occupational health and safety service",
+    "Take care of self: relaxation moments, regularity in life, adjust schedules for peace of mind",
+    "Follow-up in 2 working days for blood test results"
+  ]
+}

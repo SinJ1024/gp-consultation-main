@@ -1,0 +1,16 @@
+{
+  "Subjective": "Sore throat x 3 days, unbearable, painful swallowing. Fever this morning (after paracetamol). Started with cough last week, now resolved. No shortness of breath, no runny nose/cold symptoms. Can swallow/drink but painful. No one around sick. Impact on daily life: Painful swallowing affecting comfort, general malaise. No smoking/alcohol mentioned. Request: Worried about abscess, wants antibiotics.",
+  "Objective": "Temp: 38.3 C (after 2 paracetamol). Saturation: 98%. Ears: Left: air-filled eardrum, no inflammation. Right: slight redness in ear canal, otherwise normal, no inflammation. Neck: Small submandibular lymph nodes, non-pathological. Throat: Median uvula. Slightly red pharyngeal arch. Slightly enlarged tonsils, not kissing. Little slough bilateral. No abscess. Lungs: Vesicular breath sounds, no adventitious sounds.",
+  "Assessment": "Pharyngitis, likely viral etiology. Fever. No signs of peritonsillar abscess. No signs of bacterial infection requiring antibiotics.",
+  "Plan": [
+    "Explanation: Viral pharyngitis, antibiotics not effective. Symptoms may resolve half a day sooner with antibiotics, but no significant change in course.",
+    "Meds:",
+    "- Paracetamol: 4x/day.",
+    "- Ibuprofen: 400mg, 3x/day (if paracetamol insufficient).",
+    "Lifestyle:",
+    "- Hydration: Drink plenty of fluids.",
+    "- Pain relief: Cold drinks, popsicles.",
+    "Safety Net: Return if much sicker, shortness of breath, or unable to swallow properly.",
+    "Follow-up: PRN."
+  ]
+}

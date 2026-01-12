@@ -1,0 +1,14 @@
+{
+    "Subjective": "Sore spot on neck. Started 2-3 weeks ago after shaving. Thought it was a wart. Swollen, redder, itches. No pain. No similar spots. No scratching. No lymph nodes. Freckles on neck. No skin malignancies in family. Worried about skin cancer. Wants to get rid of it. Pain in knee after running. Lingers for days. No severe pain. No running often. Playing soccer is fine. No other symptoms.",
+    "Objective": "Vitals: N/A. Physical Exam: Raised, pinkish-red spot on neck. 0.5 cm. Slightly redder spot in middle. No flaking. No scab. No lymph nodes. Freckles on neck. Knee: No swelling. No redness. No pain on palpation.",
+    "Assessment": "Possible pyogenic granuloma or atypical mole. Will send picture to dermatologist for further evaluation.",
+    "Plan": [
+     "Send picture to dermatologist via e-consultation.",
+        "Wait for dermatologist's answer by end of week.",
+        "Call patient on Friday between 12-1:30 PM to discuss results.",
+        "If patient is unreachable, leave voicemail or use patient's cell phone.",
+        "Possible treatment options: freezing, removal with liquid nitrogen, or scraping device.",
+        "Patient prefers freezing method.",
+        "Follow-up appointment to discuss knee pain and possible treatment."
+    ]
+}

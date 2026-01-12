@@ -1,0 +1,12 @@
+{
+  "Subjective": "Stress-related symptoms, body tension, stiff muscles, rapid breathing, heart palpitations. Onset: gradual worsening over months, daily for last 2 weeks. Aggravated by: busy job (new doctor, internal medicine, understaffing, long shifts, feeling unsure), inner struggle to say no to extra shifts, relaxing moments (bath, going to bed). Coffee worsens palpitations. Relieved by: less coffee, fun with colleagues. Associated: Difficulty falling asleep (worrying about next day, uncertainty), ~6 hours sleep/night. Impact: Affecting sleep, daily life, keeps awake, annoyed. Negatives: No chest pain, no irregular heartbeat, no dizziness/light-headedness, no abdominal complaints. Palpitations not with exertion. Social: Lives with housemates (doctors), friends/colleagues are doctors (good support system). Works full-time (38-hour contract, often longer days). ICE: Worried about somatic cause (e.g., anemia), wants to rule out physical causes. Wants to discuss with professional (e.g., practice nurse). Feels guilt when saying no to colleagues.",
+  "Objective": "Vitals: BP 120/60, HR 65 bpm, O2 Sat 98%, RR 14 bpm. Lungs: Clear, good breath sounds across all fields, no abnormal sounds. Heart: Normal heart sounds, no murmurs. Abdomen: Not examined (no complaints). General: Calm.",
+  "Assessment": "Stress-related symptoms, likely work-related (new doctor, internal medicine, understaffing). Ruled out: Cardiac issues on exam. Somatic causes to be ruled out with labs.",
+  "Plan": [
+    "Explanation: Physical exam normal, symptoms likely stress-related.",
+    "Labs: Blood test (Hb, thyroid values, liver/kidney function) to rule out somatic causes (e.g., anemia). Results in 2 working days.",
+    "Referral: Appointment with mental health nurse (can be made today).",
+    "Lifestyle Advice: Actively build relaxation moments (e.g., coffee, call friend, walk, swim). Maintain regularity (wake up, go to bed on time). Consider occupational health doctor (tips, contract adjustments, schedule adjustments). Judge work-life balance.",
+    "Safety Net: Contact if worsening symptoms, increased worry, or questions after practice nurse consultation."
+  ]
+}

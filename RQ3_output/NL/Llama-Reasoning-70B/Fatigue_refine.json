@@ -1,0 +1,11 @@
+{
+  "Subjective": "Extreme fatigue 2 months; sleeping a lot but waking tired; reduced productivity at work; weekends spent resting; able to climb 2-3x/week and bike without issues; muscle pain; back pain worse in lower back; no fever; no weight loss; no joint pain; no smoking/alcohol; worried about anemia/rheumatism; requests blood tests.",
+  "Objective": "BP 110/60; HR 40-60; normal temperature; heart and lungs normal; abdomen soft, no tenderness; no spinal tenderness; no joint swelling or redness.",
+  "Assessment": "Chronic fatigue syndrome; rule out anemia, rheumatoid arthritis; no evidence of infection, cardiovascular issues, or musculoskeletal disorders.",
+  "Plan": [
+    "Order blood tests (Hb, TSH, CRP)",
+    "Schedule follow-up call for results",
+    "Advise rest and activity adjustment",
+    "Safety net: seek help if severe pain, shortness of breath, or worsening fatigue"
+  ]
+}

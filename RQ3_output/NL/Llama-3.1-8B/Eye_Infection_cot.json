@@ -1,0 +1,12 @@
+{
+  "Subjective": "Irritated eye (rechter oog). Redness (rechter oog). Redness (linker oog, sinds gisteren). Feeling of something in the eye (rechter oog). No fever; no headache; no shortness of breath. Unable to play with daughter due to eye discomfort.",
+  "Objective": "Vitals: normal. Physical Exam: redness (rechter oog); redness (linker oog); feeling of something in the eye (rechter oog). Pupils react normally.",
+  "Assessment": "Ocular surface infection, likely viral. No signs of bacterial infection.",
+  "Plan": [
+    "Do not rub the eye.",
+    "Use artificial tears to soothe the eye.",
+    "Monitor for signs of bacterial infection (pain, pus, discharge).",
+    "Return in 2 weeks if symptoms persist.",
+    "Call if symptoms worsen or if there are concerns."
+  ]
+}

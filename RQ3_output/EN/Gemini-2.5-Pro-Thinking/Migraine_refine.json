@@ -1,0 +1,12 @@
+{
+  "Subjective": "Headache x 2 months, worsening. Location: primarily Right-sided, sometimes diffuse. Frequency: initially infrequent, now almost weekly. Duration: lasts a few days. Associated symptoms: nausea (with severe pain), visual glare, photophobia (prefers dark room), phonophobia (talking worsens pain). Onset during vacation in Aruba. Tried paracetamol and ibuprofen; ibuprofen worked well. Impact: unable to play volleyball or socialize with friends. Pertinent Negatives: No vomiting, no flashes of light. No recent stress. Family Hx: Father with migraines, grandfather with cluster headaches. No family hx of tumors. Social Hx: Occasional alcohol (2-3 beers/session), no smoking, no drugs, no coffee/energy drinks. Patient is a 20 y/o medical student. Request: Wants to know if this is migraine vs. cluster headache and how to manage it.",
+  "Objective": "Vitals: BP 120/80, HR 50. Neuro Exam: Cranial nerves intact. Finger-nose test normal. Strength in arms/legs good. Romberg's normal. Gait: slightly off on straight line walk but manageable.",
+  "Assessment": "Suspected Migraine. Cluster headache less likely.",
+  "Plan": [
+    "Education: Read about migraine on thuisarts.nl.",
+    "Medication: At symptom onset, start pain relief immediately. First-line: Paracetamol (2 tablets, up to 4x/day). If insufficient, add ibuprofen.",
+    "Monitoring: Keep a headache diary to track frequency, triggers, and patterns. Will provide a printout.",
+    "Follow-up: Return in 4 weeks with the diary for evaluation.",
+    "Safety Netting: Return sooner if symptoms worsen significantly or change."
+  ]
+}

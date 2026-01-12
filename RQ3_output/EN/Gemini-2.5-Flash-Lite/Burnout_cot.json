@@ -1,0 +1,14 @@
+{
+  "Subjective": "Tension, stiff muscles, rapid breathing, heart palpitations, feeling heart beat fast. Correlates with demanding job as new doctor. Difficulty saying no, feels guilty letting colleagues down. Fatigue. Trouble falling asleep due to worrying about next day, averaging 6 hours sleep. Symptoms worsened in last 2 weeks, now daily. No chest pain, no irregular heartbeat, no dizziness. Lives with doctor housemates, good support system. Request: Rule out physical causes (anemia). Wants advice on rest and going back to work. Concerns: Health important, situation continuing.",
+  "Objective": "Vitals: BP 120/60, HR 65, O2 Sat 98%, RR 14. Lungs: Clear breath sounds bilaterally. Heart: Normal heart sounds, no murmurs. No other physical findings noted.",
+  "Assessment": "Stress-related symptoms, likely adjustment disorder with physical symptoms, secondary to occupational stress. Rule out anemia, thyroid dysfunction, liver/kidney issues.",
+  "Plan": [
+    "Blood test: Hemoglobin, thyroid, liver, kidney function.",
+    "Referral to mental health nurse practitioner for discussion of stress, coping mechanisms, and difficulty saying no.",
+    "Advised to actively build relaxation moments into life (e.g., coffee, call friend, walk, swim).",
+    "Maintain regularity: consistent sleep/wake times.",
+    "Consider appointment with occupational health doctor at hospital.",
+    "Follow up after blood test results (2 working days) or if symptoms worsen.",
+    "Return if further concerns or questions arise."
+  ]
+}

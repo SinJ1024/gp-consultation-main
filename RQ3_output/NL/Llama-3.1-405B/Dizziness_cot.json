@@ -1,0 +1,11 @@
+{
+  "Subjective": "3 days of dizziness, room spinning sensation; worse with head movement. Lightheaded, some nausea; no vomiting. No headache, hearing loss, tinnitus, speech difficulties, limb weakness or fainting. Recent cold. No smoking, alcohol, drugs. Fear of brain tumor; wants to get rid of dizziness as it limits daily activities.",
+  "Objective": "BP 110/70, HR 62. No nystagmus. Normal facial sensation, eye movements, upper/lower limb strength. Dix-Hallpike maneuver: vertigo and nystagmus on right side, less on left. No neurological deficits.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV), likely due to displaced otoconia in the inner ear. No signs of central cause like brain tumor.",
+  "Plan": [
+    "1. Reassure patient that symptoms do not indicate a brain tumor.",
+    "2. Perform Epley maneuver in the clinic to help relieve symptoms.",
+    "3. Provide instructions for home Epley maneuver via thuisarts.nl.",
+    "4. Follow up if symptoms persist or worsen."
+  ]
+}

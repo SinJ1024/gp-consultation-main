@@ -1,0 +1,1669 @@
+Case_ID,Model_Name,Model_Family,Strategy,Duration_Sec,Status,Reasoning_Trace,Generated_JSON,Raw_Output
+Back Pain,Llama-3.1-8B,Llama,refine,6.98,Success,,"{
+  ""Subjective"": ""Pijn in rug x 1,5 week. Pijn uitstraalt naar rechterbeen. Pijn bij bewegen. Slaapproblemen. Geen krachtverlies. Tintelingen in been."",
+  ""Objective"": ""Temp 38,3C. Pharynx: Erythematous. Rechterbeen: Pijn bij bewegen. Krachttest: Kracht zit er nog wel in. Reflexen: Goed. Voet: Pijn bij aanraking."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": [
+    ""Pregabaline starten voor pijnstilling."",
+    ""Fysiotherapie voor oefeningen en soepeler maken van rug."",
+    ""Niet autorijden na start van pregabaline."",
+    ""Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling.""
+  ]
+}","```
+{
+  ""Subjective"": ""Pijn in rug x 1,5 week. Pijn uitstraalt naar rechterbeen. Pijn bij bewegen. Slaapproblemen. Geen krachtverlies. Tintelingen in been."",
+  ""Objective"": ""Temp 38,3C. Pharynx: Erythematous. Rechterbeen: Pijn bij bewegen. Krachttest: Kracht zit er nog wel in. Reflexen: Goed. Voet: Pijn bij aanraking."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": [
+    ""Pregabaline starten voor pijnstilling."",
+    ""Fysiotherapie voor oefeningen en soepeler maken van rug."",
+    ""Niet autorijden na start van pregabaline."",
+    ""Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling.""
+  ]
+}
+```"
+Back Pain,Llama-3.1-70B,Llama,refine,10.11,Success,,"{
+  ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen, 1,5 week aanhoudend, verergerd, slaapproblemen"",
+  ""Objective"": ""Temp en BP niet gemeten, rug en benen: geen bijzonderheden, rechterbeen: pijn bij tillen, kracht normaal, reflexen normaal"",
+  ""Assessment"": ""Waarschijnlijk hernia"",
+  ""Plan"": ""Pregabaline starten, fysiotherapie adviseren, controleafspraak over 1 week""
+}","```
+{
+  ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen, 1,5 week aanhoudend, verergerd, slaapproblemen"",
+  ""Objective"": ""Temp en BP niet gemeten, rug en benen: geen bijzonderheden, rechterbeen: pijn bij tillen, kracht normaal, reflexen normaal"",
+  ""Assessment"": ""Waarschijnlijk hernia"",
+  ""Plan"": ""Pregabaline starten, fysiotherapie adviseren, controleafspraak over 1 week""
+}
+```"
+Back Pain,Llama-3.1-405B,Llama,refine,16.0,Success,,"{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen en voet. Paracetamol en ibuprofen in maximale dosering, geen effect. Constante pijn, slaapproblemen."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie van benen en rug. Pijn bij tillen van rechterbeen. Verminderd gevoel aan buitenzijde rechteronderbeen. Normale kracht in benen. Reflexen intact."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": ""- Start pregabaline voor pijnstilling, langzaam opbouwen van dosering.- Geen autorijden tijdens start of bijwerkingen.- Fysiotherapie voor oefeningen ter verbetering rugsoepelheid.- Belafspraak over een week voor evaluatie pijnstilling.- Contact opnemen bij verergering klachten of problemen met plas/poep gevoel.""
+}","```json
+{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen en voet. Paracetamol en ibuprofen in maximale dosering, geen effect. Constante pijn, slaapproblemen."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie van benen en rug. Pijn bij tillen van rechterbeen. Verminderd gevoel aan buitenzijde rechteronderbeen. Normale kracht in benen. Reflexen intact."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": ""- Start pregabaline voor pijnstilling, langzaam opbouwen van dosering.- Geen autorijden tijdens start of bijwerkingen.- Fysiotherapie voor oefeningen ter verbetering rugsoepelheid.- Belafspraak over een week voor evaluatie pijnstilling.- Contact opnemen bij verergering klachten of problemen met plas/poep gevoel.""
+}
+```"
+Back Pain,Llama-Reasoning-70B,DeepSeek-Llama,refine,17.97,Success,"<think>
+Alright, I'm trying to create a SOAP note based on the provided Dutch transcript. Let me break it down step by step.
+
+First, I'll read through the transcript carefully to extract the necessary information for each section: Subjective, Objective, Assessment, and Plan.
+
+**Subjective:**
+The patient complains of lower back pain for about 1.5 weeks, which is getting worse and radiating to the right leg, specifically the back of the thigh and the outer side of the lower leg, all the way to the foot. The pain is constant and doesn't relieve with paracetamol and ibuprofen at maximum doses. The patient is having trouble sleeping due to the pain. They mentioned the pain started after heavy lifting at work and have stopped working and exercising because of it. They report decreased sensation and some tingling on the affected side but no issues with the perineal area (rijbroekgebied).
+
+**Objective:**
+During the physical exam, the patient showed pain when getting on the examination table. The legs appeared normal, and the back didn't show abnormalities upon palpation. The straight leg raise test was positive on the right side, causing pain. There was a difference in sensation between the left and right sides, with the right feeling duller. Reflexes were normal, and muscle strength was preserved despite the pain.
+
+**Assessment:**
+The doctor suspects a herniated disc (hernia) causing nerve compression, leading to the patient's symptoms.
+
+**Plan:**
+The doctor plans to start the patient on pregabaline, gradually increasing the dose to minimize side effects. They advise against driving for a week after starting the medication. Physical therapy is recommended. A follow-up phone call is scheduled for one week to assess the effectiveness of the pain management. The patient is warned to seek immediate help if symptoms worsen, such as loss of sensation in the perineal area or loss of strength in the leg.
+
+Now, I'll structure this into the SOAP note, ensuring it's concise and in Dutch as per the transcript.
+</think>","{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzij, buitenzij, voet) sinds 1,5 week, constant, verergerend. Paracetamol en ibuprofen (max dosering) geen effect. Slaapstoornis. Pijn ontstaan na zware til. Gevoelsverandering en tintelingen rechtsbeen. Kracht bewaard."",
+  ""Objective"": ""Pijn bij opstaan. Rechterslag test positief. Gevoelsverschil rechts (doof). Reflexen normaal. Kracht intact."",
+  ""Assessment"": ""Hernia (vermoedelijk)."",
+  ""Plan"": ""Start pregabaline, dosering langzaam opbouwen. Niet autorijden 1 week. Fysiotherapie. Belafspraak over 1 week. Waarschuwing bij verslechtering (gevoelsverlies rijbroekgebied, krachtverlies).""
+}","<think>
+Alright, I'm trying to create a SOAP note based on the provided Dutch transcript. Let me break it down step by step.
+
+First, I'll read through the transcript carefully to extract the necessary information for each section: Subjective, Objective, Assessment, and Plan.
+
+**Subjective:**
+The patient complains of lower back pain for about 1.5 weeks, which is getting worse and radiating to the right leg, specifically the back of the thigh and the outer side of the lower leg, all the way to the foot. The pain is constant and doesn't relieve with paracetamol and ibuprofen at maximum doses. The patient is having trouble sleeping due to the pain. They mentioned the pain started after heavy lifting at work and have stopped working and exercising because of it. They report decreased sensation and some tingling on the affected side but no issues with the perineal area (rijbroekgebied).
+
+**Objective:**
+During the physical exam, the patient showed pain when getting on the examination table. The legs appeared normal, and the back didn't show abnormalities upon palpation. The straight leg raise test was positive on the right side, causing pain. There was a difference in sensation between the left and right sides, with the right feeling duller. Reflexes were normal, and muscle strength was preserved despite the pain.
+
+**Assessment:**
+The doctor suspects a herniated disc (hernia) causing nerve compression, leading to the patient's symptoms.
+
+**Plan:**
+The doctor plans to start the patient on pregabaline, gradually increasing the dose to minimize side effects. They advise against driving for a week after starting the medication. Physical therapy is recommended. A follow-up phone call is scheduled for one week to assess the effectiveness of the pain management. The patient is warned to seek immediate help if symptoms worsen, such as loss of sensation in the perineal area or loss of strength in the leg.
+
+Now, I'll structure this into the SOAP note, ensuring it's concise and in Dutch as per the transcript.
+</think>
+
+```json
+{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzij, buitenzij, voet) sinds 1,5 week, constant, verergerend. Paracetamol en ibuprofen (max dosering) geen effect. Slaapstoornis. Pijn ontstaan na zware til. Gevoelsverandering en tintelingen rechtsbeen. Kracht bewaard."",
+  ""Objective"": ""Pijn bij opstaan. Rechterslag test positief. Gevoelsverschil rechts (doof). Reflexen normaal. Kracht intact."",
+  ""Assessment"": ""Hernia (vermoedelijk)."",
+  ""Plan"": ""Start pregabaline, dosering langzaam opbouwen. Niet autorijden 1 week. Fysiotherapie. Belafspraak over 1 week. Waarschuwing bij verslechtering (gevoelsverlies rijbroekgebied, krachtverlies).""
+}
+```"
+Back Pain,Gemini-2.5-Flash-Lite,Gemini,refine,4.09,Success,,"{
+  ""Subjective"": ""Rugpijn rechts sinds 1.5 week, verergert. Uitstraling naar rechterbeen, achterkant, zijkant, tot voet. Pijn bij opstaan bank. Pijn bij tillen (werk supermarkt). Kan niet slapen. Paracetamol en ibuprofen max dosering helpen niet. Kracht been intact, pijn belemmert bewegen. Gevoel doffer aan buitenkant onderbeen rechts. Tintelingen op pijnlijke plek. Geen problemen met rijbroekgebied gevoel/continentie. Buurvrouw hernia gehad, operatie."",
+  ""Objective"": ""Pijn bij opkomen bank. Geen bijzonderheden benen (links/rechts gelijk). Geen bijzonderheden rug bij palpatie. Pijn bij optillen rechterbeen. Linkerbeen optillen gaat goed. Verschil in aanraking voet/onderbeen links/rechts, rechterkant doffer. Kracht testen: Benen (links/rechts) even sterk. Onderbenen duwen/trekken: even sterk. Tenen omhoog/gas geven: even sterk. Reflexen hiel/voet: symmetrisch. Kietelen onder voet: symmetrisch."",
+  ""Assessment"": ""Hernia (waarschijnlijk)"",
+  ""Plan"": ""- Start pregabaline (langzaam opbouwen, niet autorijden bij start/dosering/bijwerkingen).\n- Advies fysiotherapie voor oefeningen.\n- Belafspraak over 1 week.\n- Bij verergering klachten (gevoel rijbroekgebied, plas/poep controle, kracht been) direct contact opnemen.\n- Geen CT/MRI/operatie nu.""
+}","```json
+{
+  ""Subjective"": ""Rugpijn rechts sinds 1.5 week, verergert. Uitstraling naar rechterbeen, achterkant, zijkant, tot voet. Pijn bij opstaan bank. Pijn bij tillen (werk supermarkt). Kan niet slapen. Paracetamol en ibuprofen max dosering helpen niet. Kracht been intact, pijn belemmert bewegen. Gevoel doffer aan buitenkant onderbeen rechts. Tintelingen op pijnlijke plek. Geen problemen met rijbroekgebied gevoel/continentie. Buurvrouw hernia gehad, operatie."",
+  ""Objective"": ""Pijn bij opkomen bank. Geen bijzonderheden benen (links/rechts gelijk). Geen bijzonderheden rug bij palpatie. Pijn bij optillen rechterbeen. Linkerbeen optillen gaat goed. Verschil in aanraking voet/onderbeen links/rechts, rechterkant doffer. Kracht testen: Benen (links/rechts) even sterk. Onderbenen duwen/trekken: even sterk. Tenen omhoog/gas geven: even sterk. Reflexen hiel/voet: symmetrisch. Kietelen onder voet: symmetrisch."",
+  ""Assessment"": ""Hernia (waarschijnlijk)"",
+  ""Plan"": ""- Start pregabaline (langzaam opbouwen, niet autorijden bij start/dosering/bijwerkingen).\n- Advies fysiotherapie voor oefeningen.\n- Belafspraak over 1 week.\n- Bij verergering klachten (gevoel rijbroekgebied, plas/poep controle, kracht been) direct contact opnemen.\n- Geen CT/MRI/operatie nu.""
+}
+```"
+Back Pain,Gemini-2.5-Flash,Gemini,refine,11.47,Success,,"{
+  ""Subjective"": ""Rugpijn r-zijdig x 1.5 wk, progressief. Uitstraling r-been: achterkant bovenbeen, zijkant onderbeen naar voet. Slaapproblemen, nachten wakker. Pijn constant, ineffectief op paracetamol/ibuprofen max. dosering. Ontstaan na zwaar tillen (werk supermarkt). Tijdelijk gestopt met werken, sporten lukt niet. Kracht in been behouden, pijn belemmert bewegen. Gevoel doffer r-onderbeen buitenkant. Tintelingen op pijnlijke plek. Normaal gevoel rijbroekgebied, geen mictie/defecatieproblemen."",
+  ""Objective"": ""Pijn bij opstaan op bank. Benen: geen bijzonderheden. Rug: geen bijzonderheden, geen pijn bij palpatie wervels. Pijn meer bij billen/achterkant. SLR r-been: pijnlijk. SLR l-been: geen pijn. Gevoel r-been/voet: doffer dan links. Kracht benen: beiderzijds gelijk. Reflexen: normaal."",
+  ""Assessment"": ""Likely Hernia."",
+  ""Plan"": [
+    ""Start pregabaline, langzaam opbouwen."",
+    ""Niet autorijden bij start/opbouw dosering (1 wk)."",
+    ""Advies fysiotherapie voor oefeningen."",
+    ""Belafspraak over 1 wk voor pijnstilling evaluatie."",
+    ""Contact opnemen bij verergering klachten: doof gevoel rijbroekgebied, mictie/defecatieproblemen, krachtsverlies been.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Rugpijn r-zijdig x 1.5 wk, progressief. Uitstraling r-been: achterkant bovenbeen, zijkant onderbeen naar voet. Slaapproblemen, nachten wakker. Pijn constant, ineffectief op paracetamol/ibuprofen max. dosering. Ontstaan na zwaar tillen (werk supermarkt). Tijdelijk gestopt met werken, sporten lukt niet. Kracht in been behouden, pijn belemmert bewegen. Gevoel doffer r-onderbeen buitenkant. Tintelingen op pijnlijke plek. Normaal gevoel rijbroekgebied, geen mictie/defecatieproblemen."",
+  ""Objective"": ""Pijn bij opstaan op bank. Benen: geen bijzonderheden. Rug: geen bijzonderheden, geen pijn bij palpatie wervels. Pijn meer bij billen/achterkant. SLR r-been: pijnlijk. SLR l-been: geen pijn. Gevoel r-been/voet: doffer dan links. Kracht benen: beiderzijds gelijk. Reflexen: normaal."",
+  ""Assessment"": ""Likely Hernia."",
+  ""Plan"": [
+    ""Start pregabaline, langzaam opbouwen."",
+    ""Niet autorijden bij start/opbouw dosering (1 wk)."",
+    ""Advies fysiotherapie voor oefeningen."",
+    ""Belafspraak over 1 wk voor pijnstilling evaluatie."",
+    ""Contact opnemen bij verergering klachten: doof gevoel rijbroekgebied, mictie/defecatieproblemen, krachtsverlies been.""
+  ]
+}
+```"
+Back Pain,Gemini-2.5-Pro,Gemini,refine,13.61,Success,,"{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterzijde bovenbeen en zijkant onderbeen naar rechtervoet. Constante, hevige pijn, verstoort nachtrust. Paracetamol en ibuprofen in maximale dosering zonder effect. Werk (supermarkt, zwaar tillen) en sporten gestaakt. Kracht in been onveranderd. Gevoel in rechter onderbeen is doffer. Enige tintelingen in pijnlijk gebied. Geen mictie- of defecatieproblemen, gevoel in rijbroekgebied is normaal."",
+  ""Objective"": ""Inspectie rug en benen: geen bijzonderheden. Geen drukpijn op wervels. Proef van Lasègue rechts positief pijnlijk, links negatief. Gevoelsstoornis (dover gevoel) rechter onderbeen en voet. Kracht in benen symmetrisch en intact. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Vermoeden van hernia (lumbosacraal radiculair syndroom rechts)."",
+  ""Plan"": ""- Starten met pregabaline, langzaam opbouwen.\n- Advies: niet autorijden bij start/dosisophoging en/of bijwerkingen.\n- Verwijzing fysiotherapie voor oefentherapie.\n- Uitleg over hernia en het conservatieve beleid.\n- Instructies contact op te nemen bij alarmsymptomen (krachtsverlies, incontinentie, anesthesie rijbroekgebied).\n- Telefonische controle over 1 week om effect pijnstilling te evalueren.""
+}","```json
+{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterzijde bovenbeen en zijkant onderbeen naar rechtervoet. Constante, hevige pijn, verstoort nachtrust. Paracetamol en ibuprofen in maximale dosering zonder effect. Werk (supermarkt, zwaar tillen) en sporten gestaakt. Kracht in been onveranderd. Gevoel in rechter onderbeen is doffer. Enige tintelingen in pijnlijk gebied. Geen mictie- of defecatieproblemen, gevoel in rijbroekgebied is normaal."",
+  ""Objective"": ""Inspectie rug en benen: geen bijzonderheden. Geen drukpijn op wervels. Proef van Lasègue rechts positief pijnlijk, links negatief. Gevoelsstoornis (dover gevoel) rechter onderbeen en voet. Kracht in benen symmetrisch en intact. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Vermoeden van hernia (lumbosacraal radiculair syndroom rechts)."",
+  ""Plan"": ""- Starten met pregabaline, langzaam opbouwen.\n- Advies: niet autorijden bij start/dosisophoging en/of bijwerkingen.\n- Verwijzing fysiotherapie voor oefentherapie.\n- Uitleg over hernia en het conservatieve beleid.\n- Instructies contact op te nemen bij alarmsymptomen (krachtsverlies, incontinentie, anesthesie rijbroekgebied).\n- Telefonische controle over 1 week om effect pijnstilling te evalueren.""
+}
+```"
+Back Pain,Gemini-2.5-Pro-Thinking,Gemini,refine,18.03,Success,,"{
+  ""Subjective"": ""Sinds 1.5 week progressieve lage rugpijn rechts met uitstraling via achterzijde rechter bovenbeen en zijkant onderbeen tot in de voet. Pijn is constant, verstoort nachtrust. Ontstaan na zwaar tillen. Paracetamol en ibuprofen max dosering zonder effect. Gestopt met werk en sporten. Kracht in been onveranderd. Gevoel aan buitenzijde rechter onderbeen is 'doffer'. Lichte tintelingen in pijnlijk gebied. Geen problemen met mictie, defecatie of gevoel in rijbroekgebied."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen afwijkingen. Palpatie wervelkolom niet pijnlijk. Proef van Lasègue rechts positief, links negatief. Gevoel rechter onderbeen en voet is doffer dan links. Kracht in benen en voeten beiderzijds intact (MRC 5/5). Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Uitleg over hernia, beleid en alarmsymptomen (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).\n- Advies fysiotherapie.\n- Rijverbod bij start/ophogen pregabaline.\n- Belafspraak over 1 week.""
+}","```json
+{
+  ""Subjective"": ""Sinds 1.5 week progressieve lage rugpijn rechts met uitstraling via achterzijde rechter bovenbeen en zijkant onderbeen tot in de voet. Pijn is constant, verstoort nachtrust. Ontstaan na zwaar tillen. Paracetamol en ibuprofen max dosering zonder effect. Gestopt met werk en sporten. Kracht in been onveranderd. Gevoel aan buitenzijde rechter onderbeen is 'doffer'. Lichte tintelingen in pijnlijk gebied. Geen problemen met mictie, defecatie of gevoel in rijbroekgebied."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen afwijkingen. Palpatie wervelkolom niet pijnlijk. Proef van Lasègue rechts positief, links negatief. Gevoel rechter onderbeen en voet is doffer dan links. Kracht in benen en voeten beiderzijds intact (MRC 5/5). Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Uitleg over hernia, beleid en alarmsymptomen (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).\n- Advies fysiotherapie.\n- Rijverbod bij start/ophogen pregabaline.\n- Belafspraak over 1 week.""
+}
+```"
+Burnout,Llama-3.1-8B,Llama,refine,19.85,Success,,"{
+  ""Subjective"": ""Sinds 2 weken dagelijks last van hartkloppingen, snel ademen, benauwdheid. Soms wakker liggen vanwege onzekerheid over volgende dag. Inschatten dat dit door overbelasting komt."",
+  ""Objective"": ""Temp 36.8C. BP 120/60. Hartslag 65/min. Ademfrequentie 14/min. Longen: normaal. Hb: normaal. Schildklier: normaal. Leverfunctie: normaal. Nierfunctie: normaal."",
+  ""Assessment"": ""Overspanning door overbelasting."",
+  ""Plan"": [
+    ""Bloedonderzoek: hb, schildklier, leverfunctie, nierfunctie."",
+    ""Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Actief ontspanningsmomenten inbouwen in het leven (regelmaat, ontspanning, ontlading)."",
+    ""Afspraak maken bij arboarts voor advies en ondersteuning.""
+  ]
+}","```
+{
+  ""Subjective"": ""Sinds 2 weken dagelijks last van hartkloppingen, snel ademen, benauwdheid. Soms wakker liggen vanwege onzekerheid over volgende dag. Inschatten dat dit door overbelasting komt."",
+  ""Objective"": ""Temp 36.8C. BP 120/60. Hartslag 65/min. Ademfrequentie 14/min. Longen: normaal. Hb: normaal. Schildklier: normaal. Leverfunctie: normaal. Nierfunctie: normaal."",
+  ""Assessment"": ""Overspanning door overbelasting."",
+  ""Plan"": [
+    ""Bloedonderzoek: hb, schildklier, leverfunctie, nierfunctie."",
+    ""Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Actief ontspanningsmomenten inbouwen in het leven (regelmaat, ontspanning, ontlading)."",
+    ""Afspraak maken bij arboarts voor advies en ondersteuning.""
+  ]
+}
+```"
+Burnout,Llama-3.1-70B,Llama,refine,17.71,Success,,"{
+  ""Subjective"": ""Hartkloppingen, snel ademen, spanning in lichaam, vermoeidheid. Klachten sinds paar maanden, laatste twee weken verergerd."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Lichamelijk onderzoek: geen bijzonderheden."",
+  ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+  ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen, balans tussen werk en privé.""
+}","```
+{
+  ""Subjective"": ""Hartkloppingen, snel ademen, spanning in lichaam, vermoeidheid. Klachten sinds paar maanden, laatste twee weken verergerd."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Lichamelijk onderzoek: geen bijzonderheden."",
+  ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+  ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen, balans tussen werk en privé.""
+}
+```"
+Burnout,Llama-3.1-405B,Llama,refine,48.25,Success,,"{
+  ""Subjective"": ""Hartkloppingen en snel ademen sinds maanden, toegenomen laatste twee weken. Slaapproblemen door piekeren over werk. Vermoeidheid."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademfrequentie 14/min. Longen: normaal ademgeruis, geen bijgeluiden. Hart: normale tonen, geen souffles."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan, randje burn-out. Somatische oorzaken nog uit te sluiten."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie."",
+    ""Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Ontspanningsmomenten inbouwen, regelmaat in leven houden."",
+    ""Eventueel arbo-arts raadplegen voor aanpassingen in rooster.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Hartkloppingen en snel ademen sinds maanden, toegenomen laatste twee weken. Slaapproblemen door piekeren over werk. Vermoeidheid."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademfrequentie 14/min. Longen: normaal ademgeruis, geen bijgeluiden. Hart: normale tonen, geen souffles."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan, randje burn-out. Somatische oorzaken nog uit te sluiten."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie."",
+    ""Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Ontspanningsmomenten inbouwen, regelmaat in leven houden."",
+    ""Eventueel arbo-arts raadplegen voor aanpassingen in rooster.""
+  ]
+}
+```"
+Burnout,Llama-Reasoning-70B,DeepSeek-Llama,refine,16.05,Success,"<think>
+Alright, I'm going to summarize this doctor-patient transcript into a structured SOAP note. Let me start by reading through the transcript carefully to extract the necessary information.
+
+First, the subjective part. The patient is experiencing tension complaints, which have been ongoing for a couple of months but have worsened over the past two weeks. They mention heart palpitations, rapid breathing, and stiff muscles. These symptoms are worse during rest periods, like when taking a bath or going to bed. The patient also reports difficulty falling asleep due to worrying about work the next day. They work as a recently graduated doctor in internal medicine, which is demanding, and they feel uncertain about missing things at work. They have a good support system but sometimes feel guilty saying no to extra shifts.
+
+Moving on to the objective section. The doctor performed a physical exam and found normal heart sounds, no murmurs, and clear lungs. Vital signs include blood pressure of 120/60 mmHg, heart rate of 65 bpm, oxygen saturation of 98%, and respiratory rate of 14 breaths per minute. No abdominal complaints were noted.
+
+For the assessment, the doctor suspects the patient is experiencing overload due to work, likely leading to the physical symptoms. The doctor plans to rule out somatic causes with blood tests, including Hb, thyroid function, liver, and kidney tests. They also recommend consulting a mental health professional and suggest the patient incorporate relaxation activities into their routine.
+
+Now, I'll structure this into the SOAP note, ensuring it's concise and in the same language as the transcript, which is Dutch. I'll avoid any introductory phrases and keep it telegraphic.
+</think>","{
+  ""Subjective"": ""Spanningsklachten, hartkloppingen, snel ademen, stijve spieren. Klachten zijn er al maanden, recent verergerd. Klachten tijdens rustmomenten (bad, bed). Slaapstoornissen: moeilijk inslapen, wakker door piekeren over werk. Werk als arts interne geneeskunde: druk, onzekerheid, schuldgevoel over nee zeggen."",
+  ""Objective"": ""Bloeddruk 120/60 mmHg. Hartslag 65/min. Zuurstof 98%. Ademhaling 14/min. Hart en longen: geen bijzonderheden. Buik: geen klachten."",
+  ""Assessment"": ""Waarschijnlijk overspannen door werkbelasting."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever, nier). Afspraak praktijkondersteuner geestelijke gezondheidszorg. Ontspanningsmomenten inbouwen. Contact arbo-arts (indien nodig).""
+}","<think>
+Alright, I'm going to summarize this doctor-patient transcript into a structured SOAP note. Let me start by reading through the transcript carefully to extract the necessary information.
+
+First, the subjective part. The patient is experiencing tension complaints, which have been ongoing for a couple of months but have worsened over the past two weeks. They mention heart palpitations, rapid breathing, and stiff muscles. These symptoms are worse during rest periods, like when taking a bath or going to bed. The patient also reports difficulty falling asleep due to worrying about work the next day. They work as a recently graduated doctor in internal medicine, which is demanding, and they feel uncertain about missing things at work. They have a good support system but sometimes feel guilty saying no to extra shifts.
+
+Moving on to the objective section. The doctor performed a physical exam and found normal heart sounds, no murmurs, and clear lungs. Vital signs include blood pressure of 120/60 mmHg, heart rate of 65 bpm, oxygen saturation of 98%, and respiratory rate of 14 breaths per minute. No abdominal complaints were noted.
+
+For the assessment, the doctor suspects the patient is experiencing overload due to work, likely leading to the physical symptoms. The doctor plans to rule out somatic causes with blood tests, including Hb, thyroid function, liver, and kidney tests. They also recommend consulting a mental health professional and suggest the patient incorporate relaxation activities into their routine.
+
+Now, I'll structure this into the SOAP note, ensuring it's concise and in the same language as the transcript, which is Dutch. I'll avoid any introductory phrases and keep it telegraphic.
+</think>
+
+```json
+{
+  ""Subjective"": ""Spanningsklachten, hartkloppingen, snel ademen, stijve spieren. Klachten zijn er al maanden, recent verergerd. Klachten tijdens rustmomenten (bad, bed). Slaapstoornissen: moeilijk inslapen, wakker door piekeren over werk. Werk als arts interne geneeskunde: druk, onzekerheid, schuldgevoel over nee zeggen."",
+  ""Objective"": ""Bloeddruk 120/60 mmHg. Hartslag 65/min. Zuurstof 98%. Ademhaling 14/min. Hart en longen: geen bijzonderheden. Buik: geen klachten."",
+  ""Assessment"": ""Waarschijnlijk overspannen door werkbelasting."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever, nier). Afspraak praktijkondersteuner geestelijke gezondheidszorg. Ontspanningsmomenten inbouwen. Contact arbo-arts (indien nodig).""
+}
+```"
+Burnout,Gemini-2.5-Flash-Lite,Gemini,refine,3.25,Success,,"{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Werkdruk als oorzaak. Onzekerheid over werk. Slaapproblemen (inslapen). Sinds enkele maanden klachten, laatste 2 weken toegenomen. Vermoeidheid. Geen pijn op de borst, geen onregelmatige hartslag. Soms benauwd gevoel bij snelle ademhaling."",
+  ""Objective__"": ""BP: 120/60. Pols: 65/min. SpO2: 98%. Ademhaling: 14/min, rustig. Longen: goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken (bloedarmoede, schildklier, lever/nierfunctie)."",
+  ""Plan"": ""- Bloedonderzoek (Hb, schildklier, lever/nierfunctie).\n- Afspraak praktijkondersteuner GGZ.\n- Actieve ontspanningsmomenten inbouwen (energiegevend).\n- Regelmaat in dagelijks leven behouden.\n- Overweeg contact arbodienst ziekenhuis.\n- Terugkomen op spreekuur bij toename klachten of aanhoudende zorgen.""
+}","```json
+{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Werkdruk als oorzaak. Onzekerheid over werk. Slaapproblemen (inslapen). Sinds enkele maanden klachten, laatste 2 weken toegenomen. Vermoeidheid. Geen pijn op de borst, geen onregelmatige hartslag. Soms benauwd gevoel bij snelle ademhaling."",
+  ""Objective__"": ""BP: 120/60. Pols: 65/min. SpO2: 98%. Ademhaling: 14/min, rustig. Longen: goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken (bloedarmoede, schildklier, lever/nierfunctie)."",
+  ""Plan"": ""- Bloedonderzoek (Hb, schildklier, lever/nierfunctie).\n- Afspraak praktijkondersteuner GGZ.\n- Actieve ontspanningsmomenten inbouwen (energiegevend).\n- Regelmaat in dagelijks leven behouden.\n- Overweeg contact arbodienst ziekenhuis.\n- Terugkomen op spreekuur bij toename klachten of aanhoudende zorgen.""
+}
+```"
+Burnout,Gemini-2.5-Flash,Gemini,refine,8.96,Success,,"{
+  ""Subjective"": ""Spanningsklachten. Drukke baan (net afgestudeerd arts, interne geneeskunde). Spieren stijf. Snel ademen. Hartkloppingen (voelbaar, soms hoorbaar in hals), spontaan, in rustmomenten (bad, voor slapen gaan). Onzekerheid over werk, angst dingen te missen. Innerlijke strijd: nee willen zeggen tegen extra diensten, maar toch doen. Lichamelijk last van spanning, nooit eerder gehad. Minder koffie drinken helpt tegen hartkloppingen. Zorgen over gezondheid, aanhoudende klachten. Vermoeden somatische oorzaak (bloedarmoede?). Vermijdend gedrag. Geen pijn op de borst. Hartslag regelmatig, maar sneller en voelbaar. Geen duizeligheid, geen licht in hoofd. Benauwdheid door snel ademen, ook in rust of op wc op werk. Klachten vaker, bijna dagelijks laatste 2 weken (eerder af en toe, al maanden). Belemmering dagelijks leven, wakker liggen. Slaapklachten: inslapen moeilijk (piekeren over werk, onzekerheid). Slaapt ca. 6 uur per nacht (normaal 10:00-10:30 naar bed, op 06:15). Op vrije dagen wel langer slapen, sneller inslapen. Fulltime baan (38 uur contract, vaak langere dagen). Klachten duren soms half uur, trekken spontaan weg. Goed steunsysteem (huisgenoten/vrienden/collega's ook artsen). Hoofdvraag: uitsluiten somatische oorzaak, advies professional."",
+  ""Objective"": ""Lichamelijk onderzoek: volledig goed. BP: 120/60 mmHg. Hartslag: 65/min. Zuurstofsaturatie: 98%. Ademhaling: 14/min. Longen: geen bijzonderheden, goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles. Geen buikklachten, buikonderzoek overgeslagen."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken."",
+  ""Plan"": [
+    ""Geruststelling: lichamelijk onderzoek goed."",
+    ""Aanvullend bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Afspraak praktijkondersteuner GGZ (vandaag mogelijk)."",
+    ""Uitslag bloedonderzoek binnen 2 werkdagen (bellen praktijk of online portaal)."",
+    ""Actief ontspanningsmomenten inbouwen (paar keer per week, bijv. koffie, bellen vriend, wandelen, zwemmen)."",
+    ""Regelmaat in leven houden (opstaan, op tijd naar bed)."",
+    ""Overwegen afspraak arbo-arts (tips, contract/roosters aanpassen)."",
+    ""Balans werk/privé, inspannen/ontspannen/ontladen."",
+    ""Terugkomen bij toename klachten of zorgen.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Spanningsklachten. Drukke baan (net afgestudeerd arts, interne geneeskunde). Spieren stijf. Snel ademen. Hartkloppingen (voelbaar, soms hoorbaar in hals), spontaan, in rustmomenten (bad, voor slapen gaan). Onzekerheid over werk, angst dingen te missen. Innerlijke strijd: nee willen zeggen tegen extra diensten, maar toch doen. Lichamelijk last van spanning, nooit eerder gehad. Minder koffie drinken helpt tegen hartkloppingen. Zorgen over gezondheid, aanhoudende klachten. Vermoeden somatische oorzaak (bloedarmoede?). Vermijdend gedrag. Geen pijn op de borst. Hartslag regelmatig, maar sneller en voelbaar. Geen duizeligheid, geen licht in hoofd. Benauwdheid door snel ademen, ook in rust of op wc op werk. Klachten vaker, bijna dagelijks laatste 2 weken (eerder af en toe, al maanden). Belemmering dagelijks leven, wakker liggen. Slaapklachten: inslapen moeilijk (piekeren over werk, onzekerheid). Slaapt ca. 6 uur per nacht (normaal 10:00-10:30 naar bed, op 06:15). Op vrije dagen wel langer slapen, sneller inslapen. Fulltime baan (38 uur contract, vaak langere dagen). Klachten duren soms half uur, trekken spontaan weg. Goed steunsysteem (huisgenoten/vrienden/collega's ook artsen). Hoofdvraag: uitsluiten somatische oorzaak, advies professional."",
+  ""Objective"": ""Lichamelijk onderzoek: volledig goed. BP: 120/60 mmHg. Hartslag: 65/min. Zuurstofsaturatie: 98%. Ademhaling: 14/min. Longen: geen bijzonderheden, goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles. Geen buikklachten, buikonderzoek overgeslagen."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken."",
+  ""Plan"": [
+    ""Geruststelling: lichamelijk onderzoek goed."",
+    ""Aanvullend bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Afspraak praktijkondersteuner GGZ (vandaag mogelijk)."",
+    ""Uitslag bloedonderzoek binnen 2 werkdagen (bellen praktijk of online portaal)."",
+    ""Actief ontspanningsmomenten inbouwen (paar keer per week, bijv. koffie, bellen vriend, wandelen, zwemmen)."",
+    ""Regelmaat in leven houden (opstaan, op tijd naar bed)."",
+    ""Overwegen afspraak arbo-arts (tips, contract/roosters aanpassen)."",
+    ""Balans werk/privé, inspannen/ontspannen/ontladen."",
+    ""Terugkomen bij toename klachten of zorgen.""
+  ]
+}
+```"
+Burnout,Gemini-2.5-Pro,Gemini,refine,12.76,Success,,"{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts interne geneeskunde. Stijve spieren, snelle ademhaling en hartkloppingen. Klachten sinds enkele maanden, laatste 2 weken dagelijks. Hartkloppingen treden op in rust (bv. in bad), duren ca. 30 min, verdwijnen spontaan. Hartslag is regelmatig, niet onregelmatig. Geen pijn op de borst, duizeligheid of lichtheid in het hoofd. Soms benauwd gevoel door snelle ademhaling. Moeite met inslapen door piekeren over werk. Slaapt ca. 6 uur per nacht op werkdagen, langer op vrije dagen. Voelt zich moe. Vraagt zich af of er een lichamelijke oorzaak is (bv. bloedarmoede) en of praten met POH-GGZ zinvol is. Moeite met 'nee' zeggen op werk, voelt zich dan schuldig."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. Saturatie 98%. Ademhaling 14/min. Cor: S1S2 regulair, geen souffles. Pulm: vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkdruk."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierfunctie, leverfunctie, nierfunctie."",
+    ""Afspraak maken bij POH-GGZ."",
+    ""Uitslagen bloedonderzoek binnen 2 werkdagen beschikbaar via portaal of telefonisch."",
+    ""Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts."",
+    ""Contact opnemen bij toename klachten of zorgen.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts interne geneeskunde. Stijve spieren, snelle ademhaling en hartkloppingen. Klachten sinds enkele maanden, laatste 2 weken dagelijks. Hartkloppingen treden op in rust (bv. in bad), duren ca. 30 min, verdwijnen spontaan. Hartslag is regelmatig, niet onregelmatig. Geen pijn op de borst, duizeligheid of lichtheid in het hoofd. Soms benauwd gevoel door snelle ademhaling. Moeite met inslapen door piekeren over werk. Slaapt ca. 6 uur per nacht op werkdagen, langer op vrije dagen. Voelt zich moe. Vraagt zich af of er een lichamelijke oorzaak is (bv. bloedarmoede) en of praten met POH-GGZ zinvol is. Moeite met 'nee' zeggen op werk, voelt zich dan schuldig."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. Saturatie 98%. Ademhaling 14/min. Cor: S1S2 regulair, geen souffles. Pulm: vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkdruk."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierfunctie, leverfunctie, nierfunctie."",
+    ""Afspraak maken bij POH-GGZ."",
+    ""Uitslagen bloedonderzoek binnen 2 werkdagen beschikbaar via portaal of telefonisch."",
+    ""Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts."",
+    ""Contact opnemen bij toename klachten of zorgen.""
+  ]
+}
+```"
+Burnout,Gemini-2.5-Pro-Thinking,Gemini,refine,14.86,Success,,"{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts. Sinds enkele maanden, laatste 2 weken dagelijks. Klachten: stijve spieren, hartkloppingen, snelle ademhaling. Hartkloppingen treden op in rust, duren ca. 30 min, regulair, geen pijn op de borst of duizeligheid. Snelle ademhaling soms onbewust, kan benauwd voelen. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur/nacht. Moeite met grenzen aangeven op werk. Vraagt zich af of er een somatische oorzaak is en of gesprekken met POH-GGZ zinvol zijn."",
+  ""Objective"": ""RR: 120/60 mmHg. Pols: 65/min, regulair. Saturatie: 98%. Ademfrequentie: 14/min. Cor: S1S2 regulair, geen souffles. Pulmones: Vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkdruk."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie.\n- Afspraak bij POH-GGZ.\n- Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts.\n- Uitslagen bloedonderzoek binnen 2 werkdagen beschikbaar.\n- Bij toename klachten of zorgen laagdrempelig contact opnemen.""
+}","```json
+{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts. Sinds enkele maanden, laatste 2 weken dagelijks. Klachten: stijve spieren, hartkloppingen, snelle ademhaling. Hartkloppingen treden op in rust, duren ca. 30 min, regulair, geen pijn op de borst of duizeligheid. Snelle ademhaling soms onbewust, kan benauwd voelen. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur/nacht. Moeite met grenzen aangeven op werk. Vraagt zich af of er een somatische oorzaak is en of gesprekken met POH-GGZ zinvol zijn."",
+  ""Objective"": ""RR: 120/60 mmHg. Pols: 65/min, regulair. Saturatie: 98%. Ademfrequentie: 14/min. Cor: S1S2 regulair, geen souffles. Pulmones: Vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkdruk."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie.\n- Afspraak bij POH-GGZ.\n- Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts.\n- Uitslagen bloedonderzoek binnen 2 werkdagen beschikbaar.\n- Bij toename klachten of zorgen laagdrempelig contact opnemen.""
+}
+```"
+Constipation,Llama-3.1-8B,Llama,refine,18.97,Success,,"{
+  ""Subjective"": ""Harde ontlasting x3 maanden. Soms 2-3 dagen niet naar wc. Buikkrampen. Opgeblazen gevoel. Gewichtsverlies. Weinig eetlust."",
+  ""Objective"": ""Temp: 36,6C. Pharynx: Normaal. Buik: Erythematous. Zakken: Normaal. Nieren: Normaal. Darmgeluiden: Wisselend tympani."",
+  ""Assessment"": ""Prikkelbaredarmsyndroom. Vezels (psylliumvezels) om ontlasting zachter te maken."",
+  ""Plan"": ""Vezels (psylliumvezels) 1 zakje per dag met veel water. 6 weken evalueren. Als koorts, bloed bij ontlasting of ernstige buikpijn, eerder terugkomen.""
+}","```
+{
+  ""Subjective"": ""Harde ontlasting x3 maanden. Soms 2-3 dagen niet naar wc. Buikkrampen. Opgeblazen gevoel. Gewichtsverlies. Weinig eetlust."",
+  ""Objective"": ""Temp: 36,6C. Pharynx: Normaal. Buik: Erythematous. Zakken: Normaal. Nieren: Normaal. Darmgeluiden: Wisselend tympani."",
+  ""Assessment"": ""Prikkelbaredarmsyndroom. Vezels (psylliumvezels) om ontlasting zachter te maken."",
+  ""Plan"": ""Vezels (psylliumvezels) 1 zakje per dag met veel water. 6 weken evalueren. Als koorts, bloed bij ontlasting of ernstige buikpijn, eerder terugkomen.""
+}
+```"
+Constipation,Llama-3.1-70B,Llama,refine,8.15,Success,,"{
+  ""Subjective"": ""Harde ontlasting sinds 3 maanden, soms 2-3 dagen niet naar de wc, buikpijn, buikkrampen, opgeblazen gevoel"",
+  ""Objective"": ""Buik: opgezet, wisselende tympani, gevoelig linksonder, geen bloed bij ontlasting"",
+  ""Assessment"": ""Waarschijnlijk prikkelbaredarmsyndroom"",
+  ""Plan"": ""Psylliumvezels innemen met veel water, evalueren over 6 weken, eventueel diëtist bezoeken""
+}","```
+{
+  ""Subjective"": ""Harde ontlasting sinds 3 maanden, soms 2-3 dagen niet naar de wc, buikpijn, buikkrampen, opgeblazen gevoel"",
+  ""Objective"": ""Buik: opgezet, wisselende tympani, gevoelig linksonder, geen bloed bij ontlasting"",
+  ""Assessment"": ""Waarschijnlijk prikkelbaredarmsyndroom"",
+  ""Plan"": ""Psylliumvezels innemen met veel water, evalueren over 6 weken, eventueel diëtist bezoeken""
+}
+```"
+Constipation,Llama-3.1-405B,Llama,refine,27.12,Success,,"{
+  ""Subjective"": ""Harde ontlasting sinds 3 maanden, 2-3 dagen geen ontlasting, buikpijn en krampen, opgeblazen gevoel, weinig eetlust, ondergewicht, geen bloed bij ontlasting, olijfolie helpt tijdelijk."",
+  ""Objective"": ""Buik onderzoek: opgezet, wisselende tympani, demping linksonder, geen pijn bij palpatie nierloges of rechtsonder."",
+  ""Assessment"": ""Waarschijnlijk prikkelbaredarmsyndroom"",
+  ""Plan"": ""- Psylliumvezels voorgeschreven, elke dag met veel water innemen, 6 weken volgen. Evalueren over 6 weken. - Zonodig eerder contact bij toegenomen buikpijn, koorts of bloed bij ontlasting. - Volgende afspraak: bespreken diëtist.""
+}","```json
+{
+  ""Subjective"": ""Harde ontlasting sinds 3 maanden, 2-3 dagen geen ontlasting, buikpijn en krampen, opgeblazen gevoel, weinig eetlust, ondergewicht, geen bloed bij ontlasting, olijfolie helpt tijdelijk."",
+  ""Objective"": ""Buik onderzoek: opgezet, wisselende tympani, demping linksonder, geen pijn bij palpatie nierloges of rechtsonder."",
+  ""Assessment"": ""Waarschijnlijk prikkelbaredarmsyndroom"",
+  ""Plan"": ""- Psylliumvezels voorgeschreven, elke dag met veel water innemen, 6 weken volgen. Evalueren over 6 weken. - Zonodig eerder contact bij toegenomen buikpijn, koorts of bloed bij ontlasting. - Volgende afspraak: bespreken diëtist.""
+}
+```"
+Constipation,Llama-Reasoning-70B,DeepSeek-Llama,refine,18.13,Success,"<think>
+Alright, I'm trying to create a SOAP note based on the provided Dutch transcript. Let me go through each step carefully.
+
+First, I'll read through the transcript to understand the patient's complaints and the doctor's findings. The patient is experiencing hard stools for three months, going without bowel movements for 2-3 days, accompanied by abdominal cramps and bloating. They've tried olive oil which helps but aren't sure about a long-term solution. They also mention being underweight and not having seen a dietitian before. During the physical exam, the doctor notes some tenderness in the lower left abdomen but no other alarming signs.
+
+Now, moving to the drafting phase. For the Subjective section, I need to include the patient's symptoms and history without using ""Patient reports."" So, I'll note the hard stools, infrequent bowel movements, abdominal cramps, bloating, and the use of olive oil. Also, their desire to soften stools and their underweight status.
+
+In the Objective section, I should list the findings from the physical exam. The doctor mentioned tenderness in the lower left abdomen and some dullness on percussion there. No blood in the stool, which is important to note.
+
+For the Assessment, the doctor considered IBS (irritable bowel syndrome) as the likely diagnosis, given the symptoms and the absence of alarming signs. So, I'll put that as the assessment.
+
+The Plan includes the treatment prescribed: psyllium fiber sachets daily for six weeks, an evaluation after six weeks, and a follow-up discussion about a dietitian. I should also note the advice to monitor for severe pain, fever, or blood in the stool and to return earlier if these occur.
+
+Now, I'll perform the critique and audit. I'll check if I included any vital signs not mentioned—there are none, so that's good. I'll ensure all medications and frequencies are included, which they are. The language is concise and in Dutch, matching the transcript. I avoided any introductory phrases and kept it telegraphic.
+
+Finally, I'll structure the JSON accordingly, making sure each section is accurate and follows the guidelines.
+</think>","{
+  ""Subjective"": ""Harde ontlasting sinds 3 maanden. 2-3 dagen geen stoelgang. Buikkrampen en opgeblazen gevoel. Geen bloed bij ontlasting. Olijfolie helpt tijdelijk. Ondergewicht. Geen recente wijzigingen in eetpatroon."",
+  ""Objective"": ""Buikonderzoek: gevoeligheid linksonder. Demping linksonder."",
+  ""Assessment"": ""Waarschijnlijk prikkelbaredarmsyndroom."",
+  ""Plan"": ""Psylliumvezelzakjes dagelijks 6 weken. Evaluatie na 6 weken. Gesprek over diëtist volgende keer. Let op pijn, koorts of bloed bij ontlasting.""
+}","<think>
+Alright, I'm trying to create a SOAP note based on the provided Dutch transcript. Let me go through each step carefully.
+
+First, I'll read through the transcript to understand the patient's complaints and the doctor's findings. The patient is experiencing hard stools for three months, going without bowel movements for 2-3 days, accompanied by abdominal cramps and bloating. They've tried olive oil which helps but aren't sure about a long-term solution. They also mention being underweight and not having seen a dietitian before. During the physical exam, the doctor notes some tenderness in the lower left abdomen but no other alarming signs.
+
+Now, moving to the drafting phase. For the Subjective section, I need to include the patient's symptoms and history without using ""Patient reports."" So, I'll note the hard stools, infrequent bowel movements, abdominal cramps, bloating, and the use of olive oil. Also, their desire to soften stools and their underweight status.
+
+In the Objective section, I should list the findings from the physical exam. The doctor mentioned tenderness in the lower left abdomen and some dullness on percussion there. No blood in the stool, which is important to note.
+
+For the Assessment, the doctor considered IBS (irritable bowel syndrome) as the likely diagnosis, given the symptoms and the absence of alarming signs. So, I'll put that as the assessment.
+
+The Plan includes the treatment prescribed: psyllium fiber sachets daily for six weeks, an evaluation after six weeks, and a follow-up discussion about a dietitian. I should also note the advice to monitor for severe pain, fever, or blood in the stool and to return earlier if these occur.
+
+Now, I'll perform the critique and audit. I'll check if I included any vital signs not mentioned—there are none, so that's good. I'll ensure all medications and frequencies are included, which they are. The language is concise and in Dutch, matching the transcript. I avoided any introductory phrases and kept it telegraphic.
+
+Finally, I'll structure the JSON accordingly, making sure each section is accurate and follows the guidelines.
+</think>
+
+```json
+{
+  ""Subjective"": ""Harde ontlasting sinds 3 maanden. 2-3 dagen geen stoelgang. Buikkrampen en opgeblazen gevoel. Geen bloed bij ontlasting. Olijfolie helpt tijdelijk. Ondergewicht. Geen recente wijzigingen in eetpatroon."",
+  ""Objective"": ""Buikonderzoek: gevoeligheid linksonder. Demping linksonder."",
+  ""Assessment"": ""Waarschijnlijk prikkelbaredarmsyndroom."",
+  ""Plan"": ""Psylliumvezelzakjes dagelijks 6 weken. Evaluatie na 6 weken. Gesprek over diëtist volgende keer. Let op pijn, koorts of bloed bij ontlasting.""
+}
+```"
+Constipation,Gemini-2.5-Flash-Lite,Gemini,refine,2.86,Success,,"{
+  ""Subjective"": ""Sinds 3 maanden last van harde, moeilijk te passeren ontlasting, 2-3 dagen per keer niet naar wc. Buikpijn, voornamelijk krampen, drukpijnlijk. Opgeblazen gevoel, buik wat meer opgezet. Eetpatroon niet veranderd, eet van zichzelf al weinig. Last van ondergewicht, kampt al langer met te laag gewicht. Geen bloed bij ontlasting. Olijfolie geprobeerd, maakte ontlasting zachter maar geen blijvende oplossing. Zus heeft colitis ulcerosa. Plassen normaal. Menstruaties regelmatig."",
+  ""Objective"": ""Buik: Bij inspectie opgezet/boller. Auscultatie: Normale darmgeluiden. Percussie: Wisselende tympani. Palpatie: Geen pijn bij nierloges. Voorkant: Geen pijn bovenin, geen pijn rechtsonder. Gevoeligheid linksonder. Percussie linksonder: Demping."",
+  ""Assessment"": ""Prikkelbare darm syndroom (PDS) met obstipatie."",
+  ""Plan"": ""- Psylliumvezels (zakjes) voorgeschreven. Dagelijks innemen met veel water.\n- Gebruik consequent gedurende 6 weken.\n- Evaluatie over 6 weken.\n- Bij meer buikpijn, koorts, of veel bloed bij ontlasting eerder contact opnemen.\n- Volgende afspraak bespreken diëtist.""
+}","```json
+{
+  ""Subjective"": ""Sinds 3 maanden last van harde, moeilijk te passeren ontlasting, 2-3 dagen per keer niet naar wc. Buikpijn, voornamelijk krampen, drukpijnlijk. Opgeblazen gevoel, buik wat meer opgezet. Eetpatroon niet veranderd, eet van zichzelf al weinig. Last van ondergewicht, kampt al langer met te laag gewicht. Geen bloed bij ontlasting. Olijfolie geprobeerd, maakte ontlasting zachter maar geen blijvende oplossing. Zus heeft colitis ulcerosa. Plassen normaal. Menstruaties regelmatig."",
+  ""Objective"": ""Buik: Bij inspectie opgezet/boller. Auscultatie: Normale darmgeluiden. Percussie: Wisselende tympani. Palpatie: Geen pijn bij nierloges. Voorkant: Geen pijn bovenin, geen pijn rechtsonder. Gevoeligheid linksonder. Percussie linksonder: Demping."",
+  ""Assessment"": ""Prikkelbare darm syndroom (PDS) met obstipatie."",
+  ""Plan"": ""- Psylliumvezels (zakjes) voorgeschreven. Dagelijks innemen met veel water.\n- Gebruik consequent gedurende 6 weken.\n- Evaluatie over 6 weken.\n- Bij meer buikpijn, koorts, of veel bloed bij ontlasting eerder contact opnemen.\n- Volgende afspraak bespreken diëtist.""
+}
+```"
+Constipation,Gemini-2.5-Flash,Gemini,refine,9.47,Success,,"{
+  ""Subjective"": ""Harde ontlasting x3 maanden. Soms 2-3 dagen geen ontlasting. Moeilijke, harde ontlasting. Buikpijn, buikkrampen, drukpijnlijk. Opgeblazen gevoel, buik opgezet. Normaal eet- en drinkpatroon. Eet weinig, weinig eetlust (chronisch). Ondergewicht (chronisch), geen recent afvallen. Geen bloed bij ontlasting. Geprobeerd: olijfolie (verzacht, geen blijvende oplossing). Familieanamnese: zus colitis ulcerosa (patiënt andere klachten). Plassen normaal. Menstruaties regelmatig (laat op gang). Vraag: zorgen maken? Wat eraan doen?"",
+  ""Objective"": ""Darmgeluiden: normaal. Buik: opgezet/boller. Percussie: wisselende tympanie. Palpatie: nierloges geen pijn, bovenbuik geen pijn, rechtsonder geen pijn, linksonder gevoelig. Percussie linksonder: demping."",
+  ""Assessment"": ""Geen alarmsignalen. Patroon: ontlasting overslaan, pijn bij passeren. Waarschijnlijk prikkelbaredarmsyndroom (PDS). PDS kan leiden tot harde/vaste ontlasting, buikpijn, opgeblazen gevoel."",
+  ""Plan"": [
+    ""Psylliumvezels (zakjes) voorschrijven."",
+    ""Innemen met veel water."",
+    ""Dagelijks gebruik x6 weken."",
+    ""Evaluatie over 6 weken."",
+    ""Eerder contact bij: meer buikpijn, koorts, veel bloed bij ontlasting."",
+    ""Diëtist bespreken volgende keer.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Harde ontlasting x3 maanden. Soms 2-3 dagen geen ontlasting. Moeilijke, harde ontlasting. Buikpijn, buikkrampen, drukpijnlijk. Opgeblazen gevoel, buik opgezet. Normaal eet- en drinkpatroon. Eet weinig, weinig eetlust (chronisch). Ondergewicht (chronisch), geen recent afvallen. Geen bloed bij ontlasting. Geprobeerd: olijfolie (verzacht, geen blijvende oplossing). Familieanamnese: zus colitis ulcerosa (patiënt andere klachten). Plassen normaal. Menstruaties regelmatig (laat op gang). Vraag: zorgen maken? Wat eraan doen?"",
+  ""Objective"": ""Darmgeluiden: normaal. Buik: opgezet/boller. Percussie: wisselende tympanie. Palpatie: nierloges geen pijn, bovenbuik geen pijn, rechtsonder geen pijn, linksonder gevoelig. Percussie linksonder: demping."",
+  ""Assessment"": ""Geen alarmsignalen. Patroon: ontlasting overslaan, pijn bij passeren. Waarschijnlijk prikkelbaredarmsyndroom (PDS). PDS kan leiden tot harde/vaste ontlasting, buikpijn, opgeblazen gevoel."",
+  ""Plan"": [
+    ""Psylliumvezels (zakjes) voorschrijven."",
+    ""Innemen met veel water."",
+    ""Dagelijks gebruik x6 weken."",
+    ""Evaluatie over 6 weken."",
+    ""Eerder contact bij: meer buikpijn, koorts, veel bloed bij ontlasting."",
+    ""Diëtist bespreken volgende keer.""
+  ]
+}
+```"
+Constipation,Gemini-2.5-Pro,Gemini,refine,13.85,Success,,"{
+  ""Subjective"": ""Sinds 3 maanden harde ontlasting, soms 2-3 dagen geen defecatie. Buikkrampen en opgeblazen gevoel. Geen verandering in eetpatroon, eetlust is van oudsher al laag. Geen recent gewichtsverlies, wel bekend met ondergewicht. Geen bloed bij de ontlasting. Mictie en menstruatie normaal. Zus met colitis ulcerosa. Probeerde olijfolie, wat hielp."",
+  ""Objective"": ""Lichamelijk onderzoek:\n- Abdomen: Opgezet, normale darmgeruisen.\n- Percussie: Wisselende tympanie, demping links onder.\n- Palpatie: Geen pijn nierloges, bovenbuik of rechtsonder. Gevoeligheid links onder in de buik."",
+  ""Assessment"": ""Prikkelbaredarmsyndroom (verdenking)."",
+  ""Plan"": ""- Start Psylliumvezels zakjes, dagelijks innemen met veel water gedurende 6 weken.\n- Contact opnemen bij toename buikpijn, koorts of bloed bij ontlasting.\n- Herbeoordeling over 6 weken.\n- Bij volgende afspraak bespreken van eventuele verwijzing naar diëtist.""
+}","```json
+{
+  ""Subjective"": ""Sinds 3 maanden harde ontlasting, soms 2-3 dagen geen defecatie. Buikkrampen en opgeblazen gevoel. Geen verandering in eetpatroon, eetlust is van oudsher al laag. Geen recent gewichtsverlies, wel bekend met ondergewicht. Geen bloed bij de ontlasting. Mictie en menstruatie normaal. Zus met colitis ulcerosa. Probeerde olijfolie, wat hielp."",
+  ""Objective"": ""Lichamelijk onderzoek:\n- Abdomen: Opgezet, normale darmgeruisen.\n- Percussie: Wisselende tympanie, demping links onder.\n- Palpatie: Geen pijn nierloges, bovenbuik of rechtsonder. Gevoeligheid links onder in de buik."",
+  ""Assessment"": ""Prikkelbaredarmsyndroom (verdenking)."",
+  ""Plan"": ""- Start Psylliumvezels zakjes, dagelijks innemen met veel water gedurende 6 weken.\n- Contact opnemen bij toename buikpijn, koorts of bloed bij ontlasting.\n- Herbeoordeling over 6 weken.\n- Bij volgende afspraak bespreken van eventuele verwijzing naar diëtist.""
+}
+```"
+Constipation,Gemini-2.5-Pro-Thinking,Gemini,refine,15.53,Success,,"{
+  ""Subjective"": ""Sinds 3 maanden harde ontlasting, defecatie 1x per 2-3 dagen. Ervaart buikkrampen en een opgeblazen gevoel. Geen bloed bij de ontlasting. Eetpatroon onveranderd, eet van nature weinig, bekend met ondergewicht. Geen recent gewichtsverlies. Zus heeft colitis ulcerosa. Mictie en menstruatie normaal. Zelf olijfolie geprobeerd, wat de ontlasting zachter maakte."",
+  ""Objective"": ""Abdomen: opgezet. Auscultatie: normale darmgeluiden. Percussie: wisselende tympanie, demping links onder. Palpatie: drukpijnlijk links onder, geen pijn nierloges of rechtsonder."",
+  ""Assessment"": ""Obstipatie, waarschijnlijk prikkelbaredarmsyndroom (PDS). Geen alarmsignalen."",
+  ""Plan"": ""- Start psylliumvezels in zakjes, dagelijks innemen met veel water gedurende 6 weken.\n- Controle over 6 weken.\n- Contact opnemen bij toename buikpijn, koorts of bloed bij de ontlasting.\n- Volgend consult verwijzing naar diëtist bespreken.""
+}","```json
+{
+  ""Subjective"": ""Sinds 3 maanden harde ontlasting, defecatie 1x per 2-3 dagen. Ervaart buikkrampen en een opgeblazen gevoel. Geen bloed bij de ontlasting. Eetpatroon onveranderd, eet van nature weinig, bekend met ondergewicht. Geen recent gewichtsverlies. Zus heeft colitis ulcerosa. Mictie en menstruatie normaal. Zelf olijfolie geprobeerd, wat de ontlasting zachter maakte."",
+  ""Objective"": ""Abdomen: opgezet. Auscultatie: normale darmgeluiden. Percussie: wisselende tympanie, demping links onder. Palpatie: drukpijnlijk links onder, geen pijn nierloges of rechtsonder."",
+  ""Assessment"": ""Obstipatie, waarschijnlijk prikkelbaredarmsyndroom (PDS). Geen alarmsignalen."",
+  ""Plan"": ""- Start psylliumvezels in zakjes, dagelijks innemen met veel water gedurende 6 weken.\n- Controle over 6 weken.\n- Contact opnemen bij toename buikpijn, koorts of bloed bij de ontlasting.\n- Volgend consult verwijzing naar diëtist bespreken.""
+}
+```"
+Dizziness,Llama-3.1-8B,Llama,refine,6.19,Success,,"{
+  ""Subjective"": ""Draaiduizeligheid x3 dagen. Soms licht in hoofd. Geen misselijkheid of overgeven. Geen gehoorverlies of spraakproblemen. Geen uitval van armen of benen. Soms hartkloppingen."",
+  ""Objective"": ""Temp 36.8C. Bloeddruk 110/70. Polsslag 62/min. Neurologische onderzoek: normaal. HIT-test beiderzijds negatief."",
+  ""Assessment"": ""Benigne proximale draai duizeligheid (BPPD)."",
+  ""Plan"": [
+    ""Epley manoeuvre uitvoeren om draaiduizeligheid te verminderen."",
+    ""Instructies voor Epley manoeuvre via thuisarts.nl."",
+    ""Fysiotherapeut kan Epley manoeuvre uitvoeren."",
+    ""Medicatie: geen aanbevelingen.""
+  ]
+}","```
+{
+  ""Subjective"": ""Draaiduizeligheid x3 dagen. Soms licht in hoofd. Geen misselijkheid of overgeven. Geen gehoorverlies of spraakproblemen. Geen uitval van armen of benen. Soms hartkloppingen."",
+  ""Objective"": ""Temp 36.8C. Bloeddruk 110/70. Polsslag 62/min. Neurologische onderzoek: normaal. HIT-test beiderzijds negatief."",
+  ""Assessment"": ""Benigne proximale draai duizeligheid (BPPD)."",
+  ""Plan"": [
+    ""Epley manoeuvre uitvoeren om draaiduizeligheid te verminderen."",
+    ""Instructies voor Epley manoeuvre via thuisarts.nl."",
+    ""Fysiotherapeut kan Epley manoeuvre uitvoeren."",
+    ""Medicatie: geen aanbevelingen.""
+  ]
+}
+```"
+Dizziness,Llama-3.1-70B,Llama,refine,20.31,Success,,"{
+  ""Subjective"": ""Drie dagen duizeligheid, begon plotseling bij opstaan. Draaiduizeligheid, soms licht gevoel in hoofd. Misselijkheid, maar geen overgeven. Hartkloppingen bij duizeligheid. Bang voor ernstige oorzaak, zoals hersentumor."",
+  ""Objective"": ""BP 110/70, pols 62/min. Neurologisch onderzoek: geen uitval, geen nystagmus. HIT-test beiderzijds negatief. Beweging van oog bij uitlokken klachten."",
+  ""Assessment"": ""Benigne proximale draai duizeligheid (BPPD), veroorzaakt door verschoven kristalletjes in evenwichtsorgaan."",
+  ""Plan"": ""Epley manoeuvre om kristalletjes te herpositioneren. Instructies voor zelfuitvoering via thuisarts.nl.""
+}","```
+{
+  ""Subjective"": ""Drie dagen duizeligheid, begon plotseling bij opstaan. Draaiduizeligheid, soms licht gevoel in hoofd. Misselijkheid, maar geen overgeven. Hartkloppingen bij duizeligheid. Bang voor ernstige oorzaak, zoals hersentumor."",
+  ""Objective"": ""BP 110/70, pols 62/min. Neurologisch onderzoek: geen uitval, geen nystagmus. HIT-test beiderzijds negatief. Beweging van oog bij uitlokken klachten."",
+  ""Assessment"": ""Benigne proximale draai duizeligheid (BPPD), veroorzaakt door verschoven kristalletjes in evenwichtsorgaan."",
+  ""Plan"": ""Epley manoeuvre om kristalletjes te herpositioneren. Instructies voor zelfuitvoering via thuisarts.nl.""
+}
+```"
+Dizziness,Llama-3.1-405B,Llama,refine,9.6,Success,,"{
+  ""Subjective"": ""Duizeligheid x3 dagen. Eerder licht gevoel in hoofd, nu meer draaiduizeligheid. Geen flauwvallen. Recent verkouden."",
+  ""Objective"": ""Bloeddruk 110/70, pols 62. Geen nystagmus. HIT-test beiderzijds negatief. Kiepen test positief, duizeligheid uitgelokt."",
+  ""Assessment"": ""Benigne proximale draai duizeligheid (BPPD)"",
+  ""Plan"": ""- Epley manoeuvre in praktijk uitvoeren\n- Instructies voor zelfuitvoering via thuisarts.nl""
+}","```json
+{
+  ""Subjective"": ""Duizeligheid x3 dagen. Eerder licht gevoel in hoofd, nu meer draaiduizeligheid. Geen flauwvallen. Recent verkouden."",
+  ""Objective"": ""Bloeddruk 110/70, pols 62. Geen nystagmus. HIT-test beiderzijds negatief. Kiepen test positief, duizeligheid uitgelokt."",
+  ""Assessment"": ""Benigne proximale draai duizeligheid (BPPD)"",
+  ""Plan"": ""- Epley manoeuvre in praktijk uitvoeren\n- Instructies voor zelfuitvoering via thuisarts.nl""
+}
+```"
+Dizziness,Llama-Reasoning-70B,DeepSeek-Llama,refine,15.87,Success,"<think>
+Alright, I'm going to summarize the doctor-patient transcript into a structured SOAP note. Let me go through each part step by step.
+
+First, for the Subjective section, I need to capture the patient's symptoms and history. The patient has been experiencing dizziness for three days, which started suddenly upon waking up. They describe it as the room spinning and mention feeling a bit nauseous but no vomiting. They also note heart palpitations when dizzy and are worried about serious conditions like a brain tumor, as a friend had similar symptoms. They deny other symptoms like hearing loss or speech issues.
+
+Next, the Objective section should include vital signs and physical exam findings. The blood pressure is 110/70 mmHg, and the pulse is 62 bpm. Neurological exam shows no deficits, and specific tests like the HIT test are negative bilaterally. Nystagmus was not observed, but eye movements were noted during the Dix-Hallpike maneuver, which worsened symptoms.
+
+For the Assessment, the doctor diagnosed Benign Paroxysmal Positional Vertigo (BPPV), explaining it's related to the vestibular system, not a tumor. This diagnosis aligns with the symptoms and test results.
+
+The Plan includes performing the Epley maneuver in the office, prescribing omeprazole 20mg twice daily, and recommending vestibular exercises through thuisarts.nl. The patient was educated on BPPV and scheduled for a follow-up in a week.
+
+I need to ensure the language is telegraphic, without full sentences, and in Dutch since the transcript is in Dutch. I'll avoid any inferred information not stated by the doctor and ensure all details are accurately captured without adding anything extra.
+</think>","{
+  ""Subjective"": ""Duizeligheid sinds 3 dagen, begon plotseling bij opstaan. Draaiduizeligheid, meer ruimte draait. Licht misselijk, geen braken. Hartkloppingen bij duizeligheid. Bang voor ernstige oorzaak (vriend heeft hersentumor). Geen gehoorverlies, spraakstoornissen of uitval."",
+  ""Objective"": ""BP 110/70 mmHg, pols 62/min. Neurologisch onderzoek: geen uitval, geen nystagmus. HIT-test negatief bilateraal. Dix-Hallpike: duizeligheid en misselijkheid, oogbewegingen gezien."",
+  ""Assessment"": ""Benigne paroxysmale positionele vertigo (BPPV)."",
+  ""Plan"": ""Epley-manoeuvre in de praktijk. Omeprazol 20mg 2dd. Vestibulaire oefeningen via thuisarts.nl. Patiënt geïnformeerd over BPPV. Follow-up afspraak over 1 week.""
+}","<think>
+Alright, I'm going to summarize the doctor-patient transcript into a structured SOAP note. Let me go through each part step by step.
+
+First, for the Subjective section, I need to capture the patient's symptoms and history. The patient has been experiencing dizziness for three days, which started suddenly upon waking up. They describe it as the room spinning and mention feeling a bit nauseous but no vomiting. They also note heart palpitations when dizzy and are worried about serious conditions like a brain tumor, as a friend had similar symptoms. They deny other symptoms like hearing loss or speech issues.
+
+Next, the Objective section should include vital signs and physical exam findings. The blood pressure is 110/70 mmHg, and the pulse is 62 bpm. Neurological exam shows no deficits, and specific tests like the HIT test are negative bilaterally. Nystagmus was not observed, but eye movements were noted during the Dix-Hallpike maneuver, which worsened symptoms.
+
+For the Assessment, the doctor diagnosed Benign Paroxysmal Positional Vertigo (BPPV), explaining it's related to the vestibular system, not a tumor. This diagnosis aligns with the symptoms and test results.
+
+The Plan includes performing the Epley maneuver in the office, prescribing omeprazole 20mg twice daily, and recommending vestibular exercises through thuisarts.nl. The patient was educated on BPPV and scheduled for a follow-up in a week.
+
+I need to ensure the language is telegraphic, without full sentences, and in Dutch since the transcript is in Dutch. I'll avoid any inferred information not stated by the doctor and ensure all details are accurately captured without adding anything extra.
+</think>
+
+```json
+{
+  ""Subjective"": ""Duizeligheid sinds 3 dagen, begon plotseling bij opstaan. Draaiduizeligheid, meer ruimte draait. Licht misselijk, geen braken. Hartkloppingen bij duizeligheid. Bang voor ernstige oorzaak (vriend heeft hersentumor). Geen gehoorverlies, spraakstoornissen of uitval."",
+  ""Objective"": ""BP 110/70 mmHg, pols 62/min. Neurologisch onderzoek: geen uitval, geen nystagmus. HIT-test negatief bilateraal. Dix-Hallpike: duizeligheid en misselijkheid, oogbewegingen gezien."",
+  ""Assessment"": ""Benigne paroxysmale positionele vertigo (BPPV)."",
+  ""Plan"": ""Epley-manoeuvre in de praktijk. Omeprazol 20mg 2dd. Vestibulaire oefeningen via thuisarts.nl. Patiënt geïnformeerd over BPPV. Follow-up afspraak over 1 week.""
+}
+```"
+Dizziness,Gemini-2.5-Flash-Lite,Gemini,refine,4.51,Success,,"{
+  ""Subjective"": ""Sinds 3 dagen duizeligheid, sinds wakker worden. Gevoel van draaien om de ruimte heen, ook licht gevoel in hoofd. Klachten nemen niet toe bij rustig zitten. Toename bij hoofdbewegingen. Lichte misselijkheid. Geen braken, hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen, uitval ledematen. Hartkloppingen bij duizeligheid. Geen flauwvallen. Recent verkouden. Bang voor hersentumor door vriend met hersentumor."",
+  ""Objective"": ""BP: 110/70. Pols: 62/min. Neurologisch onderzoek: Gelaat symmetrisch, ogen sluiten, wenkbrauwen optrekken, tanden op elkaar, wangen opbollen, tong uitsteken, schouders aanspannen, spierballen maken, armen vooruit houden met ogen dicht: lichte duizeligheid. Vinger-neus test beiderzijds negatief. Benen: knie heffen, hak naar bil trekken, been strekken: geen problemen. Lopen: op en neer, voetje voor voetje, hakken aansluiten bij tenen: geen problemen. Oogvolgbeweging: geen nystagmus. Hoofd draaien (HIT-test): negatief. Kanteltaest (zittend naar liggend met hoofd over rand): rechts: duizeligheid, misselijkheid, nystagmus waargenomen. Links: iets minder heftig. Geen uitval lichaam."",
+  ""Assessment"": ""Benigne paroxismale positionele duizeligheid (BPPD)"",
+  ""Plan"": ""- Epley manoeuvre uitvoeren.\n- Instructies meegeven voor thuis via thuisarts.nl.""
+}","```json
+{
+  ""Subjective"": ""Sinds 3 dagen duizeligheid, sinds wakker worden. Gevoel van draaien om de ruimte heen, ook licht gevoel in hoofd. Klachten nemen niet toe bij rustig zitten. Toename bij hoofdbewegingen. Lichte misselijkheid. Geen braken, hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen, uitval ledematen. Hartkloppingen bij duizeligheid. Geen flauwvallen. Recent verkouden. Bang voor hersentumor door vriend met hersentumor."",
+  ""Objective"": ""BP: 110/70. Pols: 62/min. Neurologisch onderzoek: Gelaat symmetrisch, ogen sluiten, wenkbrauwen optrekken, tanden op elkaar, wangen opbollen, tong uitsteken, schouders aanspannen, spierballen maken, armen vooruit houden met ogen dicht: lichte duizeligheid. Vinger-neus test beiderzijds negatief. Benen: knie heffen, hak naar bil trekken, been strekken: geen problemen. Lopen: op en neer, voetje voor voetje, hakken aansluiten bij tenen: geen problemen. Oogvolgbeweging: geen nystagmus. Hoofd draaien (HIT-test): negatief. Kanteltaest (zittend naar liggend met hoofd over rand): rechts: duizeligheid, misselijkheid, nystagmus waargenomen. Links: iets minder heftig. Geen uitval lichaam."",
+  ""Assessment"": ""Benigne paroxismale positionele duizeligheid (BPPD)"",
+  ""Plan"": ""- Epley manoeuvre uitvoeren.\n- Instructies meegeven voor thuis via thuisarts.nl.""
+}
+```"
+Dizziness,Gemini-2.5-Flash,Gemini,refine,6.67,Success,,"{
+  ""Subjective"": ""Duizeligheid x3 dagen. Begon bij wakker worden en opstaan. Draaierig gevoel (ruimte draait). Misselijkheid. Klachten nemen toe bij hoofdbeweging. Geen hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen, uitval. Hartkloppingen bij duizeligheid. Geen flauwvallen. Recent verkouden. Geen roken, alcohol, drugs. Angst voor hersentumor (vriend had dit)."",
+  ""Objective"": ""BP: 110/70. Pols: 62/min. Neurologisch onderzoek: geen uitval. Gezichtssensatie: gelijk. Ogen dichtknijpen: lukt. Wenkbrauwen omhoog: lukt. Tanden op elkaar: lukt. Wangen opbollen: lukt. Tong uitsteken: lukt. Schouders naar oren: lukt. Spierballen maken: lukt. Armen voorlangs ophouden met ogen dicht: lukt. Vinger-neus test: perfect. Knie omhoog: lukt. Hak naar bil: lukt. Lopen: goed. Voetje voor voetje lopen: goed. Oogvolgbeweging: normaal, geen nystagmus. HIT-test: beiderzijds negatief. Dix-Hallpike manoeuvre: klachten uitgelokt (draaiduizeligheid, misselijkheid), nystagmus gezien aan rechterkant; minder heftig aan linkerkant."",
+  ""Assessment"": ""Benigne paroxysmale positieduizeligheid (BPPD)."",
+  ""Plan"": [
+    ""Epley manoeuvre (in praktijk uitvoeren)."",
+    ""Instructies voor zelf uitvoeren Epley manoeuvre via thuisarts.nl.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Duizeligheid x3 dagen. Begon bij wakker worden en opstaan. Draaierig gevoel (ruimte draait). Misselijkheid. Klachten nemen toe bij hoofdbeweging. Geen hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen, uitval. Hartkloppingen bij duizeligheid. Geen flauwvallen. Recent verkouden. Geen roken, alcohol, drugs. Angst voor hersentumor (vriend had dit)."",
+  ""Objective"": ""BP: 110/70. Pols: 62/min. Neurologisch onderzoek: geen uitval. Gezichtssensatie: gelijk. Ogen dichtknijpen: lukt. Wenkbrauwen omhoog: lukt. Tanden op elkaar: lukt. Wangen opbollen: lukt. Tong uitsteken: lukt. Schouders naar oren: lukt. Spierballen maken: lukt. Armen voorlangs ophouden met ogen dicht: lukt. Vinger-neus test: perfect. Knie omhoog: lukt. Hak naar bil: lukt. Lopen: goed. Voetje voor voetje lopen: goed. Oogvolgbeweging: normaal, geen nystagmus. HIT-test: beiderzijds negatief. Dix-Hallpike manoeuvre: klachten uitgelokt (draaiduizeligheid, misselijkheid), nystagmus gezien aan rechterkant; minder heftig aan linkerkant."",
+  ""Assessment"": ""Benigne paroxysmale positieduizeligheid (BPPD)."",
+  ""Plan"": [
+    ""Epley manoeuvre (in praktijk uitvoeren)."",
+    ""Instructies voor zelf uitvoeren Epley manoeuvre via thuisarts.nl.""
+  ]
+}
+```"
+Dizziness,Gemini-2.5-Pro,Gemini,refine,14.48,Success,,"{
+  ""Subjective"": ""Duizeligheid sinds 3 dagen, begonnen bij opstaan uit bed. Voornamelijk draaiduizeligheid. Verergert bij hoofdbewegingen, beter in rust. Soms misselijk, niet gebraakt. Geen hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen of uitval. Soms hartkloppingen tijdens duizeligheid. Niet flauwgevallen. Recent verkouden geweest. Geen langdurige bedrust. Rookt niet, geen alcohol/drugs. Erg bezorgd over hersentumor."",
+  ""Objective"": ""Bloeddruk: 110/70 mmHg. Pols: 62/min. Neurologisch onderzoek: hersenzenuwen intact. Kracht en coördinatie armen en benen ongestoord. Gang en koorddansersgang normaal. Oogvolgbewegingen normaal, geen nystagmus. Head Impulse Test (HIT) beiderzijds negatief. Dix-Hallpike manoeuvre lokt forse draaiduizeligheid, misselijkheid en nystagmus uit."",
+  ""Assessment"": ""Benigne paroxismale positieduizeligheid (BPPD)."",
+  ""Plan"": ""- Uitleg en geruststelling over diagnose; geen aanwijzingen voor centrale oorzaak zoals hersentumor.\n- Epley-manoeuvre uitvoeren in de praktijk.\n- Instructies meegeven voor zelf uitvoeren van manoeuvre via thuisarts.nl.""
+}","```json
+{
+  ""Subjective"": ""Duizeligheid sinds 3 dagen, begonnen bij opstaan uit bed. Voornamelijk draaiduizeligheid. Verergert bij hoofdbewegingen, beter in rust. Soms misselijk, niet gebraakt. Geen hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen of uitval. Soms hartkloppingen tijdens duizeligheid. Niet flauwgevallen. Recent verkouden geweest. Geen langdurige bedrust. Rookt niet, geen alcohol/drugs. Erg bezorgd over hersentumor."",
+  ""Objective"": ""Bloeddruk: 110/70 mmHg. Pols: 62/min. Neurologisch onderzoek: hersenzenuwen intact. Kracht en coördinatie armen en benen ongestoord. Gang en koorddansersgang normaal. Oogvolgbewegingen normaal, geen nystagmus. Head Impulse Test (HIT) beiderzijds negatief. Dix-Hallpike manoeuvre lokt forse draaiduizeligheid, misselijkheid en nystagmus uit."",
+  ""Assessment"": ""Benigne paroxismale positieduizeligheid (BPPD)."",
+  ""Plan"": ""- Uitleg en geruststelling over diagnose; geen aanwijzingen voor centrale oorzaak zoals hersentumor.\n- Epley-manoeuvre uitvoeren in de praktijk.\n- Instructies meegeven voor zelf uitvoeren van manoeuvre via thuisarts.nl.""
+}
+```"
+Dizziness,Gemini-2.5-Pro-Thinking,Gemini,refine,16.22,Success,,"{
+  ""Subjective"": ""Duizeligheid sinds 3 dagen, begonnen bij opstaan uit bed. Voornamelijk draaiduizeligheid. Erger bij hoofdbewegingen, beter bij stilzitten. Soms misselijk, niet overgeven. Geen hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen of uitval. Wel hartkloppingen tijdens duizelige momenten. Niet flauwgevallen. Recent verkouden geweest. Rookt niet, geen alcohol- of drugsgebruik. Erg bezorgd over hersentumor."",
+  ""Objective"": ""Bloeddruk: 110/70 mmHg. Pols: 62/min. Neurologisch onderzoek: hersenzenuwen intact. Kracht, coördinatie en sensibiliteit ongestoord. Vinger-neusproef en koorddansersgang intact. Oogvolgbewegingen normaal, geen nystagmus. Head Impulse Test (HIT) beiderzijds negatief. Dix-Hallpike manoeuvre lokt forse draaiduizeligheid, misselijkheid en nystagmus uit (positief)."",
+  ""Assessment"": ""Benigne paroxismale positieduizeligheid (BPPD)."",
+  ""Plan"": ""- Uitleg en geruststelling; oorzaak is perifeer (evenwichtsorgaan), niet centraal (hersenen).\n- Epley-manoeuvre uitgevoerd in de praktijk.\n- Instructies meegegeven voor zelf uitvoeren van Epley-manoeuvre via thuisarts.nl.""
+}","```json
+{
+  ""Subjective"": ""Duizeligheid sinds 3 dagen, begonnen bij opstaan uit bed. Voornamelijk draaiduizeligheid. Erger bij hoofdbewegingen, beter bij stilzitten. Soms misselijk, niet overgeven. Geen hoofdpijn, gehoorverlies, oorsuizen, spraakproblemen of uitval. Wel hartkloppingen tijdens duizelige momenten. Niet flauwgevallen. Recent verkouden geweest. Rookt niet, geen alcohol- of drugsgebruik. Erg bezorgd over hersentumor."",
+  ""Objective"": ""Bloeddruk: 110/70 mmHg. Pols: 62/min. Neurologisch onderzoek: hersenzenuwen intact. Kracht, coördinatie en sensibiliteit ongestoord. Vinger-neusproef en koorddansersgang intact. Oogvolgbewegingen normaal, geen nystagmus. Head Impulse Test (HIT) beiderzijds negatief. Dix-Hallpike manoeuvre lokt forse draaiduizeligheid, misselijkheid en nystagmus uit (positief)."",
+  ""Assessment"": ""Benigne paroxismale positieduizeligheid (BPPD)."",
+  ""Plan"": ""- Uitleg en geruststelling; oorzaak is perifeer (evenwichtsorgaan), niet centraal (hersenen).\n- Epley-manoeuvre uitgevoerd in de praktijk.\n- Instructies meegegeven voor zelf uitvoeren van Epley-manoeuvre via thuisarts.nl.""
+}
+```"
+Earache,Llama-3.1-8B,Llama,refine,5.1,Success,,"{
+  ""Subjective"": ""Slecht hoorvermogen in linkeroor sinds een paar dagen. Pijn bij douchen. Kan niet zwemmen. Pijn is managable (4/10)."",
+  ""Objective"": ""Temp 36.2C. Gehoorgang linkeroor: ontstoken, gezwollen, rood. Trommelvlies niet goed zichtbaar."",
+  ""Assessment"": ""Ontsteking gehoorgang linkeroor."",
+  ""Plan"": [
+    ""Paracetamol 1000mg 4x/dag"",
+    ""Ontstekingsremmer 3x/dag voor 1 week"",
+    ""Oor goed droog houden voor 1 week"",
+    ""Terugkomen op spreekuur over 1 week""
+  ]
+}","```
+{
+  ""Subjective"": ""Slecht hoorvermogen in linkeroor sinds een paar dagen. Pijn bij douchen. Kan niet zwemmen. Pijn is managable (4/10)."",
+  ""Objective"": ""Temp 36.2C. Gehoorgang linkeroor: ontstoken, gezwollen, rood. Trommelvlies niet goed zichtbaar."",
+  ""Assessment"": ""Ontsteking gehoorgang linkeroor."",
+  ""Plan"": [
+    ""Paracetamol 1000mg 4x/dag"",
+    ""Ontstekingsremmer 3x/dag voor 1 week"",
+    ""Oor goed droog houden voor 1 week"",
+    ""Terugkomen op spreekuur over 1 week""
+  ]
+}
+```"
+Earache,Llama-3.1-70B,Llama,refine,9.02,Success,,"{
+  ""Subjective"": ""Linkeroor voelt niet goed. Voelt alsof er water in zit. Een beetje pijn. Pijn na douchen. Gehoorverlies linkeroor."",
+  ""Objective"": ""Temp 36.2. Linkeroor: gehoorgang gezwollen en rood. Trommelvlies niet goed zichtbaar."",
+  ""Assessment"": ""Ontsteking linkeroor, vooral gehoorgang."",
+  ""Plan"": ""Paracetamol 1000mg tot 4x per dag. Ontstekingsremmende oordruppels 3x per dag voor 1 week. Geen schoonmaken met wattenstaafjes. Oor droog houden. Controleafspraak over 1 week.""
+}","```
+{
+  ""Subjective"": ""Linkeroor voelt niet goed. Voelt alsof er water in zit. Een beetje pijn. Pijn na douchen. Gehoorverlies linkeroor."",
+  ""Objective"": ""Temp 36.2. Linkeroor: gehoorgang gezwollen en rood. Trommelvlies niet goed zichtbaar."",
+  ""Assessment"": ""Ontsteking linkeroor, vooral gehoorgang."",
+  ""Plan"": ""Paracetamol 1000mg tot 4x per dag. Ontstekingsremmende oordruppels 3x per dag voor 1 week. Geen schoonmaken met wattenstaafjes. Oor droog houden. Controleafspraak over 1 week.""
+}
+```"
+Earache,Llama-3.1-405B,Llama,refine,14.76,Success,,"{
+  ""Subjective"": ""Linkeroor pijn en vol gevoel x 2-3 dagen. Erger na douchen. Minder gehoor. Geen koorts. Pijn scoring: 4/10, na douchen 6-7/10. Begonnen met zwemmen paar weken geleden. Oren schoonmaken met wattenstaafjes 3x per week."",
+  ""Objective"": ""Temp 36.2C. Rechteroor normaal. Linkeroor: Gehoorgang rood, gezwollen en ontstoken. Trommelvlies niet goed zichtbaar."",
+  ""Assessment"": ""Ontsteking van de gehoorgang links."",
+  ""Plan"": ""- Paracetamol 1000mg max 4x daags pijnstilling.\n- Oordruppels met ontstekingsremmer, 3x daags 1 week.\n- Geen wattenstaafjes gebruiken.\n- Oor droog houden.\n- Controle over 1 week.""
+}","```json
+{
+  ""Subjective"": ""Linkeroor pijn en vol gevoel x 2-3 dagen. Erger na douchen. Minder gehoor. Geen koorts. Pijn scoring: 4/10, na douchen 6-7/10. Begonnen met zwemmen paar weken geleden. Oren schoonmaken met wattenstaafjes 3x per week."",
+  ""Objective"": ""Temp 36.2C. Rechteroor normaal. Linkeroor: Gehoorgang rood, gezwollen en ontstoken. Trommelvlies niet goed zichtbaar."",
+  ""Assessment"": ""Ontsteking van de gehoorgang links."",
+  ""Plan"": ""- Paracetamol 1000mg max 4x daags pijnstilling.\n- Oordruppels met ontstekingsremmer, 3x daags 1 week.\n- Geen wattenstaafjes gebruiken.\n- Oor droog houden.\n- Controle over 1 week.""
+}
+```"
+Earache,Llama-Reasoning-70B,DeepSeek-Llama,refine,13.74,Success,"<think>
+Alright, I'm going to try to summarize this doctor-patient transcript into a SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a woman who recently went on vacation in Turkey. She's complaining about her left ear feeling like it has water in it, along with some pain. She mentions that the discomfort started a few days ago and has been getting progressively worse. She also notes that the pain increases after showering. She hasn't taken any pain medication yet because she manages the pain, but it's affecting her hearing and she's a bit worried.
+
+The doctor examines her and finds that the left ear canal is swollen and red, indicating an infection. The doctor attributes this to frequent exposure to water, possibly from swimming, and maybe from using cotton swabs. The plan includes prescribing painkillers, ear drops to reduce inflammation, advising her to keep the ear dry, and scheduling a follow-up in a week.
+
+Now, I need to structure this into a SOAP note. 
+
+For the Subjective section, I should include her symptoms: the feeling of water in the ear, pain that's worse after showering, hearing loss, and her concern. I'll note the duration as a few days and the pain score.
+
+In the Objective section, I'll mention the findings from the physical exam: redness, swelling, and the inability to see the eardrum clearly.
+
+The Assessment should state the diagnosis, which is an external ear infection (otitis externa), likely caused by swimming and cotton swab use.
+
+The Plan includes the medications and advice given: paracetamol, ear drops, avoiding cotton swabs, keeping the ear dry, and a follow-up appointment.
+
+I need to make sure everything is in Dutch since the transcript is in Dutch. Also, I should avoid any unnecessary words and keep it concise, using fragments without full sentences.
+</think>","{
+  ""Subjective"": ""Linkeroor: gevoel van water, pijn, gehoorverlies. Pijn verergert na douchen. Sinds enkele dagen, langzaam erger wordend. Pijnscore: 4/10, na douchen 6-7/10. Geen koorts."",
+  ""Objective"": ""Linkeroor: rood, gezwollen, ontstoken gehoorgang. Trommelvlies niet zichtbaar."",
+  ""Assessment"": ""Otitis externa, waarschijnlijk door zwemmen en wattenstaafjes."",
+  ""Plan"": ""Paracetamol 1000mg 4x/dag. Oordruppels (zure, ontstekingsremmende) 3x/dag 1 week. Geen wattenstaafjes. Oor droog houden. Controle na 1 week.""
+}","<think>
+Alright, I'm going to try to summarize this doctor-patient transcript into a SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a woman who recently went on vacation in Turkey. She's complaining about her left ear feeling like it has water in it, along with some pain. She mentions that the discomfort started a few days ago and has been getting progressively worse. She also notes that the pain increases after showering. She hasn't taken any pain medication yet because she manages the pain, but it's affecting her hearing and she's a bit worried.
+
+The doctor examines her and finds that the left ear canal is swollen and red, indicating an infection. The doctor attributes this to frequent exposure to water, possibly from swimming, and maybe from using cotton swabs. The plan includes prescribing painkillers, ear drops to reduce inflammation, advising her to keep the ear dry, and scheduling a follow-up in a week.
+
+Now, I need to structure this into a SOAP note. 
+
+For the Subjective section, I should include her symptoms: the feeling of water in the ear, pain that's worse after showering, hearing loss, and her concern. I'll note the duration as a few days and the pain score.
+
+In the Objective section, I'll mention the findings from the physical exam: redness, swelling, and the inability to see the eardrum clearly.
+
+The Assessment should state the diagnosis, which is an external ear infection (otitis externa), likely caused by swimming and cotton swab use.
+
+The Plan includes the medications and advice given: paracetamol, ear drops, avoiding cotton swabs, keeping the ear dry, and a follow-up appointment.
+
+I need to make sure everything is in Dutch since the transcript is in Dutch. Also, I should avoid any unnecessary words and keep it concise, using fragments without full sentences.
+</think>
+
+```json
+{
+  ""Subjective"": ""Linkeroor: gevoel van water, pijn, gehoorverlies. Pijn verergert na douchen. Sinds enkele dagen, langzaam erger wordend. Pijnscore: 4/10, na douchen 6-7/10. Geen koorts."",
+  ""Objective"": ""Linkeroor: rood, gezwollen, ontstoken gehoorgang. Trommelvlies niet zichtbaar."",
+  ""Assessment"": ""Otitis externa, waarschijnlijk door zwemmen en wattenstaafjes."",
+  ""Plan"": ""Paracetamol 1000mg 4x/dag. Oordruppels (zure, ontstekingsremmende) 3x/dag 1 week. Geen wattenstaafjes. Oor droog houden. Controle na 1 week.""
+}
+```"
+Earache,Gemini-2.5-Flash-Lite,Gemini,refine,2.81,Success,,"{
+  ""Subjective"": ""Linkeroor: gevoel van water, beetje pijn, sinds paar dagen, langzaam erger. Pijn toeneemt na douchen. Pijnscore 4/10, na douchen 6-7/10. Verminderd gehoor links. Geen koorts, voelt zich verder goed. Pijn managabel. Zwemmen beperkt ivm pijn. Gebruikt wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2C. Rechts: gehoorgang/trommelvlies normaal. Links: gehoorgang rood, gezwollen, dik. Trommelvlies niet goed zichtbaar. Oor trekt beetje pijnlijk."",
+  ""Assessment"": ""Otitis externa links."",
+  ""Plan"": ""- Paracetamol 1000mg qid zo nodig.\n- Oordruppels met ontstekingsremmer/zuur 3dd druppelen gedurende 1 week.\n- Oor droog houden komende week.\n- Geen wattenstaafjes gebruiken.\n- Controle over 1 week.""
+}","```json
+{
+  ""Subjective"": ""Linkeroor: gevoel van water, beetje pijn, sinds paar dagen, langzaam erger. Pijn toeneemt na douchen. Pijnscore 4/10, na douchen 6-7/10. Verminderd gehoor links. Geen koorts, voelt zich verder goed. Pijn managabel. Zwemmen beperkt ivm pijn. Gebruikt wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2C. Rechts: gehoorgang/trommelvlies normaal. Links: gehoorgang rood, gezwollen, dik. Trommelvlies niet goed zichtbaar. Oor trekt beetje pijnlijk."",
+  ""Assessment"": ""Otitis externa links."",
+  ""Plan"": ""- Paracetamol 1000mg qid zo nodig.\n- Oordruppels met ontstekingsremmer/zuur 3dd druppelen gedurende 1 week.\n- Oor droog houden komende week.\n- Geen wattenstaafjes gebruiken.\n- Controle over 1 week.""
+}
+```"
+Earache,Gemini-2.5-Flash,Gemini,refine,8.74,Success,,"{
+  ""Subjective"": ""Linkeroor: niet goed gevoel, gevoel van water erin, pijn. Meer pijn na douchen. Klachten sinds 2-3 dagen, langzaam erger wordend. Slechter horen linkeroor, hinderlijk voor gehoor. Bezorgdheid, angst. Wil pijnstilling. Geen koorts, algemeen welbevinden goed. Alleen linkeroor aangedaan. Temp niet gemeten. Geen pijnstilling genomen, pijn beheersbaar. Pijnscore: 3-4/10 dagelijks, 6-7/10 na douchen. Minder sporten (zwemmen) door pijn. Zwemt sinds enkele weken (nieuwe sport). Reinigt oren met wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2C. Rechteroor: schoon, trommelvlies rustig. Linkeroor: pijn bij trekken aan oor. Gehoorgang rood, gezwollen, dik, ontstoken. Trommelvlies moeilijk te beoordelen."",
+  ""Assessment"": ""Otitis externa links. Gehoorgangontsteking. Waarschijnlijk door frequent nat worden en mogelijk door gebruik wattenstaafjes."",
+  ""Plan"": [
+    ""Paracetamol 1000mg q.i.d. zo nodig."",
+    ""Oordruppels (ontstekingsremmend, zuur) 3x/dag x 1 week."",
+    ""Geen wattenstaafjes meer gebruiken."",
+    ""Oor droog houden komende week."",
+    ""Controle over 1 week op spreekuur.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Linkeroor: niet goed gevoel, gevoel van water erin, pijn. Meer pijn na douchen. Klachten sinds 2-3 dagen, langzaam erger wordend. Slechter horen linkeroor, hinderlijk voor gehoor. Bezorgdheid, angst. Wil pijnstilling. Geen koorts, algemeen welbevinden goed. Alleen linkeroor aangedaan. Temp niet gemeten. Geen pijnstilling genomen, pijn beheersbaar. Pijnscore: 3-4/10 dagelijks, 6-7/10 na douchen. Minder sporten (zwemmen) door pijn. Zwemt sinds enkele weken (nieuwe sport). Reinigt oren met wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2C. Rechteroor: schoon, trommelvlies rustig. Linkeroor: pijn bij trekken aan oor. Gehoorgang rood, gezwollen, dik, ontstoken. Trommelvlies moeilijk te beoordelen."",
+  ""Assessment"": ""Otitis externa links. Gehoorgangontsteking. Waarschijnlijk door frequent nat worden en mogelijk door gebruik wattenstaafjes."",
+  ""Plan"": [
+    ""Paracetamol 1000mg q.i.d. zo nodig."",
+    ""Oordruppels (ontstekingsremmend, zuur) 3x/dag x 1 week."",
+    ""Geen wattenstaafjes meer gebruiken."",
+    ""Oor droog houden komende week."",
+    ""Controle over 1 week op spreekuur.""
+  ]
+}
+```"
+Earache,Gemini-2.5-Pro,Gemini,refine,12.38,Success,,"{
+  ""Subjective"": ""Pijn linkeroor sinds 2-3 dagen, langzaam progressief. Gevoel van water in oor en verminderd gehoor links. Pijnscore normaal 3-4/10, na douchen 6-7/10. Voelt zich niet ziek, geen koorts. Recent gestart met zwemmen. Reinigt oren met wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2. Rechteroor: gehoorgang schoon, trommelvlies rustig. Linkeroor: pijnlijk bij tractie. Gehoorgang rood, gezwollen en dik. Trommelvlies niet goed te beoordelen."",
+  ""Assessment"": ""Ontsteking van de linker gehoorgang."",
+  ""Plan"": [
+    ""Paracetamol 1000mg tot 4x daags zo nodig."",
+    ""Zure, ontstekingsremmende oordruppels 3x daags voor 1 week."",
+    ""Advies: niet meer reinigen met wattenstaafjes."",
+    ""Advies: oor droog houden de komende week."",
+    ""Controle op het spreekuur over 1 week.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Pijn linkeroor sinds 2-3 dagen, langzaam progressief. Gevoel van water in oor en verminderd gehoor links. Pijnscore normaal 3-4/10, na douchen 6-7/10. Voelt zich niet ziek, geen koorts. Recent gestart met zwemmen. Reinigt oren met wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2. Rechteroor: gehoorgang schoon, trommelvlies rustig. Linkeroor: pijnlijk bij tractie. Gehoorgang rood, gezwollen en dik. Trommelvlies niet goed te beoordelen."",
+  ""Assessment"": ""Ontsteking van de linker gehoorgang."",
+  ""Plan"": [
+    ""Paracetamol 1000mg tot 4x daags zo nodig."",
+    ""Zure, ontstekingsremmende oordruppels 3x daags voor 1 week."",
+    ""Advies: niet meer reinigen met wattenstaafjes."",
+    ""Advies: oor droog houden de komende week."",
+    ""Controle op het spreekuur over 1 week.""
+  ]
+}
+```"
+Earache,Gemini-2.5-Pro-Thinking,Gemini,refine,13.86,Success,,"{
+  ""Subjective"": ""Pijn en gevoel van water in linkeroor sinds 2-3 dagen, langzaam progressief. Verminderd gehoor links. Pijnscore normaal 3-4/10, na douchen 6-7/10. Voelt zich niet ziek, geen koortsgevoel. Recent gestart met zwemmen. Gebruikt wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2 C. Rechteroor: gehoorgang schoon, trommelvlies rustig. Linkeroor: pijnlijk bij tractie. Gehoorgang is rood, gezwollen en dik. Trommelvlies niet goed te beoordelen."",
+  ""Assessment"": ""Ontsteking van de linker gehoorgang."",
+  ""Plan"": [
+    ""Paracetamol 1000mg tot 4x per dag zo nodig."",
+    ""Zure oordruppels met ontstekingsremmer, 3x per dag druppelen voor 1 week."",
+    ""Advies: niet meer schoonmaken met wattenstaafjes."",
+    ""Advies: oor goed droog houden de komende week."",
+    ""Controle op het spreekuur over 1 week.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Pijn en gevoel van water in linkeroor sinds 2-3 dagen, langzaam progressief. Verminderd gehoor links. Pijnscore normaal 3-4/10, na douchen 6-7/10. Voelt zich niet ziek, geen koortsgevoel. Recent gestart met zwemmen. Gebruikt wattenstaafjes 3x/week."",
+  ""Objective"": ""Temp: 36.2 C. Rechteroor: gehoorgang schoon, trommelvlies rustig. Linkeroor: pijnlijk bij tractie. Gehoorgang is rood, gezwollen en dik. Trommelvlies niet goed te beoordelen."",
+  ""Assessment"": ""Ontsteking van de linker gehoorgang."",
+  ""Plan"": [
+    ""Paracetamol 1000mg tot 4x per dag zo nodig."",
+    ""Zure oordruppels met ontstekingsremmer, 3x per dag druppelen voor 1 week."",
+    ""Advies: niet meer schoonmaken met wattenstaafjes."",
+    ""Advies: oor goed droog houden de komende week."",
+    ""Controle op het spreekuur over 1 week.""
+  ]
+}
+```"
+Eye Infection,Llama-3.1-8B,Llama,refine,4.64,Success,,"{
+  ""Subjective"": ""Rode oog x 2 dagen. Irritatie. Geen pijn bij kijken. Geen griep of andere ziekte."",
+  ""Objective"": ""Temp: niet gemeten. Pharynx: niet gecontroleerd. Oog: roodheid, verdikking, adertjes. Pupillen normaal."",
+  ""Assessment"": ""Ontsteking oppervlakte laagje oog. Virus als oorzaak."",
+  ""Plan"": [
+    ""Niet wrijven."",
+    ""Spoelen: niet aanbevolen."",
+    ""Kunsttraan druppelen: verzacht irritatie."",
+    ""Aankijken: 2 weken. Kom langs als last blijft."",
+    ""Bellen bij pijn, pus of dichtgeplakt oog.""
+  ]
+}","```
+{
+  ""Subjective"": ""Rode oog x 2 dagen. Irritatie. Geen pijn bij kijken. Geen griep of andere ziekte."",
+  ""Objective"": ""Temp: niet gemeten. Pharynx: niet gecontroleerd. Oog: roodheid, verdikking, adertjes. Pupillen normaal."",
+  ""Assessment"": ""Ontsteking oppervlakte laagje oog. Virus als oorzaak."",
+  ""Plan"": [
+    ""Niet wrijven."",
+    ""Spoelen: niet aanbevolen."",
+    ""Kunsttraan druppelen: verzacht irritatie."",
+    ""Aankijken: 2 weken. Kom langs als last blijft."",
+    ""Bellen bij pijn, pus of dichtgeplakt oog.""
+  ]
+}
+```"
+Eye Infection,Llama-3.1-70B,Llama,refine,9.14,Success,,"{
+  ""Subjective"": ""Rood oog sinds dinsdagochtend. Irritant. Gevoel alsof er iets in zit."",
+  ""Objective"": ""Roodheid en verdikking van het ooglid. Geen abnormale bevindingen bij onderzoek."",
+  ""Assessment"": ""Ontsteking van het oppervlakte laagje van het oog, waarschijnlijk virale oorsprong."",
+  ""Plan"": ""Kunsttraandruppels om irritatie te verzachten. Terugkomen na 2 weken als klachten aanhouden of verergeren.""
+}","```
+{
+  ""Subjective"": ""Rood oog sinds dinsdagochtend. Irritant. Gevoel alsof er iets in zit."",
+  ""Objective"": ""Roodheid en verdikking van het ooglid. Geen abnormale bevindingen bij onderzoek."",
+  ""Assessment"": ""Ontsteking van het oppervlakte laagje van het oog, waarschijnlijk virale oorsprong."",
+  ""Plan"": ""Kunsttraandruppels om irritatie te verzachten. Terugkomen na 2 weken als klachten aanhouden of verergeren.""
+}
+```"
+Eye Infection,Llama-3.1-405B,Llama,refine,16.37,Success,,"{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend, roder geworden, verdikking vergeleken met ander oog. Geen pijn, normaal zicht, licht niet pijnlijk."",
+  ""Objective"": ""Roodheid in beide ogen, linker meer dan rechter. Geen haartjes of vreemde objecten gezien. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Ontsteking van het oppervlakte laagje van het oog, waarschijnlijk door virus."",
+  ""Plan"": ""- Niet wrijven, kunsttranen druppelen voor verlichting. Kraanwater om oog schoon te maken's ochtends. - Terugkomen als na 2 weken geen verbetering of bij pijn/pus. - Antibiotica druppels indien bacteriële infectie.""
+}","```json
+{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend, roder geworden, verdikking vergeleken met ander oog. Geen pijn, normaal zicht, licht niet pijnlijk."",
+  ""Objective"": ""Roodheid in beide ogen, linker meer dan rechter. Geen haartjes of vreemde objecten gezien. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Ontsteking van het oppervlakte laagje van het oog, waarschijnlijk door virus."",
+  ""Plan"": ""- Niet wrijven, kunsttranen druppelen voor verlichting. Kraanwater om oog schoon te maken's ochtends. - Terugkomen als na 2 weken geen verbetering of bij pijn/pus. - Antibiotica druppels indien bacteriële infectie.""
+}
+```"
+Eye Infection,Llama-Reasoning-70B,DeepSeek-Llama,refine,8.92,Success,"<think>
+Alright, I'm going to summarize this doctor-patient transcript into a SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a Dutch-speaking individual who visited the doctor with an eye irritation. They mentioned waking up on Tuesday with an irritated eye, which they initially thought might have something in it, like a hair. They rubbed it, but it got redder and started to feel like there was something stuck. They checked online and thought it might be a normal eye infection but wanted a professional check.
+
+The doctor examined the eye, noted redness, and mentioned that the cause is almost always viral. The patient was advised not to rub and to use artificial tears for comfort. They were told it would resolve on its own but might take up to two weeks. If symptoms worsen or persist beyond two weeks, they should return.
+
+Now, I'll structure this into SOAP notes. 
+
+Subjective: The patient's symptoms and history. They have an irritated eye since Tuesday, redness, sensation of something in the eye, and no similar past issues.
+
+Objective: The doctor's findings. Redness in both eyes, normal pupil reaction, no foreign bodies found.
+
+Assessment: The doctor's diagnosis. Viral eye infection (conjunctivitis).
+
+Plan: Recommendations. Use artificial tears, avoid rubbing, follow-up in two weeks if not improved, and return sooner if severe symptoms arise.
+
+I need to ensure the language is telegraphic, concise, and in Dutch as per the transcript. No extra info added, just what's stated.
+</think>","{
+  ""Subjective"": ""Irriterend oog sinds dinsdagochtend. Roodheid, gevoel van iets in oog, geen eerdere oogproblemen."",
+  ""Objective"": ""Roodheid beide ogen. Normale pupilreactie. Geen vreemd lichaam gezien."",
+  ""Assessment"": ""Viraal conjunctivitis."",
+  ""Plan"": ""Kunsttranen voor verlichting. Niet wrijven. Controle na 2 weken. Earlere controle bij verergering.""
+}","<think>
+Alright, I'm going to summarize this doctor-patient transcript into a SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a Dutch-speaking individual who visited the doctor with an eye irritation. They mentioned waking up on Tuesday with an irritated eye, which they initially thought might have something in it, like a hair. They rubbed it, but it got redder and started to feel like there was something stuck. They checked online and thought it might be a normal eye infection but wanted a professional check.
+
+The doctor examined the eye, noted redness, and mentioned that the cause is almost always viral. The patient was advised not to rub and to use artificial tears for comfort. They were told it would resolve on its own but might take up to two weeks. If symptoms worsen or persist beyond two weeks, they should return.
+
+Now, I'll structure this into SOAP notes. 
+
+Subjective: The patient's symptoms and history. They have an irritated eye since Tuesday, redness, sensation of something in the eye, and no similar past issues.
+
+Objective: The doctor's findings. Redness in both eyes, normal pupil reaction, no foreign bodies found.
+
+Assessment: The doctor's diagnosis. Viral eye infection (conjunctivitis).
+
+Plan: Recommendations. Use artificial tears, avoid rubbing, follow-up in two weeks if not improved, and return sooner if severe symptoms arise.
+
+I need to ensure the language is telegraphic, concise, and in Dutch as per the transcript. No extra info added, just what's stated.
+</think>
+
+```json
+{
+  ""Subjective"": ""Irriterend oog sinds dinsdagochtend. Roodheid, gevoel van iets in oog, geen eerdere oogproblemen."",
+  ""Objective"": ""Roodheid beide ogen. Normale pupilreactie. Geen vreemd lichaam gezien."",
+  ""Assessment"": ""Viraal conjunctivitis."",
+  ""Plan"": ""Kunsttranen voor verlichting. Niet wrijven. Controle na 2 weken. Earlere controle bij verergering.""
+}
+```"
+Eye Infection,Gemini-2.5-Flash-Lite,Gemini,refine,2.46,Success,,"{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend. Gevoel van iets in oog (haartje/stofje). Oog roder geworden, met zichtbare bloedvaatjes. Verdikking ooglid. Geen visusverandering, geen lichtpijn. Pijn bij dichtknijpen ogen. Geen trauma, geen nieuwe cosmetica. Dochter niet in oog geprikt. Geen andere ziekteklachten. Rechteroog sinds gisteren ook roodheid."",
+  ""Objective"": ""Ogen: Roodheid conjunctiva beiderzijds. Geen corpus alienum zichtbaar. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Virale conjunctivitis, waarschijnlijk beiderzijds."",
+  ""Plan"": ""- Niet wrijven.\n- Eventueel kunsttranen druppelen ter verzachting.\n- Oog schoonmaken met lauwwarm kraanwater en wattenschijfje.\n- Controle over 2 weken bij aanhoudende klachten.\n- Direct contact opnemen bij toename pijn, pusvorming, of visusverandering.""
+}","```json
+{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend. Gevoel van iets in oog (haartje/stofje). Oog roder geworden, met zichtbare bloedvaatjes. Verdikking ooglid. Geen visusverandering, geen lichtpijn. Pijn bij dichtknijpen ogen. Geen trauma, geen nieuwe cosmetica. Dochter niet in oog geprikt. Geen andere ziekteklachten. Rechteroog sinds gisteren ook roodheid."",
+  ""Objective"": ""Ogen: Roodheid conjunctiva beiderzijds. Geen corpus alienum zichtbaar. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Virale conjunctivitis, waarschijnlijk beiderzijds."",
+  ""Plan"": ""- Niet wrijven.\n- Eventueel kunsttranen druppelen ter verzachting.\n- Oog schoonmaken met lauwwarm kraanwater en wattenschijfje.\n- Controle over 2 weken bij aanhoudende klachten.\n- Direct contact opnemen bij toename pijn, pusvorming, of visusverandering.""
+}
+```"
+Eye Infection,Gemini-2.5-Flash,Gemini,refine,6.68,Success,,"{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend. In oog gewreven, dacht aan stokje/haartje. Oog roder geworden, rode adertjes zichtbaar. Verdikking vergeleken met ander oog. Voelt als haartje/stofje in oog, neiging tot wrijven. Pijn bij dichtknijpen ogen. Zien normaal. Licht niet pijnlijk. Ander oog sinds gisteren ook rood. Nooit eerder oogproblemen. Geen nieuwe crèmes/mascara. Geen griep/andere ziekte. Oog 's ochtends vastgeplakt, schoongemaakt met wattenschijfje en water."",
+  ""Objective"": ""Oog: Roodheid, rode adertjes. Ooglid: Geen afwijkingen, geen vreemde objecten. Pupillen: Normale reactie. Roodheid ook in andere oog."",
+  ""Assessment"": ""Oogontsteking (oppervlakte laagje oog), waarschijnlijk viraal. Mogelijk mee-geïnfecteerd ander oog."",
+  ""Plan"": [
+    ""Niet wrijven."",
+    ""Spoelen niet nodig."",
+    ""Kunsttranen (bijv. Kruidvat) voor verzachting."",
+    ""Oog 's ochtends schoonmaken met lauwwarm kraanwater en wattenschijfje."",
+    ""Verwacht spontaan herstel (kan tot 2 weken duren)."",
+    ""Controle na 2 weken indien klachten aanhouden."",
+    ""Bellen bij: meer pijn, pus, meer dichtgeplakt oog, gek zien.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend. In oog gewreven, dacht aan stokje/haartje. Oog roder geworden, rode adertjes zichtbaar. Verdikking vergeleken met ander oog. Voelt als haartje/stofje in oog, neiging tot wrijven. Pijn bij dichtknijpen ogen. Zien normaal. Licht niet pijnlijk. Ander oog sinds gisteren ook rood. Nooit eerder oogproblemen. Geen nieuwe crèmes/mascara. Geen griep/andere ziekte. Oog 's ochtends vastgeplakt, schoongemaakt met wattenschijfje en water."",
+  ""Objective"": ""Oog: Roodheid, rode adertjes. Ooglid: Geen afwijkingen, geen vreemde objecten. Pupillen: Normale reactie. Roodheid ook in andere oog."",
+  ""Assessment"": ""Oogontsteking (oppervlakte laagje oog), waarschijnlijk viraal. Mogelijk mee-geïnfecteerd ander oog."",
+  ""Plan"": [
+    ""Niet wrijven."",
+    ""Spoelen niet nodig."",
+    ""Kunsttranen (bijv. Kruidvat) voor verzachting."",
+    ""Oog 's ochtends schoonmaken met lauwwarm kraanwater en wattenschijfje."",
+    ""Verwacht spontaan herstel (kan tot 2 weken duren)."",
+    ""Controle na 2 weken indien klachten aanhouden."",
+    ""Bellen bij: meer pijn, pus, meer dichtgeplakt oog, gek zien.""
+  ]
+}
+```"
+Eye Infection,Gemini-2.5-Pro,Gemini,refine,13.96,Success,,"{
+  ""Subjective"": ""Geïrriteerd rechteroog sinds dinsdagochtend. Gevoel van corpus alienum. Roodheid en verdikking na wrijven. Pijn enkel bij hard dichtknijpen van de ogen. Zicht is normaal, geen fotofobie. 's Ochtends oog wat vastgeplakt. Sinds gisteren ook linker oog rood. Geen trauma, geen nieuwe cosmetica. Eerste keer oogklachten. Verder niet ziek."",
+  ""Objective"": ""Inspectie: Roodheid en zwelling rechteroog. Conjunctivae rood, geen corpus alienum zichtbaar. Linkeroog ook enige roodheid. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Conjunctivitis, vermoedelijk viraal."",
+  ""Plan"": ""- Uitleg en geruststelling: zelflimiterend, duurt meestal <2 weken.\n- Advies: niet wrijven.\n- 's Ochtends reinigen met lauwwarm kraanwater.\n- Kunsttranen ter verzachting, indien gewenst.\n- Contact opnemen bij toename pijn, pus, verandering zicht, of geen verbetering na 2 weken.""
+}","```json
+{
+  ""Subjective"": ""Geïrriteerd rechteroog sinds dinsdagochtend. Gevoel van corpus alienum. Roodheid en verdikking na wrijven. Pijn enkel bij hard dichtknijpen van de ogen. Zicht is normaal, geen fotofobie. 's Ochtends oog wat vastgeplakt. Sinds gisteren ook linker oog rood. Geen trauma, geen nieuwe cosmetica. Eerste keer oogklachten. Verder niet ziek."",
+  ""Objective"": ""Inspectie: Roodheid en zwelling rechteroog. Conjunctivae rood, geen corpus alienum zichtbaar. Linkeroog ook enige roodheid. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Conjunctivitis, vermoedelijk viraal."",
+  ""Plan"": ""- Uitleg en geruststelling: zelflimiterend, duurt meestal <2 weken.\n- Advies: niet wrijven.\n- 's Ochtends reinigen met lauwwarm kraanwater.\n- Kunsttranen ter verzachting, indien gewenst.\n- Contact opnemen bij toename pijn, pus, verandering zicht, of geen verbetering na 2 weken.""
+}
+```"
+Eye Infection,Gemini-2.5-Pro-Thinking,Gemini,refine,14.39,Success,,"{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend. Begon in één oog, sinds gisteren ook het andere oog rood. Gevoel van zandkorrel/haartje in oog. Roodheid en verdikking. Pijn enkel bij hard dichtknijpen ogen. 's Ochtends oog wat vastgeplakt. Zicht is goed, geen lichtschuwheid. Geen contactlenzen. Geen trauma, geen nieuwe cosmetica. Nooit eerder oogklachten gehad."",
+  ""Objective"": ""Roodheid en zwelling van het oog, beiderzijds (één oog meer dan het ander). Geen corpus alienum zichtbaar na inspectie oogleden. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Oogontsteking, waarschijnlijk viraal."",
+  ""Plan"": ""- Uitleg en geruststelling, expectatief beleid.\n- Advies: niet wrijven.\n- Indien nodig kunsttranen (vrij verkrijgbaar) ter verlichting.\n- 's Ochtends schoonmaken met wattenschijfje en lauwwarm kraanwater.\n- Controle over 2 weken indien geen verbetering.\n- Eerder contact opnemen bij toename pijn, pusvorming, meer dichtplakken of visusverandering.""
+}","```json
+{
+  ""Subjective"": ""Geïrriteerd oog sinds dinsdagochtend. Begon in één oog, sinds gisteren ook het andere oog rood. Gevoel van zandkorrel/haartje in oog. Roodheid en verdikking. Pijn enkel bij hard dichtknijpen ogen. 's Ochtends oog wat vastgeplakt. Zicht is goed, geen lichtschuwheid. Geen contactlenzen. Geen trauma, geen nieuwe cosmetica. Nooit eerder oogklachten gehad."",
+  ""Objective"": ""Roodheid en zwelling van het oog, beiderzijds (één oog meer dan het ander). Geen corpus alienum zichtbaar na inspectie oogleden. Pupillen reageren normaal op licht."",
+  ""Assessment"": ""Oogontsteking, waarschijnlijk viraal."",
+  ""Plan"": ""- Uitleg en geruststelling, expectatief beleid.\n- Advies: niet wrijven.\n- Indien nodig kunsttranen (vrij verkrijgbaar) ter verlichting.\n- 's Ochtends schoonmaken met wattenschijfje en lauwwarm kraanwater.\n- Controle over 2 weken indien geen verbetering.\n- Eerder contact opnemen bij toename pijn, pusvorming, meer dichtplakken of visusverandering.""
+}
+```"
+Fatique,Llama-3.1-8B,Llama,refine,4.95,Success,,"{
+  ""Subjective"": ""Moeheid x2 maanden. Slaapoppervlakte. Geen duidelijke aanleiding. Werk gaat met moeite. Sporten lukt nog. Spierpijn. Pijn in rug. Ochtendstijfheid."",
+  ""Objective"": ""Temp: normaal. BP: 110/60. Hartslag: 60. Longen: netjes. Rug: pijn onderin. Buik: soepel. Peristaltiek: levendig."",
+  ""Assessment"": ""Likely bloedarmoede. Mogelijk schildklierprobleem."",
+  ""Plan"": [
+    ""Bloedonderzoek. Schildklieronderzoek. Ontstekingsstoffen in bloed nakijken.""
+  ]
+}","```
+{
+  ""Subjective"": ""Moeheid x2 maanden. Slaapoppervlakte. Geen duidelijke aanleiding. Werk gaat met moeite. Sporten lukt nog. Spierpijn. Pijn in rug. Ochtendstijfheid."",
+  ""Objective"": ""Temp: normaal. BP: 110/60. Hartslag: 60. Longen: netjes. Rug: pijn onderin. Buik: soepel. Peristaltiek: levendig."",
+  ""Assessment"": ""Likely bloedarmoede. Mogelijk schildklierprobleem."",
+  ""Plan"": [
+    ""Bloedonderzoek. Schildklieronderzoek. Ontstekingsstoffen in bloed nakijken.""
+  ]
+}
+```"
+Fatique,Llama-3.1-70B,Llama,refine,14.61,Success,,"{
+  ""Subjective"": ""Moeheid 2 maanden. Slaap veel, maar wordt moe wakker. Mogelijk oppervlakkig slapen. Spierpijn en rugpijn."",
+  ""Objective"": ""BP 110/60. Hartslag 60 of lager. Longen normaal. Rug: pijn onderin en naast het midden. Buik: levendige peristaltiek, geen pijn."",
+  ""Assessment"": ""Geen duidelijke diagnose."",
+  ""Plan"": ""Bloedonderzoek voor bloedarmoede, schildklier en ontstekingsfactoren. Telefonische afspraak na uitslagen.""
+}","```
+{
+  ""Subjective"": ""Moeheid 2 maanden. Slaap veel, maar wordt moe wakker. Mogelijk oppervlakkig slapen. Spierpijn en rugpijn."",
+  ""Objective"": ""BP 110/60. Hartslag 60 of lager. Longen normaal. Rug: pijn onderin en naast het midden. Buik: levendige peristaltiek, geen pijn."",
+  ""Assessment"": ""Geen duidelijke diagnose."",
+  ""Plan"": ""Bloedonderzoek voor bloedarmoede, schildklier en ontstekingsfactoren. Telefonische afspraak na uitslagen.""
+}
+```"
+Fatique,Llama-3.1-405B,Llama,refine,21.26,Success,,"{
+  ""Subjective"": ""Twee maanden moe, mogelijk oppervlakkig slapen, geen duidelijke aanleiding, kan nog sporten (klimmen), werk gaat met moeite, geen ziekteverzuim, spierpijn en rugpijn, ochtendstijfheid, vader heeft last van rug, geen gewrichtspijn"",
+  ""Objective"": ""Bloeddruk 110/60, hartslag 40-60, longen klinken netjes, buik: levendige peristaltiek, wisselende geluidjes, soepel, geen pijn"",
+  ""Assessment"": ""Onbegrepen vermoeidheid, lichamelijk onderzoek geen grove afwijkingen"",
+  ""Plan"": [
+    ""Bloedonderzoek: bloedarmoede, schildklier, ontstekingsfactoren"",
+    ""Bloed prikken, dag erna uitslag, telefonische afspraak voor bespreking""
+  ]
+}","```json
+{
+  ""Subjective"": ""Twee maanden moe, mogelijk oppervlakkig slapen, geen duidelijke aanleiding, kan nog sporten (klimmen), werk gaat met moeite, geen ziekteverzuim, spierpijn en rugpijn, ochtendstijfheid, vader heeft last van rug, geen gewrichtspijn"",
+  ""Objective"": ""Bloeddruk 110/60, hartslag 40-60, longen klinken netjes, buik: levendige peristaltiek, wisselende geluidjes, soepel, geen pijn"",
+  ""Assessment"": ""Onbegrepen vermoeidheid, lichamelijk onderzoek geen grove afwijkingen"",
+  ""Plan"": [
+    ""Bloedonderzoek: bloedarmoede, schildklier, ontstekingsfactoren"",
+    ""Bloed prikken, dag erna uitslag, telefonische afspraak voor bespreking""
+  ]
+}
+```"
+Fatique,Llama-Reasoning-70B,DeepSeek-Llama,refine,8.29,Success,"<think>
+Alright, I'm going to try to summarize this doctor-patient transcript into a SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a Dutch-speaking individual who has been feeling extremely tired for the past two months. They mention sleeping a lot but waking up still feeling tired. They haven't taken sick leave but have considered it. They can still perform their job, though it's a struggle. They also engage in sports like climbing and cycling without issues, though they do experience some muscle pain and back pain.
+
+The doctor asks about potential causes, like infections or significant life events, but the patient can't think of any. The patient mentions sometimes waking up with a start but not snoring. They have no allergies except controlled hay fever. The doctor checks vital signs: blood pressure is 110/60, heart rate around 40-60, which is normal for an active person. The physical exam shows no significant issues, with clear lungs, no abdominal pain, and normal bowel sounds.
+
+The doctor suggests blood tests to check for anemia, thyroid issues, and inflammation, as these could explain the fatigue. The patient agrees, and the doctor will send the blood test form.
+
+Now, I'll structure this into SOAP notes.
+
+Subjective: The patient's reported symptoms and history. So, fatigue for two months, sleeping a lot, muscle and back pain, no clear onset, still working, sports unaffected.
+
+Objective: Vital signs and exam findings. BP 110/60, heart rate 40-60, normal lungs, abdomen, no pain on palpation.
+
+Assessment: The doctor considers possible anemia, thyroid issues, or inflammation but hasn't diagnosed anything yet.
+
+Plan: Blood tests for anemia, thyroid function, and inflammation markers. Follow-up phone call after results.
+
+I need to make sure I'm using telegraphic style, omitting subjects and introductory phrases, and keeping it concise. Also, since the transcript is in Dutch, the JSON should be in Dutch.
+
+Wait, in the initial draft, I wrote the Subjective in English. That's a mistake. I need to switch it to Dutch. Also, ensure that all points from the transcript are included without adding anything extra.
+
+Let me correct that. The Subjective should be in Dutch, listing the symptoms as the patient described. The Objective includes the BP and heart rate, and the normal findings. The Assessment mentions the possible conditions the doctor is considering. The Plan outlines the blood tests and follow-up.
+
+I think that's all. Now, I'll format it into the JSON structure as required.
+</think>","{
+  ""Subjective"": ""Moeheid 2 maanden. Veel slapen, maar niet uitgerust. Geen duidelijke aanleiding. Sporten nog mogelijk. Spierpijn en rugpijn."",
+  ""Objective"": ""BP 110/60. Hartslag 40-60. Longen: geen afwijkingen. Buik: soepele peristaltiek, geen pijn bij palpatie."",
+  ""Assessment"": ""Mogelijke bloedarmoede, schildklierproblemen of ontsteking."",
+  ""Plan"": ""Bloedonderzoek naar bloedarmoede, schildklierfunctie en ontstekingsmarkers. Telefonische follow-up na uitslagen.""
+}","<think>
+Alright, I'm going to try to summarize this doctor-patient transcript into a SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a Dutch-speaking individual who has been feeling extremely tired for the past two months. They mention sleeping a lot but waking up still feeling tired. They haven't taken sick leave but have considered it. They can still perform their job, though it's a struggle. They also engage in sports like climbing and cycling without issues, though they do experience some muscle pain and back pain.
+
+The doctor asks about potential causes, like infections or significant life events, but the patient can't think of any. The patient mentions sometimes waking up with a start but not snoring. They have no allergies except controlled hay fever. The doctor checks vital signs: blood pressure is 110/60, heart rate around 40-60, which is normal for an active person. The physical exam shows no significant issues, with clear lungs, no abdominal pain, and normal bowel sounds.
+
+The doctor suggests blood tests to check for anemia, thyroid issues, and inflammation, as these could explain the fatigue. The patient agrees, and the doctor will send the blood test form.
+
+Now, I'll structure this into SOAP notes.
+
+Subjective: The patient's reported symptoms and history. So, fatigue for two months, sleeping a lot, muscle and back pain, no clear onset, still working, sports unaffected.
+
+Objective: Vital signs and exam findings. BP 110/60, heart rate 40-60, normal lungs, abdomen, no pain on palpation.
+
+Assessment: The doctor considers possible anemia, thyroid issues, or inflammation but hasn't diagnosed anything yet.
+
+Plan: Blood tests for anemia, thyroid function, and inflammation markers. Follow-up phone call after results.
+
+I need to make sure I'm using telegraphic style, omitting subjects and introductory phrases, and keeping it concise. Also, since the transcript is in Dutch, the JSON should be in Dutch.
+
+Wait, in the initial draft, I wrote the Subjective in English. That's a mistake. I need to switch it to Dutch. Also, ensure that all points from the transcript are included without adding anything extra.
+
+Let me correct that. The Subjective should be in Dutch, listing the symptoms as the patient described. The Objective includes the BP and heart rate, and the normal findings. The Assessment mentions the possible conditions the doctor is considering. The Plan outlines the blood tests and follow-up.
+
+I think that's all. Now, I'll format it into the JSON structure as required.
+</think>
+
+```json
+{
+  ""Subjective"": ""Moeheid 2 maanden. Veel slapen, maar niet uitgerust. Geen duidelijke aanleiding. Sporten nog mogelijk. Spierpijn en rugpijn."",
+  ""Objective"": ""BP 110/60. Hartslag 40-60. Longen: geen afwijkingen. Buik: soepele peristaltiek, geen pijn bij palpatie."",
+  ""Assessment"": ""Mogelijke bloedarmoede, schildklierproblemen of ontsteking."",
+  ""Plan"": ""Bloedonderzoek naar bloedarmoede, schildklierfunctie en ontstekingsmarkers. Telefonische follow-up na uitslagen.""
+}
+```"
+Fatique,Gemini-2.5-Flash-Lite,Gemini,refine,3.69,Success,,"{
+  ""Subjective"": ""Extreme vermoeidheid sinds 2 maanden. Slaapt veel, maar wordt moe wakker. Mogelijk oppervlakkig slapen. Geen duidelijke aanleiding, niet acuut ontstaan. Werk lukt met moeite, weekend rusten. Sporten (klimmen, fietsen) lukt nog wel, geen krachtverlies. Meer spierpijn, ook rugpijn. Zelf gegoogeld, denkt aan reuma (ochtendstijfheid). Vader heeft rugklachten. Geen gewrichtspijn. Snurkt niet, schrikt wel eens wakker (al langer). Hooikoorts onder controle met medicatie. Geen hartkloppingen, pijn op borst. Goede eetlust, stabiel gewicht (72kg). Ontlasting dagelijks, soepel. Plassen gaat goed."",
+  ""Objective"": ""BP: 110/60. Pols: 40-60. Longen: klinken netjes. Rug: lichte pijn links naast midden onderin bij druk. Bekken: geen pijn bij druk. Lange rugspieren: geen verschil links/rechts. Nekspieren: vrij te bewegen, geen extra pijn. Schouders: vrij. Buik: levendige peristaltiek, wisselende geluiden bij percussie, soepel, geen pijn bij palpatie."",
+  ""Assessment"": ""Vermoeidheidsklachten."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklierfunctie, ontstekingsfactoren.\n- Formulier voor bloedprikken via inbox.\n- Telefonische afspraak na uitslagen.""
+}","```json
+{
+  ""Subjective"": ""Extreme vermoeidheid sinds 2 maanden. Slaapt veel, maar wordt moe wakker. Mogelijk oppervlakkig slapen. Geen duidelijke aanleiding, niet acuut ontstaan. Werk lukt met moeite, weekend rusten. Sporten (klimmen, fietsen) lukt nog wel, geen krachtverlies. Meer spierpijn, ook rugpijn. Zelf gegoogeld, denkt aan reuma (ochtendstijfheid). Vader heeft rugklachten. Geen gewrichtspijn. Snurkt niet, schrikt wel eens wakker (al langer). Hooikoorts onder controle met medicatie. Geen hartkloppingen, pijn op borst. Goede eetlust, stabiel gewicht (72kg). Ontlasting dagelijks, soepel. Plassen gaat goed."",
+  ""Objective"": ""BP: 110/60. Pols: 40-60. Longen: klinken netjes. Rug: lichte pijn links naast midden onderin bij druk. Bekken: geen pijn bij druk. Lange rugspieren: geen verschil links/rechts. Nekspieren: vrij te bewegen, geen extra pijn. Schouders: vrij. Buik: levendige peristaltiek, wisselende geluiden bij percussie, soepel, geen pijn bij palpatie."",
+  ""Assessment"": ""Vermoeidheidsklachten."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklierfunctie, ontstekingsfactoren.\n- Formulier voor bloedprikken via inbox.\n- Telefonische afspraak na uitslagen.""
+}
+```"
+Fatique,Gemini-2.5-Flash,Gemini,refine,7.68,Success,,"{
+  ""Subjective"": ""Moeheid x2 maanden. Hele dag moe, slaapt veel, moe wakker. Soms oppervlakkig slapen. Geen duidelijke aanleiding. Geleidelijk ontstaan, moeilijk te zeggen. Werk gaat met moeite, niet ziekgemeld. Weekend: uitrusten/bijhangen. Sporten (klimmen 2-3x/week, fietsen) lukt wel, geen spierkrachtverlies. Meer spierpijn. Pijn in rug, meer dan normaal. Gedacht aan reuma (ochtendstijfheid). Vader rugklachten. Geen specifieke gewrichtspijn. Snurkt niet, schrikt 1x/week wakker (al levenslang). Hooikoorts onder controle met medicatie. Geen hartkloppingen, geen pijn op borst. Goede eetlust, gewicht stabiel (72 kg). Ontlasting dagelijks, meerdere keren, soepel. Plassen goed."",
+  ""Objective"": ""BP: 110/60. Hartslag: 40-60 bpm. Longen: Netjes. Rug: Pijn onderin, naast midden bij druk. Geen pijn bij bekken druk. Lange rugspieren: geen links-rechts verschil. Nekspieren: goede beweeglijkheid, geen pijn. Schouders vrij. Buik: Levendige peristaltiek, wisselende geluiden bij kloppen. Soepel, geen scherpe pijn bij palpatie, wel ongemakkelijk. Geen grove afwijkingen."",
+  ""Assessment"": ""Moeheid, onverklaard. Spierpijn, rugpijn. Geen aanwijzingen voor reuma. Geen grove afwijkingen bij LO."",
+  ""Plan"": [
+    ""Bloedonderzoek aanvragen: Bloedarmoede, Schildklierfunctie, Ontstekingsfactoren."",
+    ""Uitslagen na 1 dag."",
+    ""Telefonische afspraak inplannen na uitslagen."",
+    ""Formulier in inbox voor Atal Medial.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Moeheid x2 maanden. Hele dag moe, slaapt veel, moe wakker. Soms oppervlakkig slapen. Geen duidelijke aanleiding. Geleidelijk ontstaan, moeilijk te zeggen. Werk gaat met moeite, niet ziekgemeld. Weekend: uitrusten/bijhangen. Sporten (klimmen 2-3x/week, fietsen) lukt wel, geen spierkrachtverlies. Meer spierpijn. Pijn in rug, meer dan normaal. Gedacht aan reuma (ochtendstijfheid). Vader rugklachten. Geen specifieke gewrichtspijn. Snurkt niet, schrikt 1x/week wakker (al levenslang). Hooikoorts onder controle met medicatie. Geen hartkloppingen, geen pijn op borst. Goede eetlust, gewicht stabiel (72 kg). Ontlasting dagelijks, meerdere keren, soepel. Plassen goed."",
+  ""Objective"": ""BP: 110/60. Hartslag: 40-60 bpm. Longen: Netjes. Rug: Pijn onderin, naast midden bij druk. Geen pijn bij bekken druk. Lange rugspieren: geen links-rechts verschil. Nekspieren: goede beweeglijkheid, geen pijn. Schouders vrij. Buik: Levendige peristaltiek, wisselende geluiden bij kloppen. Soepel, geen scherpe pijn bij palpatie, wel ongemakkelijk. Geen grove afwijkingen."",
+  ""Assessment"": ""Moeheid, onverklaard. Spierpijn, rugpijn. Geen aanwijzingen voor reuma. Geen grove afwijkingen bij LO."",
+  ""Plan"": [
+    ""Bloedonderzoek aanvragen: Bloedarmoede, Schildklierfunctie, Ontstekingsfactoren."",
+    ""Uitslagen na 1 dag."",
+    ""Telefonische afspraak inplannen na uitslagen."",
+    ""Formulier in inbox voor Atal Medial.""
+  ]
+}
+```"
+Fatique,Gemini-2.5-Pro,Gemini,refine,15.87,Success,,"{
+  ""Subjective"": ""Ernstige vermoeidheid sinds ~2 maanden. Wordt moe wakker ondanks veel slapen, mogelijk oppervlakkige slaap. Geen duidelijke aanleiding. Werk is zwaar, maar geen ziekmelding. Sporten (klimmen 2-3x/wk) en fietsen lukt nog goed, geen krachtverlies of kortademigheid. Wel toegenomen spierpijn en rugpijn. Ochtendstijfheid. Geen gewrichtspijn. Geen snurken. Hooikoorts onder controle met medicatie. Geen hartkloppingen of pijn op de borst. Eetlust goed, gewicht stabiel (~72kg). Defecatie 3-4x/dag, soepel. Mictie normaal."",
+  ""Objective"": ""RR: 110/60 mmHg. Pols: 40-60/min, regulair. Cor: S1S2 zuiver, geen souffles. Pulm: vesiculair ademgeruis, geen bijgeluiden. Rug: drukpijn paravertebraal lumbaal. Geen pijn bij bekkendruk. Nek/schouders: soepel. Abd: levendige peristaltiek, soepel, geen drukpijn."",
+  ""Assessment"": ""Vermoeidheid e.c.i. (e causa ignota / van onbekende oorzaak)."",
+  ""Plan"": ""- Bloedonderzoek (lab): Hb, TSH, CRP.\n- Patiënt maakt zelf afspraak voor bloedafname.\n- Telefonische afspraak voor uitslag.""
+}","```json
+{
+  ""Subjective"": ""Ernstige vermoeidheid sinds ~2 maanden. Wordt moe wakker ondanks veel slapen, mogelijk oppervlakkige slaap. Geen duidelijke aanleiding. Werk is zwaar, maar geen ziekmelding. Sporten (klimmen 2-3x/wk) en fietsen lukt nog goed, geen krachtverlies of kortademigheid. Wel toegenomen spierpijn en rugpijn. Ochtendstijfheid. Geen gewrichtspijn. Geen snurken. Hooikoorts onder controle met medicatie. Geen hartkloppingen of pijn op de borst. Eetlust goed, gewicht stabiel (~72kg). Defecatie 3-4x/dag, soepel. Mictie normaal."",
+  ""Objective"": ""RR: 110/60 mmHg. Pols: 40-60/min, regulair. Cor: S1S2 zuiver, geen souffles. Pulm: vesiculair ademgeruis, geen bijgeluiden. Rug: drukpijn paravertebraal lumbaal. Geen pijn bij bekkendruk. Nek/schouders: soepel. Abd: levendige peristaltiek, soepel, geen drukpijn."",
+  ""Assessment"": ""Vermoeidheid e.c.i. (e causa ignota / van onbekende oorzaak)."",
+  ""Plan"": ""- Bloedonderzoek (lab): Hb, TSH, CRP.\n- Patiënt maakt zelf afspraak voor bloedafname.\n- Telefonische afspraak voor uitslag.""
+}
+```"
+Fatique,Gemini-2.5-Pro-Thinking,Gemini,refine,13.21,Success,,"{
+  ""Subjective"": ""Vermoeidheid sinds 2 maanden. Wordt moe wakker ondanks veel slapen. Slaap mogelijk oppervlakkig. Geen duidelijke aanleiding. Werk is zwaar, maar geen ziekmelding. Sporten (klimmen 2-3x/wk, fietsen) lukt nog goed, geen verlies spierkracht of conditie. Wel meer spierpijn en rugpijn dan normaal. Ochtendstijfheid. Geen specifieke gewrichtspijn. Geen snurken. Hooikoorts onder controle met medicatie. Geen hartkloppingen of pijn op de borst. Eetlust goed, gewicht stabiel (72kg). Defecatie 2-4x/dag, soepel. Mictie normaal."",
+  ""Objective"": ""RR: 110/60 mmHg. Pols: 40-60/min, regulair. Cor: S1S2 regulair, geen souffles. Pulm: vesiculair ademgeruis, geen bijgeruiden. Abdomen: levendige peristaltiek, soepel, niet drukpijnlijk. Rug: geen afwijkingen, lichte drukpijn paravertebraal lumbaal. Nek/schouders: vrij beweeglijk."",
+  ""Assessment"": ""Vermoeidheid e.c.i. (e causa ignota)"",
+  ""Plan"": ""- Bloedonderzoek (labformulier via inbox): Hb, schildklierfunctie, ontstekingswaarden.\n- Patiënt belt praktijk voor telefonische afspraak om uitslagen te bespreken, 1 dag na bloedafname.""
+}","```json
+{
+  ""Subjective"": ""Vermoeidheid sinds 2 maanden. Wordt moe wakker ondanks veel slapen. Slaap mogelijk oppervlakkig. Geen duidelijke aanleiding. Werk is zwaar, maar geen ziekmelding. Sporten (klimmen 2-3x/wk, fietsen) lukt nog goed, geen verlies spierkracht of conditie. Wel meer spierpijn en rugpijn dan normaal. Ochtendstijfheid. Geen specifieke gewrichtspijn. Geen snurken. Hooikoorts onder controle met medicatie. Geen hartkloppingen of pijn op de borst. Eetlust goed, gewicht stabiel (72kg). Defecatie 2-4x/dag, soepel. Mictie normaal."",
+  ""Objective"": ""RR: 110/60 mmHg. Pols: 40-60/min, regulair. Cor: S1S2 regulair, geen souffles. Pulm: vesiculair ademgeruis, geen bijgeruiden. Abdomen: levendige peristaltiek, soepel, niet drukpijnlijk. Rug: geen afwijkingen, lichte drukpijn paravertebraal lumbaal. Nek/schouders: vrij beweeglijk."",
+  ""Assessment"": ""Vermoeidheid e.c.i. (e causa ignota)"",
+  ""Plan"": ""- Bloedonderzoek (labformulier via inbox): Hb, schildklierfunctie, ontstekingswaarden.\n- Patiënt belt praktijk voor telefonische afspraak om uitslagen te bespreken, 1 dag na bloedafname.""
+}
+```"
+Migraine,Llama-3.1-8B,Llama,refine,10.46,Success,,"{
+  ""Subjective"": ""Hoofdpijn x2 maanden. Soms misselijk. Schittering in ogen. Liefst in donker liggen."",
+  ""Objective"": ""Temp 38.3C. Bloeddruk 120/80. Polsslag 50/min. Neurologisch onderzoek: normaal."",
+  ""Assessment"": ""Migraine"",
+  ""Plan"": ""Paracetamol 4x2. Ibuprofen als nodig. Dagboek bijhouden. Afspraak in 4 weken.""
+}","```
+{
+  ""Subjective"": ""Hoofdpijn x2 maanden. Soms misselijk. Schittering in ogen. Liefst in donker liggen."",
+  ""Objective"": ""Temp 38.3C. Bloeddruk 120/80. Polsslag 50/min. Neurologisch onderzoek: normaal."",
+  ""Assessment"": ""Migraine"",
+  ""Plan"": ""Paracetamol 4x2. Ibuprofen als nodig. Dagboek bijhouden. Afspraak in 4 weken.""
+}
+```"
+Migraine,Llama-3.1-70B,Llama,refine,9.39,Success,,"{
+  ""Subjective"": ""Hoofdpijnklachten 2 maanden, toename, rechts, soms misselijk, schittering in zicht"",
+  ""Objective"": ""Bloeddruk 120/80, pols 50/min, neurologisch onderzoek geen bijzonderheden"",
+  ""Assessment"": ""Waarschijnlijk migraine"",
+  ""Plan"": ""Paracetamol 2x4, ibuprofen als nodig, hoofdpijndagboek bijhouden, terugkomen over 4 weken""
+}","```
+{
+  ""Subjective"": ""Hoofdpijnklachten 2 maanden, toename, rechts, soms misselijk, schittering in zicht"",
+  ""Objective"": ""Bloeddruk 120/80, pols 50/min, neurologisch onderzoek geen bijzonderheden"",
+  ""Assessment"": ""Waarschijnlijk migraine"",
+  ""Plan"": ""Paracetamol 2x4, ibuprofen als nodig, hoofdpijndagboek bijhouden, terugkomen over 4 weken""
+}
+```"
+Migraine,Llama-3.1-405B,Llama,refine,16.45,Success,,"{
+  ""Subjective"": ""Hoofdpijn x2 maanden, erger wordend. Meer rechts, soms overal. Misselijk bij heftige hoofdpijn, geen overgeven. Schittering in zicht. Geen stress. Familiegeschiedenis van migraine en clusterhoofdpijn."",
+  ""Objective"": ""Bloeddruk 120/80. Pols 50/min. Neurologisch onderzoek: hersenzenuwen geen bijzonderheden, vingertop-neusproef goed, kracht armen en benen goed, Romberg niet afwijkend."",
+  ""Assessment"": ""Waarschijnlijk migraine."",
+  ""Plan"": ""- Lees informatie over migraine op thuisarts.nl\n- Start met pijnstilling (paracetamol 4x2, ibuprofen indien onvoldoende) bij begin van klachten\n- Houd hoofdpijndagboek bij om triggers te identificeren\n- Vervolgafspraak over 4 weken voor evaluatie""
+}","```json
+{
+  ""Subjective"": ""Hoofdpijn x2 maanden, erger wordend. Meer rechts, soms overal. Misselijk bij heftige hoofdpijn, geen overgeven. Schittering in zicht. Geen stress. Familiegeschiedenis van migraine en clusterhoofdpijn."",
+  ""Objective"": ""Bloeddruk 120/80. Pols 50/min. Neurologisch onderzoek: hersenzenuwen geen bijzonderheden, vingertop-neusproef goed, kracht armen en benen goed, Romberg niet afwijkend."",
+  ""Assessment"": ""Waarschijnlijk migraine."",
+  ""Plan"": ""- Lees informatie over migraine op thuisarts.nl\n- Start met pijnstilling (paracetamol 4x2, ibuprofen indien onvoldoende) bij begin van klachten\n- Houd hoofdpijndagboek bij om triggers te identificeren\n- Vervolgafspraak over 4 weken voor evaluatie""
+}
+```"
+Migraine,Llama-Reasoning-70B,DeepSeek-Llama,refine,7.04,Success,"<think>
+Alright, I'm going to summarize the doctor-patient transcript into a structured SOAP note. Let me go through each part step by step.
+
+First, for the Subjective section, I need to capture the patient's symptoms and history. The patient has been experiencing headaches for two months, which have been getting worse. The pain is mainly on the right side but can sometimes be all over. They mention feeling a bit nauseous but no vomiting. They also note some light shimmering in their vision. The patient has a family history of migraines and cluster headaches. They tried paracetamol and ibuprofen, with ibuprofen being more effective. The headaches have increased in frequency, occurring almost weekly, and the patient prefers resting in a dark room. They don't consume alcohol, smoke, or use drugs, and they're a student studying medicine.
+
+Next, the Objective section should include vital signs and physical exam findings. The blood pressure is 120/80, heart rate is 50 bpm, and the neurological exam shows no abnormalities except for slight difficulty walking in a straight line.
+
+For the Assessment, the doctor suggests it's likely migraine based on the symptoms and family history.
+
+In the Plan, the doctor recommends starting pain management with paracetamol and ibuprofen as needed. The patient should keep a headache diary to track triggers and patterns. A follow-up appointment is scheduled in four weeks, with the option to come back earlier if needed.
+
+I need to ensure the language is telegraphic, without full sentences, and in Dutch as the transcript is in Dutch. I'll avoid any inferred information not mentioned, like specific diagnoses beyond what the doctor stated.
+
+Now, I'll structure this into the SOAP note format, making sure each section is concise and follows the guidelines.
+</think>","{
+  ""Subjective"": ""Hoofdpijn 2 maanden, progressief erger. Rechtsdominant, soms generaliserend. Misselijkheid, geen braken. Lichtschittering. Familiegeschiedenis migraine/clusterhoofdpijn. Paracetamol geprobeerd, ibuprofen effectiever. Hoofdpijn nu vaker (bijna wekelijks), durende dagen. Prefereert donkere kamer. Geen alcohol/drugs/rook."",
+  ""Objective"": ""BP 120/80. Polsslag 50/min. Neurologisch onderzoek: geen bijzonderheden. Rechte-lijn-lopen: lichte afwijking."",
+  ""Assessment"": ""Waarschijnlijk migraine."",
+  ""Plan"": ""Paracetamol en ibuprofen bij aanvang klachten. Hoofdpijndagboek bijhouden. Opvolgafspraak over 4 weken.""
+}","<think>
+Alright, I'm going to summarize the doctor-patient transcript into a structured SOAP note. Let me go through each part step by step.
+
+First, for the Subjective section, I need to capture the patient's symptoms and history. The patient has been experiencing headaches for two months, which have been getting worse. The pain is mainly on the right side but can sometimes be all over. They mention feeling a bit nauseous but no vomiting. They also note some light shimmering in their vision. The patient has a family history of migraines and cluster headaches. They tried paracetamol and ibuprofen, with ibuprofen being more effective. The headaches have increased in frequency, occurring almost weekly, and the patient prefers resting in a dark room. They don't consume alcohol, smoke, or use drugs, and they're a student studying medicine.
+
+Next, the Objective section should include vital signs and physical exam findings. The blood pressure is 120/80, heart rate is 50 bpm, and the neurological exam shows no abnormalities except for slight difficulty walking in a straight line.
+
+For the Assessment, the doctor suggests it's likely migraine based on the symptoms and family history.
+
+In the Plan, the doctor recommends starting pain management with paracetamol and ibuprofen as needed. The patient should keep a headache diary to track triggers and patterns. A follow-up appointment is scheduled in four weeks, with the option to come back earlier if needed.
+
+I need to ensure the language is telegraphic, without full sentences, and in Dutch as the transcript is in Dutch. I'll avoid any inferred information not mentioned, like specific diagnoses beyond what the doctor stated.
+
+Now, I'll structure this into the SOAP note format, making sure each section is concise and follows the guidelines.
+</think>
+
+```json
+{
+  ""Subjective"": ""Hoofdpijn 2 maanden, progressief erger. Rechtsdominant, soms generaliserend. Misselijkheid, geen braken. Lichtschittering. Familiegeschiedenis migraine/clusterhoofdpijn. Paracetamol geprobeerd, ibuprofen effectiever. Hoofdpijn nu vaker (bijna wekelijks), durende dagen. Prefereert donkere kamer. Geen alcohol/drugs/rook."",
+  ""Objective"": ""BP 120/80. Polsslag 50/min. Neurologisch onderzoek: geen bijzonderheden. Rechte-lijn-lopen: lichte afwijking."",
+  ""Assessment"": ""Waarschijnlijk migraine."",
+  ""Plan"": ""Paracetamol en ibuprofen bij aanvang klachten. Hoofdpijndagboek bijhouden. Opvolgafspraak over 4 weken.""
+}
+```"
+Migraine,Gemini-2.5-Flash-Lite,Gemini,refine,3.41,Success,,"{
+  ""Subjective"": ""Hoofdpijn sinds 2 maanden, progressief. Hoofdzakelijk rechts, soms diffuus. Soms misselijkheid bij heftige pijn, geen braken. Visuele 'schittering' in zicht. Familieanamnese: vader migraine, opa clusterhoofdpijn. Geen verhoogde stress recent. Gebruikt paracetamol incidenteel, ibuprofen werkte goed. Frequentie: eerst 1x, daarna bijna wekelijks. Klachten sluimerend, duren enkele dagen. Voorkeur voor donkere kamer, praten verergert. Student geneeskunde, 20 jaar."",
+  ""Objective"": ""BP 120/80 mmHg. Pols 50/min, rustig. Neurologisch onderzoek: hersenzenuwen geen bijzonderheden, vingertop-neus proef goed, kracht armen/benen goed, Romberg niet afwijkend. Looppatroon wijkt licht af."",
+  ""Assessment"": ""Mogelijk migraine. Geen aanwijzingen voor clusterhoofdpijn."",
+  ""Plan"": ""- Patiënt informeren over migraine via thuisarts.nl.\n- Start pijnstilling (paracetamol 2x400mg, evt. ibuprofen) bij beginnende klachten.\n- Hoofdpijndagboek bijhouden om factoren te identificeren.\n- Afspraak over 4 weken voor evaluatie.\n- Eerder terugkomen bij verergering of vragen.""
+}","```json
+{
+  ""Subjective"": ""Hoofdpijn sinds 2 maanden, progressief. Hoofdzakelijk rechts, soms diffuus. Soms misselijkheid bij heftige pijn, geen braken. Visuele 'schittering' in zicht. Familieanamnese: vader migraine, opa clusterhoofdpijn. Geen verhoogde stress recent. Gebruikt paracetamol incidenteel, ibuprofen werkte goed. Frequentie: eerst 1x, daarna bijna wekelijks. Klachten sluimerend, duren enkele dagen. Voorkeur voor donkere kamer, praten verergert. Student geneeskunde, 20 jaar."",
+  ""Objective"": ""BP 120/80 mmHg. Pols 50/min, rustig. Neurologisch onderzoek: hersenzenuwen geen bijzonderheden, vingertop-neus proef goed, kracht armen/benen goed, Romberg niet afwijkend. Looppatroon wijkt licht af."",
+  ""Assessment"": ""Mogelijk migraine. Geen aanwijzingen voor clusterhoofdpijn."",
+  ""Plan"": ""- Patiënt informeren over migraine via thuisarts.nl.\n- Start pijnstilling (paracetamol 2x400mg, evt. ibuprofen) bij beginnende klachten.\n- Hoofdpijndagboek bijhouden om factoren te identificeren.\n- Afspraak over 4 weken voor evaluatie.\n- Eerder terugkomen bij verergering of vragen.""
+}
+```"
+Migraine,Gemini-2.5-Flash,Gemini,refine,7.54,Success,,"{
+  ""Subjective"": ""Hoofdpijn x2 maanden, progressief erger. Voornamelijk rechterkant, soms overal. Misselijkheid bij heftige hoofdpijn, geen braken. Schittering in zicht. Paracetamol geprobeerd, ibuprofen werkte goed. Hoofdpijn 1x/week, duurt paar dagen, zakt af. Liefst in donkere kamer, praten maakt erger. Familieanamnese: vader migraine, opa clusterhoofdpijn. Geen stress afgelopen maanden (vakantie). Geen koffie, geen energiedrank. Alcohol soms (max 2-3 bier/keer). Rookt niet, geen drugs. Nieuwe klachten. Student geneeskunde, 2e jaar, 20 jaar. Sportief: fitness 4x/week, hardlopen, wielrennen."",
+  ""Objective"": ""BP: 120/80. Pols: 50/min. Neurologisch onderzoek: Hersenzenuwen geen bijzonderheden. Vingertop neus-proef goed. Kracht armen/benen goed. Romberg niet afwijkend. Rechte lijn lopen: wijkt beetje af."",
+  ""Assessment"": ""Migraine. Past niet bij clusterhoofdpijn."",
+  ""Plan"": [
+    ""Informatie lezen over migraine (thuisarts.nl)."",
+    ""Start pijnstilling bij klachten: Paracetamol 4x2 (vaste tijden)."",
+    ""Ibuprofen erbij indien onvoldoende effect."",
+    ""Hoofdpijndagboek bijhouden (thuisarts.nl)."",
+    ""Evalueren over 1 maand met dagboek."",
+    ""Eerder terugkomen bij vragen, verergering of verandering klachten.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Hoofdpijn x2 maanden, progressief erger. Voornamelijk rechterkant, soms overal. Misselijkheid bij heftige hoofdpijn, geen braken. Schittering in zicht. Paracetamol geprobeerd, ibuprofen werkte goed. Hoofdpijn 1x/week, duurt paar dagen, zakt af. Liefst in donkere kamer, praten maakt erger. Familieanamnese: vader migraine, opa clusterhoofdpijn. Geen stress afgelopen maanden (vakantie). Geen koffie, geen energiedrank. Alcohol soms (max 2-3 bier/keer). Rookt niet, geen drugs. Nieuwe klachten. Student geneeskunde, 2e jaar, 20 jaar. Sportief: fitness 4x/week, hardlopen, wielrennen."",
+  ""Objective"": ""BP: 120/80. Pols: 50/min. Neurologisch onderzoek: Hersenzenuwen geen bijzonderheden. Vingertop neus-proef goed. Kracht armen/benen goed. Romberg niet afwijkend. Rechte lijn lopen: wijkt beetje af."",
+  ""Assessment"": ""Migraine. Past niet bij clusterhoofdpijn."",
+  ""Plan"": [
+    ""Informatie lezen over migraine (thuisarts.nl)."",
+    ""Start pijnstilling bij klachten: Paracetamol 4x2 (vaste tijden)."",
+    ""Ibuprofen erbij indien onvoldoende effect."",
+    ""Hoofdpijndagboek bijhouden (thuisarts.nl)."",
+    ""Evalueren over 1 maand met dagboek."",
+    ""Eerder terugkomen bij vragen, verergering of verandering klachten.""
+  ]
+}
+```"
+Migraine,Gemini-2.5-Pro,Gemini,refine,19.9,Success,,"{
+  ""Subjective"": ""Hoofdpijn sinds ~2 maanden, progressief in frequentie (nu wekelijks). Locatie vnl. rechts, soms overal. Aanvallen duren enkele dagen. Geassocieerd met lichte misselijkheid (geen braken) en schitteringen in zicht. Voorkeur voor donkere, stille ruimte. Ibuprofen had goed effect. Familieanamnese positief voor migraine (vader) en clusterhoofdpijn (opa). Geen toegenomen stress. Alcoholgebruik: soms. Rookt niet, geen drugs."",
+  ""Objective"": ""Bloeddruk: 120/80. Pols: 50/min. Oriënterend neurologisch onderzoek: hersenzenuwen intact, vingertop-neusproef en Romberg niet-afwijkend, kracht armen/benen goed. Lopen over rechte lijn lichte afwijking."",
+  ""Assessment"": ""Mogelijk migraine."",
+  ""Plan"": [
+    ""Advies: informatie over migraine lezen op Thuisarts.nl."",
+    ""Medicatie: bij start klachten direct paracetamol 4dd 1000mg. Bij onvoldoende effect ibuprofen toevoegen."",
+    ""Hoofdpijndagboek bijhouden."",
+    ""Controle over 4 weken met dagboek."",
+    ""Eerder contact bij verergering of vragen.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Hoofdpijn sinds ~2 maanden, progressief in frequentie (nu wekelijks). Locatie vnl. rechts, soms overal. Aanvallen duren enkele dagen. Geassocieerd met lichte misselijkheid (geen braken) en schitteringen in zicht. Voorkeur voor donkere, stille ruimte. Ibuprofen had goed effect. Familieanamnese positief voor migraine (vader) en clusterhoofdpijn (opa). Geen toegenomen stress. Alcoholgebruik: soms. Rookt niet, geen drugs."",
+  ""Objective"": ""Bloeddruk: 120/80. Pols: 50/min. Oriënterend neurologisch onderzoek: hersenzenuwen intact, vingertop-neusproef en Romberg niet-afwijkend, kracht armen/benen goed. Lopen over rechte lijn lichte afwijking."",
+  ""Assessment"": ""Mogelijk migraine."",
+  ""Plan"": [
+    ""Advies: informatie over migraine lezen op Thuisarts.nl."",
+    ""Medicatie: bij start klachten direct paracetamol 4dd 1000mg. Bij onvoldoende effect ibuprofen toevoegen."",
+    ""Hoofdpijndagboek bijhouden."",
+    ""Controle over 4 weken met dagboek."",
+    ""Eerder contact bij verergering of vragen.""
+  ]
+}
+```"
+Migraine,Gemini-2.5-Pro-Thinking,Gemini,refine,20.11,Success,,"{
+  ""Subjective"": ""Hoofdpijn sinds ~2 maanden, progressief in frequentie (nu wekelijks). Voornamelijk rechtszijdig, soms overal. Sluimerend beloop, duurt enkele dagen. Geassocieerd met lichte misselijkheid bij piek en visuele schitteringen. Geen braken. Voorkeur voor donkere, stille ruimte tijdens aanval. Eerder paracetamol en ibuprofen geprobeerd, laatste met goed effect. Familieanamnese: vader (migraine), opa (clusterhoofdpijn). Geen toegenomen stress. Drinkt geen koffie/energiedrank. Alcoholgebruik: sociaal. Rookt niet, geen drugs."",
+  ""Objective"": ""Bloeddruk: 120/80. Pols: 50/min. Oriënterend neurologisch onderzoek: hersenzenuwen geen bijzonderheden, vingertop-neusproef goed, kracht armen en benen goed, Romberg niet afwijkend. Lopen over rechte lijn: wijkt een beetje af."",
+  ""Assessment"": ""Hoofdpijn, passend bij migraine."",
+  ""Plan"": [
+    ""Advies informatie te lezen op Thuisarts.nl over migraine."",
+    ""Start direct pijnstilling bij aanvang klachten: Paracetamol 4dd2, zo nodig ibuprofen erbij."",
+    ""Bijhouden hoofdpijndagboek."",
+    ""Controle over 4 weken met dagboek."",
+    ""Eerder contact bij verergering of vragen.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Hoofdpijn sinds ~2 maanden, progressief in frequentie (nu wekelijks). Voornamelijk rechtszijdig, soms overal. Sluimerend beloop, duurt enkele dagen. Geassocieerd met lichte misselijkheid bij piek en visuele schitteringen. Geen braken. Voorkeur voor donkere, stille ruimte tijdens aanval. Eerder paracetamol en ibuprofen geprobeerd, laatste met goed effect. Familieanamnese: vader (migraine), opa (clusterhoofdpijn). Geen toegenomen stress. Drinkt geen koffie/energiedrank. Alcoholgebruik: sociaal. Rookt niet, geen drugs."",
+  ""Objective"": ""Bloeddruk: 120/80. Pols: 50/min. Oriënterend neurologisch onderzoek: hersenzenuwen geen bijzonderheden, vingertop-neusproef goed, kracht armen en benen goed, Romberg niet afwijkend. Lopen over rechte lijn: wijkt een beetje af."",
+  ""Assessment"": ""Hoofdpijn, passend bij migraine."",
+  ""Plan"": [
+    ""Advies informatie te lezen op Thuisarts.nl over migraine."",
+    ""Start direct pijnstilling bij aanvang klachten: Paracetamol 4dd2, zo nodig ibuprofen erbij."",
+    ""Bijhouden hoofdpijndagboek."",
+    ""Controle over 4 weken met dagboek."",
+    ""Eerder contact bij verergering of vragen.""
+  ]
+}
+```"
+Skin Lesion,Llama-3.1-8B,Llama,refine,18.21,Success,,"{
+  ""Subjectief"": ""Plekje in nek 2-3 weken geleden begonnen. Misschien na scheren. Jeukt. Insectenbeet. Geen pijn. Geen eerder soortgelijke plekjes."",
+  ""Objectief"": ""Temp: 38,3C. Pharynx: Erythematous. Plekje in nek: Verheven, rozerood, met roder stukje in het midden. Korstjes afgevallen."",
+  ""Assessment"": ""Likely granuloma pyogenicum of atypische moedervlek."",
+  ""Plan"": [
+    ""Foto naar dermatoloog sturen."",
+    ""Eventueel bevriezen met vloeibare stikstof."",
+    ""Verwijderen door verdoving en verwijderen van een klein randje huid."",
+    ""Weefselonderzoek voor zekerheid.""
+  ]
+}","```json
+{
+  ""Subjectief"": ""Plekje in nek 2-3 weken geleden begonnen. Misschien na scheren. Jeukt. Insectenbeet. Geen pijn. Geen eerder soortgelijke plekjes."",
+  ""Objectief"": ""Temp: 38,3C. Pharynx: Erythematous. Plekje in nek: Verheven, rozerood, met roder stukje in het midden. Korstjes afgevallen."",
+  ""Assessment"": ""Likely granuloma pyogenicum of atypische moedervlek."",
+  ""Plan"": [
+    ""Foto naar dermatoloog sturen."",
+    ""Eventueel bevriezen met vloeibare stikstof."",
+    ""Verwijderen door verdoving en verwijderen van een klein randje huid."",
+    ""Weefselonderzoek voor zekerheid.""
+  ]
+}
+```"
+Skin Lesion,Llama-3.1-70B,Llama,refine,9.01,Success,,"{
+  ""Subjective"": ""Plekje in nek, 2 weken geleden begonnen, mogelijk na scheren, jeukt, rozerood, 0,5 cm, korstjes vallen af"",
+  ""Objective"": ""Verheven plekje, rozerood, 0,5 cm, korstjes, lymfeklieren in hals niet aangetast"",
+  ""Assessment"": ""Onzekere diagnose, mogelijk granuloma pyogenicum of atypische moedervlek"",
+  ""Plan"": ""Foto naar dermatoloog sturen, antwoord vrijdag verwachten, mogelijk behandeling: bevriezen, verwijderen of schrapen""
+}","```
+{
+  ""Subjective"": ""Plekje in nek, 2 weken geleden begonnen, mogelijk na scheren, jeukt, rozerood, 0,5 cm, korstjes vallen af"",
+  ""Objective"": ""Verheven plekje, rozerood, 0,5 cm, korstjes, lymfeklieren in hals niet aangetast"",
+  ""Assessment"": ""Onzekere diagnose, mogelijk granuloma pyogenicum of atypische moedervlek"",
+  ""Plan"": ""Foto naar dermatoloog sturen, antwoord vrijdag verwachten, mogelijk behandeling: bevriezen, verwijderen of schrapen""
+}
+```"
+Skin Lesion,Llama-3.1-405B,Llama,refine,15.97,Success,,"{
+  ""Subjective"": ""Plekje in nek, 2 weken geleden begonnen na scheren. Eerst gedacht dat het een wratje was. Insectenbeet erbij, plekje dikker en roder geworden. Jeukt, geen pijn. Geen soortgelijke plekjes gehad, wel wratjes. Geen kwaadaardigheden in de familie."",
+  ""Objective"": ""Plekje: verheven, 0,5 cm, rozerood, centraal roder stukje. Geen korstjes of schilfering. Geen soortgelijke plekjes op huid. Lymfeklieren in hals niet opgevallen."",
+  ""Assessment"": ""Onzekere diagnose, mogelijk granuloma pyogenicum of atypische moedervlek. Foto naar dermatoloog gestuurd voor advies."",
+  ""Plan"": ""Afbeelding naar dermatoloog gestuurd, antwoord verwacht eind deze week. Patiënt belt vrijdag tussen 12:00-13:30 voor advies. Mogelijke behandelingen: bevriezen met vloeibare stikstof, verwijderen onder verdoving, schrapen voor weefselonderzoek. Patiënt geeft voorkeur aan bevriezen.""
+}","```json
+{
+  ""Subjective"": ""Plekje in nek, 2 weken geleden begonnen na scheren. Eerst gedacht dat het een wratje was. Insectenbeet erbij, plekje dikker en roder geworden. Jeukt, geen pijn. Geen soortgelijke plekjes gehad, wel wratjes. Geen kwaadaardigheden in de familie."",
+  ""Objective"": ""Plekje: verheven, 0,5 cm, rozerood, centraal roder stukje. Geen korstjes of schilfering. Geen soortgelijke plekjes op huid. Lymfeklieren in hals niet opgevallen."",
+  ""Assessment"": ""Onzekere diagnose, mogelijk granuloma pyogenicum of atypische moedervlek. Foto naar dermatoloog gestuurd voor advies."",
+  ""Plan"": ""Afbeelding naar dermatoloog gestuurd, antwoord verwacht eind deze week. Patiënt belt vrijdag tussen 12:00-13:30 voor advies. Mogelijke behandelingen: bevriezen met vloeibare stikstof, verwijderen onder verdoving, schrapen voor weefselonderzoek. Patiënt geeft voorkeur aan bevriezen.""
+}
+```"
+Skin Lesion,Llama-Reasoning-70B,DeepSeek-Llama,refine,6.25,Success,"<think>
+Alright, I need to create a SOAP note based on the provided Dutch transcript. Let me go through each section step by step.
+
+**Subjective:**
+The patient has a lesion on their neck for about two weeks. It started as a small wound, possibly after shaving, and was initially thought to be a wart. It has some crusting that falls off and reforms. The area is itchy and red, possibly due to an insect bite. The patient is concerned about skin cancer, especially after online research, but acknowledges they're not in the high-risk age group. They also mention a past abscess in the ear. No family history of skin cancer, but some relatives have sun-related skin issues. The patient also has knee pain for a few months, worse after running, but that's not the main focus now.
+
+**Objective:**
+The lesion is about 0.5 cm, slightly raised, pinkish-red with a darker center. No crust seen during the exam. No other similar spots. Lymph nodes in the neck are normal.
+
+**Assessment:**
+The doctor isn't certain. Possibilities include granuloma pyogenicum or an atypical mole. They decide to consult a dermatologist.
+
+**Plan:**
+Take a photo and send it to a dermatologist. Schedule a follow-up call Friday. Discuss treatment options like freezing with liquid nitrogen or surgical removal. The patient prefers freezing if possible.
+
+Now, I'll structure this into the SOAP note, ensuring it's concise and in Dutch.
+</think>","{
+  ""Subjective"": ""Plekje nek 2 weken, begon als wondje na scheren, jeukt, rood en dikker na insectenbeet. Patiënt maakt zich zorgen om kwaadaardige aard na online onderzoek. Eerder abces in oor. Geen familiegeschiedenis van huidkanker. Ook last van kniepijn na hardlopen."",
+  ""Objective"": ""Plekje nek: 0.5 cm, licht verheven, rozerood met donkerder midden. Geen korstjes. Lymfeklieren nek normaal."",
+  ""Assessment"": ""Waarschijnlijk granuloma pyogenicum of atypische moedervlek."",
+  ""Plan"": ""Foto naar dermatoloog sturen, follow-up vrijdag. Mogelijke behandeling: bevriezen met vloeibare stikstof of chirurgische verwijdering.""
+}","<think>
+Alright, I need to create a SOAP note based on the provided Dutch transcript. Let me go through each section step by step.
+
+**Subjective:**
+The patient has a lesion on their neck for about two weeks. It started as a small wound, possibly after shaving, and was initially thought to be a wart. It has some crusting that falls off and reforms. The area is itchy and red, possibly due to an insect bite. The patient is concerned about skin cancer, especially after online research, but acknowledges they're not in the high-risk age group. They also mention a past abscess in the ear. No family history of skin cancer, but some relatives have sun-related skin issues. The patient also has knee pain for a few months, worse after running, but that's not the main focus now.
+
+**Objective:**
+The lesion is about 0.5 cm, slightly raised, pinkish-red with a darker center. No crust seen during the exam. No other similar spots. Lymph nodes in the neck are normal.
+
+**Assessment:**
+The doctor isn't certain. Possibilities include granuloma pyogenicum or an atypical mole. They decide to consult a dermatologist.
+
+**Plan:**
+Take a photo and send it to a dermatologist. Schedule a follow-up call Friday. Discuss treatment options like freezing with liquid nitrogen or surgical removal. The patient prefers freezing if possible.
+
+Now, I'll structure this into the SOAP note, ensuring it's concise and in Dutch.
+</think>
+
+```json
+{
+  ""Subjective"": ""Plekje nek 2 weken, begon als wondje na scheren, jeukt, rood en dikker na insectenbeet. Patiënt maakt zich zorgen om kwaadaardige aard na online onderzoek. Eerder abces in oor. Geen familiegeschiedenis van huidkanker. Ook last van kniepijn na hardlopen."",
+  ""Objective"": ""Plekje nek: 0.5 cm, licht verheven, rozerood met donkerder midden. Geen korstjes. Lymfeklieren nek normaal."",
+  ""Assessment"": ""Waarschijnlijk granuloma pyogenicum of atypische moedervlek."",
+  ""Plan"": ""Foto naar dermatoloog sturen, follow-up vrijdag. Mogelijke behandeling: bevriezen met vloeibare stikstof of chirurgische verwijdering.""
+}
+```"
+Skin Lesion,Gemini-2.5-Flash-Lite,Gemini,refine,2.35,Success,,"{
+  ""Subjective"": ""Vlek nek, 2 weken. Begon als wondje na scheren, mogelijk insectenbeet. Korstjes vallen af. Jeukt. Online gezocht, angst voor huidkanker. Geen pijn. Eerder wratjes gehad. Familie: huidklachten door zon (opa, ooms). Kniepijn na hardlopen, sinds maanden, trekt langzaam weg."",
+  ""Objective"": ""Halve cm, verheven, rozerood plekje nek, roder midden. Af en toe schilfering/korstjes. Lymfeklieren nek niet palpabel vergroot. Sproetjes nek."",
+  ""Assessment"": ""Niet-specifieke huidlaesie nek, mogelijk granuloma pyogenicum of atypische moedervlek. Kniepijn na inspanning."",
+  ""Plan"": ""- Foto huidlaesie nek met liniaal, sturen naar dermatoloog (e-consult).\n- Patiënt belt vrijdag voor uitslag/advies.\n- Mogelijkheden behandeling: cryotherapie, excisie, curettage.\n- Patiënt voorkeur voor cryotherapie.\n- Afspraak kniepijn plannen op aparte datum.""
+}","```json
+{
+  ""Subjective"": ""Vlek nek, 2 weken. Begon als wondje na scheren, mogelijk insectenbeet. Korstjes vallen af. Jeukt. Online gezocht, angst voor huidkanker. Geen pijn. Eerder wratjes gehad. Familie: huidklachten door zon (opa, ooms). Kniepijn na hardlopen, sinds maanden, trekt langzaam weg."",
+  ""Objective"": ""Halve cm, verheven, rozerood plekje nek, roder midden. Af en toe schilfering/korstjes. Lymfeklieren nek niet palpabel vergroot. Sproetjes nek."",
+  ""Assessment"": ""Niet-specifieke huidlaesie nek, mogelijk granuloma pyogenicum of atypische moedervlek. Kniepijn na inspanning."",
+  ""Plan"": ""- Foto huidlaesie nek met liniaal, sturen naar dermatoloog (e-consult).\n- Patiënt belt vrijdag voor uitslag/advies.\n- Mogelijkheden behandeling: cryotherapie, excisie, curettage.\n- Patiënt voorkeur voor cryotherapie.\n- Afspraak kniepijn plannen op aparte datum.""
+}
+```"
+Skin Lesion,Gemini-2.5-Flash,Gemini,refine,7.88,Success,,"{
+  ""Subjective"": ""Plekje nek x2 weken. Begon als wratje, nu niet. Af en toe korstjes eraf. Insectenbeet op plekje, daarna dikker/roder. Begon mogelijk na scheren. Jeukt. Geen pijn. Eerder wratjes. Abces oor in verleden. Familieanamnese: huidklachten zon (vaders kant), mogelijk melanoom. Zorgen over huidkanker (online zoeken). Knieklachten x paar maanden, na hardlopen pijn x paar dagen."",
+  ""Objective"": ""Plekje nek: verheven, ca. 0.5 cm, rozerood, midden iets roder. Geen korstje. Geen soortgelijke plekken huid. Geen palpabele lymfeklieren hals. Nek: sproetjes."",
+  ""Assessment"": ""Plekje nek: onduidelijk. DD: granuloma pyogenicum, atypische moedervlek. Knieklachten: niet beoordeeld."",
+  ""Plan"": [
+    ""Foto plekje nemen."",
+    ""E-consult dermatoloog voor beoordeling."",
+    ""Patiënt belt vrijdag (voorkeur voor 10:00 of na 15:00) voor advies dermatoloog."",
+    ""Mogelijk advies: plekje verwijderen."",
+    ""Verwijderingsmethoden besproken: bevriezen (vloeibare stikstof), excisie, curettage (met weefselonderzoek)."",
+    ""Patiënt voorkeur: bevriezen."",
+    ""Nieuwe afspraak maken voor knieklachten.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Plekje nek x2 weken. Begon als wratje, nu niet. Af en toe korstjes eraf. Insectenbeet op plekje, daarna dikker/roder. Begon mogelijk na scheren. Jeukt. Geen pijn. Eerder wratjes. Abces oor in verleden. Familieanamnese: huidklachten zon (vaders kant), mogelijk melanoom. Zorgen over huidkanker (online zoeken). Knieklachten x paar maanden, na hardlopen pijn x paar dagen."",
+  ""Objective"": ""Plekje nek: verheven, ca. 0.5 cm, rozerood, midden iets roder. Geen korstje. Geen soortgelijke plekken huid. Geen palpabele lymfeklieren hals. Nek: sproetjes."",
+  ""Assessment"": ""Plekje nek: onduidelijk. DD: granuloma pyogenicum, atypische moedervlek. Knieklachten: niet beoordeeld."",
+  ""Plan"": [
+    ""Foto plekje nemen."",
+    ""E-consult dermatoloog voor beoordeling."",
+    ""Patiënt belt vrijdag (voorkeur voor 10:00 of na 15:00) voor advies dermatoloog."",
+    ""Mogelijk advies: plekje verwijderen."",
+    ""Verwijderingsmethoden besproken: bevriezen (vloeibare stikstof), excisie, curettage (met weefselonderzoek)."",
+    ""Patiënt voorkeur: bevriezen."",
+    ""Nieuwe afspraak maken voor knieklachten.""
+  ]
+}
+```"
+Skin Lesion,Gemini-2.5-Pro,Gemini,refine,18.64,Success,,"{
+  ""Subjective"": ""Plekje in nek sinds ~2 weken. Begon mogelijk na scheren/wondje, ook insectenbeet ter plaatse. Daarna dikker en roder geworden. Jeukt, geen pijn. Af en toe afvallende korstjes. Zorgen na online zoeken. V familie: huidklachten door zon (vaderskant). Vraagt ook naar knieklachten sinds enkele maanden na hardlopen."",
+  ""Objective"": ""Nek: verheven, rozerode laesie, ca. 0.5 cm, centraal iets roder. Geen korstvorming. Geen palpabele cervicale lymfadenopathie. Dermoscopie verricht."",
+  ""Assessment"": ""Huidlaesie nek e.c.i. DD: granuloma pyogenicum, atypische naevus."",
+  ""Plan"": [
+    ""Foto gemaakt voor teledermatologie consult."",
+    ""Afwachten advies dermatoloog."",
+    ""Telefonisch vervolg a.s. vrijdag."",
+    ""Mogelijke behandelingen besproken (cryotherapie, excisie, shave). Voorkeur patiënt voor cryotherapie."",
+    ""Advies nieuwe afspraak te maken voor knieklachten.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Plekje in nek sinds ~2 weken. Begon mogelijk na scheren/wondje, ook insectenbeet ter plaatse. Daarna dikker en roder geworden. Jeukt, geen pijn. Af en toe afvallende korstjes. Zorgen na online zoeken. V familie: huidklachten door zon (vaderskant). Vraagt ook naar knieklachten sinds enkele maanden na hardlopen."",
+  ""Objective"": ""Nek: verheven, rozerode laesie, ca. 0.5 cm, centraal iets roder. Geen korstvorming. Geen palpabele cervicale lymfadenopathie. Dermoscopie verricht."",
+  ""Assessment"": ""Huidlaesie nek e.c.i. DD: granuloma pyogenicum, atypische naevus."",
+  ""Plan"": [
+    ""Foto gemaakt voor teledermatologie consult."",
+    ""Afwachten advies dermatoloog."",
+    ""Telefonisch vervolg a.s. vrijdag."",
+    ""Mogelijke behandelingen besproken (cryotherapie, excisie, shave). Voorkeur patiënt voor cryotherapie."",
+    ""Advies nieuwe afspraak te maken voor knieklachten.""
+  ]
+}
+```"
+Skin Lesion,Gemini-2.5-Pro-Thinking,Gemini,refine,16.64,Success,,"{
+  ""Subjective"": ""Plekje in nek sinds ca. 2 weken. Begon mogelijk als wondje na scheren, dacht aan wrat. Ook insectenbeet ter plaatse. Is dikker en roder geworden, jeukt, geen pijn. Soms korstjes die afvallen. Zorgen na online zoeken. Eerder wratten gehad. Familieanamnese: huidklachten door zon aan vaderskant. Patiënt meldt ook knieklachten na hardlopen sinds enkele maanden."",
+  ""Objective"": ""Inspectie nek: verheven, rozerode papel van ca. 0.5 cm met een centraal roder deel. Geen palpabele cervicale lymfadenopathie. Dermoscopie verricht. Geen andere verdachte laesies."",
+  ""Assessment"": ""Huidletsel nek e.c.i. (e causa ignota). DD/ Granuloma pyogenicum, atypische naevus."",
+  ""Plan"": ""- Fotoconsult dermatoloog.\n- Telefonische opvolging vrijdag om advies te bespreken.\n- Mogelijke behandelopties (cryotherapie, excisie, curettage) besproken. Patiënt heeft voorkeur voor cryotherapie.\n- Advies om nieuwe afspraak te maken voor knieklachten.""
+}","```json
+{
+  ""Subjective"": ""Plekje in nek sinds ca. 2 weken. Begon mogelijk als wondje na scheren, dacht aan wrat. Ook insectenbeet ter plaatse. Is dikker en roder geworden, jeukt, geen pijn. Soms korstjes die afvallen. Zorgen na online zoeken. Eerder wratten gehad. Familieanamnese: huidklachten door zon aan vaderskant. Patiënt meldt ook knieklachten na hardlopen sinds enkele maanden."",
+  ""Objective"": ""Inspectie nek: verheven, rozerode papel van ca. 0.5 cm met een centraal roder deel. Geen palpabele cervicale lymfadenopathie. Dermoscopie verricht. Geen andere verdachte laesies."",
+  ""Assessment"": ""Huidletsel nek e.c.i. (e causa ignota). DD/ Granuloma pyogenicum, atypische naevus."",
+  ""Plan"": ""- Fotoconsult dermatoloog.\n- Telefonische opvolging vrijdag om advies te bespreken.\n- Mogelijke behandelopties (cryotherapie, excisie, curettage) besproken. Patiënt heeft voorkeur voor cryotherapie.\n- Advies om nieuwe afspraak te maken voor knieklachten.""
+}
+```"
+Sore Throat,Llama-3.1-8B,Llama,refine,11.09,Success,,"{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts. Slikken pijnlijk. Paracetamol 1000mg qid. Ibuprofen 400mg tid."",
+  ""Objective"": ""Temp 38.3C. Pharynx: Erythematous. Tonsillen: Vergroot. Beslag beiderzijds. Vesiculair ademgeruis."",
+  ""Assessment"": ""Keelontsteking. Virus."",
+  ""Plan"": ""Paracetamol 1000mg qid. Ibuprofen 400mg tid. Koude drankjes. Waterijsjes. Goed blijven drinken. Mocht je er desondanks veel zieker bij worden, benauwd of slikken niet meer lukken, contact opnemen.""
+}","```
+{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts. Slikken pijnlijk. Paracetamol 1000mg qid. Ibuprofen 400mg tid."",
+  ""Objective"": ""Temp 38.3C. Pharynx: Erythematous. Tonsillen: Vergroot. Beslag beiderzijds. Vesiculair ademgeruis."",
+  ""Assessment"": ""Keelontsteking. Virus."",
+  ""Plan"": ""Paracetamol 1000mg qid. Ibuprofen 400mg tid. Koude drankjes. Waterijsjes. Goed blijven drinken. Mocht je er desondanks veel zieker bij worden, benauwd of slikken niet meer lukken, contact opnemen.""
+}
+```"
+Sore Throat,Llama-3.1-70B,Llama,refine,9.32,Success,,"{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts. Hoesten vorige week. Pijnlijk slikken."",
+  ""Objective"": ""Temp 38.3C. Pharynx: Rood. Tonsillen: Vergroot. Beslag beiderzijds. Saturatie: 98%. Vesiculair ademgeruis."",
+  ""Assessment"": ""Waarschijnlijk virale keelontsteking."",
+  ""Plan"": ""Paracetamol 1000mg 4x daags. Ibuprofen 400mg 3x daags. Goed drinken. Koude drankjes/waterijsjes tegen pijn.""
+}","```
+{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts. Hoesten vorige week. Pijnlijk slikken."",
+  ""Objective"": ""Temp 38.3C. Pharynx: Rood. Tonsillen: Vergroot. Beslag beiderzijds. Saturatie: 98%. Vesiculair ademgeruis."",
+  ""Assessment"": ""Waarschijnlijk virale keelontsteking."",
+  ""Plan"": ""Paracetamol 1000mg 4x daags. Ibuprofen 400mg 3x daags. Goed drinken. Koude drankjes/waterijsjes tegen pijn.""
+}
+```"
+Sore Throat,Llama-3.1-405B,Llama,refine,20.05,Success,,"{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts. Hoesten vorige week. Paracetamol en ibuprofen ingenomen. Zorg: mogelijk abces."",
+  ""Objective"": ""Temp 38.3C. Oren: Luchthoudend trommelvlies links, geen ontsteking. Rechts roodheid gehoorgang, geen ontsteking. Hals: Enkele kleine lymfeklieren submandibulair, niet pathologisch. Keel: Uvula mediaan, rode farynxboog, vergrote tonsillen met beslag, geen abces. Longen: Vesiculair ademgeruis, geen bijgeluiden. Saturatie 98%."",
+  ""Assessment"": ""Waarschijnlijk virale keelontsteking."",
+  ""Plan"": ""Paracetamol 1000mg qid. Ibuprofen 400mg tid indien onvoldoende effect. Koude drankjes/waterijsjes tegen pijn. Uitzieken. Bij verergering of slikproblemen: contact opnemen.""
+}","```json
+{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts. Hoesten vorige week. Paracetamol en ibuprofen ingenomen. Zorg: mogelijk abces."",
+  ""Objective"": ""Temp 38.3C. Oren: Luchthoudend trommelvlies links, geen ontsteking. Rechts roodheid gehoorgang, geen ontsteking. Hals: Enkele kleine lymfeklieren submandibulair, niet pathologisch. Keel: Uvula mediaan, rode farynxboog, vergrote tonsillen met beslag, geen abces. Longen: Vesiculair ademgeruis, geen bijgeluiden. Saturatie 98%."",
+  ""Assessment"": ""Waarschijnlijk virale keelontsteking."",
+  ""Plan"": ""Paracetamol 1000mg qid. Ibuprofen 400mg tid indien onvoldoende effect. Koude drankjes/waterijsjes tegen pijn. Uitzieken. Bij verergering of slikproblemen: contact opnemen.""
+}
+```"
+Sore Throat,Llama-Reasoning-70B,DeepSeek-Llama,refine,6.14,Success,"<think>
+Alright, I'm going to summarize the doctor-patient transcript into a structured SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a Dutch-speaking individual who has been experiencing sore throat for three days, accompanied by fever. They've been taking paracetamol and ibuprofen but the pain persists, especially when swallowing. They mentioned some coughing the previous week but it's gone now. They don't have a runny nose or shortness of breath. They were concerned about possibly having an abscess, but the doctor didn't find any signs of that.
+
+The doctor checked the patient's ears, throat, and lymph nodes. The temperature was 38.3°C. The throat showed redness, slightly enlarged tonsils with some coating, but no abscess. The lungs were clear, and oxygen saturation was 98%. The doctor concluded it's likely a viral pharyngitis and advised against antibiotics, recommending continued use of paracetamol and ibuprofen, along with drinking cold fluids and monitoring symptoms.
+
+Now, I'll structure this into SOAP notes, making sure to follow the guidelines: telegraphic style, omitting subjects and introductory phrases, using fragments, and being concise. I'll also ensure the language matches the transcript, which is Dutch.
+
+For the Subjective section, I'll include the symptoms and history the patient reported. Objective will cover the vital signs and physical exam findings. Assessment will note the likely diagnosis. Plan will outline the treatment and advice given.
+
+I need to double-check that I didn't include any information not present in the transcript, like BP or other vitals not mentioned. Also, ensure all medications with dosages are included and the language is correct.
+</think>","{
+  ""Subjective"": ""Keelpijn 3 dagen. Koorts. Hoesten vorige week. Paracetamol en ibuprofen ingenomen. Pijn bij slikken."",
+  ""Objective"": ""Temp 38.3°C. Farynx: rood, vergrote tonsillen, beslag beiderzijds. Geen abces. Saturatie 98%. Longen: vesiculair ademgeruis."",
+  ""Assessment"": ""Waarschijnlijk virale faryngitis."",
+  ""Plan"": ""Paracetamol 1000mg 4x daags. Ibuprofen 400mg 3x daags. Koude drankjes/waterijsjes. Contact opnemen bij verslechtering.""
+}","<think>
+Alright, I'm going to summarize the doctor-patient transcript into a structured SOAP note. Let me start by reading through the transcript carefully.
+
+The patient is a Dutch-speaking individual who has been experiencing sore throat for three days, accompanied by fever. They've been taking paracetamol and ibuprofen but the pain persists, especially when swallowing. They mentioned some coughing the previous week but it's gone now. They don't have a runny nose or shortness of breath. They were concerned about possibly having an abscess, but the doctor didn't find any signs of that.
+
+The doctor checked the patient's ears, throat, and lymph nodes. The temperature was 38.3°C. The throat showed redness, slightly enlarged tonsils with some coating, but no abscess. The lungs were clear, and oxygen saturation was 98%. The doctor concluded it's likely a viral pharyngitis and advised against antibiotics, recommending continued use of paracetamol and ibuprofen, along with drinking cold fluids and monitoring symptoms.
+
+Now, I'll structure this into SOAP notes, making sure to follow the guidelines: telegraphic style, omitting subjects and introductory phrases, using fragments, and being concise. I'll also ensure the language matches the transcript, which is Dutch.
+
+For the Subjective section, I'll include the symptoms and history the patient reported. Objective will cover the vital signs and physical exam findings. Assessment will note the likely diagnosis. Plan will outline the treatment and advice given.
+
+I need to double-check that I didn't include any information not present in the transcript, like BP or other vitals not mentioned. Also, ensure all medications with dosages are included and the language is correct.
+</think>
+
+```json
+{
+  ""Subjective"": ""Keelpijn 3 dagen. Koorts. Hoesten vorige week. Paracetamol en ibuprofen ingenomen. Pijn bij slikken."",
+  ""Objective"": ""Temp 38.3°C. Farynx: rood, vergrote tonsillen, beslag beiderzijds. Geen abces. Saturatie 98%. Longen: vesiculair ademgeruis."",
+  ""Assessment"": ""Waarschijnlijk virale faryngitis."",
+  ""Plan"": ""Paracetamol 1000mg 4x daags. Ibuprofen 400mg 3x daags. Koude drankjes/waterijsjes. Contact opnemen bij verslechtering.""
+}
+```"
+Sore Throat,Gemini-2.5-Flash-Lite,Gemini,refine,2.58,Success,,"{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts sinds vanochtend. Begon met hoesten vorige week, nu weg. Pijn bij slikken, alles doet pijn. Slikt paracetamol en ibuprofen, helpt onvoldoende. Geen benauwdheid. Kan slikken/drinken, maar pijnlijk. Geen snotneus. Vriendin had abces. Eerder keelontsteking gehad als kind, toen antibiotica. Zorg over abces."",
+  ""Objective"": ""Temp: 38.3C. Oren: Linker trommelvlies luchthoudend, geen ontsteking. Rechter gehoorgang iets rood, rustig. Hals: Enkele kleine, niet-pathologische submandibulaire lymfeklieren. Keel: Uvula mediaan. Farynxboog iets rood. Tonsillen iets vergroot, niet kissing. Beslag beiderzijds. Longen: Vesiculair ademgeruis, geen bijgeluiden. Saturatie: 98%."",
+  ""Assessment"": ""Virale faryngitis. Geen tekenen van abces."",
+  ""Plan"": ""- Paracetamol 1000mg 4x/dag.\n- Ibuprofen 400mg 3x/dag indien paracetamol onvoldoende.\n- Goed blijven drinken.\n- Koude dranken/waterijsjes ter verlichting pijn.\n- Uitzieken.\n- Contact opnemen bij verergering, benauwdheid, of slikproblemen.""
+}","```json
+{
+  ""Subjective"": ""Keelpijn x3 dagen. Koorts sinds vanochtend. Begon met hoesten vorige week, nu weg. Pijn bij slikken, alles doet pijn. Slikt paracetamol en ibuprofen, helpt onvoldoende. Geen benauwdheid. Kan slikken/drinken, maar pijnlijk. Geen snotneus. Vriendin had abces. Eerder keelontsteking gehad als kind, toen antibiotica. Zorg over abces."",
+  ""Objective"": ""Temp: 38.3C. Oren: Linker trommelvlies luchthoudend, geen ontsteking. Rechter gehoorgang iets rood, rustig. Hals: Enkele kleine, niet-pathologische submandibulaire lymfeklieren. Keel: Uvula mediaan. Farynxboog iets rood. Tonsillen iets vergroot, niet kissing. Beslag beiderzijds. Longen: Vesiculair ademgeruis, geen bijgeluiden. Saturatie: 98%."",
+  ""Assessment"": ""Virale faryngitis. Geen tekenen van abces."",
+  ""Plan"": ""- Paracetamol 1000mg 4x/dag.\n- Ibuprofen 400mg 3x/dag indien paracetamol onvoldoende.\n- Goed blijven drinken.\n- Koude dranken/waterijsjes ter verlichting pijn.\n- Uitzieken.\n- Contact opnemen bij verergering, benauwdheid, of slikproblemen.""
+}
+```"
+Sore Throat,Gemini-2.5-Flash,Gemini,refine,6.38,Success,,"{
+  ""Subjective"": ""Keelpijn x3 dagen. Vanochtend koorts. Begon met hoesten vorige week. Paracetamol en ibuprofen genomen. Pijnlijk met slikken. Hoesten weg. Geen benauwdheid. Drinken lukt, maar pijnlijk. Geen snotterige neus. Eerder keelontsteking gehad, als kind antibiotica voor gehad. Zorg over abces, denkt antibiotica nodig te hebben."",
+  ""Objective"": ""Temp 38.3C (na 2 paracetamol). Oren: L: luchthoudend trommelvlies, geen ontsteking. R: lichte roodheid gehoorgang, verder rustig, geen ontsteking. Hals: Enkele kleine submandibulaire lymfeklieren, niet pathologisch. Keel: Uvula mediaan. Iets rode farynxboog. Vergrote tonsillen, niet kissing. Beetje beslag beiderzijds. Geen verdenking op abces. Longen: Vesiculair ademgeruis, geen bijgeluiden. Saturatie 98%."",
+  ""Assessment"": ""Verhoging. Keelontsteking. Meest waarschijnlijk viraal."",
+  ""Plan"": [
+    ""Paracetamol 1000mg qid."",
+    ""Ibuprofen 400mg tid (indien onvoldoende effect paracetamol)."",
+    ""Goed blijven drinken."",
+    ""Koude drankjes/waterijsjes tegen pijn."",
+    ""Uitzieken."",
+    ""Contact opnemen bij zieker worden, benauwdheid, of niet meer kunnen slikken.""
+  ]
+}","```json
+{
+  ""Subjective"": ""Keelpijn x3 dagen. Vanochtend koorts. Begon met hoesten vorige week. Paracetamol en ibuprofen genomen. Pijnlijk met slikken. Hoesten weg. Geen benauwdheid. Drinken lukt, maar pijnlijk. Geen snotterige neus. Eerder keelontsteking gehad, als kind antibiotica voor gehad. Zorg over abces, denkt antibiotica nodig te hebben."",
+  ""Objective"": ""Temp 38.3C (na 2 paracetamol). Oren: L: luchthoudend trommelvlies, geen ontsteking. R: lichte roodheid gehoorgang, verder rustig, geen ontsteking. Hals: Enkele kleine submandibulaire lymfeklieren, niet pathologisch. Keel: Uvula mediaan. Iets rode farynxboog. Vergrote tonsillen, niet kissing. Beetje beslag beiderzijds. Geen verdenking op abces. Longen: Vesiculair ademgeruis, geen bijgeluiden. Saturatie 98%."",
+  ""Assessment"": ""Verhoging. Keelontsteking. Meest waarschijnlijk viraal."",
+  ""Plan"": [
+    ""Paracetamol 1000mg qid."",
+    ""Ibuprofen 400mg tid (indien onvoldoende effect paracetamol)."",
+    ""Goed blijven drinken."",
+    ""Koude drankjes/waterijsjes tegen pijn."",
+    ""Uitzieken."",
+    ""Contact opnemen bij zieker worden, benauwdheid, of niet meer kunnen slikken.""
+  ]
+}
+```"
+Sore Throat,Gemini-2.5-Pro,Gemini,refine,12.04,Success,,"{
+  ""Subjective"": ""Keelpijn sinds 3 dagen, met koorts vanochtend. Pijn bij slikken. Hoestklachten vorige week, nu over. Gebruikt paracetamol en ibuprofen met onvoldoende effect. Geen benauwdheid of loopneus. In verleden keelontsteking gehad, behandeld met antibiotica. Bezorgd over een abces."",
+  ""Objective"": ""Temp: 38.3°C. Saturatie: 98%. KNO: Oor L: luchthoudend trommelvlies. Oor R: lichte roodheid gehoorgang. Keel: farynxbogen iets rood, tonsillen vergroot met enig beslag beiderzijds, uvula mediaan. Geen verdenking op abces. Hals: enkele kleine, niet-pathologische submandibulaire lymfeklieren. Pulm: vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Keelontsteking, meest waarschijnlijk viraal."",
+  ""Plan"": ""- Paracetamol 1000mg 4dd.\n- Ibuprofen 400mg 3dd zo nodig.\n- Advies: koude dranken en waterijsjes tegen de pijn, goed blijven drinken.\n- Uitleg gegeven over virale oorzaak en waarom antibiotica niet geïndiceerd is.\n- Contactadvies bij zieker worden, benauwdheid of als slikken niet meer lukt.""
+}","```json
+{
+  ""Subjective"": ""Keelpijn sinds 3 dagen, met koorts vanochtend. Pijn bij slikken. Hoestklachten vorige week, nu over. Gebruikt paracetamol en ibuprofen met onvoldoende effect. Geen benauwdheid of loopneus. In verleden keelontsteking gehad, behandeld met antibiotica. Bezorgd over een abces."",
+  ""Objective"": ""Temp: 38.3°C. Saturatie: 98%. KNO: Oor L: luchthoudend trommelvlies. Oor R: lichte roodheid gehoorgang. Keel: farynxbogen iets rood, tonsillen vergroot met enig beslag beiderzijds, uvula mediaan. Geen verdenking op abces. Hals: enkele kleine, niet-pathologische submandibulaire lymfeklieren. Pulm: vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Keelontsteking, meest waarschijnlijk viraal."",
+  ""Plan"": ""- Paracetamol 1000mg 4dd.\n- Ibuprofen 400mg 3dd zo nodig.\n- Advies: koude dranken en waterijsjes tegen de pijn, goed blijven drinken.\n- Uitleg gegeven over virale oorzaak en waarom antibiotica niet geïndiceerd is.\n- Contactadvies bij zieker worden, benauwdheid of als slikken niet meer lukt.""
+}
+```"
+Sore Throat,Gemini-2.5-Pro-Thinking,Gemini,refine,15.38,Success,,"{
+  ""Subjective"": ""Keelpijn sinds 3 dagen met koorts sinds vanochtend. Pijn bij slikken. Hoesten vorige week, nu over. Gebruikt paracetamol en ibuprofen met onvoldoende effect. Geen benauwdheid of loopneus. Bezorgd over een abces. In verleden keelontsteking gehad, als kind antibiotica gekregen."",
+  ""Objective"": ""Temp: 38.3C. Saturatie: 98%. Oren: L: luchthoudend trommelvlies. R: lichte roodheid gehoorgang, verder g.b. Hals: enkele kleine, niet-pathologische submandibulaire lymfeklieren. Keel: uvula mediaan, farynxboog iets rood, tonsillen vergroot met enig beslag, niet-kissing. Geen verdenking op abces. Longen: vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Waarschijnlijk virale keelontsteking."",
+  ""Plan"": ""- Paracetamol 1000mg 4dd.\n- Ibuprofen 400mg 3dd.\n- Advies: uitzieken, goed drinken, koude dranken/waterijsjes tegen de pijn.\n- Contact opnemen bij verergering, benauwdheid of als slikken niet meer lukt.""
+}","```json
+{
+  ""Subjective"": ""Keelpijn sinds 3 dagen met koorts sinds vanochtend. Pijn bij slikken. Hoesten vorige week, nu over. Gebruikt paracetamol en ibuprofen met onvoldoende effect. Geen benauwdheid of loopneus. Bezorgd over een abces. In verleden keelontsteking gehad, als kind antibiotica gekregen."",
+  ""Objective"": ""Temp: 38.3C. Saturatie: 98%. Oren: L: luchthoudend trommelvlies. R: lichte roodheid gehoorgang, verder g.b. Hals: enkele kleine, niet-pathologische submandibulaire lymfeklieren. Keel: uvula mediaan, farynxboog iets rood, tonsillen vergroot met enig beslag, niet-kissing. Geen verdenking op abces. Longen: vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Waarschijnlijk virale keelontsteking."",
+  ""Plan"": ""- Paracetamol 1000mg 4dd.\n- Ibuprofen 400mg 3dd.\n- Advies: uitzieken, goed drinken, koude dranken/waterijsjes tegen de pijn.\n- Contact opnemen bij verergering, benauwdheid of als slikken niet meer lukt.""
+}
+```"

@@ -1,0 +1,11 @@
+{
+  "Subjective": "Tired for 2 months. Fatigue all day. Sleeps a lot but wakes up tired. Muscle pain (back and possibly other areas). Morning stiffness. No fever, headache, chest pain, palpitations, or respiratory problems. Normal appetite and weight. Normal bowel movements. No snoring. Uncertain about cause of fatigue and muscle pain. Concern about possible rheumatism or other underlying conditions.",
+  "Objective": "BP: 110/60. HR: 60. Lungs: normal. Back: pain in lower back when pressing on vertebrae. Abdomen: normal peristalsis and no pain. No abnormalities on physical exam.",
+  "Assessment": "Fatigue and muscle pain. Possible underlying conditions: anemia, thyroid issues, inflammation. Ruled out: rheumatoid arthritis.",
+  "Plan": [
+    "Blood tests to check for anemia, thyroid issues, and inflammation.",
+    "Schedule phone appointment to discuss results.",
+    "Monitor for any changes in symptoms or condition.",
+    "Consider further testing or evaluation if symptoms persist or worsen."
+  ]
+}

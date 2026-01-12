@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sore throat for 3 days. Fever this morning. Cough last week. Painful swallowing. Unable to play tennis due to fatigue. No shortness of breath, runny nose, or coughing. No abscess. Wants antibiotics. Concerned about abscess. Wants to get rid of symptoms faster.",
+  "Objective": "Vitals: 38.3°C. Ears: normal. No signs of inflammation. Lymph nodes: small, submandibular, not pathological. Pharyngeal arch: red. Tonsils: enlarged. Slough on both tonsils. Lungs: vesicular breath sounds. Saturation: 98%.",
+  "Assessment": "Pharyngitis, likely viral. No signs of abscess or other serious conditions.",
+  "Plan": [
+    "Take paracetamol 4 times a day, ibuprofen 3 times a day (if needed).",
+    "Drink plenty of fluids.",
+    "Use cold drinks or popsicles to help with pain.",
+    "Wait it out.",
+    "Contact us if symptoms worsen (shortness of breath, unable to swallow, etc.)."
+  ]
+}

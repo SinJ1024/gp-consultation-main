@@ -1,0 +1,12 @@
+{
+  "Subjective": "Dizziness for 3 days, started upon waking; worse with head movement; accompanied by nausea but no vomiting, no headache, no hearing loss, no tinnitus, no speech difficulties, no focal neurological deficits; scared of brain tumor (friend has it); requests reassurance and treatment; unable to perform daily activities due to dizziness.",
+  "Objective": "BP 110/70; HR 62; Cranial nerves intact; Strength and coordination normal; HIT negative bilaterally; Epley maneuver positive on right, less on left; No nystagmus.",
+  "Assessment": "Benign paroxysmal positional vertigo (BPPV); No signs of brain tumor or other central cause.",
+  "Plan": [
+    "Perform Epley maneuver in office",
+    "Teach patient home Epley maneuver",
+    "Reassurance regarding absence of serious pathology",
+    "Follow-up in 1 week if symptoms persist",
+    "Advise to avoid precipitating factors"
+  ]
+}

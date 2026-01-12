@@ -1,0 +1,10 @@
+{
+  "Subjective": "Tired for 2 months; possibly superficial sleep; no clear cause; able to work and exercise but with difficulty; more muscle and back pain than usual; no snoring or respiratory issues; no heart issues; normal appetite and weight; normal stools and urination; no family history of rheumatism; patient request: concerned about possible rheumatism",
+  "Objective": "BP 110/60, HR 40-60; lungs clear; back exam: mild tenderness in lower spine, no pelvic pain, no abnormalities in neck or shoulders; abdomen: lively peristalsis, no pain on palpation",
+  "Assessment": "Fatigue and muscle pain, cause unclear; no evidence of rheumatoid arthritis; possible anemia or thyroid disorder",
+  "Plan": [
+    "Check blood for anemia, thyroid function, and inflammation",
+    "Patient to call for phone appointment after blood test results",
+    "Safety net: call if symptoms worsen or new symptoms develop"
+  ]
+}

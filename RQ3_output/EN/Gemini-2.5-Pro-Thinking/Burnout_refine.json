@@ -1,0 +1,12 @@
+{
+  "Subjective": "Stress-related symptoms for months, daily for last 2 weeks. Main complaints: muscle tension, rapid breathing, noticeable heart palpitations. Palpitations occur spontaneously at rest (e.g., in bath, at bedtime), last ~30 mins, resolve spontaneously. Worsened by coffee. Rapid breathing also occurs at rest or unconsciously (e.g., at work). Difficulty falling asleep due to rumination/worry about work; sleeps ~6 hours/night. Better sleep on days off. No chest pain, no irregular heartbeat, no dizziness, no light-headedness, no abdominal complaints. Symptoms not present on exertion. Impact: significant bother, affects sleep. Social: Newly graduated doctor working in internal medicine. High-pressure job, understaffed. Finds it difficult to say no. Lives with housemates who are also doctors; good support system. No smoking/alcohol mentioned. Request: Wants to rule out physical cause (e.g., anemia) and explore talking to a professional.",
+  "Objective": "Vitals: BP 120/60, HR 65, SpO2 98%, RR 14. General: Calm, NAD. Lungs: Clear to auscultation bilaterally, good breath sounds, no abnormal sounds. Heart: Regular rate and rhythm, normal S1/S2, no murmurs. Abdomen: Exam deferred.",
+  "Assessment": "Stress-related physical symptoms (palpitations, hyperventilation) secondary to occupational stress/overload. Plan to rule out somatic causes.",
+  "Plan": [
+    "Investigations: Order blood tests (hemoglobin, thyroid function, liver/kidney function).",
+    "Referral: Make appointment with mental health nurse; can book today.",
+    "Lifestyle Advice: Actively schedule relaxation moments (walks, coffee, swimming). Maintain regular sleep schedule.",
+    "Work Advice: Consider contacting occupational health doctor to discuss schedule adjustments and coping strategies.",
+    "Follow-up/Safety Netting: Call for blood results in 2 days or check patient portal. Return to clinic if symptoms worsen or new concerns arise."
+  ]
+}

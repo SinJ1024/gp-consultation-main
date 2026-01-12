@@ -1,0 +1,12 @@
+{
+  "Subjective": "Headache. 2 months. Increasing. Right side. Nauseous. No vomiting. Glare in vision. Prefer dark room. No fever; no cough; no shortness of breath. No smoking; occasional beer; no drugs. Student. 2nd year. No energy drinks; no coffee. Exercise 4 times a week. Run occasionally. Cycle occasionally.",
+  "Objective": "BP: 120/80. Pulse: 50/min. Cranial nerves fine. Fingertip-nose test good. Arm and leg strength good. Romberg's normal. Vision: glare. Headache: right side.",
+  "Assessment": "Migraine. Susp. Cluster headache. No signs of cauda equina.",
+  "Plan": [
+    "Read about migraines on thuisarts.nl",
+    "Take pain relief as soon as symptoms start: paracetamol 4x2, ibuprofen if necessary",
+    "Keep headache diary for 4 weeks",
+    "Schedule follow-up in 4 weeks",
+    "Come back sooner if symptoms worsen or change"
+  ]
+}

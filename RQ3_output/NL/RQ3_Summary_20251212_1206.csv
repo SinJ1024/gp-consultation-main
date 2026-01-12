@@ -1,0 +1,601 @@
+Case_ID,Model_Name,Model_Family,Strategy,Duration_Sec,Status,Reasoning_Trace,Generated_JSON,Raw_Output
+Back Pain,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Back Pain,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Back Pain,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Back Pain,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Burnout,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Burnout,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Burnout,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Constipation,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Constipation,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Constipation,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Dizziness,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Dizziness,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Dizziness,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Earache,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Earache,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Earache,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Eye Infection,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Eye Infection,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Eye Infection,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Fatique,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Fatique,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Fatique,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Migraine,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Migraine,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Migraine,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Skin Lesion,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Skin Lesion,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Skin Lesion,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,Qwen-1.5B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-1.5B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-1.5B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-7B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-7B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-7B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-14B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-14B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-14B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-72B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-72B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Qwen-72B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,QwQ-32B,Qwen,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,QwQ-32B,Qwen,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,QwQ-32B,Qwen,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-7B-Math,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-7B-Math,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-7B-Math,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V2-Lite-Coder,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V2-Lite-Coder,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V2-Lite-Coder,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V3.1-Terminus,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V3.1-Terminus,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V3.1-Terminus,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V3.2,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V3.2,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-V3.2,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-R1-Turbo,DeepSeek,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-R1-Turbo,DeepSeek,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,DeepSeek-R1-Turbo,DeepSeek,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for deepinfra,,Error: Missing API Key for deepinfra
+Sore Throat,Gemini-Flash-8B,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Flash-8B,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Flash-8B,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Flash,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Flash,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Flash,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-1.0-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-1.0-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-1.0-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-1.5-Pro,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-1.5-Pro,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-1.5-Pro,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Thinking,Gemini,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Thinking,Gemini,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,Gemini-Thinking,Gemini,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for google,,Error: Missing API Key for google
+Sore Throat,GPT-3.5-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-3.5-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-3.5-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4o-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4o-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4o-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4o,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4o,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4o,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4-Turbo,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4-Turbo,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,GPT-4-Turbo,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,o1-mini,OpenAI,standard,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,o1-mini,OpenAI,few_shot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai
+Sore Throat,o1-mini,OpenAI,cot,0.0,JSON_Parse_Fail,Error: Missing API Key for openai,,Error: Missing API Key for openai

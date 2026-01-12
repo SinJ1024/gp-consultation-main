@@ -1,0 +1,11 @@
+{
+  "Subjective": "Fatigue x2 months; morning stiffness; muscle pain; back pain; superficial sleep. No fever, weight loss, night sweats, snoring, chest pain, palpitations, or joint pain. Works full-time; climbs 2-3x/week. Concern: Possible rheumatism. Request: Blood tests for anemia, thyroid, inflammation.",
+  "Objective": "BP 110/60; HR 40-60. Lungs clear; heart normal. Back: mild tenderness lower spine. Abdomen soft, non-tender; active bowel sounds.",
+  "Assessment": "Fatigue of unclear etiology. Consider anemia, thyroid dysfunction, or inflammatory process. No evidence of rheumatoid arthritis or cardiac/lung issues.",
+  "Plan": [
+    "Order blood tests: CBC, TSH, CRP, ESR.",
+    "Patient to schedule phone follow-up post-results.",
+    "Advise to continue usual activities and monitor symptoms.",
+    "Safety net: Seek urgent care if chest pain, SOB, or severe fatigue."
+  ]
+}

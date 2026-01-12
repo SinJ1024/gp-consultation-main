@@ -1,0 +1,12 @@
+{
+  "Subjective": "Left ear fullness; mild pain; worse with showering. Hearing decreased left ear. Pain: 4/10 baseline, 6-7/10 after showering. No fever. No other symptoms. Patient anxious about hearing loss. Request: Pain relief. Social: No smoking/alcohol. Impact: Unable to swim due to pain.",
+  "Objective": "Temperature: 36.2°C. Right ear: normal. Left ear: Canal erythematous, swollen, inflamed; eardrum not visible.",
+  "Assessment": "Left ear canal inflammation, likely from swimming and cotton bud use. No signs of otitis media or cholesteatoma.",
+  "Plan": [
+    "Paracetamol 500mg PO q6h PRN pain (max 4000mg/day)",
+    "Prescribe anti-inflammatory ear drops TID x7 days",
+    "Avoid water exposure x7 days",
+    "Stop cotton bud use",
+    "Follow-up in 1 week"
+  ]
+}

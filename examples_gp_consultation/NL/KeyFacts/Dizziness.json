@@ -1,0 +1,40 @@
+{
+  "Subjective": [
+    "Sinds 3 dagen heeft patiënt draaiduizeligheid.",
+    "De draaiduizeligheid ontstaat bij opstaan uit bed.",
+    "De duizeligheid neemt toe bij hoofdbewegingen.",
+    "Patiënt heeft geen gehoorverlies.",
+    "Patiënt heeft geen oorsuizen (tinnitus).",
+    "Patiënt heeft geen spraakstoornissen bemerkt.",
+    "Patiënt heeft geen krachtsverlies bemerkt.",
+    "Patiënt heeft geen gevoelsstoornissen bemerkt.",
+    "Patiënt is niet flauwgevallen.",
+    "Patiënt is recent niet ziek geweest (geen recente infectie of ziekte-episode).",
+    "Patiënt rookt niet.",
+    "Patiënt gebruikt geen alcohol.",
+    "Patiënt gebruikt geen drugs.",
+    "Patiënt heeft misselijkheid tijdens de duizeligheidsaanvallen.",
+    "Patiënt ervaart hartkloppingen tijdens de duizeligheidsaanvallen.",
+    "Patiënt wil duidelijkheid over de oorzaak van de duizeligheid.",
+    "Patiënt wil duidelijkheid over de behandeling van de duizeligheid."
+  ],
+  "Objective": [
+    "Bloeddruk is 110/70 mmHg.",
+    "Polsfrequentie is 62 slagen per minuut en regulair.",
+    "Bij neurologisch onderzoek is geen focale uitval gevonden.",
+    "Er is geen nystagmus bij volgbewegingen.",
+    "De Dix-Hallpike test is links positief.",
+    "De Dix-Hallpike test is rechts positief."
+  ],
+  "Assessment": [
+    "Waarschijnlijkheidsdiagnose: benigne paroxysmale positieduizeligheid (BPPD)."
+  ],
+  "Plan": [
+    "Patiënt heeft uitleg gekregen over de aard van BPPD.",
+    "Patiënt heeft uitleg gekregen over het te verwachten beloop van BPPD.",
+    "Patiënt is gerustgesteld dat de klachten niet passen bij een hersentumor.",
+    "In de praktijk is een Epley-manoeuvre uitgevoerd.",
+    "Patiënt heeft instructie gekregen voor thuisoefeningen bij BPPD.",
+    "Patiënt is verwezen naar Thuisarts.nl voor informatie over BPPD en oefeningen."
+  ]
+}

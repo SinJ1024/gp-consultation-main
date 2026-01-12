@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sore left ear; feels like water in it; pain; worse after showering; can't swim; can't exercise; pain manageable (0-4/10); pain worse after showering (6-7/10); can't hear well; worried about ear; scared of hearing loss; wants pain to stop; no fever; feels fine; no feverish; no painkillers; pain bearable; can't do sports due to pain; impact on daily life: swimming, exercise.",
+  "Objective": "Temp: 36.2°C; right ear: clean, eardrum fine; left ear: inflamed, ear canal swollen, red, thick; can't see eardrum.",
+  "Assessment": "Left ear inflammation; likely due to frequent wetting and cotton bud use.",
+  "Plan": [
+    "Painkillers (paracetamol, up to 4000mg/day)",
+    "Ear drops (anti-inflammatory, acidic, 3x/day for 1 week)",
+    "No cotton bud use",
+    "Keep ear dry for 1 week",
+    "Follow-up in 1 week"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Subjective": [
+    "Sinds ongeveer 2 maanden last van vermoeidheid.",
+    "Vermoeidheid niet acuut ontstaan.",
+    "Geen duidelijke aanleiding voor het ontstaan van de vermoeidheid.",
+    "Patiënt slaapt veel.",
+    "Patiënt blijft zich vermoeid voelen ondanks veel slapen.",
+    "Patiënt kan nog normaal sporten (klimmen 2-3x per week).",
+    "Patiënt kan nog normaal fietsen.",
+    "Patiënt ervaart meer spierpijn dan normaal.",
+    "Patiënt ervaart meer lage rugpijn dan normaal.",
+    "Patiënt ervaart ochtendstijfheid.",
+    "Patiënt heeft geen luchtwegklachten.",
+    "Patiënt heeft geen hartkloppingen.",
+    "Patiënt heeft geen pijn op de borst.",
+    "Eetlust is stabiel.",
+    "Gewicht is stabiel.",
+    "Ontlasting is soepel.",
+    "Defecatiefrequentie is 3-4 keer per dag.",
+    "Mictie is normaal.",
+    "Hulpvraag van patiënt is het achterhalen van de oorzaak van de vermoeidheid."
+  ],
+  "Objective": [
+    "Bloeddruk is 110/60 mmHg.",
+    "Pols is 50-60 slagen per minuut en regelmatig.",
+    "Auscultatie van de longen toont geen afwijkingen.",
+    "Abdomen heeft levendige peristaltiek.",
+    "Abdomen is niet drukpijnlijk.",
+    "Patiënt heeft pijn laag lumbaal paravertebraal.",
+    "Er zijn geen afwijkingen bij druk op het bekken.",
+    "Er is geen links-rechtsverschil in de lange rugspieren.",
+    "Nekspieren zijn vrij beweeglijk."
+  ],
+  "Assessment": [
+    "Patiënt heeft onverklaarde vermoeidheid sinds 2 maanden.",
+    "Patiënt heeft lichte spierklachten.",
+    "Patiënt heeft lichte lage rugklachten.",
+    "Er zijn geen alarmsymptomen bij de klachten van de patiënt."
+  ],
+  "Plan": [
+    "Bloedonderzoek aangevraagd: Hb/volbloed.",
+    "Bloedonderzoek aangevraagd: schildklierfunctie.",
+    "Bloedonderzoek aangevraagd: ontstekingsparameters.",
+    "Vervolgbeleid is afhankelijk van de bloeduitslagen."
+  ]
+}

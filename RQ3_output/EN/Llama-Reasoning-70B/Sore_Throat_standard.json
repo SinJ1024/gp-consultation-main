@@ -1,0 +1,13 @@
+{
+  "Subjective": "Sore throat for 3 days; Fever this morning; Cough last week, now resolved; Took paracetamol and ibuprofen; Severe throat pain with swallowing; No shortness of breath; No runny nose; Friend had abscess; Request: Concern about abscess, wants antibiotics; Impact: Unable to work due to pain.",
+  "Objective": "Temperature: 38.3°C; Ears: Left normal, Right ear canal redness; Throat: Red pharyngeal arch, enlarged tonsils, slough bilaterally; No abscess; Lungs: Vesicular breath sounds; Saturation: 98% on room air.",
+  "Assessment": "Viral pharyngitis; No abscess.",
+  "Plan": [
+    "Continue paracetamol 4 times daily",
+    "Ibuprofen 400mg 3 times daily as needed",
+    "Cold drinks/popsicles for pain relief",
+    "Stay hydrated",
+    "Safety net: Return if shortness of breath, inability to swallow, or worsening symptoms",
+    "Follow-up: As needed"
+  ]
+}

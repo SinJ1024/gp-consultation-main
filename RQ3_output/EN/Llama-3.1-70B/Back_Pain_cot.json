@@ -1,0 +1,11 @@
+{
+  "Subjective": "Back pain radiating down right leg, thigh, and lower leg to foot; worsens over time; difficulty sleeping; tingling sensation in right leg; dull sensation on outside of right lower leg; pain when lifting right leg; reduced sensation in right leg. Unable to work due to pain; impacting sleep.",
+  "Objective": "BP: not recorded; HR: not recorded; RR: not recorded; Temp: not recorded. Physical exam: right leg strength normal; reflexes normal; sensation decreased on right lower leg.",
+  "Assessment": "Lumbosacral radicular syndrome, suspected herniated nucleus pulposus (HNP). No signs of cauda equina syndrome.",
+  "Plan": [
+    "Pain relief: pregabalin (build up dose slowly due to side effects)",
+    "Physiotherapy to improve back flexibility and reduce nerve compression",
+    "Telephone follow-up in 1 week to discuss pain relief progress",
+    "Safety netting: contact doctor or GP out-of-hours service if symptoms worsen (e.g., loss of sensation in perineal area, inability to urinate or defecate, significant weakness in right leg)"
+  ]
+}

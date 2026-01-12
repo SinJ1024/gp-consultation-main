@@ -1,0 +1,12 @@
+{
+  "Subjective": "Spanningsklachten in lichaam; stijve spieren; snelle ademhaling en hartkloppingen, vooral in rust (bv. 's avonds in bad, voor het slapen gaan). Klachten duren soms half uur, verdwijnen spontaan. Geassocieerd met hoge werkdruk (pas afgestudeerd arts interne geneeskunde, onderbezetting, lange dagen, onzekerheid). Moeite met 'nee' zeggen, daarna schuldgevoel. Slaapproblemen: moeilijk inslapen door piekeren over werk (onzekerheid volgende dag), slaapt ca. 6 uur/nacht; doorslapen goed. Overdag vermoeid. Klachten sinds enkele maanden, laatste 2 weken dagelijks. Impact: belemmert dagelijks leven, wakker liggen. Social: woont met huisgenoten (ook artsen), goed sociaal steunsysteem. Geen alcohol/roken vermeld. Vermijdt koffie om hartkloppingen te verminderen. Negatief: geen pijn op de borst, geen onregelmatige hartslag, geen duizeligheid, geen licht in het hoofd, geen buikklachten. Vraag/Zorg: Bezorgd over mogelijke lichamelijke oorzaak (bv. bloedarmoede), wil dit uitsluiten. Vraagt of praten met een professional (POH-GGZ) zinvol is.",
+  "Objective": "Bloeddruk: 120/60 mmHg. Hartslag: 65/min, regulair. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: regulair ritme, normale tonen, geen souffles. Pulmones: vesiculair ademgeruis over alle longvelden, geen bijgeluiden. Abdomen: niet onderzocht.",
+  "Assessment": "Overspanningsklachten, vermoedelijk werkgerelateerd. Geen aanwijzingen voor cardiale of pulmonale pathologie bij lichamelijk onderzoek. Differentiaaldiagnose: anemie, schildklierdisfunctie.",
+  "Plan": [
+    "Aanvullend onderzoek: bloedonderzoek (Hb, schildklierfunctie TSH/T4, lever- en nierfunctie).",
+    "Verwijzing: afspraak maken bij POH-GGZ voor gesprekken.",
+    "Advies: actief ontspanningsmomenten inbouwen; regelmaat behouden; contact opnemen met arbo-arts voor mogelijke aanpassingen werk/rooster.",
+    "Follow-up: bellen voor bloeduitslagen over 2 werkdagen (of online inzien).",
+    "Safety netting: contact opnemen bij toename klachten of nieuwe zorgen."
+  ]
+}

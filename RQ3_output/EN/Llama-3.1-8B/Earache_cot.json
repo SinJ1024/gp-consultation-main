@@ -1,0 +1,12 @@
+{
+  "Subjective": "Left ear feels filled with water; pain in left ear; pain worse after showering; gradually worsening over few days; annoying for hearing; pain manageable, but worsens to 6-7/10 after showering; unable to exercise (swimming) due to pain; no fever, headache, or shortness of breath; worried about ear health; scared of something being wrong with ear; wants to hear normally again.",
+  "Objective": "Temp: 36.2°C; Right ear: clean, eardrum fine; Left ear: inflamed ear canal, swollen, red, and thick; unable to see eardrum.",
+  "Assessment": "Left ear canal inflammation, likely due to frequent wetting and cotton bud use. No signs of infection or other serious conditions.",
+  "Plan": [
+    "Take up to 4000mg paracetamol/day if necessary",
+    "Use anti-inflammatory ear drops 3x/day for 1 week",
+    "Avoid cleaning ear with cotton buds",
+    "Keep ear dry for 1 week",
+    "Follow-up in 1 week"
+  ]
+}

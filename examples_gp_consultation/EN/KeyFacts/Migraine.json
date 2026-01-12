@@ -1,0 +1,52 @@
+{
+  "Subjective": [
+    "Headache for about 2 months.",
+    "Headache mainly on the right side.",
+    "Headache sometimes diffuses.",
+    "Headaches are increasing in severity.",
+    "Headaches occur almost weekly.",
+    "Headache episodes last for several days.",
+    "Severe headaches are accompanied by nausea.",
+    "No vomiting during headache episodes.",
+    "Headaches are accompanied by glare in the field of vision.",
+    "Headaches are not accompanied by flashes of light.",
+    "Headaches improve in a dark room.",
+    "Patient uses paracetamol for headaches.",
+    "Patient uses ibuprofen for headaches.",
+    "Ibuprofen is more effective than paracetamol.",
+    "No clear stress trigger.",
+    "No clear coffee trigger.",
+    "No clear energy drink trigger.",
+    "Family history: father with migraine.",
+    "Family history: grandfather with cluster headaches.",
+    "Patient wants to know if the symptoms are consistent with migraine.",
+    "Patient wants to know if the symptoms are consistent with cluster headaches.",
+    "Patient asks about optimal treatment for the headache symptoms."
+  ],
+  "Objective": [
+    "Blood pressure 120/80 mmHg.",
+    "Pulse rate 50/min.",
+    "Pulse is regular and calm.",
+    "Cranial nerves are intact on neurological examination.",
+    "Coordination on finger-nose test is normal.",
+    "Muscle strength in arms is normal.",
+    "Muscle strength in legs is normal.",
+    "Romberg test is normal.",
+    "There is a slight deviation when walking in a straight line.",
+    "No other neurological deficits."
+  ],
+  "Assessment": [
+    "Likely diagnosis of migraine.",
+    "No evidence of a secondary alarming cause of headache."
+  ],
+  "Plan": [
+    "Explanation given about the probable diagnosis of migraine.",
+    "Advice to take paracetamol at the onset of an attack, up to a maximum of 4x2 tablets per day.",
+    "Advice to add ibuprofen if necessary.",
+    "Information from Thuisarts.nl about migraine has been discussed with the patient.",
+    "Patient advised to keep a headache diary.",
+    "Follow-up appointment scheduled in 4 weeks for evaluation and treatment plan.",
+    "Advised to contact earlier if symptoms worsen.",
+    "Advised to contact earlier if there are changes in the pattern of symptoms."
+  ]
+}

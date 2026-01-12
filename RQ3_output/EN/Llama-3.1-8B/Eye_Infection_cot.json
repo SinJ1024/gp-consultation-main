@@ -1,0 +1,12 @@
+{
+  "Subjective": "Irritated right eye; redness in right eye; red veins in right eye; thicker than left eye; pain when squeezing eyes shut; uncomfortable feeling in right eye; redness in left eye (developed after initial presentation); No fever, cough, or shortness of breath; No other eye problems; No day cream or mascara use; No recent trauma or injury; No light sensitivity; No pain when looking normally; Wants to know if it's a normal eye infection or something else; Concerned about potential contagiousness; Worried about potential long-term effects; Wants to know if it's safe to continue working and caring for her daughter.",
+  "Objective": "Right eye: redness, red veins; Left eye: redness; Pupils: reacting normally; Vision: normal; No other abnormalities.",
+  "Assessment": "Inflammation of the surface layer of the eye, likely viral in nature; Bilateral involvement, with right eye more severe.",
+  "Plan": [
+    "Avoid rubbing the eyes",
+    "Use artificial tears to soothe the eyes",
+    "Wait 2 weeks to see if symptoms resolve",
+    "Return if symptoms worsen or persist after 2 weeks",
+    "Call if pain, pus, or vision changes occur"
+  ]
+}

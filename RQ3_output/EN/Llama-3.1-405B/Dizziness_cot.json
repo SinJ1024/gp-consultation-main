@@ -1,0 +1,11 @@
+{
+  "Subjective": "Dizziness x3 days, room spinning worse with head movement. Nausea, no vomiting. Heart palpitations during episodes. Recent cold. No headache, hearing loss, tinnitus, speech problems, focal deficits. No fainting, prolonged bed rest. No smoking, alcohol, drugs. Fear of brain tumor. Wants to eliminate dizziness.",
+  "Objective": "Vitals: BP 110/70, HR 62. Physical Exam: No facial sensory deficits, normal cranial nerves, strength, coordination, gait. Negative HIT test. Positive Dix-Hallpike maneuver with nystagmus and reproduced symptoms, left side more intense.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV) likely due to displaced otoconia in the vestibular system. No signs of central neurological cause or brain tumor.",
+  "Plan": [
+    "1. Perform Epley maneuver in the office to attempt to reposition otoconia.",
+    "2. Provide instructions for self-Epley maneuver at home via thuisarts.nl.",
+    "3. Reassurance that symptoms are not consistent with a brain tumor.",
+    "4. Follow up if symptoms persist or worsen."
+  ]
+}

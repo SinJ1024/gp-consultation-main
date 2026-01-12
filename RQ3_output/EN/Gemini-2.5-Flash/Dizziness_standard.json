@@ -1,0 +1,10 @@
+{
+  "Subjective": "Extreme dizziness x 3 days, driving crazy. Onset: Woke up with dizziness getting out of bed, no improvement. Character: Vertigo (room spinning) > light-headedness. Aggravated by: Head movement, general movement. Alleviated by: Sitting quietly. Associated: Mild nausea, occasional fast heart rate. Negatives: No vomiting, no headache, no hearing problems/loss, no tinnitus, no speech difficulty, no arm/leg weakness/loss of function, no fainting. Recent illness: Mild cold. Impact: Stopping much activity. Social: No smoking, no alcohol, no drugs. ICE: Worried about serious cause (brain tumor like friend), wants diagnosis, wants dizziness gone. Request: Epley maneuver.",
+  "Objective": "Vitals: BP 110/70, P 62 bpm steady. Neuro: CN: Face sensation symmetric, facial movements normal (eyes closed tightly, eyebrows raised, teeth clenched, cheeks puffed, tongue protruded). Motor: Shoulder shrug normal, arm strength normal (tray test), finger-to-nose normal bilaterally. Leg movements normal (knee lift, heel-to-buttock, leg extension). Gait: Normal, tandem gait normal. Oculomotor: Smooth pursuit normal, no nystagmus. HIT negative bilaterally. Vestibular: Dix-Hallpike: Right side provokes intense vertigo, nausea, nystagmus. Left side provokes less intense vertigo.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV), Right > Left. R/O: Brain tumor, central neurological deficit.",
+  "Plan": [
+    "Explain BPPV: Displaced crystals in vestibular system, not brain tumor. Reassurance provided.",
+    "Perform Epley maneuver in clinic.",
+    "Provide instructions for self-Epley maneuver via thuisarts.nl."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Subjective": "Headache for 2 months; worse on right side; associated with glare, nausea; no vomiting, no flashes of light. Family history of migraines (father) and cluster headaches (grandfather). No fever, no weight loss. No smoking, no drugs, minimal alcohol. Patient is a medical student, exercises regularly (4x/week). Impact: Unable to join social activities, prefers dark room. Request: Wants to know diagnosis and best course of action.",
+  "Objective": "BP 120/80; pulse 50. Cranial nerves intact; strength normal; Romberg's normal; gait slightly off. No other abnormalities.",
+  "Assessment": "Migraine; likely given family history and symptoms. No signs of cluster headache or other serious conditions.",
+  "Plan": [
+    "Start paracetamol as soon as symptoms begin; max 4000mg/day",
+    "Add ibuprofen if needed",
+    "Keep headache diary to track triggers and patterns",
+    "Follow-up in 4 weeks; sooner if worse",
+    "Patient education on migraine management via thuisarts.nl"
+  ]
+}

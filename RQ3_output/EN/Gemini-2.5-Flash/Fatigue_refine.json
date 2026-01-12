@@ -1,0 +1,12 @@
+{
+  "Subjective": "Tiredness x 2 months. Tired all day, sleeps a lot but wakes up tired; superficial sleep sometimes. No clear cause, no acute onset. Work with effort, not enthusiastic; no sick days. Rests on weekends. Climbing (2-3x/week) still possible, no loss of muscle power. Cycling possible, no acid reflux or shortness of breath. More muscle pain, back pain (more than usual), morning stiffness. No snoring, no new startling awake (lifelong, ~1x/week). Hay fever controlled with meds/drops. No unusual palpitations, no chest pain. Normal eating/appetite, stable weight (72kg). Stools daily, 3-4x/day, smooth. Normal urination. No specific joint pain (hands/feet). Family history: Father had back problems. Social: Climbs, cycles (non-electric); no smoking/alcohol mentioned. Request: Unsure if something wrong with body (muscle pain, rheumatism); wants blood tests to check.",
+  "Objective": "BP 110/60. HR 40-60 bpm. General: No gross abnormalities. Heart: Sounds perfectly fine. Lungs: Sounds perfectly fine. Back: Mild tenderness next to center, lower back; no pain with pelvic compression; long back muscles feel good with massage; no Left/Right difference. Neck muscles free, no pain with movement. Shoulders free. Abdomen: Lively peristalsis, varying sounds on percussion, supple on palpation, mild discomfort but no sharp pain.",
+  "Assessment": "Chronic fatigue (2 months). DDx: Anemia, thyroid dysfunction, inflammatory/rheumatic condition. R/o: Significant cardiac/pulmonary issues, specific joint rheumatism.",
+  "Plan": [
+    "Explanation: Unclear cause for fatigue, no gross abnormalities on exam.",
+    "Labs: Blood tests ordered (anemia, thyroid function, inflammation markers).",
+    "Lifestyle: Continue current activities. Address bike bottom bracket.",
+    "Follow-up: Call day after test for results. Schedule phone appointment to discuss.",
+    "Safety Net: Call if symptoms worsen or new symptoms develop."
+  ]
+}

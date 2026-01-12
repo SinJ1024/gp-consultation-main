@@ -1,0 +1,35 @@
+{
+  "Subjective": [
+    "Sinds ongeveer 2 weken heeft de patiënt een plekje in de nek.",
+    "Het plekje is begonnen na het scheren als een klein wondje.",
+    "Het plekje werd dikker na een insectenbeet.",
+    "Het plekje werd roder na een insectenbeet.",
+    "Het plekje jeukt.",
+    "Het plekje is niet pijnlijk.",
+    "De patiënt heeft geen eerdere soortgelijke huidplekjes in de verleden gehad.",
+    "Er is familieanamnese met huidklachten door de zon.",
+    "De hulpvraag van de patiënt is om te weten wat het plekje is.",
+    "De patiënt wil weten welke behandeling voor het plekje mogelijk is."
+  ],
+  "Objective": [
+    "Er is een verheven plekje in de nek.",
+    "Het plekje is circa 0,5 cm groot.",
+    "Het plekje is rozerood van kleur.",
+    "Het plekje heeft een iets roder centrum.",
+    "Het plekje heeft geen korst.",
+    "Er zijn geen palpabele lymfeklieren in de hals."
+  ],
+  "Assessment": [
+    "Er is een vermoeden op een granuloma pyogenicum in de nek.",
+    "Er is een vermoeden op een atypische moedervlek in de nek."
+  ],
+  "Plan": [
+    "Er is een foto van het plekje gemaakt.",
+    "De foto van het plekje is via e-consult naar de dermatologie gestuurd voor beoordeling.",
+    "Afgesproken dat de huisarts vrijdag telefonisch contact opneemt met de patiënt voor de uitslag.",
+    "Mogelijke behandeling met cryotherapie met vloeibare stikstof is besproken.",
+    "Mogelijke behandeling met chirurgische excisie onder lokale verdoving is besproken.",
+    "Bij chirurgische excisie is eventueel weefselonderzoek besproken.",
+    "Er is afgesproken dat bij geen direct telefonisch contact op vrijdag een voicemail met advies wordt ingesproken."
+  ]
+}

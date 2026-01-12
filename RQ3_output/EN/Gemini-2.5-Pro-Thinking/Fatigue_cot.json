@@ -1,0 +1,10 @@
+{
+  "Subjective": "Severe fatigue x 2 months. Wakes unrefreshed despite long sleep; sleep sometimes superficial. Gradual/unclear onset. Increased generalized muscle pain and back pain. Reports morning stiffness. Still able to work, but considers calling in sick; exhausted at end of day. Continues climbing 2-3x/week and cycling without significant performance decline. No chest pain, palpitations, or shortness of breath. No snoring. Appetite normal; weight stable at 72kg. No change in bowel/urinary habits. No specific small joint pain. PMH: Hay fever, controlled with medication. Social: Active lifestyle (climbing, cycling). Request: Concerned about an underlying cause, specifically asks about rheumatism.",
+  "Objective": "Vitals: BP 110/60, HR 40-60 bpm. Lungs: Clear to auscultation bilaterally. Heart: Regular rate and rhythm. Abdomen: Soft, non-tender, lively peristalsis. Back: Mild tenderness on palpation next to lower spine. No pain on pelvic compression. Neck/Shoulders: Full range of motion, no pain.",
+  "Assessment": "Fatigue. Differential diagnosis includes anemia, thyroid disorder, and inflammatory conditions. Rheumatoid arthritis considered but less likely given lack of specific joint findings. No signs of acute cardiopulmonary disease.",
+  "Plan": [
+    "Lab work: Order blood tests to check for anemia, thyroid function, and inflammation markers.",
+    "Explanation: Discussed that labs will help investigate common causes. If inflammatory markers are normal, rheumatoid arthritis is very unlikely.",
+    "Follow-up: Patient to schedule blood draw. Call office the day after the test to arrange a phone appointment for results and further planning."
+  ]
+}

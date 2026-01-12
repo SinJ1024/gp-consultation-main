@@ -1,0 +1,10 @@
+{
+  "Subjective": "Sore throat; Fever; Unbearable pain on swallowing; Recent cough resolved; No runny nose; No shortness of breath; Friend had abscess; Request: Concern about abscess, wants antibiotics; Impact: Unable to work due to pain.",
+  "Objective": "Temperature: 38.3°C; Ears: Normal left, red right ear canal; Throat: Red pharyngeal arches, enlarged tonsils with slough bilaterally; Lungs: Vesicular breath sounds; Oxygen saturation: 98%; Submandibular lymph nodes: Small, non-pathological.",
+  "Assessment": "Viral pharyngitis; No abscess.",
+  "Plan": [
+    "Continue paracetamol 4x/day and ibuprofen 3x/day as needed.",
+    "Stay hydrated; Use cold compresses or popsicles.",
+    "Follow up if worsening symptoms, shortness of breath, or inability to swallow."
+  ]
+}

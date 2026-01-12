@@ -1,0 +1,11 @@
+{
+  "Subjective": "Fatigue for 2 months; sleeping a lot but waking up tired; no clear cause; able to work but low enthusiasm; exercises 2-3 times weekly (climbing, cycling); no SOB, chest pain, or palpitations; no weight change; no joint pain or swelling; no morning stiffness; no snoring; no allergies; no GI issues; Request: Concern about rheumatism or underlying condition.",
+  "Objective": "BP 110/60; HR 40-60; normal heart and lungs; back pain on palpation mid-lower spine; no joint tenderness or swelling; abdomen soft, non-tender; normal bowel sounds.",
+  "Assessment": "Fatigue of unclear etiology; no evidence of anemia, thyroid dysfunction, or inflammatory conditions; no signs of rheumatoid arthritis or other inflammatory joint diseases.",
+  "Plan": [
+    "Order blood tests: CBC, TSH, CRP, ESR.",
+    "Patient to schedule phone appointment for follow-up.",
+    "Advise to continue usual activities and monitor symptoms.",
+    "Safety net: If severe symptoms develop or no improvement, return for further evaluation."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "Subjective": "Extreme dizziness x 3 days, started upon waking. Room spinning sensation (vertigo) > light-headedness. Worsens with head movement; less severe when sitting still. Mild nausea. Heart palpitations during dizzy spells. Requires grabbing hold/sitting down when dizzy. Unable to do much due to dizziness. Recent cold. No vomiting, headache, hearing problems, tinnitus, speech difficulty, loss of limb function, or fainting. No smoking, alcohol, or drug use. Request: Wants to get rid of dizziness. Concern: Fears serious condition, specifically brain tumor (friend's history).",
+  "Objective": "BP: 110/70. Pulse: 62 bpm, steady. Neurological exam: CN intact (facial sensation symmetrical, CN VII, XII intact). Shoulder shrug symmetrical, strong. Arm drift negative. Finger-to-nose accurate, but dizziness provoked. Leg strength/coordination intact. Gait normal, tandem gait normal. Eye movements: Smooth pursuit, no nystagmus initially. HIT test negative bilaterally. Dix-Hallpike: Positive (provoked dizziness, nausea, nystagmus) Right side > Left side.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV), likely due to displaced crystals in vestibular system. No signs of brain tumor; not consistent with presentation.",
+  "Plan": [
+    "Explanation: Dizziness is BPPV, benign, not from brain. Caused by displaced crystals in vestibular system.",
+    "Treatment: Epley maneuver to reposition crystals.",
+    "Perform Epley maneuver in clinic today.",
+    "Provide instructions for self-Epley maneuver via thuisarts.nl for home use."
+  ]
+}

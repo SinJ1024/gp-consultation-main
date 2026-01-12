@@ -1,0 +1,35 @@
+{
+  "Subjective": [
+    "The patient has had a spot on their neck for about two weeks.",
+    "The spot started as a small wound after shaving.",
+    "The spot became thicker after an insect bite.",
+    "The spot became redder after an insect bite.",
+    "The spot is itchy.",
+    "The spot is not painful.",
+    "The patient has not had any similar skin spots in the past.",
+    "There is a family history of skin complaints caused by the sun.",
+    "The patient's request for help is to find out what the spot is.",
+    "The patient wants to know what treatment is available for the spot."
+  ],
+  "Objective": [
+    "There is a raised spot on the neck.",
+    "The spot is approximately 0.5 cm in size.",
+    "The spot is pinkish-red in colour.",
+    "The spot has a slightly redder centre.",
+    "The spot does not have a scab.",
+    "There are no palpable lymph nodes in the neck."
+  ],
+  "Assessment": [
+    "There is a suspicion of a pyogenic granuloma on the neck.",
+    "There is a suspicion of an atypical mole on the neck."
+  ],
+  "Plan": [
+    "A photograph of the spot has been taken.",
+    "The photograph of the spot has been sent to dermatology via e-consultation for assessment.",
+    "It has been agreed that the general practitioner will contact the patient by telephone on Friday to discuss the results.",
+    "Possible treatment with cryotherapy using liquid nitrogen was discussed.",
+    "Possible treatment with surgical excision under local anaesthetic was discussed.",
+    "In the event of surgical excision, tissue examination was discussed.",
+    "It was agreed that if there was no immediate telephone contact on Friday, a voicemail message with advice would be left."
+  ]
+}

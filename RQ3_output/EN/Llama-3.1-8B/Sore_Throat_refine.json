@@ -1,0 +1,11 @@
+{
+  "Subjective": "Sore throat 3 days; fever this morning; cough last week; took paracetamol & ibuprofen; unbearable pain when swallowing; no shortness of breath; no runny nose; no cough now; friend had abscess; thinks needs antibiotics; had sore throat before, but worse now; took antibiotics as child. No smoking; no alcohol. Wants antibiotics. Unable to play tennis due to fatigue.",
+  "Objective": "Temp 38.3°C; air-filled eardrum; redness in right ear canal; small lymph nodes submandibular; vesicular breath sounds; 98% saturation; slightly red pharyngeal arch; enlarged tonsils; slough on both sides.",
+  "Assessment": "Likely viral pharyngitis; no signs of abscess or other serious conditions.",
+  "Plan": [
+    "Explain: viral pharyngitis; waiting it out",
+    "Meds: paracetamol 4x/day; ibuprofen 3x/day (400mg)",
+    "Lifestyle: cold drinks/popsicles; plenty of fluids",
+    "Safety net: contact if sicker, shortness of breath, or swallowing issues"
+  ]
+}

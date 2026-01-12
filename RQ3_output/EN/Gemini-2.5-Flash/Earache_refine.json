@@ -1,0 +1,16 @@
+{
+  "Subjective": "Left ear pain, fullness, decreased hearing. Onset 2-3 days ago, gradual worsening. Pain 0-4/10 constant, 6-7/10 after showering. Aggravated by showering, swimming. Unable to swim due to pain. No fever, no general illness. No prior painkiller use. New sport: swimming (few weeks). Cleans ears with cotton buds 3x/week. Recently became Dutch citizen. Request: Wants ear examined, worried about ear, wants pain to stop.",
+  "Objective": "Temp: 36.2 C. Right ear: Clean, eardrum fine. Left ear: Pain on pulling auricle. Red, inflamed, ear canal swollen/thick. Eardrum not well visualized.",
+  "Assessment": "Left otitis externa. Suspect frequent water exposure (swimming/showering) and cotton bud use.",
+  "Plan": [
+    "Explanation: Left ear canal inflamed due to water exposure and cotton bud use.",
+    "Medications:",
+    "- Paracetamol: Up to 4000mg/day PRN for pain.",
+    "- Ear drops (anti-inflammatory, acidic): 3x/day for 1 week.",
+    "Lifestyle advice:",
+    "- No cotton bud use.",
+    "- Keep ear dry for 1 week.",
+    "- Avoid swimming for 1 week.",
+    "Follow-up: Re-consultation in 1 week."
+  ]
+}

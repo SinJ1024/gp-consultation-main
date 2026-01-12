@@ -1,0 +1,12 @@
+{
+  "Subjective": "Linkeroor pijn; Voelt alsof er water in zit; Pijn erger na douchen; Sinds twee, drie dagen; Geen koorts; Pijn beïnvloedt zwemmen; Gebruikt wattenstaafjes 3x per week voor oor schoonmaken; Patiënt maakt zich zorgen over gehoor; Verzoek: Pijn verminderen",
+  "Objective": "Geen koorts (36.2°C); Rechteroor normaal; Linkeroor: Gehoorgang rood, gezwollen en ontstoken, Trommelvlies niet goed zichtbaar",
+  "Assessment": "Ontsteking van de gehoorgang links, waarschijnlijk door vocht en wattenstaafjes gebruik",
+  "Plan": [
+    "Paracetamol 1000mg max. 4x daags bij pijn",
+    "Oordruppels met ontstekingsremmer, 3x daags 1 week",
+    "Geen wattenstaafjes meer gebruiken",
+    "Oor droog houden",
+    "Controle over 1 week"
+  ]
+}

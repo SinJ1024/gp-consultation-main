@@ -1,0 +1,13 @@
+{
+  "Subjective": "Stress-related symptoms, few months, daily last 2 weeks. Body tension, stiff muscles. Rapid breathing, sometimes. Heart palpitations: noticeable, feel in neck, sometimes hear. Regular rhythm, faster. Occurs spontaneously, during relaxation (bath), or unconsciously (toilet at work). Worsened by coffee. Lasts ~30 min. No palpitations with exertion. No chest pain, no irregular heartbeat, no dizziness, no light-headedness. No abdominal complaints. Difficulty falling asleep due to worrying about work, uncertainty. Sleeps ~6 hours on work nights; tired on days off, sleeps longer. Busy job (internal medicine doctor), full-time (38-hour contract), long days, understaffing. Feels unsure, inner struggle (wants to say no but can't), feels guilty. Avoidant personality. Drinks less coffee to mitigate palpitations. Finds relief with nice colleagues, fun, relaxation. Lives with housemates (doctors), many friends/colleagues are doctors; good support system. Request: Rule out somatic cause (e.g., anemia). Concern: Health important, situation continuing, wonders if something physical. Wants to discuss with professional.",
+  "Objective": "BP: 120/60 mmHg. HR: 65 bpm. O2 Sat: 98%. RR: 14 bpm. Lungs: Clear to auscultation bilaterally, good breath sounds, no abnormal sounds. Heart: Normal S1/S2, no murmurs. Abdomen: Not examined (no complaints). Physical exam completely fine.",
+  "Assessment": "Stress-related symptoms (palpitations, rapid breathing, muscle tension, sleep disturbance) likely due to work overload. No signs of cardiac or pulmonary pathology on exam. Rule out: Anemia, thyroid dysfunction, liver/kidney issues.",
+  "Plan": [
+    "Explanation: Physical exam normal, symptoms likely stress-related.",
+    "Blood test ordered: Hb, thyroid values, liver/kidney function. Results in 2 working days, check online portal or call practice.",
+    "Referral: Schedule appointment with mental health nurse (can schedule today, before blood results).",
+    "Lifestyle advice: Actively build relaxation moments (e.g., coffee, call friend, walk, swim). Maintain regularity (wake/sleep schedule).",
+    "Consider occupational health doctor appointment (check contract, schedule adjustments).",
+    "Safety net: Return if symptoms worsen or new concerns."
+  ]
+}

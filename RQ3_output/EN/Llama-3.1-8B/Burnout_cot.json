@@ -1,0 +1,11 @@
+{
+  "Subjective": "Heart palpitations; rapid breathing; tension in body; stiff muscles; stress-related symptoms; difficulty saying no to work demands; guilt feelings when saying no; sleep problems; worrying and fretting about next day; uncertainty about work; fatigue; difficulty relaxing. No fever, chest pain, irregular heartbeat, dizziness, or light-headedness. Worried about health and wants to rule out physical causes. Wants to discuss with a professional (mental health nurse) and take care of herself during busy work period.",
+  "Objective": "Vitals: BP 120/60; HR 65; O2 98%; RR 14. Physical exam: normal heart sounds; no murmurs; good breath sound across all lung fields; no abdominal complaints.",
+  "Assessment": "Stress-related symptoms, susp. work-related burnout. No signs of anaemia, thyroid dysfunction, or other somatic causes.",
+  "Plan": [
+    "Conduct additional examination: blood test (haemoglobin, thyroid values, liver and kidney function)",
+    "Discuss with mental health nurse",
+    "Take care of herself during busy work period: build moments of relaxation into life; maintain regularity in life; try to go to bed on time; enjoy activities that give energy",
+    "Consider occupational health and safety service for tips on adjusting work schedule"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Subjective": "Spanningsklachten, stijve spieren, snelle ademhaling en hartkloppingen. Klachten sinds enkele maanden, laatste 2 weken dagelijks en erger. Uitgelokt door stress op werk (pas afgestudeerd arts interne geneeskunde, onderbezetting, lange dagen, onzekerheid). Hartkloppingen treden op in rust (bv. 's avonds in bad, voor het slapen gaan), duren tot half uur, verdwijnen spontaan. Slaapproblemen: moeite met inslapen door piekeren over werk, slaapt ca. 6 uur per nacht. Slaapt beter op vrije dagen. Beperking: baalt van klachten, wakker liggen. Vermijdt extra koffie. Goed sociaal steunsysteem (huisgenoten/vrienden zijn ook artsen). Moeite met 'nee' zeggen, voelt zich dan schuldig. Geen pijn op de borst, geen onregelmatige hartslag, geen duizeligheid, geen licht gevoel in het hoofd, geen buikklachten. ICE: Bezorgd over mogelijke lichamelijke oorzaak (bv. bloedarmoede). Vraagt of gesprek met POH-GGZ zinvol is.",
+  "Objective": "Bloeddruk: 120/60 mmHg. Hartslag: 65/min, regulair. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: regulair ritme, normale tonen, geen souffles. Pulm: vesiculair ademgeruis over alle longvelden, geen bijgeluiden. Abdomen: niet onderzocht.",
+  "Assessment": "Spanningsklachten, vermoedelijk overspanning/overbelasting door werkstress. Differentiaaldiagnose: anemie, schildklierfunctiestoornis.",
+  "Plan": [
+    "Aanvullend onderzoek: bloedonderzoek (Hb, schildklier-, lever- en nierfunctie).",
+    "Verwijzing: afspraak maken bij POH-GGZ.",
+    "Advies: actief ontspanningsmomenten inbouwen, regelmaat behouden, balans werk/privé zoeken.",
+    "Advies: contact opnemen met arbo-arts overwegen.",
+    "Follow-up: uitslag bloedonderzoek binnen 2 werkdagen (bellen of online portaal).",
+    "Safety netting: contact opnemen bij toename klachten of zorgen."
+  ]
+}

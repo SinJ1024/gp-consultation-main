@@ -1,0 +1,40 @@
+{
+  "Subjective": [
+    "The patient has been experiencing dizziness for three days.",
+    "The dizziness occurs when getting out of bed.",
+    "The dizziness increases with head movements.",
+    "The patient has no hearing loss.",
+    "The patient has no ringing in the ears (tinnitus).",
+    "The patient has not noticed any speech disorders.",
+    "The patient has not noticed any loss of strength.",
+    "The patient has not noticed any sensory disorders.",
+    "The patient has not fainted.",
+    "The patient has not been ill recently (no recent infection or episode of illness).",
+    "Patient does not smoke.",
+    "Patient does not consume alcohol.",
+    "Patient does not use drugs.",
+    "Patient experiences nausea during dizzy spells.",
+    "Patient experiences palpitations during dizzy spells.",
+    "Patient wants clarity about the cause of the dizziness.",
+    "Patient wants clarity about the treatment of the dizziness."
+  ],
+  "Objective": [
+    "Blood pressure is 110/70 mmHg.",
+    "Pulse rate is 62 beats per minute and regular.",
+    "No focal deficits were found during neurological examination.",
+    "There is no nystagmus during tracking movements.",
+    "The Dix-Hallpike test is positive on the left.",
+    "The Dix-Hallpike test is positive on the right."
+  ],
+  "Assessment": [
+    "Probable diagnosis: benign paroxysmal positional vertigo (BPPV)."
+  ],
+  "Plan": [
+    "Patient has been informed about the nature of BPPV.",
+    "Patient has been informed about the expected course of BPPV.",
+    "The patient has been reassured that the symptoms are not consistent with a brain tumour.",
+    "An Epley manoeuvre has been performed in the practice.",
+    "The patient has been given instructions for home exercises for BPPV.",
+    "The patient has been referred to Thuisarts.nl for information about BPPV and exercises."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "Subjective": "Back pain radiating down right leg, thigh, and lower leg to foot; worsened over 1.5 weeks; constant discomfort; unable to sleep; tried paracetamol and ibuprofen with no relief; stopped working due to pain; some tingling; decreased sensation on outside of lower leg; no fever, no headache, no cough, no shortness of breath; no smoking/alcohol; Request: Wants pain relief and to return to work.",
+    "Objective": "BP: not recorded; HR: not recorded; RR: not recorded; T: not recorded; Physical exam: normal strength in legs; decreased sensation on outside of lower leg; normal reflexes; no unusual findings on back or legs.",
+    "Assessment": "Lumbosacral radicular syndrome, suspected herniated nucleus pulposus (HNP); no signs of cauda equina syndrome.",
+    "Plan": [
+     "Pain relief: pregabalin, start with low dose and titrate up as needed",
+        "Physiotherapy to improve back flexibility and reduce nerve compression",
+        "Follow-up telephone appointment in 1 week to assess pain relief",
+        "Safety netting: contact doctor or GP out-of-hours service if symptoms worsen, including loss of sensation in 'riding breeches area', inability to urinate or defecate, or significant weakness in leg",
+        "No immediate need for CT scan or MRI; may consider referral for surgery if conservative management fails"
+    ]
+}

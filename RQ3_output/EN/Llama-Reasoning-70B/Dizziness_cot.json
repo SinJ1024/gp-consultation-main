@@ -1,0 +1,12 @@
+{
+  "Subjective": "Dizziness for 3 days, started upon waking; vertigo (room spinning), worse in the morning and with head movements; nausea without vomiting; recent cold; impact on daily life: unable to perform normal activities due to dizziness. No fever, no headache, no hearing loss, no speech difficulties, no limb weakness. No smoking, no alcohol, no drugs. Request: Fear of brain tumor; wants to alleviate dizziness.",
+  "Objective": "BP 110/70; Pulse 62; Neuro exam: no facial asymmetry, normal cranial nerves, no nystagmus; HIT test negative; Dix-Hallpike positive on right, inducing vertigo and nystagmus, less intense on left.",
+  "Assessment": "Benign paroxysmal positional vertigo (BPPV), likely from otolith dysfunction. No signs of brain tumor or central cause.",
+  "Plan": [
+    "Perform Epley maneuver in office",
+    "Provide home exercise instructions via thuisarts.nl",
+    "Advise activity modification: avoid head movements, use two pillows",
+    "Safety net: seek help if worsening, persistent nausea, new symptoms",
+    "Follow-up: in 1 week if symptoms persist"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Subjective": "Trouble passing hard stools; infrequent bowel movements; abdominal pain and cramps; bloating; underweight; sensitive to touch on the bottom left abdomen. No blood in stool; no fever; no change in urination; regular periods. Concerned about cause of symptoms; wants to know if it's something serious; interested in making stools softer; interested in further help with weight management.",
+  "Objective": "Abdomen: bloated, swollen, sensitive to touch on the bottom left; normal bowel sounds; varying tympani. No fever; normal urination; regular periods.",
+  "Assessment": "Irritable bowel syndrome (IBS); ruled out: ulcerative colitis, other serious conditions.",
+  "Plan": [
+    "Prescribe psyllium fibre sachets to soften stool",
+    "Take fibre sachets with plenty of water every day for 6 weeks",
+    "Evaluate results in 6 weeks",
+    "Monitor for worsening abdominal pain, fever, or blood in stool",
+    "Consider referral to dietitian for weight management"
+  ]
+}

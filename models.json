@@ -1,0 +1,81 @@
+{
+  "description": "Final Scaling Experiment: Llama 3.1 (Open) vs Gemini 1.5 (Closed) - 3 Sizes + 1 Reasoning per provider.",
+  "providers": {
+    "deepinfra": {
+      "base_url": "https://api.deepinfra.com/v1/openai",
+      "env_key": "DEEPINFRA_API_KEY",
+      "type": "openai_compatible"
+    },
+    "google": {
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "env_key": "GOOGLE_API_KEY",
+      "type": "openai_compatible"
+    }
+  },
+  "models": [
+    {
+      "family": "Llama",
+      "name": "Llama-3.1-8B",
+      "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+      "provider": "deepinfra",
+      "type": "size_tier_1",
+      "note": "8B Params - Small Tier (Baseline)"
+    },
+    {
+      "family": "Llama",
+      "name": "Llama-3.1-70B",
+      "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
+      "provider": "deepinfra",
+      "type": "size_tier_2",
+      "note": "70B Params - Medium Tier (The standard for high perf)"
+    },
+    {
+      "family": "Llama",
+      "name": "Llama-3.1-405B",
+      "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+      "provider": "deepinfra",
+      "type": "size_tier_3",
+      "note": "405B Params - Large Tier (Open Source Frontier)"
+    },
+    {
+      "family": "DeepSeek-Llama",
+      "name": "Llama-Reasoning-70B",
+      "model_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+      "provider": "deepinfra",
+      "type": "reasoning",
+      "note": "70B Params - Reasoning Control (Compare directly with Llama-3.1-70B)"
+    },
+    {
+      "family": "Gemini",
+      "name": "Gemini-2.5-Flash-Lite",
+      "model_id": "gemini-2.5-flash-lite",
+      "provider": "google",
+      "type": "size_tier_1",
+      "note": "Google Small Tier (Replaces 1.5-8B)"
+    },
+    {
+      "family": "Gemini",
+      "name": "Gemini-2.5-Flash",
+      "model_id": "gemini-2.5-flash",
+      "provider": "google",
+      "type": "size_tier_2",
+      "note": "Google Medium Tier (Replaces 1.5-Flash)"
+    },
+    {
+      "family": "Gemini",
+      "name": "Gemini-2.5-Pro",
+      "model_id": "gemini-2.5-pro",
+      "provider": "google",
+      "type": "size_tier_3",
+      "note": "Google Flagship Tier"
+    },
+    {
+      "family": "Gemini",
+      "name": "Gemini-2.5-Pro-Thinking",
+      "model_id": "gemini-2.5-pro",
+      "provider": "google",
+      "type": "reasoning",
+      "note": "Google Reasoning (Native Thinking enabled)"
+    }
+  ]
+}

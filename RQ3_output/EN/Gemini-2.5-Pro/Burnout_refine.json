@@ -1,0 +1,13 @@
+{
+  "Subjective": "Stress-related symptoms for months, worsening over last 2 weeks, now almost daily. Main symptoms: muscle tension, rapid breathing, heart palpitations. Palpitations occur spontaneously at rest (e.g., in bath, at bedtime), last ~30 mins, resolve spontaneously. Feels heart beating in neck. Rapid breathing also occurs at rest or unconsciously (e.g., at work). Triggered by high-stress job (new doctor, internal medicine, understaffed, long shifts, extra shifts). Feels unsure at work, inner struggle/unrest about saying no to extra work, feels guilt. Impact: Difficulty falling asleep due to worrying about next day's work; sleeps ~6 hours/night. Better sleep on days off. No chest pain, no irregular heartbeat, no dizziness, no light-headedness, no abdominal complaints. Drinks less coffee as it worsens palpitations. Social: Lives with housemates (also doctors), good support system. Request: Wants to rule out physical cause (e.g., anaemia); asks if talking to a professional (practice nurse) is a good idea.",
+  "Objective": "Vitals: BP 120/60, HR 65/min, O2 Sat 98%, RR 14/min. General: Calm. Lungs: Clear to auscultation bilaterally, good breath sounds, no abnormal sounds. Heart: Normal S1/S2, no murmurs. Abdomen: Exam deferred.",
+  "Assessment": "Stress-related physical symptoms, secondary to occupational overload. Suspected pre-burnout state. Plan to rule out somatic causes.",
+  "Plan": [
+    "Labs: Blood test to check Haemoglobin, Thyroid function, Liver function, Kidney function.",
+    "Referral: Make appointment with practice mental health nurse; can book today.",
+    "Lifestyle Advice: Actively schedule relaxation moments (walks, coffee, swimming, calling friends). Maintain regular sleep schedule.",
+    "Work Advice: Consider contacting occupational health doctor to discuss schedule adjustments and find balance.",
+    "Follow-up/Results: Call for blood results in 2 working days or check online portal.",
+    "Safety Netting: Return for review if symptoms worsen or new concerns arise."
+  ]
+}

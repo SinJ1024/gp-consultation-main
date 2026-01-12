@@ -1,0 +1,50 @@
+{
+  "Subjective": [
+    "Sinds enkele maanden heeft patiënt hartkloppingen.",
+    "Sinds enkele maanden heeft patiënt een snelle ademhaling.",
+    "De klachten zijn toegenomen in de afgelopen 2 weken.",
+    "De klachten treden vooral in rust op.",
+    "Patiënt heeft geen pijn op de borst.",
+    "Patiënt merkt geen onregelmatige hartslag.",
+    "Patiënt ervaart geen duizeligheid.",
+    "Patiënt ervaart geen licht gevoel in het hoofd.",
+    "Patiënt heeft soms benauwdheid bij snelle ademhaling.",
+    "Patiënt ervaart benauwdheid ook op het werk.",
+    "Patiënt heeft moeite met inslapen door piekeren over werk.",
+    "Patiënt slaapt gemiddeld ongeveer 6 uur per nacht.",
+    "Patiënt werkt fulltime (38 uur per week).",
+    "Patiënt maakt regelmatig langere werkdagen.",
+    "Patiënt vraagt of er een somatische oorzaak voor de klachten is.",
+    "Patiënt vraagt of het zinvol is om met een professional te praten."
+  ],
+  "Objective": [
+    "Bloeddruk is 120/60 mmHg.",
+    "Pols is 65/minuut regulair.",
+    "Zuurstofsaturatie is 98%.",
+    "Ademfrequentie is 14/minuut.",
+    "Bij auscultatie van het hart zijn normale harttonen hoorbaar.",
+    "Bij auscultatie van het hart zijn geen souffles hoorbaar.",
+    "Bij auscultatie van het hart is het hartritme regulair.",
+    "Bij auscultatie van het hart is het ritme equaal.",
+    "Bij auscultatie van de longen worden geen afwijkingen gehoord."
+  ],
+  "Assessment": [
+    "De klachten passen bij overspannenheid met spanningsklachten.",
+    "De spanningsklachten uiten zich in hartkloppingen.",
+    "De spanningsklachten uiten zich in een snelle ademhaling.",
+    "De spanningsklachten uiten zich in slaapproblemen.",
+    "Een somatische oorzaak voor de klachten is nog niet geheel uitgesloten."
+  ],
+  "Plan": [
+    "Er is aanvullend bloedonderzoek aangevraagd voor Hb.",
+    "Er is aanvullend bloedonderzoek aangevraagd voor de schildklierfunctie.",
+    "Er is aanvullend bloedonderzoek aangevraagd voor de leverfunctie.",
+    "Er is aanvullend bloedonderzoek aangevraagd voor de nierfunctie.",
+    "Patiënt krijgt een verwijzing of maakt een afspraak bij de POH-GGZ voor begeleiding bij spanningsklachten.",
+    "Patiënt krijgt leefstijladvies om actieve ontspanningsmomenten in te bouwen.",
+    "Patiënt krijgt leefstijladvies om dagstructuur en regelmaat te behouden.",
+    "Patiënt krijgt het advies contact op te nemen met de arbodienst voor ondersteuning bij werkgerelateerde stress.",
+    "Als de klachten toenemen, krijgt patiënt het advies terug te komen op het spreekuur.",
+    "Bij ongerustheid krijgt patiënt het advies terug te komen op het spreekuur."
+  ]
+}

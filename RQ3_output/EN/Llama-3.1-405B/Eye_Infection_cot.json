@@ -1,0 +1,12 @@
+{
+  "Subjective": "Right eye redness and irritation since Tuesday morning; feels like hair or dust in eye; pain when squeezing eyes shut; left eye starting to show redness; no vision problems or light sensitivity; no flu-like symptoms. Request: Wants to know if normal eye infection or something else; concerned about worsening or contagion; asks if needs eye drops or antibiotics.",
+  "Objective": "Right eye: redness and inflammation of surface layer; left eye: starting to show redness; pupils reacting normally to light; no unusual findings on eyelids or bottom of eyes.",
+  "Assessment": "Viral conjunctivitis in right eye, left eye possibly starting to be infected as well. No signs of bacterial infection or other complications.",
+  "Plan": [
+    "1. Avoid rubbing eyes",
+    "2. Use artificial tears from pharmacy for soothing, as needed",
+    "3. Clean eyes with lukewarm tap water and cotton pad in the morning if sticky",
+    "4. Follow up if not improved after 2 weeks or if pain, pus, or vision changes occur",
+    "5. No antibiotics or specific treatment needed at this time"
+  ]
+}

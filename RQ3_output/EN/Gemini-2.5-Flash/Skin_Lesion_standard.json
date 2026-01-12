@@ -1,0 +1,20 @@
+{
+  "Subjective": "Neck spot, 2 weeks. Started after shaving (small wound) or insect bite. Initially thought wart, now not. Scabs fall off, new ones form. Swollen, redder, itches. No pain. No similar spots elsewhere. No skin malignancies in family (father's side: sun-related skin problems on head, e.g., actinic keratosis, SCC, BCC, melanoma, but patient unsure of specific diagnosis). Impact: Neck spots uncomfortable, especially if sharp objects near. Concern: Worried about 'serious form of skin cancer' found online, despite not being elderly. Request: Wants to know what can be done; wants it removed; prefers freezing if options available. Left knee pain, few months, after running, lingers days. Not severe. Soccer fine.",
+  "Objective": "Neck: Raised lesion, ~0.5 cm, pinkish-red, slightly redder center. No scab visible. No similar spots. Not a freckle. Palpation: Raised. Lymph nodes: Neck checked, no findings. Other neck skin: Freckles only. Vitals: Not documented.",
+  "Assessment": "Neck lesion, etiology unclear. DDx: Pyogenic granuloma (post-wound), atypical mole. R/O: Skin cancer (patient concern). Left knee pain, chronic, post-exertional.",
+  "Plan": [
+    "Diagnostic:",
+    "- Take picture of neck lesion with centimeter.",
+    "- Patient to text own picture.",
+    "- Send pictures via e-consult to dermatologist.",
+    "Follow-up:",
+    "- Patient to call GP Friday for dermatologist advice.",
+    "- GP to call patient Friday (preferred: before 10:00 or after 15:00; alternative: 12:00-13:30). Voicemail acceptable.",
+    "Treatment options discussed (pending derm advice):",
+    "- Freezing (liquid nitrogen): May need repeat, cold may not penetrate. Patient prefers.",
+    "- Excision (surgical removal): Numb, remove skin area.",
+    "- Scraping device removal.",
+    "- Tissue analysis (biopsy) for definitive diagnosis.",
+    "Other: Knee pain requires separate appointment."
+  ]
+}

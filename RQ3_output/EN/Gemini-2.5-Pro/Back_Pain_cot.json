@@ -1,0 +1,13 @@
+{
+  "Subjective": "Right low back pain for 1.5 weeks, worsening. Radiates down posterior right thigh and lateral right lower leg to foot. Constant, severe pain. Associated tingling in same distribution. Sensation on outside of right lower leg feels 'duller'. Tried max dose paracetamol & ibuprofen, no relief. Unable to sleep due to pain. Stopped working at supermarket (heavy lifting). No subjective weakness. No saddle anesthesia, no bowel/bladder changes. Social: Works in supermarket. Concern: Neighbor needed surgery for similar issue. Request: Wants pain relief; asks about needing a scan.",
+  "Objective": "General: Appears in pain with movement. Back: No visible abnormalities. No vertebral tenderness. Pain on palpation over right gluteal region. Neuro Exam: Sensation: Decreased sensation to light touch on right lateral lower leg. Strength: 5/5 power in all myotomes, bilateral lower extremities. Reflexes: Symmetrical and normal bilaterally. Special Tests: Straight Leg Raise positive on the right, negative on the left.",
+  "Assessment": "Lumbosacral radicular syndrome, secondary to suspected herniated nucleus pulposus (hernia). No red flags for cauda equina syndrome.",
+  "Plan": [
+    "Explained diagnosis of suspected hernia with nerve root compression.",
+    "Medication: Start Pregabalin, titrate dose upwards slowly.",
+    "Advice: No driving for 1 week after starting or increasing dose, or if side effects occur.",
+    "Referral: Physiotherapy for guided exercises.",
+    "Safety Netting: Return immediately for new/worsening leg weakness, saddle anesthesia, or loss of bowel/bladder control.",
+    "Follow-up: Telephone appointment in 1 week to review symptoms and medication tolerance."
+  ]
+}

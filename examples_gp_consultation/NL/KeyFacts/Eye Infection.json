@@ -1,0 +1,33 @@
+{
+  "Subjective": [
+    "Klachten van geïrriteerd rechteroog sinds dinsdagochtend.",
+    "Rechteroog is rood.",
+    "Rechteroog is gezwollen.",
+    "Patiënt heeft het gevoel dat er iets in het rechteroog zit.",
+    "Patiënt heeft geen pijn aan het oog.",
+    "Sinds gisteren is er ook roodheid van het andere oog.",
+    "Patiënt draagt geen contactlenzen.",
+    "Patiënt heeft geen lichtschuwheid.",
+    "Patiënt heeft geen overige ziekteverschijnselen.",
+    "Patiënt vraagt of de klachten passen bij een normale oogontsteking.",
+    "Patiënt vraagt of antibiotische oogdruppels nodig zijn."
+  ],
+  "Objective": [
+    "Rechteroog is roder dan het linkeroog.",
+    "Rechteroog is meer gezwollen dan het linkeroog.",
+    "Er is geen vreemd lichaam zichtbaar in het oog.",
+    "Beide pupillen reageren normaal op licht."
+  ],
+  "Assessment": ["Beeld past het best bij een virale conjunctivitis."],
+  "Plan": [
+    "Voorlichting over virale conjunctivitis gegeven.",
+    "Patiënt geadviseerd niet in de ogen te wrijven.",
+    "Gebruik van kunsttranen ter verlichting geadviseerd.",
+    "Eventueel spoelen van de ogen met lauwwarm water bij irritatie geadviseerd.",
+    "Patiënt heeft de instructie gekregen opnieuw contact op te nemen bij aanhoudende klachten langer dan 2 weken.",
+    "Patiënt heeft de instructie gekregen opnieuw contact op te nemen bij toename van pijn.",
+    "Patiënt heeft de instructie gekregen opnieuw contact op te nemen bij toename van pusproductie.",
+    "Patiënt heeft de instructie gekregen opnieuw contact op te nemen bij dichtgeplakte ogen.",
+    "Patiënt heeft de instructie gekregen opnieuw contact op te nemen bij visusdaling."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sore back. Pain radiates to right leg via back and side. No fever, cough, or shortness of breath. No smoking. Works in supermarkt, lifting heavy objects. Unable to sleep due to pain. No improvement with paracetamol or ibuprofen. Pain affects daily activities (work, sports).",
+  "Objective": "Vitals: BP 120/80, HR 70, Temp 36.8°C. Physical exam: normal bowel and bladder function. No tenderness in lower back. Pain on palpation at L4-L5 level. Decreased sensation in right leg. Reflexes intact.",
+  "Assessment": "Lumbosacral radicular syndrome, susp. HNP. No signs of cauda equina.",
+  "Plan": [
+    "Pregabaline for pain management.",
+    "Fysiotherapie for exercises to reduce pressure on zenuw.",
+    "No scan or operation for now.",
+    "Follow-up in 1 week to assess pain management.",
+    "Safety net: contact doctor if symptoms worsen (e.g., decreased sensation in rijbroekgebied, inability to move leg)."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Subjective": "Headache for 2 months, worsening. Nausea when headache is bad. Glare in vision. Prefer dark room. Headache worsens with conversation. No fever, vomiting, flashes of light. No family history of serious conditions. No recent stress. No smoking, energy drinks, or excessive caffeine. Worried about cause (migraine or cluster headache). Wants to know best course of action.",
+  "Objective": "BP: 120/80. Pulse: 50/min. Neurological exam: cranial nerves fine, fingertip-nose test good, arm and leg strength good, Romberg's normal.",
+  "Assessment": "Migraine syndrome, susp. cause. Ruled out cluster headaches.",
+  "Plan": [
+    "Read about migraines on thuisarts.nl",
+    "Take pain relief as soon as symptoms start (paracetamol 4x2, ibuprofen if necessary)",
+    "Keep headache diary to track patterns and factors that make it worse",
+    "Return in 4 weeks for follow-up and to evaluate diary",
+    "Schedule appointment in 4 weeks if symptoms worsen or change"
+  ]
+}

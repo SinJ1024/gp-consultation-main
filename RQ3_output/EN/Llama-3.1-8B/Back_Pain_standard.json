@@ -1,0 +1,13 @@
+{
+    "Subjective": "Sore back. Radiates down right leg via back and side to foot. Discomfort all day. Trouble sleeping. Unable to work due to pain. No relief from paracetamol or ibuprofen. No tingling in riding breeches area. No problem with urination or defecation. No weakness in leg. No fever, cough, or shortness of breath. No smoking or alcohol. Request: Wants pain relief and to get back to work.",
+    "Objective": "BP: 120/80. HR: 70. Temp: 36.8°C. Ears: normal. Eyes: normal. Throat: normal. Abdomen: normal. Back: normal. Legs: normal. Strength: normal. Reflexes: normal. Pain: 8/10 on VAS.",
+    "Assessment": "Lumbosacral radicular syndrome, susp. HNP. No signs of cauda equina.",
+    "Plan": [
+     "Explain diagnosis and treatment plan to patient.",
+        "Prescribe pregabalin for pain relief.",
+        "Recommend physiotherapy to improve back flexibility and reduce nerve compression.",
+        "Schedule follow-up telephone appointment in 1 week to discuss pain relief progress.",
+        "Contact doctor or GP out-of-hours service if symptoms worsen or if unable to move leg due to weakness.",
+        "Do not drive for 1 week after starting pregabalin or if experiencing side effects."
+    ]
+}

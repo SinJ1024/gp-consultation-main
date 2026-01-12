@@ -1,0 +1,12 @@
+{
+  "Subjective": "Back pain radiating down right leg, thigh, and foot; worse on right side. Tingling on right lower leg; reduced sensation on right lower leg. Pain constant, interferes with sleep and work. No loss of strength; no perineal numbness/weakness. Request: Wants pain relief; concerned about surgery.",
+  "Objective": "Right leg strength normal but painful. Reduced sensation right lower leg. Normal reflexes. No back tenderness or deformity.",
+  "Assessment": "Lumbosacral radicular syndrome, likely due to intervertebral disc herniation. No signs of cauda equina syndrome.",
+  "Plan": [
+    "Start pregabalin with gradual dose increase.",
+    "Avoid driving during initial treatment phase.",
+    "Refer to physiotherapy for core strengthening exercises.",
+    "Schedule follow-up in 1 week to assess pain relief.",
+    "Safety net: Seek urgent care if perineal numbness, urinary retention, or leg weakness develops."
+  ]
+}

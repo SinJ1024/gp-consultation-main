@@ -1,0 +1,13 @@
+{
+  "Subjective": "Muscle tension; Heart palpitations; Rapid breathing; Shortness of breath; Sleep disturbances; Fatigue; Symptoms worsened over past 2 weeks. No chest pain; No irregular heartbeat; No dizziness; No abdominal complaints. Works as doctor in internal medicine; High job demands; Lives with supportive housemates. Affects work and sleep; Causes guilt over extra shifts.",
+  "Objective": "BP 120/60; HR 65; SpO2 98%; RR 14; Normal heart and lung exam.",
+  "Assessment": "Stress-related symptoms, likely job-related. No signs of cardiac or respiratory issues. Ruled out anemia, thyroid, or organ dysfunction pending blood tests.",
+  "Plan": [
+    "Blood tests: Hgb, Thyroid, LFT, KFT",
+    "Refer to mental health nurse",
+    "Encourage relaxation techniques: Coffee breaks, calls with friends, walks/swims",
+    "Maintain regular sleep schedule",
+    "Consult occupational health for schedule adjustments",
+    "Follow-up if symptoms worsen or concerns persist"
+  ]
+}

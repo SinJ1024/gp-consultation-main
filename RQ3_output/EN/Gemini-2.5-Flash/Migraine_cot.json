@@ -1,0 +1,14 @@
+{
+  "Subjective": "Headaches 2 months, worsening. Primarily right-sided, sometimes diffuse. Mild nausea, no vomiting. Glare in vision. Aggravated by light/noise; prefers dark room. Initially once, now almost weekly, lasting few days. Paracetamol tried, Ibuprofen worked once. No flashes of light, no recent stress, no coffee/energy drinks. No smoking, occasional alcohol. Family Hx: Father migraines, grandfather cluster headaches. Unable to play volleyball/drink beer on vacation. Student (medicine, 2nd year, 20 y.o.). Request: Dx (migraine/cluster?), best management.",
+  "Objective": "BP: 120/80. Pulse: 50 bpm. Neurological exam: Cranial nerves fine, fingertip-nose test good, arm/leg strength good, Romberg normal. Gait: Straight line walking a bit off.",
+  "Assessment": "Suspects Migraine (fits headache, glare, photophobia/phonophobia). No signs of Cluster Headache.",
+  "Plan": [
+    "Explanation: Migraine likely, not cluster headache. Read Thuisarts.nl for more info.",
+    "Medication: Start pain relief immediately at symptom onset.",
+    "Paracetamol: 2 tabs, 4 times daily (fixed times).",
+    "Add Ibuprofen if paracetamol insufficient.",
+    "Lifestyle/Monitoring: Keep headache diary (printed) for next few weeks. Identify worsening/improving factors (stress, coffee) and patterns.",
+    "Follow-up: Re-evaluation in 4 weeks with diary.",
+    "Safety Net: Return sooner if questions, worsening, or changing symptoms."
+  ]
+}

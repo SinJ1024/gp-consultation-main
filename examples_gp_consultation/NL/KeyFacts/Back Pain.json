@@ -1,0 +1,51 @@
+{
+  "Subjective": [
+    "Sinds 1,5 week heeft patiënt continu pijn in de onderrug rechts.",
+    "Pijn straalt uit via de dorsale zijde van het rechterbovenbeen.",
+    "Pijn straalt uit via de laterale zijde van het rechteronderbeen tot in de rechtervoet.",
+    "Paracetamol geeft geen pijnverlichting.",
+    "Ibuprofen geeft geen pijnverlichting.",
+    "De pijn belemmert de slaap.",
+    "De pijn belemmert het werk.",
+    "De pijn belemmert sporten.",
+    "Patiënt ervaart geen subjectief krachtverlies in de benen.",
+    "Beweging wordt beperkt door de pijn.",
+    "Patiënt ervaart een doffer gevoel aan de buitenkant van het rechteronderbeen tot in de voet.",
+    "Patiënt ervaart lichte tintelingen aan de buitenkant van het rechteronderbeen tot in de voet.",
+    "Er is geen gevoelsverlies in het rijbroekgebied.",
+    "Er zijn geen mictiestoornissen.",
+    "Er zijn geen defecatiestoornissen.",
+    "Patiënt wil vooral vermindering van de pijnklachten."
+  ],
+  "Objective": [
+    "Er zijn geen zichtbare afwijkingen aan rug.",
+    "Er zijn geen zichtbare afwijkingen aan benen.",
+    "Er is geen drukpijn over de wervelkolom.",
+    "Straight Leg Raise rechts is positief.",
+    "Straight Leg Raise links is negatief.",
+    "Er is hypesthesie aan de laterale zijde van het rechteronderbeen.",
+    "Er is hypesthesie aan de laterale zijde van de rechtervoet.",
+    "De kracht in beide benen is symmetrisch.",
+    "De kracht in beide benen is normaal.",
+    "De peesslagreflexen in de benen zijn normaal."
+  ],
+  "Assessment": [
+    "Er is een rechtszijdig lumboradiculair syndroom, verdacht voor hernia nuclei pulposi.",
+    "Er zijn geen aanwijzingen voor een cauda-equina-syndroom.",
+    "Er zijn geen aanwijzingen voor ernstige neurologische uitval."
+  ],
+  "Plan": [
+    "Gestart wordt met pregabaline.",
+    "Pregabaline wordt langzaam opgebouwd volgens schema.",
+    "Advies is om in de opbouwfase van pregabaline geen auto te rijden.",
+    "Patiënt wordt verwezen voor fysiotherapie.",
+    "Voorlichting is gegeven over hernia nuclei pulposi/lumboradiculair syndroom.",
+    "Voorlichting is gegeven over het verwachte beloop van de klachten.",
+    "Voorlichting is gegeven over de verwachte behandeling.",
+    "Bij nieuw krachtverlies direct contact opnemen.",
+    "Bij gevoelsverlies in het rijbroekgebied direct contact opnemen.",
+    "Bij mictiestoornissen direct contact opnemen.",
+    "Bij defecatiestoornissen direct contact opnemen.",
+    "Er is een controleafspraak over 1 week gemaakt."
+  ]
+}

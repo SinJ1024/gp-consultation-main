@@ -1,0 +1,12 @@
+{
+  "Subjective": "Right eye irritation since Tuesday; redness, worse right > left; foreign body sensation; mild discomfort; left eye redness starting. No fever, cough, or shortness of breath. No trauma, discharge, or vision changes. Concern about infection/contagiousness. Request: Evaluate infection, consider antibiotics/drops.",
+  "Objective": "Vitals: Not reported. Physical Exam: Redness right > left; no foreign body/discharge; pupils reactive; normal exam otherwise.",
+  "Assessment": "Viral conjunctivitis, likely self-limiting. No signs of bacterial infection or other conditions (e.g., no pus, pain, or vision changes).",
+  "Plan": [
+    "Artificial tears for comfort (available at Kruidvat)",
+    "Warm compresses with tap water",
+    "Avoid rubbing eye",
+    "Follow-up in 2 weeks if not improved or if symptoms worsen (e.g., pain, pus, vision changes)",
+    "No antibiotics needed unless bacterial infection develops"
+  ]
+}

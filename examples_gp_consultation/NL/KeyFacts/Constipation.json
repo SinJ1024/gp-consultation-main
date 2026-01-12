@@ -1,0 +1,37 @@
+{
+  "Subjective": [
+    "Sinds circa 3 maanden heeft patiënt obstipatie.",
+    "Patiënt heeft harde ontlasting.",
+    "Patiënt heeft defecatiepauzes van 2 tot 3 dagen.",
+    "Bij obstipatie ervaart patiënt buikpijn.",
+    "Bij obstipatie ervaart patiënt buikkrampen.",
+    "Bij obstipatie ervaart patiënt een opgeblazen buikgevoel.",
+    "Patiënt heeft geen verandering in eetlust.",
+    "Patiënt heeft een normaal eetpatroon.",
+    "Patiënt heeft ondergewicht.",
+    "Patiënt heeft geen recent gewichtsverlies.",
+    "Patiënt ziet geen bloed bij de ontlasting.",
+    "Hulpvraag: patiënt wil advies voor zachtere ontlasting."
+  ],
+  "Objective": [
+    "Buik: normale peristaltiek.",
+    "Buik: wisselende tympanie.",
+    "Buik: drukpijn links onder in de buik.",
+    "Buik: percussiedemping links onder in de buik."
+  ],
+  "Assessment": [
+    "Er is obstipatie.",
+    "Het klachtenpatroon past bij een obstipatievariant van prikkelbare darmsyndroom.",
+    "Er zijn geen alarmsignalen."
+  ],
+  "Plan": [
+    "Patiënt start met psylliumvezels in zakjes.",
+    "Psylliumvezels moeten dagelijks worden ingenomen met voldoende water.",
+    "Behandelduur met psylliumvezels is 6 weken.",
+    "Er wordt een controleafspraak gepland over 6 weken.",
+    "Patiënt moet eerder contact opnemen bij toename van buikpijn.",
+    "Patiënt moet eerder contact opnemen bij koorts.",
+    "Patiënt moet eerder contact opnemen bij bloed bij de ontlasting.",
+    "Er wordt overwogen patiënt bij het volgende consult te verwijzen naar een diëtist."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "Subjective": "Back pain, 1.5 weeks, worsening. Radiates down Right leg (back of thigh, lower leg, side) to foot. Constant pain, all day. Very uncomfortable, unable to sleep for nights. Unable to work (supermarket, heavy lifting), temporarily stopped working. Unable to exercise. Taking maximum Paracetamol and Ibuprofen, no relief. Right lower leg (outside) feels duller/different. Tingling in painful area. No loss of strength in leg; pain limits movement. No saddle anesthesia. No issues with urination/defecation. Request: Wants pain relief, concerned about duration, asks about scans/surgery.",
+  "Objective": "Pain noted getting on couch. Inspection: Legs (L/R) normal, back normal. Palpation: Back normal, no vertebral tenderness; pain elicited towards right gluteal area. Right straight leg raise causes pain; Left straight leg raise normal. Sensation: Right leg/foot feels duller/different compared to Left. Strength: Bilateral leg strength preserved (pushing against hand, lower leg push/pull, toe dorsiflexion/plantarflexion); pain noted during right leg strength testing. Reflexes: All reflexes good (Achilles, Babinski).",
+  "Assessment": "Lumbosacral radicular syndrome, susp. Herniated Nucleus Pulposus (HNP). No signs of cauda equina syndrome. No significant motor weakness.",
+  "Plan": [
+    "Explanation: Hernia (intervertebral disc compressing nerve) causing nerve pain and sensory changes. Painful, takes weeks-months to resolve. Surgery considered only if conservative treatment fails long-term.",
+    "Medication: Start Pregabalin. Dose build-up slowly due to side effects. No driving for 1 week after starting/dose increase, or if side effects occur. Goal: Pain relief, improved sleep.",
+    "Lifestyle: Physiotherapy recommended for exercises, back flexibility, hope for disc shrinkage. Continue activity as tolerated, avoid heavy lifting.",
+    "Safety Netting: Contact sooner if worsening symptoms, saddle anesthesia, inability to feel urination/defecation, or significant leg weakness (no strength). Contact GP out-of-hours service for these red flags.",
+    "Follow-up: Telephone appointment in 1 week to discuss pain relief progress.",
+    "No immediate CT/MRI/surgery indicated."
+  ]
+}

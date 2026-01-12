@@ -1,0 +1,11 @@
+{
+  "Subjective": "Dizziness for 3 days, started on waking. Sensation of room spinning > light-headedness. Triggered by getting out of bed and head movements. Associated with mild nausea and occasional rapid heartbeat. Recent cold. No vomiting, headache, hearing loss, tinnitus, speech difficulty, true weakness, or fainting. Dizziness stops him from doing much. Social: No smoking, alcohol, or drug use. ICE: Fear of brain tumor, similar to a friend's presentation. Wants to know the cause and get rid of the dizziness.",
+  "Objective": "Vitals: BP 110/70, HR 62. Neuro Exam: Cranial nerves II-XII grossly intact; facial sensation equal, normal facial movements, tongue midline. Motor: 5/5 strength in upper and lower extremities bilaterally. Sensation intact. Coordination: Finger-nose-finger normal bilaterally. Gait: Normal and tandem gait stable. Vestibular Exam: Smooth pursuit intact, no nystagmus. Head Impulse Test (HIT) negative bilaterally. Dix-Hallpike maneuver positive: provoked intense vertigo, nausea, and visible nystagmus. Symptoms worse on one side vs the other.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV). Brain tumor ruled out.",
+  "Plan": [
+    "Reassurance provided: explained condition is due to vestibular crystals, not a brain tumor.",
+    "Perform Epley maneuver in-office today.",
+    "Provide patient instructions for self-Epley maneuver at home (via thuisarts.nl).",
+    "Advised that condition can resolve on its own but maneuvers can speed recovery."
+  ]
+}

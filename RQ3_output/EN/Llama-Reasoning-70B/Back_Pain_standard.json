@@ -1,0 +1,12 @@
+{
+  "Subjective": "Back pain radiating to right leg, thigh, and foot; 1.5 weeks duration. Worse over time. No relief with paracetamol/ibuprofen. Pain constant, no variation. Unable to work or exercise. Sleep disturbed. No fever, no weight loss, no bladder/bowel dysfunction. No loss of strength; some decreased sensation and tingling on right lower leg. Patient requests pain relief and concerned about needing surgery.",
+  "Objective": "Right leg: decreased sensation on lateral lower leg. Positive straight leg raise test (right). Strength normal. Reflexes normal. No back tenderness or deformity.",
+  "Assessment": "Lumbosacral radicular syndrome, likely due to intervertebral disc herniation. No signs of cauda equina syndrome.",
+  "Plan": [
+    "Start pregabalin, gradual dose escalation",
+    "Arrange follow-up in 1 week",
+    "Recommend physiotherapy",
+    "Safety net: worsening symptoms (e.g., saddle anesthesia, leg weakness) warrant urgent reevaluation",
+    "No immediate need for imaging or surgery"
+  ]
+}

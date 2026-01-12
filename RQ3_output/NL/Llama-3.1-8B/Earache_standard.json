@@ -1,0 +1,11 @@
+{
+    "Subjective": "Slecht linkeroor. Pijn bij douchen. Pijn 4/10, 6/10 na douchen. Kan niet zwemmen. Geen koorts. Geen pijnstilling genomen. Pijn is managable. Kan minder sporten. Nieuwe sport zwemmen. Niet vaak oor schoonmaken. Bang voor oor. Wil pijn stopt. Wil weten wat er aan de hand is.",
+    "Objective": "Temp: 36,2°C. Rechter oor: schoon, trommelvlies rustig. Linkeroor: ontstoken, gehoorgang gezwollen en rood.",
+    "Assessment": "Ontsteking linkeroor, susp. otitis externa. Geen tekenen van infectie.",
+    "Plan": [
+     "Pijnstilling: paracetamol 1000mg, 4x/dag",
+        "Ontstekingsremmer: zure druppel, 3x/dag, 1 week",
+        "Oor droog houden, 1 week",
+        "Volgen op spreekuur, 1 week"
+    ]
+}

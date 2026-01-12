@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sore throat for 3 days; fever this morning; cough last week; painful swallowing; concern about abscess; request for antibiotics; impact on daily life: unable to play tennis due to fatigue; no smoking/alcohol.",
+  "Objective": "Vitals: temperature 38.3°C; Physical Exam: ears - right ear canal redness; throat - slightly enlarged tonsils, slightly red pharyngeal arch; lungs - vesicular breath sounds; saturation - 98%; no signs of abscess or pathological lymph nodes.",
+  "Assessment": "Viral pharyngitis; no signs of abscess or bacterial infection.",
+  "Plan": [
+    "Continue taking paracetamol 4 times a day and ibuprofen 3 times a day as needed for pain",
+    "Drink plenty of fluids",
+    "Use cold drinks or popsicles to help with pain",
+    "Wait it out; antibiotics not necessary",
+    "Contact us again if symptoms worsen, shortness of breath, or difficulty swallowing"
+  ]
+}

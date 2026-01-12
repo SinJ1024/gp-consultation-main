@@ -1,0 +1,13 @@
+{
+  "Subjective": "Fatigue for 2 months. Wakes up tired despite sleeping a lot. Sleep may be superficial. No clear cause or acute onset. Work impacted, considered calling in sick, but hasn't. Resting/hanging out on weekends. Exercise (climbing, cycling) still possible, no significant loss of strength. Reports some muscle pain, more than usual. Back pain also more than usual. Googled symptoms, considered rheumatism/arthritis due to morning stiffness. No joint pain in hands/feet. No snoring, but occasional startling awakenings (lifelong). Recent hay fever symptoms controlled with medication. No palpitations or chest pain. Appetite normal. Weight stable (72kg). Bowel movements normal, several times daily. Urination normal. Request: Wants blood tests to check for anemia, thyroid issues, and inflammation/rheumatism.",
+  "Objective": "Vitals: BP 110/60, HR 40-50 (athletic bradycardia). Lungs: Clear. Back: Tenderness to palpation next to midline in lumbar region. Pelvis: No pain on lateral compression. Paraspinal muscles: Feels good with massage, no asymmetry. Neck: Full ROM, no pain. Abdomen: Lively bowel sounds, tympanic to percussion, supple, no tenderness on palpation.",
+  "Assessment": "Fatigue, etiology unclear. Differential includes anemia, hypothyroidism, inflammatory process (e.g., rheumatoid arthritis). Back pain, likely musculoskeletal, possibly exacerbated by fatigue/deconditioning. No clear cardiac or pulmonary etiology. No clear signs of rheumatological disease based on exam, but blood work pending.",
+  "Plan": [
+    "Blood tests: CBC (anemia), TSH (thyroid), ESR/CRP (inflammation).",
+    "Patient to schedule blood draw at Atal Medial.",
+    "Call day after test results are available to schedule phone appointment.",
+    "Discuss results and further management during phone appointment.",
+    "Continue current exercise routine.",
+    "Monitor for worsening symptoms, including fever, significant shortness of breath, chest pain, or neurological deficits."
+  ]
+}

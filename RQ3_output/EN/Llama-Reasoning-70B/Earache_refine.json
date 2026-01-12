@@ -1,0 +1,12 @@
+{
+  "Subjective": "Left ear feels filled with water; mild pain worse after showering; gradual onset over 3 days; hearing decreased; pain rating 4/10 baseline, 6-7/10 after shower; unable to swim due to pain; uses cotton buds 3x/week; no fever; no other systemic symptoms; requests evaluation of left ear; worried about hearing loss.",
+  "Objective": "Temperature 36.2°C; left ear canal red, inflamed, swollen, thickened; right ear normal; eardrum not visible on left.",
+  "Assessment": "Otitis externa; likely related to frequent wetness and cotton bud use.",
+  "Plan": [
+    "Paracetamol up to 4000mg/day as needed",
+    "Anti-inflammatory ear drops TID x1 week",
+    "Avoid cotton buds",
+    "Keep ear dry",
+    "Follow-up in 1 week"
+  ]
+}

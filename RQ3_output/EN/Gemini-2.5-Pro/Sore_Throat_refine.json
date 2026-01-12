@@ -1,0 +1,11 @@
+{
+  "Subjective": "Sore throat x 3 days with fever this morning. Pain is \"unbearable\" on swallowing. Started with a cough last week, now resolved. Took paracetamol and ibuprofen with minimal relief. No shortness of breath, no runny nose. PMH: sore throat years ago; antibiotics for it once as a child. Social: Not mentioned. Request: Concerned about a peritonsillar abscess (friend had one); thinks she needs antibiotics.",
+  "Objective": "Temp: 38.3°C. SpO2: 98%. Ears: Left - air-filled eardrum, no inflammation. Right - mild redness in ear canal, otherwise normal. Neck: Small, non-pathological submandibular lymph nodes. Throat: Median uvula, slightly red pharyngeal arch. Tonsils bilaterally enlarged with some slough, not kissing. No signs of abscess. Lungs: Vesicular breath sounds, no additional sounds.",
+  "Assessment": "Acute pharyngitis, likely viral etiology. Peritonsillar abscess ruled out.",
+  "Plan": [
+    "Reassurance provided: condition is likely viral, antibiotics not indicated.",
+    "Analgesia: Continue paracetamol up to 4x/day. Add ibuprofen 400mg up to 3x/day if needed.",
+    "Advice: Maintain good fluid intake. Cold drinks or popsicles may help soothe the pain.",
+    "Safety Net: Return immediately if symptoms worsen, develops shortness of breath, or unable to swallow fluids."
+  ]
+}

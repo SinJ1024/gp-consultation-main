@@ -1,0 +1,10 @@
+{
+  "Subjective": "Dizziness for 3 days, worsened by head movement; feeling of room spinning around; nausea; fast heartbeat; light-headedness. Afraid of brain tumor due to friend's diagnosis; wants to get rid of dizziness. No fever, headache, or ear problems; no hearing loss, ringing in ears, or speech difficulties; no loss of function in arms or legs; no recent illness or bed confinement; no smoking, alcohol, or drug use.",
+  "Objective": "BP 110/70; pulse 62/min; neurological examination: normal facial sensation; normal eye movements; no nystagmus; normal muscle strength and coordination; positive HIT test on one side; provoked symptoms with positional change.",
+  "Assessment": "Benign paroxysmal positional vertigo (BPPV); ruled out brain tumor.",
+  "Plan": [
+    "Perform Epley manoeuvre to help alleviate symptoms",
+    "Provide instructions for self-performance of Epley manoeuvre via thuisarts.nl",
+    "Follow-up to assess effectiveness of treatment"
+  ]
+}

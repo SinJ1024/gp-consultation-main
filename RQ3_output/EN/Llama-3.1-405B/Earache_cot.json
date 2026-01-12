@@ -1,0 +1,12 @@
+{
+  "Subjective": "Left ear pain, feels like water in ear, hearing impairment. Pain worse after showering. Pain level 4/10 daily, 6-7/10 after showering. No fever or feeling ill overall. Request: Wants pain to stop. Concern: Worried about hearing impairment in left ear.",
+  "Objective": "Temp 36.2°C. Right ear: normal, eardrum intact. Left ear: painful when pulled, red and inflamed, ear canal swollen, red and thick, eardrum not well visualized.",
+  "Assessment": "Left ear canal inflammation, likely due to frequent wetting and cotton bud use.",
+  "Plan": [
+    "1. Take paracetamol up to 4000mg/day as needed for pain.",
+    "2. Use anti-inflammatory ear drops 3 times/day for 1 week.",
+    "3. Stop cleaning ears with cotton buds.",
+    "4. Keep left ear dry for the next week.",
+    "5. Follow up in 1 week for re-evaluation."
+  ]
+}

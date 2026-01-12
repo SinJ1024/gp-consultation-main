@@ -1,0 +1,50 @@
+{
+  "Subjective": [
+    "The patient has been experiencing palpitations for several months.",
+    "The patient has been breathing rapidly for several months.",
+    "The symptoms have increased over the past two weeks.",
+    "The symptoms mainly occur at rest.",
+    "The patient has no chest pain.",
+    "The patient does not notice an irregular heartbeat",
+    "The patient does not experience dizziness.",
+    "The patient does not experience light-headedness.",
+    "The patient sometimes experiences shortness of breath when breathing rapidly.",
+    "The patient also experiences shortness of breath at work.",
+    "The patient has difficulty falling asleep due to worrying about work.",
+    "The patient sleeps an average of about 6 hours per night.",
+    "The patient works full-time (38 hours per week).",
+    "The patient regularly works longer days.",
+    "The patient asks whether there is a somatic cause for the symptoms.",
+    "The patient asks whether it would be useful to talk to a professional."
+  ],
+  "Objective": [
+    "Blood pressure is 120/60 mmHg.",
+    "Pulse is 65/minute, regular.",
+    "Oxygen saturation is 98%.",
+    "Respiratory rate is 14/minute.",
+    "Auscultation of the heart reveals normal heart sounds.",
+    "No murmurs are audible on auscultation of the heart.",
+    "Heart rhythm is regular on auscultation of the heart.",
+    "Rhythm is equal on auscultation of the heart.",
+    "No abnormalities are heard on auscultation of the lungs."
+  ],
+  "Assessment": [
+    "The symptoms are consistent with stress and tension.",
+    "The tension manifests itself in palpitations.",
+    "The tension manifests itself in rapid breathing.",
+    "The stress symptoms manifest themselves in sleep problems.",
+    "A somatic cause for the symptoms has not yet been completely ruled out."
+  ],
+  "Plan": [
+    "Additional blood tests have been requested for Hb.",
+    "Additional blood tests have been requested for thyroid function.",
+    "Additional blood tests have been requested for liver function.",
+    "Additional blood tests have been requested for kidney function.",
+    "The patient will be referred to or will make an appointment with the POH-GGZ for guidance on stress-related symptoms.",
+    "The patient will receive lifestyle advice on incorporating active relaxation into their daily routine.",
+    "The patient will receive lifestyle advice on maintaining a daily structure and regularity.",
+    "The patient is advised to contact the occupational health and safety service for support with work-related stress.",
+    "If the symptoms increase, the patient is advised to return to the consultation hour.",
+    "If concerned, the patient is advised to return to the consultation hour."
+  ]
+}

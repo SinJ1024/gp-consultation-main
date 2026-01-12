@@ -1,0 +1,44 @@
+{
+  "Subjective": [
+    "Sore throat for 3 days.",
+    "Sore throat is painful when swallowing.",
+    "Fever since this morning.",
+    "Coughing since last week.",
+    "Taking paracetamol.",
+    "Taking ibuprofen.",
+    "Sore throat persists despite taking paracetamol and ibuprofen.",
+    "No shortness of breath.",
+    "Can still drink normally.",
+    "No cold symptoms reported.",
+    "Patient requests antibiotics.",
+    "Patient suspects a throat abscess."
+  ],
+  "Objective": [
+    "Temperature 38.3°C.",
+    "Eardrums are air-filled.",
+    "No signs of otitis media.",
+    "Right ear canal is slightly red.",
+    "Right ear canal is otherwise calm.",
+    "A few small, non-pathological lymph nodes are palpable in the neck.",
+    "Uvula is median.",
+    "Pharynx is red.",
+    "Tonsils are enlarged.",
+    "There is coating on both tonsils.",
+    "Tonsils are not kissing.",
+    "Lungs: vesicular breath sounds.",
+    "No abnormal sounds are audible on auscultation.",
+    "Saturation is 98%."
+  ],
+  "Assessment": ["Probable viral throat infection."],
+  "Plan": [
+    "The patient has been informed that the throat infection is likely viral.",
+    "The patient has been informed that antibiotics are not necessary in this situation.",
+    "Advice to take paracetamol 4 times daily, 1000 mg.",
+    "Advice to take ibuprofen 3 times daily, 400 mg.",
+    "Advice to drink cold beverages to relieve pain.",
+    "Advice to eat ice lollies to relieve pain.",
+    "Advice to contact again if symptoms worsen.",
+    "Advice to contact again if shortness of breath occurs.",
+    "Advice to contact again if swallowing difficulties increase."
+  ]
+}

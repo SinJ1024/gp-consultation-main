@@ -1,0 +1,694 @@
+Case_ID,Model_Name,Model_Family,Model_Type,Strategy,Reasoning_Trace,Generated_JSON,Raw_Output,Formatted_Text,Latency_Seconds
+Back Pain,Qwen-1.5B,Qwen,size_tier_1,standard,,,,,1.06
+Back Pain,Qwen-1.5B,Qwen,size_tier_1,few_shot,,,,,0.88
+Back Pain,Qwen-1.5B,Qwen,size_tier_1,cot,,,,,0.58
+Back Pain,Qwen-7B,Qwen,size_tier_2,standard,,"{
+  ""Subjective"": ""Patient has had severe lower back pain radiating to the right leg, including the posterior and lateral aspects of the thigh and down to the foot for approximately 1.5 weeks. The pain is constant, interferes with sleep, and has not responded to paracetamol and ibuprofen. The patient has stopped working due to the pain and avoids physical activity. There is mild numbness in the affected area, but no issues with sensation in the perineal region or bladder/bowel control."",
+  ""Objective"": ""Physical examination shows mild decreased sensation on the right lateral lower leg. The patient experiences pain when the right leg is elevated. Strength testing reveals no significant weakness, but the patient reports pain during testing. Reflexes are intact. The back examination shows no obvious abnormalities, though the patient experiences pain in the lower back and gluteal region."",
+  ""Assessment"": ""Suspected lumbar disc herniation (hernia) causing radiculopathy with sciatic nerve involvement, leading to radiating pain, numbness, and discomfort in the right leg."",
+  ""Plan"": ""Start pregabalin for neuropathic pain management, with gradual dose titration due to potential side effects. Advise against driving during initial treatment. Recommend physiotherapy to improve spinal flexibility and potentially reduce herniation. Schedule a follow-up in one week to assess pain control. Monitor for worsening symptoms such as loss of perineal sensation, bowel/bladder dysfunction, or severe weakness, which would warrant immediate evaluation.""
+}","{
+  ""Subjective"": ""Patient has had severe lower back pain radiating to the right leg, including the posterior and lateral aspects of the thigh and down to the foot for approximately 1.5 weeks. The pain is constant, interferes with sleep, and has not responded to paracetamol and ibuprofen. The patient has stopped working due to the pain and avoids physical activity. There is mild numbness in the affected area, but no issues with sensation in the perineal region or bladder/bowel control."",
+  ""Objective"": ""Physical examination shows mild decreased sensation on the right lateral lower leg. The patient experiences pain when the right leg is elevated. Strength testing reveals no significant weakness, but the patient reports pain during testing. Reflexes are intact. The back examination shows no obvious abnormalities, though the patient experiences pain in the lower back and gluteal region."",
+  ""Assessment"": ""Suspected lumbar disc herniation (hernia) causing radiculopathy with sciatic nerve involvement, leading to radiating pain, numbness, and discomfort in the right leg."",
+  ""Plan"": ""Start pregabalin for neuropathic pain management, with gradual dose titration due to potential side effects. Advise against driving during initial treatment. Recommend physiotherapy to improve spinal flexibility and potentially reduce herniation. Schedule a follow-up in one week to assess pain control. Monitor for worsening symptoms such as loss of perineal sensation, bowel/bladder dysfunction, or severe weakness, which would warrant immediate evaluation.""
+}","Subjective: Patient has had severe lower back pain radiating to the right leg, including the posterior and lateral aspects of the thigh and down to the foot for approximately 1.5 weeks. The pain is constant, interferes with sleep, and has not responded to paracetamol and ibuprofen. The patient has stopped working due to the pain and avoids physical activity. There is mild numbness in the affected area, but no issues with sensation in the perineal region or bladder/bowel control.
+Objective: Physical examination shows mild decreased sensation on the right lateral lower leg. The patient experiences pain when the right leg is elevated. Strength testing reveals no significant weakness, but the patient reports pain during testing. Reflexes are intact. The back examination shows no obvious abnormalities, though the patient experiences pain in the lower back and gluteal region.
+Assessment: Suspected lumbar disc herniation (hernia) causing radiculopathy with sciatic nerve involvement, leading to radiating pain, numbness, and discomfort in the right leg.
+Plan: Start pregabalin for neuropathic pain management, with gradual dose titration due to potential side effects. Advise against driving during initial treatment. Recommend physiotherapy to improve spinal flexibility and potentially reduce herniation. Schedule a follow-up in one week to assess pain control. Monitor for worsening symptoms such as loss of perineal sensation, bowel/bladder dysfunction, or severe weakness, which would warrant immediate evaluation.",5.36
+Back Pain,Qwen-7B,Qwen,size_tier_2,few_shot,,"{
+
+
+  ""Subjective"": ""Back pain for 1.5 weeks radiating to the right leg, down the back of the thigh, outer side of the lower leg, and into the foot. Pain is constant, severe, and interferes with sleep. Patient has tried paracetamol and ibuprofen without relief. Pain worsens with lifting heavy objects at work. Patient has stopped working temporarily. Tingling sensations in the affected area. No loss of sensation in the perineal area (sitting area)."",
+  ""Objective"": ""Physical exam: Pain on rising from the examination table. No visible abnormalities in the legs or back. Pain localized to the right side, especially near the buttocks and extending down the leg. Mild difference in sensation between left and right legs, with right side feeling slightly numb. Normal reflexes and muscle strength in both legs. Decreased sensation in the outer part of the right lower leg. Pain during passive movement of the right leg."",
+  ""Assessment"": ""Lumbar disc herniation (herniated disc) compressing a nerve root, causing radicular pain and paresthesia in the right leg. Possible sciatica."",
+  ""Plan"": ""Pain management: Start pregabalin for nerve pain (with caution regarding drowsiness and driving). Avoid driving for one week due to potential side effects. Refer to physical therapist for exercises to improve flexibility and potentially reduce disc herniation. Monitor for worsening symptoms, especially loss of sensation in the perineal area or loss of leg strength. Follow-up in one week to assess pain control and progress. No immediate need for MRI or surgery unless symptoms worsen or neurological deficits develop.""
+}","{
+
+
+  ""Subjective"": ""Back pain for 1.5 weeks radiating to the right leg, down the back of the thigh, outer side of the lower leg, and into the foot. Pain is constant, severe, and interferes with sleep. Patient has tried paracetamol and ibuprofen without relief. Pain worsens with lifting heavy objects at work. Patient has stopped working temporarily. Tingling sensations in the affected area. No loss of sensation in the perineal area (sitting area)."",
+  ""Objective"": ""Physical exam: Pain on rising from the examination table. No visible abnormalities in the legs or back. Pain localized to the right side, especially near the buttocks and extending down the leg. Mild difference in sensation between left and right legs, with right side feeling slightly numb. Normal reflexes and muscle strength in both legs. Decreased sensation in the outer part of the right lower leg. Pain during passive movement of the right leg."",
+  ""Assessment"": ""Lumbar disc herniation (herniated disc) compressing a nerve root, causing radicular pain and paresthesia in the right leg. Possible sciatica."",
+  ""Plan"": ""Pain management: Start pregabalin for nerve pain (with caution regarding drowsiness and driving). Avoid driving for one week due to potential side effects. Refer to physical therapist for exercises to improve flexibility and potentially reduce disc herniation. Monitor for worsening symptoms, especially loss of sensation in the perineal area or loss of leg strength. Follow-up in one week to assess pain control and progress. No immediate need for MRI or surgery unless symptoms worsen or neurological deficits develop.""
+}","Subjective: Back pain for 1.5 weeks radiating to the right leg, down the back of the thigh, outer side of the lower leg, and into the foot. Pain is constant, severe, and interferes with sleep. Patient has tried paracetamol and ibuprofen without relief. Pain worsens with lifting heavy objects at work. Patient has stopped working temporarily. Tingling sensations in the affected area. No loss of sensation in the perineal area (sitting area).
+Objective: Physical exam: Pain on rising from the examination table. No visible abnormalities in the legs or back. Pain localized to the right side, especially near the buttocks and extending down the leg. Mild difference in sensation between left and right legs, with right side feeling slightly numb. Normal reflexes and muscle strength in both legs. Decreased sensation in the outer part of the right lower leg. Pain during passive movement of the right leg.
+Assessment: Lumbar disc herniation (herniated disc) compressing a nerve root, causing radicular pain and paresthesia in the right leg. Possible sciatica.
+Plan: Pain management: Start pregabalin for nerve pain (with caution regarding drowsiness and driving). Avoid driving for one week due to potential side effects. Refer to physical therapist for exercises to improve flexibility and potentially reduce disc herniation. Monitor for worsening symptoms, especially loss of sensation in the perineal area or loss of leg strength. Follow-up in one week to assess pain control and progress. No immediate need for MRI or surgery unless symptoms worsen or neurological deficits develop.",5.83
+Back Pain,Qwen-7B,Qwen,size_tier_2,cot,"<think>
+Okay, let's start by understanding the user's request. They want a structured SOAP note from a Dutch doctor-patient transcript. The key is to extract the subjective, objective, assessment, and plan sections accurately.
+
+First, I'll read through the transcript to identify the patient's symptoms and concerns. The patient has had lower back pain for 1.5 weeks radiating to the right leg, down the back of the thigh, and into the foot. They mention difficulty sleeping, inability to work, and using paracetamol and ibuprofen without relief. There's also some numbness and tingling, though not in the perineal area. The patient works in a supermarket and had to lift heavy items, which might have contributed. They stopped working temporarily.
+
+Next, the objective findings from the physical exam: the patient experiences pain when getting on the exam table, pain when the right leg is raised, decreased sensation on the right lower leg, normal reflexes, and equal strength in both legs. The doctor didn't find any visible abnormalities in the back or legs.
+
+The assessment is likely a herniated disc (intervertebral disc herniation) causing sciatica. The doctor explains that the herniation is compressing a nerve, leading to the radiating pain and numbness. The patient's symptoms align with this, and the physical exam supports it, especially the pain on the right side and decreased sensation.
+
+For the plan, the doctor prescribes pregabalin for nerve pain, advises against driving for a week due to possible side effects, recommends physical therapy to improve flexibility and reduce herniation, and schedules a follow-up in a week. The patient is also advised to seek immediate care if symptoms worsen, like loss of sensation in the perineal area or muscle weakness.
+
+I need to structure all this into the SOAP format, making sure each section is concise and captures all necessary details. Also, the JSON must be valid, so I'll check for proper syntax and that each key is included. The reasoning section should outline the thought process step by step, ensuring that each part of the SOAP note is justified by the transcript.
+</think>
+
+
+1. **Subjective**: The patient reports 1.5 weeks of severe right-sided lower back pain radiating to the posterior and lateral aspects of the right thigh, calf, and foot. Pain interferes with sleep, work (supermarket lifting), and daily activities. No relief from paracetamol/ibuprofen. Mild numbness/tingling in the right leg, no perineal sensory loss. Patient stopped working temporarily due to pain.
+
+2. **Objective**: Physical exam shows pain on exam table entry, pain with passive right leg elevation, decreased sensation on right lateral lower leg, normal reflexes, equal strength in both legs. No visible back abnormalities. No perineal sensory deficits.
+
+3. **Assessment**: Clinical suspicion of lumbar disc herniation (L4/L5 or L5/S1) causing sciatic nerve compression. Symptoms align with radiculopathy (pain radiation, sensory changes), and physical findings (pain with leg elevation, sensory loss) support this. No red flags (no bowel/bladder issues, no severe weakness).
+
+4. **Plan**: 
+   - **Pain management**: Start pregabalin (nerve pain medication), with caution about driving due to potential drowsiness.
+   - **Non-operative management**: Refer to physiotherapy for core strengthening and postural exercises to reduce disc pressure.
+   - **Follow-up**: Reassessment in 1 week to evaluate pain control and progress. Immediate medical attention if perineal numbness, bowel/bladder dysfunction, or worsening weakness occur.
+   - **Avoid surgery**: No urgent indication for MRI/scan or surgery; conservative management is first-line.
+
+---","{
+  ""Subjective"": ""Patient reports 1.5 weeks of severe right-sided lower back pain radiating to the posterior and lateral aspects of the right thigh, calf, and foot. Pain disrupts sleep, work (supermarket lifting), and daily activities. No relief from paracetamol/ibuprofen. Mild numbness/tingling in the right leg, no perineal sensory loss. Patient temporarily stopped working due to pain."",
+  ""Objective"": ""Pain on exam table entry, pain with passive right leg elevation, decreased sensation on right lateral lower leg, normal reflexes, equal strength in both legs. No visible back abnormalities. No perineal sensory deficits."",
+  ""Assessment"": ""Clinical suspicion of lumbar disc herniation (L4/L5 or L5/S1) causing sciatic nerve compression. Symptoms and physical findings (pain radiation, sensory loss) align with radiculopathy. No red flags (no bowel/bladder issues, no severe weakness)."",
+  ""Plan"": ""1. Start pregabalin for nerve pain (caution: avoid driving for 1 week due to possible drowsiness). 2. Refer to physiotherapy for core strengthening and postural exercises. 3. Reassessment in 1 week. 4. Seek immediate care if perineal numbness, bowel/bladder dysfunction, or worsening weakness occur. 5. No urgent MRI/surgery planned; conservative management first-line.""
+}","<think>
+Okay, let's start by understanding the user's request. They want a structured SOAP note from a Dutch doctor-patient transcript. The key is to extract the subjective, objective, assessment, and plan sections accurately.
+
+First, I'll read through the transcript to identify the patient's symptoms and concerns. The patient has had lower back pain for 1.5 weeks radiating to the right leg, down the back of the thigh, and into the foot. They mention difficulty sleeping, inability to work, and using paracetamol and ibuprofen without relief. There's also some numbness and tingling, though not in the perineal area. The patient works in a supermarket and had to lift heavy items, which might have contributed. They stopped working temporarily.
+
+Next, the objective findings from the physical exam: the patient experiences pain when getting on the exam table, pain when the right leg is raised, decreased sensation on the right lower leg, normal reflexes, and equal strength in both legs. The doctor didn't find any visible abnormalities in the back or legs.
+
+The assessment is likely a herniated disc (intervertebral disc herniation) causing sciatica. The doctor explains that the herniation is compressing a nerve, leading to the radiating pain and numbness. The patient's symptoms align with this, and the physical exam supports it, especially the pain on the right side and decreased sensation.
+
+For the plan, the doctor prescribes pregabalin for nerve pain, advises against driving for a week due to possible side effects, recommends physical therapy to improve flexibility and reduce herniation, and schedules a follow-up in a week. The patient is also advised to seek immediate care if symptoms worsen, like loss of sensation in the perineal area or muscle weakness.
+
+I need to structure all this into the SOAP format, making sure each section is concise and captures all necessary details. Also, the JSON must be valid, so I'll check for proper syntax and that each key is included. The reasoning section should outline the thought process step by step, ensuring that each part of the SOAP note is justified by the transcript.
+</think>
+
+### Reasoning
+1. **Subjective**: The patient reports 1.5 weeks of severe right-sided lower back pain radiating to the posterior and lateral aspects of the right thigh, calf, and foot. Pain interferes with sleep, work (supermarket lifting), and daily activities. No relief from paracetamol/ibuprofen. Mild numbness/tingling in the right leg, no perineal sensory loss. Patient stopped working temporarily due to pain.
+
+2. **Objective**: Physical exam shows pain on exam table entry, pain with passive right leg elevation, decreased sensation on right lateral lower leg, normal reflexes, equal strength in both legs. No visible back abnormalities. No perineal sensory deficits.
+
+3. **Assessment**: Clinical suspicion of lumbar disc herniation (L4/L5 or L5/S1) causing sciatic nerve compression. Symptoms align with radiculopathy (pain radiation, sensory changes), and physical findings (pain with leg elevation, sensory loss) support this. No red flags (no bowel/bladder issues, no severe weakness).
+
+4. **Plan**: 
+   - **Pain management**: Start pregabalin (nerve pain medication), with caution about driving due to potential drowsiness.
+   - **Non-operative management**: Refer to physiotherapy for core strengthening and postural exercises to reduce disc pressure.
+   - **Follow-up**: Reassessment in 1 week to evaluate pain control and progress. Immediate medical attention if perineal numbness, bowel/bladder dysfunction, or worsening weakness occur.
+   - **Avoid surgery**: No urgent indication for MRI/scan or surgery; conservative management is first-line.
+
+---
+
+### JSON Output
+{
+  ""Subjective"": ""Patient reports 1.5 weeks of severe right-sided lower back pain radiating to the posterior and lateral aspects of the right thigh, calf, and foot. Pain disrupts sleep, work (supermarket lifting), and daily activities. No relief from paracetamol/ibuprofen. Mild numbness/tingling in the right leg, no perineal sensory loss. Patient temporarily stopped working due to pain."",
+  ""Objective"": ""Pain on exam table entry, pain with passive right leg elevation, decreased sensation on right lateral lower leg, normal reflexes, equal strength in both legs. No visible back abnormalities. No perineal sensory deficits."",
+  ""Assessment"": ""Clinical suspicion of lumbar disc herniation (L4/L5 or L5/S1) causing sciatic nerve compression. Symptoms and physical findings (pain radiation, sensory loss) align with radiculopathy. No red flags (no bowel/bladder issues, no severe weakness)."",
+  ""Plan"": ""1. Start pregabalin for nerve pain (caution: avoid driving for 1 week due to possible drowsiness). 2. Refer to physiotherapy for core strengthening and postural exercises. 3. Reassessment in 1 week. 4. Seek immediate care if perineal numbness, bowel/bladder dysfunction, or worsening weakness occur. 5. No urgent MRI/surgery planned; conservative management first-line.""
+}","Subjective: Patient reports 1.5 weeks of severe right-sided lower back pain radiating to the posterior and lateral aspects of the right thigh, calf, and foot. Pain disrupts sleep, work (supermarket lifting), and daily activities. No relief from paracetamol/ibuprofen. Mild numbness/tingling in the right leg, no perineal sensory loss. Patient temporarily stopped working due to pain.
+Objective: Pain on exam table entry, pain with passive right leg elevation, decreased sensation on right lateral lower leg, normal reflexes, equal strength in both legs. No visible back abnormalities. No perineal sensory deficits.
+Assessment: Clinical suspicion of lumbar disc herniation (L4/L5 or L5/S1) causing sciatic nerve compression. Symptoms and physical findings (pain radiation, sensory loss) align with radiculopathy. No red flags (no bowel/bladder issues, no severe weakness).
+Plan: 1. Start pregabalin for nerve pain (caution: avoid driving for 1 week due to possible drowsiness). 2. Refer to physiotherapy for core strengthening and postural exercises. 3. Reassessment in 1 week. 4. Seek immediate care if perineal numbness, bowel/bladder dysfunction, or worsening weakness occur. 5. No urgent MRI/surgery planned; conservative management first-line.",15.26
+Back Pain,Qwen-14B,Qwen,size_tier_3,standard,,,,,0.59
+Back Pain,Qwen-14B,Qwen,size_tier_3,few_shot,,,,,0.75
+Back Pain,Qwen-14B,Qwen,size_tier_3,cot,,,,,0.64
+Back Pain,Qwen-72B,Qwen,size_tier_4,standard,,"{
+  ""Subjective"": ""The patient reports experiencing severe lower back pain radiating down the right leg for about 1.5 weeks. The pain is constant and extends from the back to the back of the thigh, side of the lower leg, and into the foot. The patient has tried paracetamol and ibuprofen at maximum doses, but the pain persists. The pain affects sleep, work, and daily activities, including sports. The patient also experiences mild tingling and a dull sensation on the outer side of the right lower leg. There is no significant loss of strength in the leg, and there are no bowel or bladder issues."",
+  ""Objective"": ""Physical examination reveals tenderness in the lower back, particularly over the right buttock area. There is pain on passive straight leg raise of the right leg. The patient reports a difference in sensation when the right lower leg and foot are touched compared to the left side. Reflexes are intact in both legs. Muscle strength is preserved, but the patient experiences pain during strength testing. No visible abnormalities or deformities noted in the back or legs."",
+  ""Assessment"": ""The doctor's diagnosis is a lumbar herniated disc, which is compressing a nerve root, causing radiculopathy. The clinical reasoning is based on the patient's symptoms of radiating pain, sensory changes, and the physical examination findings, including pain on straight leg raise and altered sensation."",
+  ""Plan"": ""The treatment plan includes starting pregabalin for neuropathic pain, with a gradual dose increase. The patient is advised not to drive for one week after starting the medication due to potential side effects. A referral to a physiotherapist is recommended to help with exercises and mobilization. The patient is scheduled for a follow-up call in one week to assess the effectiveness of the pain management plan. No immediate imaging or surgical intervention is planned unless symptoms worsen, particularly if there are signs of cauda equina syndrome or significant motor weakness.""
+}","{
+  ""Subjective"": ""The patient reports experiencing severe lower back pain radiating down the right leg for about 1.5 weeks. The pain is constant and extends from the back to the back of the thigh, side of the lower leg, and into the foot. The patient has tried paracetamol and ibuprofen at maximum doses, but the pain persists. The pain affects sleep, work, and daily activities, including sports. The patient also experiences mild tingling and a dull sensation on the outer side of the right lower leg. There is no significant loss of strength in the leg, and there are no bowel or bladder issues."",
+  ""Objective"": ""Physical examination reveals tenderness in the lower back, particularly over the right buttock area. There is pain on passive straight leg raise of the right leg. The patient reports a difference in sensation when the right lower leg and foot are touched compared to the left side. Reflexes are intact in both legs. Muscle strength is preserved, but the patient experiences pain during strength testing. No visible abnormalities or deformities noted in the back or legs."",
+  ""Assessment"": ""The doctor's diagnosis is a lumbar herniated disc, which is compressing a nerve root, causing radiculopathy. The clinical reasoning is based on the patient's symptoms of radiating pain, sensory changes, and the physical examination findings, including pain on straight leg raise and altered sensation."",
+  ""Plan"": ""The treatment plan includes starting pregabalin for neuropathic pain, with a gradual dose increase. The patient is advised not to drive for one week after starting the medication due to potential side effects. A referral to a physiotherapist is recommended to help with exercises and mobilization. The patient is scheduled for a follow-up call in one week to assess the effectiveness of the pain management plan. No immediate imaging or surgical intervention is planned unless symptoms worsen, particularly if there are signs of cauda equina syndrome or significant motor weakness.""
+}","Subjective: The patient reports experiencing severe lower back pain radiating down the right leg for about 1.5 weeks. The pain is constant and extends from the back to the back of the thigh, side of the lower leg, and into the foot. The patient has tried paracetamol and ibuprofen at maximum doses, but the pain persists. The pain affects sleep, work, and daily activities, including sports. The patient also experiences mild tingling and a dull sensation on the outer side of the right lower leg. There is no significant loss of strength in the leg, and there are no bowel or bladder issues.
+Objective: Physical examination reveals tenderness in the lower back, particularly over the right buttock area. There is pain on passive straight leg raise of the right leg. The patient reports a difference in sensation when the right lower leg and foot are touched compared to the left side. Reflexes are intact in both legs. Muscle strength is preserved, but the patient experiences pain during strength testing. No visible abnormalities or deformities noted in the back or legs.
+Assessment: The doctor's diagnosis is a lumbar herniated disc, which is compressing a nerve root, causing radiculopathy. The clinical reasoning is based on the patient's symptoms of radiating pain, sensory changes, and the physical examination findings, including pain on straight leg raise and altered sensation.
+Plan: The treatment plan includes starting pregabalin for neuropathic pain, with a gradual dose increase. The patient is advised not to drive for one week after starting the medication due to potential side effects. A referral to a physiotherapist is recommended to help with exercises and mobilization. The patient is scheduled for a follow-up call in one week to assess the effectiveness of the pain management plan. No immediate imaging or surgical intervention is planned unless symptoms worsen, particularly if there are signs of cauda equina syndrome or significant motor weakness.",12.46
+Back Pain,Qwen-72B,Qwen,size_tier_4,few_shot,,"{
+  ""Subjective"": ""Patient complains of severe back pain radiating down the right leg to the foot for 1.5 weeks. Pain is constant, not relieved by maximum doses of paracetamol and ibuprofen. Associated with sleep disturbance and inability to work or exercise. Patient also reports mild numbness and tingling in the right lower leg, but no bowel or bladder issues."",
+  ""Objective"": ""Physical exam reveals pain on pressure over the right buttock and pain with passive lifting of the right leg. No visible abnormalities in the legs or back. Reflexes are intact, but patient reports a dull feeling in the right lower leg compared to the left. Muscle strength is equal bilaterally, but painful."",
+  ""Assessment"": ""Lumbar radiculopathy (herniated disc) causing right-sided sciatica with radicular symptoms. No signs of cauda equina syndrome."",
+  ""Plan"": ""Prescribe pregabalin for neuropathic pain, starting with a low dose and gradually increasing as tolerated. Advise patient to avoid driving during the initial adjustment period due to potential side effects. Refer to a physiotherapist for exercises to improve flexibility and reduce nerve compression. Follow-up call in one week to assess pain relief and adjust medication if necessary. Educate patient on signs to watch for that may indicate the need for further evaluation.""
+}","{
+  ""Subjective"": ""Patient complains of severe back pain radiating down the right leg to the foot for 1.5 weeks. Pain is constant, not relieved by maximum doses of paracetamol and ibuprofen. Associated with sleep disturbance and inability to work or exercise. Patient also reports mild numbness and tingling in the right lower leg, but no bowel or bladder issues."",
+  ""Objective"": ""Physical exam reveals pain on pressure over the right buttock and pain with passive lifting of the right leg. No visible abnormalities in the legs or back. Reflexes are intact, but patient reports a dull feeling in the right lower leg compared to the left. Muscle strength is equal bilaterally, but painful."",
+  ""Assessment"": ""Lumbar radiculopathy (herniated disc) causing right-sided sciatica with radicular symptoms. No signs of cauda equina syndrome."",
+  ""Plan"": ""Prescribe pregabalin for neuropathic pain, starting with a low dose and gradually increasing as tolerated. Advise patient to avoid driving during the initial adjustment period due to potential side effects. Refer to a physiotherapist for exercises to improve flexibility and reduce nerve compression. Follow-up call in one week to assess pain relief and adjust medication if necessary. Educate patient on signs to watch for that may indicate the need for further evaluation.""
+}","Subjective: Patient complains of severe back pain radiating down the right leg to the foot for 1.5 weeks. Pain is constant, not relieved by maximum doses of paracetamol and ibuprofen. Associated with sleep disturbance and inability to work or exercise. Patient also reports mild numbness and tingling in the right lower leg, but no bowel or bladder issues.
+Objective: Physical exam reveals pain on pressure over the right buttock and pain with passive lifting of the right leg. No visible abnormalities in the legs or back. Reflexes are intact, but patient reports a dull feeling in the right lower leg compared to the left. Muscle strength is equal bilaterally, but painful.
+Assessment: Lumbar radiculopathy (herniated disc) causing right-sided sciatica with radicular symptoms. No signs of cauda equina syndrome.
+Plan: Prescribe pregabalin for neuropathic pain, starting with a low dose and gradually increasing as tolerated. Advise patient to avoid driving during the initial adjustment period due to potential side effects. Refer to a physiotherapist for exercises to improve flexibility and reduce nerve compression. Follow-up call in one week to assess pain relief and adjust medication if necessary. Educate patient on signs to watch for that may indicate the need for further evaluation.",14.57
+Back Pain,Qwen-72B,Qwen,size_tier_4,cot,"1. **Symptoms and History**:
+   - The patient has been experiencing severe back pain for about one and a half weeks.
+   - The pain radiates down the right leg, starting from the lower back, through the posterior thigh, and extending to the foot.
+   - The pain is constant and does not vary throughout the day.
+   - The patient has tried paracetamol and ibuprofen without relief.
+   - The pain is affecting sleep and daily activities, including work and sports.
+   - There is a sensation of numbness and tingling in the affected leg.
+   - The patient has not lost significant strength in the leg but reports that the pain limits their movement.
+
+2. **Physical Exam**:
+   - The physical exam did not reveal any visible abnormalities.
+   - The patient experiences pain when the doctor applies pressure to the lower back, especially near the buttocks.
+   - The right leg is painful when lifted, while the left leg shows no significant pain.
+   - The patient reports a difference in sensation between the right and left leg, with the right leg feeling more numb.
+   - Reflexes are normal, and there are no significant changes in strength.
+
+3. **Diagnosis**:
+   - Based on the history and physical exam, the doctor suspects a lumbar herniated disc (hernia).
+   - The pain, radiation, and sensory changes are consistent with nerve compression.
+
+4. **Plan**:
+   - Start the patient on pregabalin for nerve pain, building up the dose slowly to avoid side effects.
+   - Advise the patient not to drive while starting and adjusting the dosage of pregabalin.
+   - Refer the patient to a physiotherapist for exercises to relieve nerve compression.
+   - Schedule a follow-up call in one week to assess the response to the treatment.
+   - Monitor for any worsening symptoms, particularly changes in sensation in the perineal area or loss of strength in the leg, which would warrant further evaluation.","{
+  ""Subjective"": ""Patient reports severe back pain for one and a half weeks, radiating down the right leg from the lower back through the posterior thigh to the foot. Pain is constant and unaffected by paracetamol and ibuprofen. Affects sleep and daily activities, including work and sports. Reports numbness and tingling in the affected leg. No significant loss of strength."",
+  ""Objective"": ""Physical exam shows no visible abnormalities. Pain on pressure to the lower back, especially near the buttocks. Pain in the right leg when lifted, no significant pain in the left leg. Patient reports a difference in sensation between the right and left leg, with the right leg feeling more numb. Reflexes are normal, and there are no significant changes in strength."",
+  ""Assessment"": ""Lumbar herniated disc (hernia) is suspected based on the history and physical exam. Pain, radiation, and sensory changes are consistent with nerve compression."",
+  ""Plan"": ""Start pregabalin for nerve pain, building up the dose slowly to avoid side effects. Advise the patient not to drive while starting and adjusting the dosage of pregabalin. Refer the patient to a physiotherapist for exercises to relieve nerve compression. Schedule a follow-up call in one week to assess the response to the treatment. Monitor for any worsening symptoms, particularly changes in sensation in the perineal area or loss of strength in the leg.""
+}","### Reasoning
+
+1. **Symptoms and History**:
+   - The patient has been experiencing severe back pain for about one and a half weeks.
+   - The pain radiates down the right leg, starting from the lower back, through the posterior thigh, and extending to the foot.
+   - The pain is constant and does not vary throughout the day.
+   - The patient has tried paracetamol and ibuprofen without relief.
+   - The pain is affecting sleep and daily activities, including work and sports.
+   - There is a sensation of numbness and tingling in the affected leg.
+   - The patient has not lost significant strength in the leg but reports that the pain limits their movement.
+
+2. **Physical Exam**:
+   - The physical exam did not reveal any visible abnormalities.
+   - The patient experiences pain when the doctor applies pressure to the lower back, especially near the buttocks.
+   - The right leg is painful when lifted, while the left leg shows no significant pain.
+   - The patient reports a difference in sensation between the right and left leg, with the right leg feeling more numb.
+   - Reflexes are normal, and there are no significant changes in strength.
+
+3. **Diagnosis**:
+   - Based on the history and physical exam, the doctor suspects a lumbar herniated disc (hernia).
+   - The pain, radiation, and sensory changes are consistent with nerve compression.
+
+4. **Plan**:
+   - Start the patient on pregabalin for nerve pain, building up the dose slowly to avoid side effects.
+   - Advise the patient not to drive while starting and adjusting the dosage of pregabalin.
+   - Refer the patient to a physiotherapist for exercises to relieve nerve compression.
+   - Schedule a follow-up call in one week to assess the response to the treatment.
+   - Monitor for any worsening symptoms, particularly changes in sensation in the perineal area or loss of strength in the leg, which would warrant further evaluation.
+
+### JSON Output
+
+```json
+{
+  ""Subjective"": ""Patient reports severe back pain for one and a half weeks, radiating down the right leg from the lower back through the posterior thigh to the foot. Pain is constant and unaffected by paracetamol and ibuprofen. Affects sleep and daily activities, including work and sports. Reports numbness and tingling in the affected leg. No significant loss of strength."",
+  ""Objective"": ""Physical exam shows no visible abnormalities. Pain on pressure to the lower back, especially near the buttocks. Pain in the right leg when lifted, no significant pain in the left leg. Patient reports a difference in sensation between the right and left leg, with the right leg feeling more numb. Reflexes are normal, and there are no significant changes in strength."",
+  ""Assessment"": ""Lumbar herniated disc (hernia) is suspected based on the history and physical exam. Pain, radiation, and sensory changes are consistent with nerve compression."",
+  ""Plan"": ""Start pregabalin for nerve pain, building up the dose slowly to avoid side effects. Advise the patient not to drive while starting and adjusting the dosage of pregabalin. Refer the patient to a physiotherapist for exercises to relieve nerve compression. Schedule a follow-up call in one week to assess the response to the treatment. Monitor for any worsening symptoms, particularly changes in sensation in the perineal area or loss of strength in the leg.""
+}
+```","Subjective: Patient reports severe back pain for one and a half weeks, radiating down the right leg from the lower back through the posterior thigh to the foot. Pain is constant and unaffected by paracetamol and ibuprofen. Affects sleep and daily activities, including work and sports. Reports numbness and tingling in the affected leg. No significant loss of strength.
+Objective: Physical exam shows no visible abnormalities. Pain on pressure to the lower back, especially near the buttocks. Pain in the right leg when lifted, no significant pain in the left leg. Patient reports a difference in sensation between the right and left leg, with the right leg feeling more numb. Reflexes are normal, and there are no significant changes in strength.
+Assessment: Lumbar herniated disc (hernia) is suspected based on the history and physical exam. Pain, radiation, and sensory changes are consistent with nerve compression.
+Plan: Start pregabalin for nerve pain, building up the dose slowly to avoid side effects. Advise the patient not to drive while starting and adjusting the dosage of pregabalin. Refer the patient to a physiotherapist for exercises to relieve nerve compression. Schedule a follow-up call in one week to assess the response to the treatment. Monitor for any worsening symptoms, particularly changes in sensation in the perineal area or loss of strength in the leg.",20.16
+Back Pain,QwQ-32B,Qwen,reasoning,standard,"<think>
+Alright, I'm an expert Medical Scribe, and my task is to summarize the provided doctor-patient transcript into a structured SOAP note in JSON format. Let's break down the process step by step.
+
+First, I'll review the transcript to understand the patient's symptoms, the doctor's findings, and the proposed plan. The transcript is in Dutch, so I need to ensure accurate translation and interpretation of the medical terms and context.
+
+Starting with the Subjective section: The patient reports having severe lower back pain for a week and a half, which is getting worse and radiating down the right leg, including the thigh, lower leg, and foot. The pain is constant, affecting sleep, and the patient is using paracetamol and ibuprofen without relief. No specific aggravating or relieving factors mentioned.
+
+Moving to the Objective section: The doctor's examination reveals pain upon movement, decreased sensation on the right lower leg, and positive findings in the straight leg raise test. However, muscle strength, reflexes, and gait are normal.
+
+For the Assessment: The doctor suspects a herniated intervertebral disc compressing a nerve, likely L5-S1, based on the radiating pain, decreased sensation, and positive straight leg raise test.
+
+In the Plan: The treatment includes prescribing pregabalin with a gradual increase, avoiding driving for a week, physical therapy, and a follow-up phone call in a week. It's noted that further imaging or possibly a referral to a specialist may be considered if there's no improvement.
+
+Now, I'll structure this information into the required JSON schema, ensuring each section is accurately populated with the relevant details.
+</think>","{
+  ""Subjective"": ""Patient reports severe lower back pain for a week and a half, radiating to the right thigh, lower leg, and foot. Pain is constant, worse at night, and impacts sleep. Patient is using paracetamol and ibuprofen without relief. No specific aggravating or relieving factors noted."",
+  ""Objective"": ""Physical exam reveals pain upon movement. Decreased sensation on the right lower leg, positive straight leg raise test (right side), but normal muscle strength and reflexes. Gait is normal."",
+  ""Assessment"": "" Clinical findings suggestive of a lumbar disc herniation (likely L5-S1), causing nerve root compression."",
+  ""Plan"": ""1. Start pregabalin with gradual dose increase. 2. Advise against driving for one week. 3. Recommend physical therapy. 4. Schedule follow-up phone call in one week. 5. Consider further imaging or specialist referral if no improvement.""
+}","<think>
+Alright, I'm an expert Medical Scribe, and my task is to summarize the provided doctor-patient transcript into a structured SOAP note in JSON format. Let's break down the process step by step.
+
+First, I'll review the transcript to understand the patient's symptoms, the doctor's findings, and the proposed plan. The transcript is in Dutch, so I need to ensure accurate translation and interpretation of the medical terms and context.
+
+Starting with the Subjective section: The patient reports having severe lower back pain for a week and a half, which is getting worse and radiating down the right leg, including the thigh, lower leg, and foot. The pain is constant, affecting sleep, and the patient is using paracetamol and ibuprofen without relief. No specific aggravating or relieving factors mentioned.
+
+Moving to the Objective section: The doctor's examination reveals pain upon movement, decreased sensation on the right lower leg, and positive findings in the straight leg raise test. However, muscle strength, reflexes, and gait are normal.
+
+For the Assessment: The doctor suspects a herniated intervertebral disc compressing a nerve, likely L5-S1, based on the radiating pain, decreased sensation, and positive straight leg raise test.
+
+In the Plan: The treatment includes prescribing pregabalin with a gradual increase, avoiding driving for a week, physical therapy, and a follow-up phone call in a week. It's noted that further imaging or possibly a referral to a specialist may be considered if there's no improvement.
+
+Now, I'll structure this information into the required JSON schema, ensuring each section is accurately populated with the relevant details.
+</think>
+
+```json
+{
+  ""Subjective"": ""Patient reports severe lower back pain for a week and a half, radiating to the right thigh, lower leg, and foot. Pain is constant, worse at night, and impacts sleep. Patient is using paracetamol and ibuprofen without relief. No specific aggravating or relieving factors noted."",
+  ""Objective"": ""Physical exam reveals pain upon movement. Decreased sensation on the right lower leg, positive straight leg raise test (right side), but normal muscle strength and reflexes. Gait is normal."",
+  ""Assessment"": "" Clinical findings suggestive of a lumbar disc herniation (likely L5-S1), causing nerve root compression."",
+  ""Plan"": ""1. Start pregabalin with gradual dose increase. 2. Advise against driving for one week. 3. Recommend physical therapy. 4. Schedule follow-up phone call in one week. 5. Consider further imaging or specialist referral if no improvement.""
+}
+```","Subjective: Patient reports severe lower back pain for a week and a half, radiating to the right thigh, lower leg, and foot. Pain is constant, worse at night, and impacts sleep. Patient is using paracetamol and ibuprofen without relief. No specific aggravating or relieving factors noted.
+Objective: Physical exam reveals pain upon movement. Decreased sensation on the right lower leg, positive straight leg raise test (right side), but normal muscle strength and reflexes. Gait is normal.
+Assessment:  Clinical findings suggestive of a lumbar disc herniation (likely L5-S1), causing nerve root compression.
+Plan: 1. Start pregabalin with gradual dose increase. 2. Advise against driving for one week. 3. Recommend physical therapy. 4. Schedule follow-up phone call in one week. 5. Consider further imaging or specialist referral if no improvement.",5.78
+Back Pain,QwQ-32B,Qwen,reasoning,few_shot,"<think>
+Alright, so I'm trying to figure out how to summarize this Dutch doctor-patient transcript into a structured SOAP note in JSON format. First, I need to understand each section: Subjective, Objective, Assessment, and Plan.
+
+Starting with the Subjective section, which includes the patient's reported symptoms. The patient has had severe back pain for a week and a half, which is getting worse and radiates to the right leg, thigh, and foot. They also mention taking paracetamol and ibuprofen without much relief. Sleep is disturbed, and they've had to stop working and exercising. They noticed the pain started after heavy lifting at work.
+
+Moving to the Objective section, which covers physical exam findings. The doctor didn't see any visible abnormalities in the legs or back. However, during the physical exam, the patient experienced pain when the right leg was lifted. There was a difference in sensation between the left and right legs, with the right side feeling duller. Reflexes were normal, but the patient felt a bit of tingling.
+
+For the Assessment, the doctor thinks it's likely a herniated disc causing nerve compression, leading to the radiating pain and sensory changes. There's no indication of severe neurological deficits since reflexes and strength are mostly intact.
+
+In the Plan section, the doctor recommends starting pregabaline for nerve pain, alongside continued use of paracetamol and ibuprofen. They advise against driving for a week and during dosage adjustments. A follow-up call in a week is scheduled. Additionally, physical therapy is suggested to help with exercises and improve mobility. No immediate need for scans or surgery, but the patient is advised to monitor for red flags like loss of sensation in the saddle area or loss of strength.
+
+Now, I'll need to translate all that into concise points under each SOAP category without exceeding the limits.
+</think>","{
+  ""Subjective"": ""Patient reports severe back pain for 1.5 weeks, radiating to the right leg, thigh, and foot. Started after heavy lifting. Symptoms worsening, affecting sleep and daily activities. Currently using paracetamol and ibuprofen without significant relief."",
+  ""Objective"": ""No visible abnormalities in legs or back. Right leg lift causes pain. Duller sensation on the right compared to left. Normal reflexes; tingling present but no severe neurological deficits."",
+  ""Assessment"": ""Likely herniated disc with nerve compression causing radiating pain and sensory changes."",
+  ""Plan"": ""Start pregabaline for nerve pain, continue paracetamol and ibuprofen. Advise against driving duringinitial treatment. Schedule follow-up call in one week. Recommend physical therapy. Monitor for red flags; no immediate need for scans or surgery.""
+}","<think>
+Alright, so I'm trying to figure out how to summarize this Dutch doctor-patient transcript into a structured SOAP note in JSON format. First, I need to understand each section: Subjective, Objective, Assessment, and Plan.
+
+Starting with the Subjective section, which includes the patient's reported symptoms. The patient has had severe back pain for a week and a half, which is getting worse and radiates to the right leg, thigh, and foot. They also mention taking paracetamol and ibuprofen without much relief. Sleep is disturbed, and they've had to stop working and exercising. They noticed the pain started after heavy lifting at work.
+
+Moving to the Objective section, which covers physical exam findings. The doctor didn't see any visible abnormalities in the legs or back. However, during the physical exam, the patient experienced pain when the right leg was lifted. There was a difference in sensation between the left and right legs, with the right side feeling duller. Reflexes were normal, but the patient felt a bit of tingling.
+
+For the Assessment, the doctor thinks it's likely a herniated disc causing nerve compression, leading to the radiating pain and sensory changes. There's no indication of severe neurological deficits since reflexes and strength are mostly intact.
+
+In the Plan section, the doctor recommends starting pregabaline for nerve pain, alongside continued use of paracetamol and ibuprofen. They advise against driving for a week and during dosage adjustments. A follow-up call in a week is scheduled. Additionally, physical therapy is suggested to help with exercises and improve mobility. No immediate need for scans or surgery, but the patient is advised to monitor for red flags like loss of sensation in the saddle area or loss of strength.
+
+Now, I'll need to translate all that into concise points under each SOAP category without exceeding the limits.
+</think>
+
+{
+  ""Subjective"": ""Patient reports severe back pain for 1.5 weeks, radiating to the right leg, thigh, and foot. Started after heavy lifting. Symptoms worsening, affecting sleep and daily activities. Currently using paracetamol and ibuprofen without significant relief."",
+  ""Objective"": ""No visible abnormalities in legs or back. Right leg lift causes pain. Duller sensation on the right compared to left. Normal reflexes; tingling present but no severe neurological deficits."",
+  ""Assessment"": ""Likely herniated disc with nerve compression causing radiating pain and sensory changes."",
+  ""Plan"": ""Start pregabaline for nerve pain, continue paracetamol and ibuprofen. Advise against driving duringinitial treatment. Schedule follow-up call in one week. Recommend physical therapy. Monitor for red flags; no immediate need for scans or surgery.""
+}","Subjective: Patient reports severe back pain for 1.5 weeks, radiating to the right leg, thigh, and foot. Started after heavy lifting. Symptoms worsening, affecting sleep and daily activities. Currently using paracetamol and ibuprofen without significant relief.
+Objective: No visible abnormalities in legs or back. Right leg lift causes pain. Duller sensation on the right compared to left. Normal reflexes; tingling present but no severe neurological deficits.
+Assessment: Likely herniated disc with nerve compression causing radiating pain and sensory changes.
+Plan: Start pregabaline for nerve pain, continue paracetamol and ibuprofen. Advise against driving duringinitial treatment. Schedule follow-up call in one week. Recommend physical therapy. Monitor for red flags; no immediate need for scans or surgery.",5.78
+Back Pain,QwQ-32B,Qwen,reasoning,cot,"<think>
+Okay, I'm trying to summarize the doctor-patient transcript into a SOAP note. Let's break it down step by step.
+
+First, the patient is complaining of severe lower back pain that started about a week and a half ago. The pain radiates to the right leg, specifically the back of the thigh and the side of the lower leg, all the way to the foot. They mention the pain is constant, worse at night, and hasn't been relieved by paracetamol or ibuprofen. They've had to stop working and can't sleep because of the pain. They also noticed some numbness and tingling, mostly on the outer part of the lower leg. No loss of bowel or bladder control, which is good.
+
+On physical exam, the doctor didn't see any obvious abnormalities in the legs or back. There was some pain when lifting the right leg, and decreased sensation on the right compared to the left. Reflexes were normal, and muscle strength was good, though movements were limited by pain.
+
+The doctor thinks it's likely a herniated disc causing nerve compression, called sciatica. They plan to start the patient on pregabalin for nerve pain, along with continued use of NSAIDs. They advised against driving for a week due to possible drowsiness from the medication. They also recommended physical therapy but didn't feel an MRI or surgery was needed yet. A follow-up phone call is set for the next week.
+
+So, putting this into the SOAP note format, I need to structure the subjective symptoms, objective findings, assessment, and plan accordingly.
+</think>
+
+
+
+The patient presents with severe lower back pain radiating to the right leg, consistent with sciatica due to a suspected herniated disc. The pain is constant, worse at night, and accompanied by numbness and tingling. The physical exam shows decreased sensation on the right and pain upon lifting the right leg, with normal reflexes and muscle strength.","{
+  ""Subjective"": ""Patient reports severe lower back pain for 1.5 weeks, radiating to the right lower extremity, including the back of the thigh and side of the lower leg to the foot. Pain is constant, worsening at night, affecting sleep. Symptoms include numbness and tingling primarily on the outer lower leg. Alleviating factors: None. Aggravating factors: Prolonged sitting or physical activity."",
+  ""Objective"": ""Examination reveals decreased sensation on the right lower extremity compared to the left, with normal reflexes and strength. Positive straight leg raise test on the right. No abnormalities in appearance of legs or back. Normal bowel/bladder function."",
+  ""Assessment"": ""Likely right-sided sciatica due to L5/S1 disc herniation causing nerve root impingement."",
+  ""Plan"": ""Initiate pregabalin for neuropathic pain, starting at 75mg twice daily, titrating to 300mg if tolerated. Continue NSAIDs for anti-inflammatory effects. Recommend physical therapy for core strengthening and pain relief. Advise against driving for the first week of pregabalin use. Schedule follow-up telephone consultation in one week to assess response to treatment and need for further intervention.""
+}","<think>
+Okay, I'm trying to summarize the doctor-patient transcript into a SOAP note. Let's break it down step by step.
+
+First, the patient is complaining of severe lower back pain that started about a week and a half ago. The pain radiates to the right leg, specifically the back of the thigh and the side of the lower leg, all the way to the foot. They mention the pain is constant, worse at night, and hasn't been relieved by paracetamol or ibuprofen. They've had to stop working and can't sleep because of the pain. They also noticed some numbness and tingling, mostly on the outer part of the lower leg. No loss of bowel or bladder control, which is good.
+
+On physical exam, the doctor didn't see any obvious abnormalities in the legs or back. There was some pain when lifting the right leg, and decreased sensation on the right compared to the left. Reflexes were normal, and muscle strength was good, though movements were limited by pain.
+
+The doctor thinks it's likely a herniated disc causing nerve compression, called sciatica. They plan to start the patient on pregabalin for nerve pain, along with continued use of NSAIDs. They advised against driving for a week due to possible drowsiness from the medication. They also recommended physical therapy but didn't feel an MRI or surgery was needed yet. A follow-up phone call is set for the next week.
+
+So, putting this into the SOAP note format, I need to structure the subjective symptoms, objective findings, assessment, and plan accordingly.
+</think>
+
+### Reasoning
+
+The patient presents with severe lower back pain radiating to the right leg, consistent with sciatica due to a suspected herniated disc. The pain is constant, worse at night, and accompanied by numbness and tingling. The physical exam shows decreased sensation on the right and pain upon lifting the right leg, with normal reflexes and muscle strength.
+
+### JSON Output
+
+```json
+{
+  ""Subjective"": ""Patient reports severe lower back pain for 1.5 weeks, radiating to the right lower extremity, including the back of the thigh and side of the lower leg to the foot. Pain is constant, worsening at night, affecting sleep. Symptoms include numbness and tingling primarily on the outer lower leg. Alleviating factors: None. Aggravating factors: Prolonged sitting or physical activity."",
+  ""Objective"": ""Examination reveals decreased sensation on the right lower extremity compared to the left, with normal reflexes and strength. Positive straight leg raise test on the right. No abnormalities in appearance of legs or back. Normal bowel/bladder function."",
+  ""Assessment"": ""Likely right-sided sciatica due to L5/S1 disc herniation causing nerve root impingement."",
+  ""Plan"": ""Initiate pregabalin for neuropathic pain, starting at 75mg twice daily, titrating to 300mg if tolerated. Continue NSAIDs for anti-inflammatory effects. Recommend physical therapy for core strengthening and pain relief. Advise against driving for the first week of pregabalin use. Schedule follow-up telephone consultation in one week to assess response to treatment and need for further intervention.""
+}
+```","Subjective: Patient reports severe lower back pain for 1.5 weeks, radiating to the right lower extremity, including the back of the thigh and side of the lower leg to the foot. Pain is constant, worsening at night, affecting sleep. Symptoms include numbness and tingling primarily on the outer lower leg. Alleviating factors: None. Aggravating factors: Prolonged sitting or physical activity.
+Objective: Examination reveals decreased sensation on the right lower extremity compared to the left, with normal reflexes and strength. Positive straight leg raise test on the right. No abnormalities in appearance of legs or back. Normal bowel/bladder function.
+Assessment: Likely right-sided sciatica due to L5/S1 disc herniation causing nerve root impingement.
+Plan: Initiate pregabalin for neuropathic pain, starting at 75mg twice daily, titrating to 300mg if tolerated. Continue NSAIDs for anti-inflammatory effects. Recommend physical therapy for core strengthening and pain relief. Advise against driving for the first week of pregabalin use. Schedule follow-up telephone consultation in one week to assess response to treatment and need for further intervention.",6.65
+Back Pain,DeepSeek-7B-Math,DeepSeek,size_tier_1,standard,,,,,0.64
+Back Pain,DeepSeek-7B-Math,DeepSeek,size_tier_1,few_shot,,,,,0.68
+Back Pain,DeepSeek-7B-Math,DeepSeek,size_tier_1,cot,,,,,0.52
+Back Pain,DeepSeek-V2-Lite-Coder,DeepSeek,size_tier_2,standard,,,,,0.53
+Back Pain,DeepSeek-V2-Lite-Coder,DeepSeek,size_tier_2,few_shot,,,,,0.68
+Back Pain,DeepSeek-V2-Lite-Coder,DeepSeek,size_tier_2,cot,,,,,0.52
+Back Pain,DeepSeek-V3.1-Terminus,DeepSeek,size_tier_3,standard,,"{
+  ""Subjective"": ""Patient presents with severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. Pain travels from the buttock down the back of the thigh to the lateral lower leg and into the foot. Described as a constant, sharp pain unrelieved by maximum doses of paracetamol and ibuprofen. Pain disrupts sleep, preventing the patient from finding a comfortable position. Symptoms began after heavy lifting at work (supermarket). Patient has temporarily stopped working and exercising due to pain. Reports mild tingling in the same distribution as the pain. Denies any weakness but notes pain limits movement. Denies any issues with bowel or bladder sensation or control."",
+  ""Objective"": ""Vital signs not recorded. Patient observed having pain when getting onto the exam table. Physical exam: No visible abnormalities on inspection of back or legs. Palpation of lumbar spine non-tender, but significant tenderness over right buttock. Straight leg raise test positive on right (pain), negative on left. Sensation: Decreased/duller sensation reported on the right lower leg compared to left. Motor strength: Full strength bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Reflexes: Patellar and Achilles reflexes normal and symmetric bilaterally."",
+  ""Assessment"": ""Likely lumbar disc herniation (sciatica) causing right-sided radiculopathy. Clinical diagnosis based on history of radiating pain following heavy lifting and physical exam findings of positive straight leg raise and sensory changes in a dermatomal pattern, consistent with nerve root compression."",
+  ""Plan"": ""1. Start Pregabalin for neuropathic pain, with slow titration. Advised patient not to drive for one week after starting medication or with any dose increases. 2. Refer to physiotherapy for exercises to improve spinal mobility and potentially help reduce disc herniation. 3. Schedule a telephone follow-up appointment in one week to assess medication efficacy and side effects. 4. Educated patient on red flag symptoms requiring immediate contact (loss of bowel/bladder sensation, significant weakness in the leg). 5. Conservative management with medication and physiotherapy is first-line; surgical intervention is not indicated currently but may be considered if symptoms persist despite conservative treatment.""
+}","{
+  ""Subjective"": ""Patient presents with severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. Pain travels from the buttock down the back of the thigh to the lateral lower leg and into the foot. Described as a constant, sharp pain unrelieved by maximum doses of paracetamol and ibuprofen. Pain disrupts sleep, preventing the patient from finding a comfortable position. Symptoms began after heavy lifting at work (supermarket). Patient has temporarily stopped working and exercising due to pain. Reports mild tingling in the same distribution as the pain. Denies any weakness but notes pain limits movement. Denies any issues with bowel or bladder sensation or control."",
+  ""Objective"": ""Vital signs not recorded. Patient observed having pain when getting onto the exam table. Physical exam: No visible abnormalities on inspection of back or legs. Palpation of lumbar spine non-tender, but significant tenderness over right buttock. Straight leg raise test positive on right (pain), negative on left. Sensation: Decreased/duller sensation reported on the right lower leg compared to left. Motor strength: Full strength bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Reflexes: Patellar and Achilles reflexes normal and symmetric bilaterally."",
+  ""Assessment"": ""Likely lumbar disc herniation (sciatica) causing right-sided radiculopathy. Clinical diagnosis based on history of radiating pain following heavy lifting and physical exam findings of positive straight leg raise and sensory changes in a dermatomal pattern, consistent with nerve root compression."",
+  ""Plan"": ""1. Start Pregabalin for neuropathic pain, with slow titration. Advised patient not to drive for one week after starting medication or with any dose increases. 2. Refer to physiotherapy for exercises to improve spinal mobility and potentially help reduce disc herniation. 3. Schedule a telephone follow-up appointment in one week to assess medication efficacy and side effects. 4. Educated patient on red flag symptoms requiring immediate contact (loss of bowel/bladder sensation, significant weakness in the leg). 5. Conservative management with medication and physiotherapy is first-line; surgical intervention is not indicated currently but may be considered if symptoms persist despite conservative treatment.""
+}","Subjective: Patient presents with severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. Pain travels from the buttock down the back of the thigh to the lateral lower leg and into the foot. Described as a constant, sharp pain unrelieved by maximum doses of paracetamol and ibuprofen. Pain disrupts sleep, preventing the patient from finding a comfortable position. Symptoms began after heavy lifting at work (supermarket). Patient has temporarily stopped working and exercising due to pain. Reports mild tingling in the same distribution as the pain. Denies any weakness but notes pain limits movement. Denies any issues with bowel or bladder sensation or control.
+Objective: Vital signs not recorded. Patient observed having pain when getting onto the exam table. Physical exam: No visible abnormalities on inspection of back or legs. Palpation of lumbar spine non-tender, but significant tenderness over right buttock. Straight leg raise test positive on right (pain), negative on left. Sensation: Decreased/duller sensation reported on the right lower leg compared to left. Motor strength: Full strength bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Reflexes: Patellar and Achilles reflexes normal and symmetric bilaterally.
+Assessment: Likely lumbar disc herniation (sciatica) causing right-sided radiculopathy. Clinical diagnosis based on history of radiating pain following heavy lifting and physical exam findings of positive straight leg raise and sensory changes in a dermatomal pattern, consistent with nerve root compression.
+Plan: 1. Start Pregabalin for neuropathic pain, with slow titration. Advised patient not to drive for one week after starting medication or with any dose increases. 2. Refer to physiotherapy for exercises to improve spinal mobility and potentially help reduce disc herniation. 3. Schedule a telephone follow-up appointment in one week to assess medication efficacy and side effects. 4. Educated patient on red flag symptoms requiring immediate contact (loss of bowel/bladder sensation, significant weakness in the leg). 5. Conservative management with medication and physiotherapy is first-line; surgical intervention is not indicated currently but may be considered if symptoms persist despite conservative treatment.",22.8
+Back Pain,DeepSeek-V3.1-Terminus,DeepSeek,size_tier_3,few_shot,,"{
+  ""Subjective"": ""Patient presents with severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. Pain radiates from the back of the thigh, down the lateral side of the lower leg, and into the foot. Pain is constant, severe, and interferes with sleep. Patient has tried maximum doses of paracetamol and ibuprofen without relief. Pain began after heavy lifting at work (supermarket). Patient has temporarily stopped working and sports due to pain. Reports slight numbness and tingling in the same area as the pain. Denies any loss of sensation in the saddle area or problems with bladder/bowel function."",
+  ""Objective"": ""Vital signs not recorded. Physical exam: Pain observed when getting on examination table. No visible abnormalities on back or legs. No pain on palpation of vertebrae. Positive straight leg raise test on right side causing pain. Normal strength bilaterally in legs (hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion). Reflexes normal and symmetric. Decreased sensation noted on the lateral right lower leg compared to left."",
+  ""Assessment"": ""Likely lumbar disc herniation (hernia) causing right-sided radiculopathy (sciatica). Clinical diagnosis based on history of radiating pain, neurological symptoms (numbness, tingling), and physical exam findings (positive straight leg raise, sensory deficit)."",
+  ""Plan"": ""1. Start pregabalin for neuropathic pain, with gradual dose increase. Advised not to drive for one week after starting or increasing dose. 2. Refer to physiotherapy for exercises to improve spinal flexibility and reduce nerve compression. 3. Schedule telephone follow-up appointment in one week to assess pain control and medication tolerance. 4. Patient education provided on the nature of a hernia. 5. Advised to seek immediate care if symptoms worsen, specifically if saddle anesthesia develops, or if leg weakness or bladder/bowel dysfunction occurs. Surgery is not indicated at this time.""
+}","{
+  ""Subjective"": ""Patient presents with severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. Pain radiates from the back of the thigh, down the lateral side of the lower leg, and into the foot. Pain is constant, severe, and interferes with sleep. Patient has tried maximum doses of paracetamol and ibuprofen without relief. Pain began after heavy lifting at work (supermarket). Patient has temporarily stopped working and sports due to pain. Reports slight numbness and tingling in the same area as the pain. Denies any loss of sensation in the saddle area or problems with bladder/bowel function."",
+  ""Objective"": ""Vital signs not recorded. Physical exam: Pain observed when getting on examination table. No visible abnormalities on back or legs. No pain on palpation of vertebrae. Positive straight leg raise test on right side causing pain. Normal strength bilaterally in legs (hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion). Reflexes normal and symmetric. Decreased sensation noted on the lateral right lower leg compared to left."",
+  ""Assessment"": ""Likely lumbar disc herniation (hernia) causing right-sided radiculopathy (sciatica). Clinical diagnosis based on history of radiating pain, neurological symptoms (numbness, tingling), and physical exam findings (positive straight leg raise, sensory deficit)."",
+  ""Plan"": ""1. Start pregabalin for neuropathic pain, with gradual dose increase. Advised not to drive for one week after starting or increasing dose. 2. Refer to physiotherapy for exercises to improve spinal flexibility and reduce nerve compression. 3. Schedule telephone follow-up appointment in one week to assess pain control and medication tolerance. 4. Patient education provided on the nature of a hernia. 5. Advised to seek immediate care if symptoms worsen, specifically if saddle anesthesia develops, or if leg weakness or bladder/bowel dysfunction occurs. Surgery is not indicated at this time.""
+}","Subjective: Patient presents with severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. Pain radiates from the back of the thigh, down the lateral side of the lower leg, and into the foot. Pain is constant, severe, and interferes with sleep. Patient has tried maximum doses of paracetamol and ibuprofen without relief. Pain began after heavy lifting at work (supermarket). Patient has temporarily stopped working and sports due to pain. Reports slight numbness and tingling in the same area as the pain. Denies any loss of sensation in the saddle area or problems with bladder/bowel function.
+Objective: Vital signs not recorded. Physical exam: Pain observed when getting on examination table. No visible abnormalities on back or legs. No pain on palpation of vertebrae. Positive straight leg raise test on right side causing pain. Normal strength bilaterally in legs (hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion). Reflexes normal and symmetric. Decreased sensation noted on the lateral right lower leg compared to left.
+Assessment: Likely lumbar disc herniation (hernia) causing right-sided radiculopathy (sciatica). Clinical diagnosis based on history of radiating pain, neurological symptoms (numbness, tingling), and physical exam findings (positive straight leg raise, sensory deficit).
+Plan: 1. Start pregabalin for neuropathic pain, with gradual dose increase. Advised not to drive for one week after starting or increasing dose. 2. Refer to physiotherapy for exercises to improve spinal flexibility and reduce nerve compression. 3. Schedule telephone follow-up appointment in one week to assess pain control and medication tolerance. 4. Patient education provided on the nature of a hernia. 5. Advised to seek immediate care if symptoms worsen, specifically if saddle anesthesia develops, or if leg weakness or bladder/bowel dysfunction occurs. Surgery is not indicated at this time.",21.73
+Back Pain,DeepSeek-V3.1-Terminus,DeepSeek,size_tier_3,cot,"First, I need to extract the key elements from the doctor-patient transcript to structure the SOAP note accurately.
+
+**Subjective:** The patient reports severe right-sided low back pain radiating down the right leg (posterior thigh, lateral calf, to the foot) for 1.5 weeks, worsening over time. Pain is constant, interferes with sleep, and is not relieved by maximum doses of paracetamol and ibuprofen. The pain started after heavy lifting at work (supermarket), and the patient has temporarily stopped working and exercising due to pain. There are associated tingling and a slightly duller sensation in the right lower leg. No bowel or bladder dysfunction. No significant weakness, but pain limits movement.
+
+**Objective:** Physical exam reveals pain with right straight leg raise, but no visible abnormalities or significant tenderness over the spine. Sensation is slightly decreased in the right lower leg compared to left. Muscle strength is symmetric and normal in both legs. Reflexes are normal. No signs of cauda equina syndrome (normal perianal sensation).
+
+**Assessment:** The history and exam are consistent with a right-sided lumbosacral radiculopathy, likely due to a herniated disc (hernia). The radiating pain, tingling, and sensory changes along a dermatomal pattern support nerve root compression. No red flags for emergency surgery (e.g., cauda equina syndrome or profound weakness).
+
+**Plan:** Start pregabalin for neuropathic pain, with instructions about slow titration and driving restrictions. Refer to physiotherapy for exercises to improve spinal mobility and reduce nerve compression. Avoid immediate imaging or surgery; consider these only if symptoms persist or worsen. Schedule a follow-up call in one week to assess pain control and tolerability. Advise the patient to seek urgent care if symptoms worsen (e.g., loss of bowel/bladder control or leg weakness).","{
+  ""Subjective"": ""Patient presents with severe right-sided low back pain radiating down the right leg (posterior thigh, lateral calf, to foot) for 1.5 weeks, worsening over time. Pain is constant, not relieved by paracetamol or ibuprofen at maximum doses, and interferes with sleep. Symptoms began after heavy lifting at work. Associated tingling and slightly dull sensation in right lower leg. No bowel or bladder dysfunction. Pain limits movement but no subjective weakness."",
+  ""Objective"": ""Vital signs not mentioned. Physical exam: pain on right straight leg raise; no spinal tenderness or visible abnormalities; sensation slightly decreased in right lower leg; muscle strength symmetric and normal bilaterally; reflexes normal. No signs of cauda equina syndrome."",
+  ""Assessment"": ""Right-sided lumbosacral radiculopathy likely due to herniated disc (hernia). Symptoms consistent with nerve root compression. No red flags for emergency intervention."",
+  ""Plan"": ""Start pregabalin for neuropathic pain, titrate slowly with driving restrictions. Refer to physiotherapy for spinal mobility exercises. Avoid imaging or surgery unless symptoms persist or worsen. Schedule follow-up call in one week. Advise patient to seek urgent care if red flags develop (e.g., loss of bowel/bladder control or leg weakness).""
+}","### Reasoning
+
+First, I need to extract the key elements from the doctor-patient transcript to structure the SOAP note accurately.
+
+**Subjective:** The patient reports severe right-sided low back pain radiating down the right leg (posterior thigh, lateral calf, to the foot) for 1.5 weeks, worsening over time. Pain is constant, interferes with sleep, and is not relieved by maximum doses of paracetamol and ibuprofen. The pain started after heavy lifting at work (supermarket), and the patient has temporarily stopped working and exercising due to pain. There are associated tingling and a slightly duller sensation in the right lower leg. No bowel or bladder dysfunction. No significant weakness, but pain limits movement.
+
+**Objective:** Physical exam reveals pain with right straight leg raise, but no visible abnormalities or significant tenderness over the spine. Sensation is slightly decreased in the right lower leg compared to left. Muscle strength is symmetric and normal in both legs. Reflexes are normal. No signs of cauda equina syndrome (normal perianal sensation).
+
+**Assessment:** The history and exam are consistent with a right-sided lumbosacral radiculopathy, likely due to a herniated disc (hernia). The radiating pain, tingling, and sensory changes along a dermatomal pattern support nerve root compression. No red flags for emergency surgery (e.g., cauda equina syndrome or profound weakness).
+
+**Plan:** Start pregabalin for neuropathic pain, with instructions about slow titration and driving restrictions. Refer to physiotherapy for exercises to improve spinal mobility and reduce nerve compression. Avoid immediate imaging or surgery; consider these only if symptoms persist or worsen. Schedule a follow-up call in one week to assess pain control and tolerability. Advise the patient to seek urgent care if symptoms worsen (e.g., loss of bowel/bladder control or leg weakness).
+
+### JSON Output
+
+```json
+{
+  ""Subjective"": ""Patient presents with severe right-sided low back pain radiating down the right leg (posterior thigh, lateral calf, to foot) for 1.5 weeks, worsening over time. Pain is constant, not relieved by paracetamol or ibuprofen at maximum doses, and interferes with sleep. Symptoms began after heavy lifting at work. Associated tingling and slightly dull sensation in right lower leg. No bowel or bladder dysfunction. Pain limits movement but no subjective weakness."",
+  ""Objective"": ""Vital signs not mentioned. Physical exam: pain on right straight leg raise; no spinal tenderness or visible abnormalities; sensation slightly decreased in right lower leg; muscle strength symmetric and normal bilaterally; reflexes normal. No signs of cauda equina syndrome."",
+  ""Assessment"": ""Right-sided lumbosacral radiculopathy likely due to herniated disc (hernia). Symptoms consistent with nerve root compression. No red flags for emergency intervention."",
+  ""Plan"": ""Start pregabalin for neuropathic pain, titrate slowly with driving restrictions. Refer to physiotherapy for spinal mobility exercises. Avoid imaging or surgery unless symptoms persist or worsen. Schedule follow-up call in one week. Advise patient to seek urgent care if red flags develop (e.g., loss of bowel/bladder control or leg weakness).""
+}
+```","Subjective: Patient presents with severe right-sided low back pain radiating down the right leg (posterior thigh, lateral calf, to foot) for 1.5 weeks, worsening over time. Pain is constant, not relieved by paracetamol or ibuprofen at maximum doses, and interferes with sleep. Symptoms began after heavy lifting at work. Associated tingling and slightly dull sensation in right lower leg. No bowel or bladder dysfunction. Pain limits movement but no subjective weakness.
+Objective: Vital signs not mentioned. Physical exam: pain on right straight leg raise; no spinal tenderness or visible abnormalities; sensation slightly decreased in right lower leg; muscle strength symmetric and normal bilaterally; reflexes normal. No signs of cauda equina syndrome.
+Assessment: Right-sided lumbosacral radiculopathy likely due to herniated disc (hernia). Symptoms consistent with nerve root compression. No red flags for emergency intervention.
+Plan: Start pregabalin for neuropathic pain, titrate slowly with driving restrictions. Refer to physiotherapy for spinal mobility exercises. Avoid imaging or surgery unless symptoms persist or worsen. Schedule follow-up call in one week. Advise patient to seek urgent care if red flags develop (e.g., loss of bowel/bladder control or leg weakness).",29.82
+Back Pain,DeepSeek-V3.2,DeepSeek,size_tier_4,standard,,"{
+  ""Subjective"": ""Patient reports severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. The pain radiates along the back and lateral side of the thigh, through the lower leg, and into the foot. Pain is constant, unrelated to specific moments. Pain disturbs sleep, patient has been lying awake for nights. Ibuprofen and paracetamol in maximum doses provided minimal relief. Works in a supermarket; symptoms began while lifting heavy objects. Patient is currently not working due to pain. Reports tingling sensations and slightly dull feeling at the lateral lower leg. Denies loss of strength in the leg but movement is restricted due to pain. Reports normal sensation in saddle area, and normal bowel and bladder function."",
+  ""Objective"": ""Vitals not documented. Physical exam: Antalgic gait noted when getting onto examination table. No visible abnormalities of the back or legs. No focal tenderness over vertebral bodies. Positive straight leg raise test on the right side. Normal neurological exam: symmetrical leg strength (hip flexion and extension, knee flexion and extension, ankle dorsiflexion). Normal reflexes elicited bilaterally. Patient reports a dull sensation on palpation of the right lower leg compared to the left."",
+  ""Assessment"": ""Assessment is a right-sided lumbar radiculopathy, likely a herniated disc (hernia nuclei pulposi). Clinical reasoning: Based on history of acute severe back pain with radiation along a dermatomal pattern (sciatica) and neurological findings (reported tingling, dull sensation on exam) consistent with nerve root compression. No red flags: no neurological deficits (strength preserved), and normal bladder/bowel function."",
+  ""Plan"": ""1. Start new medication for neuropathic pain: Pregabalin (titrate slowly). Counsel patient on side effects, including restrictions on driving upon initiation or dose increase.\n2. Refer to a physical therapist for guidance on specific exercises to improve spinal flexibility and reduce nerve root compression.\n3. Instruct patient to contact clinic or after-hours service immediately if symptoms worsen, especially if experiencing loss of sensation in saddle area, bladder/bowel incontinence, or significant leg weakness.\n4. Schedule a telephone follow-up appointment in one week to assess response to pregabalin therapy.\n5. Advises against imaging or surgical referral at this time, as initial treatment is conservative (medication and physiotherapy). The natural course can take weeks to months.""
+}","{
+  ""Subjective"": ""Patient reports severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. The pain radiates along the back and lateral side of the thigh, through the lower leg, and into the foot. Pain is constant, unrelated to specific moments. Pain disturbs sleep, patient has been lying awake for nights. Ibuprofen and paracetamol in maximum doses provided minimal relief. Works in a supermarket; symptoms began while lifting heavy objects. Patient is currently not working due to pain. Reports tingling sensations and slightly dull feeling at the lateral lower leg. Denies loss of strength in the leg but movement is restricted due to pain. Reports normal sensation in saddle area, and normal bowel and bladder function."",
+  ""Objective"": ""Vitals not documented. Physical exam: Antalgic gait noted when getting onto examination table. No visible abnormalities of the back or legs. No focal tenderness over vertebral bodies. Positive straight leg raise test on the right side. Normal neurological exam: symmetrical leg strength (hip flexion and extension, knee flexion and extension, ankle dorsiflexion). Normal reflexes elicited bilaterally. Patient reports a dull sensation on palpation of the right lower leg compared to the left."",
+  ""Assessment"": ""Assessment is a right-sided lumbar radiculopathy, likely a herniated disc (hernia nuclei pulposi). Clinical reasoning: Based on history of acute severe back pain with radiation along a dermatomal pattern (sciatica) and neurological findings (reported tingling, dull sensation on exam) consistent with nerve root compression. No red flags: no neurological deficits (strength preserved), and normal bladder/bowel function."",
+  ""Plan"": ""1. Start new medication for neuropathic pain: Pregabalin (titrate slowly). Counsel patient on side effects, including restrictions on driving upon initiation or dose increase.\n2. Refer to a physical therapist for guidance on specific exercises to improve spinal flexibility and reduce nerve root compression.\n3. Instruct patient to contact clinic or after-hours service immediately if symptoms worsen, especially if experiencing loss of sensation in saddle area, bladder/bowel incontinence, or significant leg weakness.\n4. Schedule a telephone follow-up appointment in one week to assess response to pregabalin therapy.\n5. Advises against imaging or surgical referral at this time, as initial treatment is conservative (medication and physiotherapy). The natural course can take weeks to months.""
+}","Subjective: Patient reports severe right-sided low back pain radiating down the right leg for 1.5 weeks, worsening over time. The pain radiates along the back and lateral side of the thigh, through the lower leg, and into the foot. Pain is constant, unrelated to specific moments. Pain disturbs sleep, patient has been lying awake for nights. Ibuprofen and paracetamol in maximum doses provided minimal relief. Works in a supermarket; symptoms began while lifting heavy objects. Patient is currently not working due to pain. Reports tingling sensations and slightly dull feeling at the lateral lower leg. Denies loss of strength in the leg but movement is restricted due to pain. Reports normal sensation in saddle area, and normal bowel and bladder function.
+Objective: Vitals not documented. Physical exam: Antalgic gait noted when getting onto examination table. No visible abnormalities of the back or legs. No focal tenderness over vertebral bodies. Positive straight leg raise test on the right side. Normal neurological exam: symmetrical leg strength (hip flexion and extension, knee flexion and extension, ankle dorsiflexion). Normal reflexes elicited bilaterally. Patient reports a dull sensation on palpation of the right lower leg compared to the left.
+Assessment: Assessment is a right-sided lumbar radiculopathy, likely a herniated disc (hernia nuclei pulposi). Clinical reasoning: Based on history of acute severe back pain with radiation along a dermatomal pattern (sciatica) and neurological findings (reported tingling, dull sensation on exam) consistent with nerve root compression. No red flags: no neurological deficits (strength preserved), and normal bladder/bowel function.
+Plan: 1. Start new medication for neuropathic pain: Pregabalin (titrate slowly). Counsel patient on side effects, including restrictions on driving upon initiation or dose increase.
+2. Refer to a physical therapist for guidance on specific exercises to improve spinal flexibility and reduce nerve root compression.
+3. Instruct patient to contact clinic or after-hours service immediately if symptoms worsen, especially if experiencing loss of sensation in saddle area, bladder/bowel incontinence, or significant leg weakness.
+4. Schedule a telephone follow-up appointment in one week to assess response to pregabalin therapy.
+5. Advises against imaging or surgical referral at this time, as initial treatment is conservative (medication and physiotherapy). The natural course can take weeks to months.",54.24
+Back Pain,DeepSeek-V3.2,DeepSeek,size_tier_4,few_shot,,"{
+  ""Subjective"": ""Right-sided low back pain radiating to the right leg and foot for 1.5 weeks, worsening. Pain is constant, severe, interfering with sleep. Work (supermarket, heavy lifting) and sports are currently impossible. Taken maximal doses of paracetamol and ibuprofen without relief. Reports some tingling in the area of the pain. No problems with urination or defecation."",
+  ""Objective"": ""No visible abnormalities on inspection of back and legs. Tenderness over the right buttock/rear hip area. Straight Leg Raise (SLR) test positive on the right, negative on the left. Slightly decreased sensation in the right lateral lower leg. Strength in both legs is symmetric and intact. Reflexes are normal bilaterally."",
+  ""Assessment"": ""Herniated lumbar disc (sciatica) on the right, likely L5/S1 level, given pain radiating via posterior thigh/lateral calf to foot, with associated sensory changes. No red flags (no cauda equina symptoms, no motor weakness)."",
+  ""Plan"": ""1. Start pregabalin for neuropathic pain, with slow titration and warning about driving restrictions.\n2. Refer to physiotherapy for back exercises and guidance.\n3. No imaging or surgical referral indicated at this time.\n4. Educate on red flag symptoms: worsening neurological deficit, loss of saddle sensation, or bladder/bowel dysfunction.\n5. Schedule a telephone follow-up in one week.""
+}","{
+  ""Subjective"": ""Right-sided low back pain radiating to the right leg and foot for 1.5 weeks, worsening. Pain is constant, severe, interfering with sleep. Work (supermarket, heavy lifting) and sports are currently impossible. Taken maximal doses of paracetamol and ibuprofen without relief. Reports some tingling in the area of the pain. No problems with urination or defecation."",
+  ""Objective"": ""No visible abnormalities on inspection of back and legs. Tenderness over the right buttock/rear hip area. Straight Leg Raise (SLR) test positive on the right, negative on the left. Slightly decreased sensation in the right lateral lower leg. Strength in both legs is symmetric and intact. Reflexes are normal bilaterally."",
+  ""Assessment"": ""Herniated lumbar disc (sciatica) on the right, likely L5/S1 level, given pain radiating via posterior thigh/lateral calf to foot, with associated sensory changes. No red flags (no cauda equina symptoms, no motor weakness)."",
+  ""Plan"": ""1. Start pregabalin for neuropathic pain, with slow titration and warning about driving restrictions.\n2. Refer to physiotherapy for back exercises and guidance.\n3. No imaging or surgical referral indicated at this time.\n4. Educate on red flag symptoms: worsening neurological deficit, loss of saddle sensation, or bladder/bowel dysfunction.\n5. Schedule a telephone follow-up in one week.""
+}","Subjective: Right-sided low back pain radiating to the right leg and foot for 1.5 weeks, worsening. Pain is constant, severe, interfering with sleep. Work (supermarket, heavy lifting) and sports are currently impossible. Taken maximal doses of paracetamol and ibuprofen without relief. Reports some tingling in the area of the pain. No problems with urination or defecation.
+Objective: No visible abnormalities on inspection of back and legs. Tenderness over the right buttock/rear hip area. Straight Leg Raise (SLR) test positive on the right, negative on the left. Slightly decreased sensation in the right lateral lower leg. Strength in both legs is symmetric and intact. Reflexes are normal bilaterally.
+Assessment: Herniated lumbar disc (sciatica) on the right, likely L5/S1 level, given pain radiating via posterior thigh/lateral calf to foot, with associated sensory changes. No red flags (no cauda equina symptoms, no motor weakness).
+Plan: 1. Start pregabalin for neuropathic pain, with slow titration and warning about driving restrictions.
+2. Refer to physiotherapy for back exercises and guidance.
+3. No imaging or surgical referral indicated at this time.
+4. Educate on red flag symptoms: worsening neurological deficit, loss of saddle sensation, or bladder/bowel dysfunction.
+5. Schedule a telephone follow-up in one week.",40.48
+Back Pain,DeepSeek-V3.2,DeepSeek,size_tier_4,cot,"The transcript describes a patient presenting with severe lower back pain radiating down the right leg for the past 1.5 weeks. The pain follows a dermatomal pattern (posterior thigh to lateral calf to foot) and is consistent with radiculopathy. The patient has tried maximum doses of paracetamol and ibuprofen without relief. The pain is constant and disrupts sleep. It began after heavy lifting at work. The patient reports some numbness (""doffer gevoel"") and tingling in the same area but denies motor weakness or saddle anesthesia (no issues with bladder, bowel, or perineal sensation).
+
+On physical exam, straight leg raise on the right reproduces the pain. Sensation is slightly duller on the right lower leg. Motor strength is intact bilaterally. Reflexes are normal. No significant findings are noted on inspection of the back or legs.
+
+Based on the history and exam findings—unilateral radicular pain following a dermatome, neuropathic features (tingling/numbness), positive straight leg raise, absence of red flags (no saddle anesthesia, motor weakness, or incontinence)—the doctor's assessment is a likely lumbar disc herniation (hernia nuclei pulposi) with right-sided radiculopathy, likely affecting the L5 or S1 nerve root.
+
+The plan outlined by the doctor is a stepped approach:
+1.  **Pharmacological:** Start neuropathic pain medication (pregabalin) with a slow titration and a warning about driving restrictions.
+2.  **Non-pharmacological:** Referral to physiotherapy for exercises to improve spinal flexibility and potentially allow the disc to recede.
+3.  **Monitoring:** Schedule a follow-up phone call in one week to assess treatment response and tolerability.
+4.  **Patient Education:** Advised that recovery can take weeks to months, and surgery is not the first-line option due to comparable long-term outcomes and risks.
+5.  **Safety Netting:** Instructed to seek immediate care if red flags develop (worsening leg weakness, loss of saddle sensation, or bladder/bowel dysfunction).
+
+The SOAP note should encapsulate this subjective history, objective exam findings, clinical assessment, and the detailed management plan.","{
+  ""Subjective"": ""A patient presents with a 1.5-week history of progressively worsening severe lower back pain radiating down the right leg (posterior thigh→lateral calf→foot). The pain is constant, unresponsive to maximum doses of paracetamol and ibuprofen, and severe enough to disrupt sleep. Symptoms began after heavy lifting at work. The patient reports associated tingling and a slightly duller sensation in the right lower leg. Denies motor weakness, loss of bowel/bladder control, or perineal numbness."",
+  ""Objective"": ""Vital signs not recorded in transcript. Physical exam: Pain on right straight leg raise test. Sensation is subjectively duller on the right lower leg compared to the left. Motor strength is intact and symmetric in lower extremities. Deep tendon reflexes are normal bilaterally. No visible abnormalities noted on inspection of the back or legs."",
+  ""Assessment"": ""Clinical diagnosis of right-sided lumbar radiculopathy secondary to a suspected lumbar disc herniation (likely L5 or S1). The history of radicular pain following a dermatome, positive straight leg raise, and neuropathic features (tingling, numbness) support this. No red flags for cauda equina syndrome (preserved saddle sensation and motor function) are present."",
+  ""Plan"": ""1. Start neuropathic pain medication: Pregabalin, with slow titration and counseling regarding temporary driving restrictions.\n2. Non-pharmacological therapy: Refer to physiotherapy for targeted exercises to improve spinal mobility and reduce nerve root compression.\n3. Follow-up: Schedule a telephone appointment in one week to assess pain control and medication tolerance.\n4. Patient education: Explained the natural history (weeks to months for recovery), that surgery is not first-line due to comparable long-term outcomes and procedural risks, and is reserved for refractory cases.\n5. Safety netting: Instructed to contact the practice or out-of-hours service immediately if red flags develop (worsening leg weakness, loss of perineal sensation, or bladder/bowel dysfunction).""
+}","### Reasoning
+
+The transcript describes a patient presenting with severe lower back pain radiating down the right leg for the past 1.5 weeks. The pain follows a dermatomal pattern (posterior thigh to lateral calf to foot) and is consistent with radiculopathy. The patient has tried maximum doses of paracetamol and ibuprofen without relief. The pain is constant and disrupts sleep. It began after heavy lifting at work. The patient reports some numbness (""doffer gevoel"") and tingling in the same area but denies motor weakness or saddle anesthesia (no issues with bladder, bowel, or perineal sensation).
+
+On physical exam, straight leg raise on the right reproduces the pain. Sensation is slightly duller on the right lower leg. Motor strength is intact bilaterally. Reflexes are normal. No significant findings are noted on inspection of the back or legs.
+
+Based on the history and exam findings—unilateral radicular pain following a dermatome, neuropathic features (tingling/numbness), positive straight leg raise, absence of red flags (no saddle anesthesia, motor weakness, or incontinence)—the doctor's assessment is a likely lumbar disc herniation (hernia nuclei pulposi) with right-sided radiculopathy, likely affecting the L5 or S1 nerve root.
+
+The plan outlined by the doctor is a stepped approach:
+1.  **Pharmacological:** Start neuropathic pain medication (pregabalin) with a slow titration and a warning about driving restrictions.
+2.  **Non-pharmacological:** Referral to physiotherapy for exercises to improve spinal flexibility and potentially allow the disc to recede.
+3.  **Monitoring:** Schedule a follow-up phone call in one week to assess treatment response and tolerability.
+4.  **Patient Education:** Advised that recovery can take weeks to months, and surgery is not the first-line option due to comparable long-term outcomes and risks.
+5.  **Safety Netting:** Instructed to seek immediate care if red flags develop (worsening leg weakness, loss of saddle sensation, or bladder/bowel dysfunction).
+
+The SOAP note should encapsulate this subjective history, objective exam findings, clinical assessment, and the detailed management plan.
+
+### JSON Output
+```json
+{
+  ""Subjective"": ""A patient presents with a 1.5-week history of progressively worsening severe lower back pain radiating down the right leg (posterior thigh→lateral calf→foot). The pain is constant, unresponsive to maximum doses of paracetamol and ibuprofen, and severe enough to disrupt sleep. Symptoms began after heavy lifting at work. The patient reports associated tingling and a slightly duller sensation in the right lower leg. Denies motor weakness, loss of bowel/bladder control, or perineal numbness."",
+  ""Objective"": ""Vital signs not recorded in transcript. Physical exam: Pain on right straight leg raise test. Sensation is subjectively duller on the right lower leg compared to the left. Motor strength is intact and symmetric in lower extremities. Deep tendon reflexes are normal bilaterally. No visible abnormalities noted on inspection of the back or legs."",
+  ""Assessment"": ""Clinical diagnosis of right-sided lumbar radiculopathy secondary to a suspected lumbar disc herniation (likely L5 or S1). The history of radicular pain following a dermatome, positive straight leg raise, and neuropathic features (tingling, numbness) support this. No red flags for cauda equina syndrome (preserved saddle sensation and motor function) are present."",
+  ""Plan"": ""1. Start neuropathic pain medication: Pregabalin, with slow titration and counseling regarding temporary driving restrictions.\n2. Non-pharmacological therapy: Refer to physiotherapy for targeted exercises to improve spinal mobility and reduce nerve root compression.\n3. Follow-up: Schedule a telephone appointment in one week to assess pain control and medication tolerance.\n4. Patient education: Explained the natural history (weeks to months for recovery), that surgery is not first-line due to comparable long-term outcomes and procedural risks, and is reserved for refractory cases.\n5. Safety netting: Instructed to contact the practice or out-of-hours service immediately if red flags develop (worsening leg weakness, loss of perineal sensation, or bladder/bowel dysfunction).""
+}
+```","Subjective: A patient presents with a 1.5-week history of progressively worsening severe lower back pain radiating down the right leg (posterior thigh→lateral calf→foot). The pain is constant, unresponsive to maximum doses of paracetamol and ibuprofen, and severe enough to disrupt sleep. Symptoms began after heavy lifting at work. The patient reports associated tingling and a slightly duller sensation in the right lower leg. Denies motor weakness, loss of bowel/bladder control, or perineal numbness.
+Objective: Vital signs not recorded in transcript. Physical exam: Pain on right straight leg raise test. Sensation is subjectively duller on the right lower leg compared to the left. Motor strength is intact and symmetric in lower extremities. Deep tendon reflexes are normal bilaterally. No visible abnormalities noted on inspection of the back or legs.
+Assessment: Clinical diagnosis of right-sided lumbar radiculopathy secondary to a suspected lumbar disc herniation (likely L5 or S1). The history of radicular pain following a dermatome, positive straight leg raise, and neuropathic features (tingling, numbness) support this. No red flags for cauda equina syndrome (preserved saddle sensation and motor function) are present.
+Plan: 1. Start neuropathic pain medication: Pregabalin, with slow titration and counseling regarding temporary driving restrictions.
+2. Non-pharmacological therapy: Refer to physiotherapy for targeted exercises to improve spinal mobility and reduce nerve root compression.
+3. Follow-up: Schedule a telephone appointment in one week to assess pain control and medication tolerance.
+4. Patient education: Explained the natural history (weeks to months for recovery), that surgery is not first-line due to comparable long-term outcomes and procedural risks, and is reserved for refractory cases.
+5. Safety netting: Instructed to contact the practice or out-of-hours service immediately if red flags develop (worsening leg weakness, loss of perineal sensation, or bladder/bowel dysfunction).",98.82
+Back Pain,DeepSeek-R1-Turbo,DeepSeek,reasoning,standard,[,"{
+  ""Subjective"": ""Patient presents with severe lower back pain radiating to the right leg for 1.5 weeks, worsening over time. Pain follows posterior thigh → lateral calf → foot pathway. Reports constant pain interfering with sleep despite maximum doses of paracetamol and ibuprofen. Pain began during heavy lifting at work (supermarket job) and has led to temporary work cessation. Denies weakness but notes pain limits movement. Reports mild tingling and numbness in affected areas. Normal bowel/bladder sensation."",
+  ""Objective"": ""Vitals not recorded. No visible abnormalities on back/legs. Moderate pain observed during movement. Normal spinal tenderness. Straight leg raise test positive on right (pain reproduction). Mild sensory deficit noted in right lateral calf. Motor strength preserved bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Normal patellar/Achilles reflexes. Normal perianal sensation."",
+  ""Assessment"": ""Acute right-sided lumbosacral radiculopathy consistent with disc herniation. Clinical diagnosis based on: 1) Classic radiating pain pattern 2) Positive straight leg raise 3) Sensory changes in dermatomal distribution 4) Occupational trigger (heavy lifting). No red flags (cauda equina symptoms, motor weakness)."",
+  ""Plan"": ""1. Start pregabalin 75mg daily, titrate slowly (caution re: driving restrictions)\n2. Refer to physiotherapy for lumbar stabilization exercises\n3. Avoid heavy lifting/straining\n4. Follow-up phone appointment in 1 week to assess pain control\n5. Educate on red flags: new saddle anesthesia, urinary/bowel incontinence, leg weakness → seek immediate care\n6. Continue limited work absence\n7. Consider MRI/surgical referral only if conservative management fails""
+}","[{
+  ""Subjective"": ""Patient presents with severe lower back pain radiating to the right leg for 1.5 weeks, worsening over time. Pain follows posterior thigh → lateral calf → foot pathway. Reports constant pain interfering with sleep despite maximum doses of paracetamol and ibuprofen. Pain began during heavy lifting at work (supermarket job) and has led to temporary work cessation. Denies weakness but notes pain limits movement. Reports mild tingling and numbness in affected areas. Normal bowel/bladder sensation."",
+  ""Objective"": ""Vitals not recorded. No visible abnormalities on back/legs. Moderate pain observed during movement. Normal spinal tenderness. Straight leg raise test positive on right (pain reproduction). Mild sensory deficit noted in right lateral calf. Motor strength preserved bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Normal patellar/Achilles reflexes. Normal perianal sensation."",
+  ""Assessment"": ""Acute right-sided lumbosacral radiculopathy consistent with disc herniation. Clinical diagnosis based on: 1) Classic radiating pain pattern 2) Positive straight leg raise 3) Sensory changes in dermatomal distribution 4) Occupational trigger (heavy lifting). No red flags (cauda equina symptoms, motor weakness)."",
+  ""Plan"": ""1. Start pregabalin 75mg daily, titrate slowly (caution re: driving restrictions)\n2. Refer to physiotherapy for lumbar stabilization exercises\n3. Avoid heavy lifting/straining\n4. Follow-up phone appointment in 1 week to assess pain control\n5. Educate on red flags: new saddle anesthesia, urinary/bowel incontinence, leg weakness → seek immediate care\n6. Continue limited work absence\n7. Consider MRI/surgical referral only if conservative management fails""
+}]","Subjective: Patient presents with severe lower back pain radiating to the right leg for 1.5 weeks, worsening over time. Pain follows posterior thigh → lateral calf → foot pathway. Reports constant pain interfering with sleep despite maximum doses of paracetamol and ibuprofen. Pain began during heavy lifting at work (supermarket job) and has led to temporary work cessation. Denies weakness but notes pain limits movement. Reports mild tingling and numbness in affected areas. Normal bowel/bladder sensation.
+Objective: Vitals not recorded. No visible abnormalities on back/legs. Moderate pain observed during movement. Normal spinal tenderness. Straight leg raise test positive on right (pain reproduction). Mild sensory deficit noted in right lateral calf. Motor strength preserved bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Normal patellar/Achilles reflexes. Normal perianal sensation.
+Assessment: Acute right-sided lumbosacral radiculopathy consistent with disc herniation. Clinical diagnosis based on: 1) Classic radiating pain pattern 2) Positive straight leg raise 3) Sensory changes in dermatomal distribution 4) Occupational trigger (heavy lifting). No red flags (cauda equina symptoms, motor weakness).
+Plan: 1. Start pregabalin 75mg daily, titrate slowly (caution re: driving restrictions)
+2. Refer to physiotherapy for lumbar stabilization exercises
+3. Avoid heavy lifting/straining
+4. Follow-up phone appointment in 1 week to assess pain control
+5. Educate on red flags: new saddle anesthesia, urinary/bowel incontinence, leg weakness → seek immediate care
+6. Continue limited work absence
+7. Consider MRI/surgical referral only if conservative management fails",42.81
+Back Pain,DeepSeek-R1-Turbo,DeepSeek,reasoning,few_shot,[,"{
+    ""Subjective"": ""Patient reports severe lower back pain for 1.5 weeks, worsening over time. Pain radiates down the right leg along the posterior thigh, lateral calf, and into the foot. Describes tingling in the same distribution. Pain constant throughout day, unrelieved by maximum doses of paracetamol and ibuprofen. Sleep severely disrupted. Symptoms began after heavy lifting at supermarket job. Currently unable to work or exercise. Denies bladder/bowel dysfunction or saddle anesthesia."",
+    ""Objective"": ""Vitals not recorded. Normal gait but painful movement. No visible abnormalities in back/legs. Mild tenderness over right sacroiliac area. Straight leg raise positive on right (pain reproduction), negative on left. Diminished sensation in right lateral calf. Motor strength intact bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Reflexes symmetric and normal. No saddle anesthesia."",
+    ""Assessment"": ""Acute right-sided lumbosacral radiculopathy consistent with lumbar disc herniation (likely L5/S1 distribution). Neurovascular status currently intact."",
+    ""Plan"": ""1. Start pregabalin 75mg daily, titrate slowly (caution drowsiness/dizziness; no driving during titration). 2. Refer to physiotherapy for nerve gliding/exercises. 3. Avoid heavy lifting. 4. Schedule telephone follow-up in 1 week. 5. Educate on red flags (saddle anesthesia, bowel/bladder changes, leg weakness). 6. Consider MRI/surgical referral only if conservative management fails.""
+  }","[
+  {
+    ""Subjective"": ""Patient reports severe lower back pain for 1.5 weeks, worsening over time. Pain radiates down the right leg along the posterior thigh, lateral calf, and into the foot. Describes tingling in the same distribution. Pain constant throughout day, unrelieved by maximum doses of paracetamol and ibuprofen. Sleep severely disrupted. Symptoms began after heavy lifting at supermarket job. Currently unable to work or exercise. Denies bladder/bowel dysfunction or saddle anesthesia."",
+    ""Objective"": ""Vitals not recorded. Normal gait but painful movement. No visible abnormalities in back/legs. Mild tenderness over right sacroiliac area. Straight leg raise positive on right (pain reproduction), negative on left. Diminished sensation in right lateral calf. Motor strength intact bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Reflexes symmetric and normal. No saddle anesthesia."",
+    ""Assessment"": ""Acute right-sided lumbosacral radiculopathy consistent with lumbar disc herniation (likely L5/S1 distribution). Neurovascular status currently intact."",
+    ""Plan"": ""1. Start pregabalin 75mg daily, titrate slowly (caution drowsiness/dizziness; no driving during titration). 2. Refer to physiotherapy for nerve gliding/exercises. 3. Avoid heavy lifting. 4. Schedule telephone follow-up in 1 week. 5. Educate on red flags (saddle anesthesia, bowel/bladder changes, leg weakness). 6. Consider MRI/surgical referral only if conservative management fails.""
+  }
+]","Subjective: Patient reports severe lower back pain for 1.5 weeks, worsening over time. Pain radiates down the right leg along the posterior thigh, lateral calf, and into the foot. Describes tingling in the same distribution. Pain constant throughout day, unrelieved by maximum doses of paracetamol and ibuprofen. Sleep severely disrupted. Symptoms began after heavy lifting at supermarket job. Currently unable to work or exercise. Denies bladder/bowel dysfunction or saddle anesthesia.
+Objective: Vitals not recorded. Normal gait but painful movement. No visible abnormalities in back/legs. Mild tenderness over right sacroiliac area. Straight leg raise positive on right (pain reproduction), negative on left. Diminished sensation in right lateral calf. Motor strength intact bilaterally in hip flexion, knee extension/flexion, ankle dorsiflexion/plantarflexion. Reflexes symmetric and normal. No saddle anesthesia.
+Assessment: Acute right-sided lumbosacral radiculopathy consistent with lumbar disc herniation (likely L5/S1 distribution). Neurovascular status currently intact.
+Plan: 1. Start pregabalin 75mg daily, titrate slowly (caution drowsiness/dizziness; no driving during titration). 2. Refer to physiotherapy for nerve gliding/exercises. 3. Avoid heavy lifting. 4. Schedule telephone follow-up in 1 week. 5. Educate on red flags (saddle anesthesia, bowel/bladder changes, leg weakness). 6. Consider MRI/surgical referral only if conservative management fails.",12.49
+Back Pain,DeepSeek-R1-Turbo,DeepSeek,reasoning,cot,"<think>
+We are given a transcript of a conversation between a doctor and a patient. We need to summarize this into a SOAP note in JSON format with four sections: Subjective, Objective, Assessment, and Plan.
+
+### Step-by-Step Reasoning:
+
+1. **Subjective (Patient's stated symptoms, history, and concerns):**
+   - The patient has had severe lower back pain for about 1.5 weeks that is worsening.
+   - The pain radiates down the right leg: from the buttock, through the back of the thigh, to the lateral side of the lower leg, and into the foot.
+   - The pain is constant throughout the day and interferes with sleep.
+   - The patient has tried maximum doses of paracetamol and ibuprofen without relief.
+   - The pain started after heavy lifting at work (in a supermarket).
+   - The patient has stopped working temporarily due to the pain and cannot engage in sports.
+   - There is some tingling in the same area as the pain, and the patient reports slightly duller sensation on the right lower leg laterally.
+   - No issues with bowel or bladder control (normal sensation in the ""saddle area"").
+   - Strength in the legs is intact, but pain limits movement.
+
+2. **Objective (Physical exam findings, vital signs, and measurable data):**
+   - No visible abnormalities on inspection of the back or legs.
+   - Palpation of the spine did not cause pain, but palpation in the buttock and posterior thigh area did cause pain.
+   - Straight leg raise test: Positive on the right side (caused pain), negative on the left.
+   - Sensory testing: Dull sensation reported on the right lower leg laterally compared to the left.
+   - Motor testing: Strength in both legs is equal and intact (tested by pushing against resistance).
+   - Reflexes: Normal in both ankles.
+   - No signs of saddle anesthesia or loss of bowel/bladder control.
+
+3. **Assessment (Doctor's diagnosis and clinical reasoning):**
+   - The doctor diagnoses a right-sided lumbar disc herniation (hernia) causing sciatica.
+   - Reasoning: The radiating pain pattern, tingling, and sensory changes along the right leg are consistent with nerve root compression (likely S1 nerve root). The positive straight leg raise on the right further supports this. The absence of motor weakness or reflex changes indicates no severe nerve damage at this stage. The history of heavy lifting is a common precipitant.
+
+4. **Plan (Treatment steps, prescriptions, referrals, and advice):**
+   - Start pregabalin for neuropathic pain, with gradual dose titration. Warn about side effects and driving restrictions (no driving for at least one week after starting or increasing dose).
+   - Refer to physiotherapy for exercises to reduce nerve compression and improve spinal flexibility.
+   - Avoid immediate imaging or surgery; conservative management is preferred initially.
+   - Follow-up: Schedule a phone appointment in one week to assess pain control and medication tolerance.
+   - Advise to contact the doctor immediately if symptoms worsen (e.g., loss of bowel/bladder control, severe motor weakness, or saddle anesthesia).
+   - Patient is temporarily off work; no heavy lifting.
+
+ Structure:
+- Subjective: Concise summary of the patient's symptoms and history.
+- Objective: Key exam findings without unnecessary details.
+- Assessment: Diagnosis with brief reasoning.
+- Plan: Clear steps including medication, referrals, follow-up, and warnings.
+
+Now, writing the JSON accordingly.
+</think>
+
+To create the SOAP note, I analyzed the transcript step by step:
+
+- **Subjective**: The patient reports severe lower back pain for 1.5 weeks, worsening and radiating down the right leg (posterior thigh, lateral calf, to foot). Pain is constant, unrelieved by max-dose paracetamol/ibuprofen, and disrupts sleep. Originated after heavy lifting at work (supermarket). Patient stopped working and sports due to pain. Tingling noted in the painful area, with slightly duller sensation on the right lower leg. No bowel/bladder issues or saddle-area numbness. Strength intact, but pain limits movement.
+
+- **Objective**: Physical exam shows no visible abnormalities in back/legs. Palpation of spine non-tender, but right buttock/posterior thigh tender. Positive straight leg raise test on right (pain), negative on left. Sensory deficit: dull sensation right lateral lower leg. Motor strength equal bilaterally. Reflexes normal. No saddle anesthesia.
+
+- **Assessment**: Diagnosis is right-sided lumbar disc herniation (hernia) compressing a nerve root, likely S1. Reasoning: Radiating pain, tingling, sensory changes, and positive straight leg raise align with nerve compression. Absence of motor weakness or reflex loss suggests no severe nerve damage. History of heavy lifting is a key precipitant.
+
+- **Plan**: Start pregabalin for neuropathic pain (titrate gradually), advise no driving during titration. Refer to physiotherapy for exercises. No immediate imaging/surgery; conservative management first. Schedule phone follow-up in 1 week. Warn to seek urgent care if worsening (e.g., saddle numbness, motor weakness, bowel/bladder issues). Temporary work avoidance.","{
+  ""Subjective"": ""Severe lower back pain for 1.5 weeks, worsening and radiating down the right leg (posterior thigh, lateral calf, to foot). Constant pain unresponsive to max-dose paracetamol/ibuprofen, causing sleep disruption. Pain began after heavy lifting at work; patient has stopped working/sports. Tingling in the painful area and slightly dull sensation on right lower leg. No bowel/bladder issues. Strength intact but movement limited by pain."",
+  ""Objective"": ""No visible abnormalities on back/leg inspection. Spine palpation non-tender; right buttock/posterior thigh tender. Positive straight leg raise test (right) causing pain, negative on left. Sensory deficit: dull sensation right lateral lower leg. Motor strength equal bilaterally. Reflexes normal. No saddle anesthesia."",
+  ""Assessment"": ""Right-sided lumbar disc herniation (hernia) compressing a nerve root (likely S1). Clinical reasoning: Radiating pain pattern, sensory changes, tingling, and positive straight leg raise indicate nerve root compression. Absence of motor/reflex deficits suggests no severe nerve injury. History of heavy lifting supports mechanical etiology."",
+  ""Plan"": ""Start pregabalin for neuropathic pain (titrate gradually); advise no driving during dose changes. Refer to physiotherapy for spinal exercises/mobility. Conservative management first; no immediate imaging/surgery. Schedule phone follow-up in 1 week to assess pain control and medication tolerance. Advise urgent re-evaluation if saddle numbness, motor weakness, or bowel/bladder issues develop. Temporary work avoidance and no heavy lifting.""
+}","<think>
+We are given a transcript of a conversation between a doctor and a patient. We need to summarize this into a SOAP note in JSON format with four sections: Subjective, Objective, Assessment, and Plan.
+
+### Step-by-Step Reasoning:
+
+1. **Subjective (Patient's stated symptoms, history, and concerns):**
+   - The patient has had severe lower back pain for about 1.5 weeks that is worsening.
+   - The pain radiates down the right leg: from the buttock, through the back of the thigh, to the lateral side of the lower leg, and into the foot.
+   - The pain is constant throughout the day and interferes with sleep.
+   - The patient has tried maximum doses of paracetamol and ibuprofen without relief.
+   - The pain started after heavy lifting at work (in a supermarket).
+   - The patient has stopped working temporarily due to the pain and cannot engage in sports.
+   - There is some tingling in the same area as the pain, and the patient reports slightly duller sensation on the right lower leg laterally.
+   - No issues with bowel or bladder control (normal sensation in the ""saddle area"").
+   - Strength in the legs is intact, but pain limits movement.
+
+2. **Objective (Physical exam findings, vital signs, and measurable data):**
+   - No visible abnormalities on inspection of the back or legs.
+   - Palpation of the spine did not cause pain, but palpation in the buttock and posterior thigh area did cause pain.
+   - Straight leg raise test: Positive on the right side (caused pain), negative on the left.
+   - Sensory testing: Dull sensation reported on the right lower leg laterally compared to the left.
+   - Motor testing: Strength in both legs is equal and intact (tested by pushing against resistance).
+   - Reflexes: Normal in both ankles.
+   - No signs of saddle anesthesia or loss of bowel/bladder control.
+
+3. **Assessment (Doctor's diagnosis and clinical reasoning):**
+   - The doctor diagnoses a right-sided lumbar disc herniation (hernia) causing sciatica.
+   - Reasoning: The radiating pain pattern, tingling, and sensory changes along the right leg are consistent with nerve root compression (likely S1 nerve root). The positive straight leg raise on the right further supports this. The absence of motor weakness or reflex changes indicates no severe nerve damage at this stage. The history of heavy lifting is a common precipitant.
+
+4. **Plan (Treatment steps, prescriptions, referrals, and advice):**
+   - Start pregabalin for neuropathic pain, with gradual dose titration. Warn about side effects and driving restrictions (no driving for at least one week after starting or increasing dose).
+   - Refer to physiotherapy for exercises to reduce nerve compression and improve spinal flexibility.
+   - Avoid immediate imaging or surgery; conservative management is preferred initially.
+   - Follow-up: Schedule a phone appointment in one week to assess pain control and medication tolerance.
+   - Advise to contact the doctor immediately if symptoms worsen (e.g., loss of bowel/bladder control, severe motor weakness, or saddle anesthesia).
+   - Patient is temporarily off work; no heavy lifting.
+
+### JSON Output Structure:
+- Subjective: Concise summary of the patient's symptoms and history.
+- Objective: Key exam findings without unnecessary details.
+- Assessment: Diagnosis with brief reasoning.
+- Plan: Clear steps including medication, referrals, follow-up, and warnings.
+
+Now, writing the JSON accordingly.
+</think>
+### Reasoning
+To create the SOAP note, I analyzed the transcript step by step:
+
+- **Subjective**: The patient reports severe lower back pain for 1.5 weeks, worsening and radiating down the right leg (posterior thigh, lateral calf, to foot). Pain is constant, unrelieved by max-dose paracetamol/ibuprofen, and disrupts sleep. Originated after heavy lifting at work (supermarket). Patient stopped working and sports due to pain. Tingling noted in the painful area, with slightly duller sensation on the right lower leg. No bowel/bladder issues or saddle-area numbness. Strength intact, but pain limits movement.
+
+- **Objective**: Physical exam shows no visible abnormalities in back/legs. Palpation of spine non-tender, but right buttock/posterior thigh tender. Positive straight leg raise test on right (pain), negative on left. Sensory deficit: dull sensation right lateral lower leg. Motor strength equal bilaterally. Reflexes normal. No saddle anesthesia.
+
+- **Assessment**: Diagnosis is right-sided lumbar disc herniation (hernia) compressing a nerve root, likely S1. Reasoning: Radiating pain, tingling, sensory changes, and positive straight leg raise align with nerve compression. Absence of motor weakness or reflex loss suggests no severe nerve damage. History of heavy lifting is a key precipitant.
+
+- **Plan**: Start pregabalin for neuropathic pain (titrate gradually), advise no driving during titration. Refer to physiotherapy for exercises. No immediate imaging/surgery; conservative management first. Schedule phone follow-up in 1 week. Warn to seek urgent care if worsening (e.g., saddle numbness, motor weakness, bowel/bladder issues). Temporary work avoidance.
+
+### JSON Output
+{
+  ""Subjective"": ""Severe lower back pain for 1.5 weeks, worsening and radiating down the right leg (posterior thigh, lateral calf, to foot). Constant pain unresponsive to max-dose paracetamol/ibuprofen, causing sleep disruption. Pain began after heavy lifting at work; patient has stopped working/sports. Tingling in the painful area and slightly dull sensation on right lower leg. No bowel/bladder issues. Strength intact but movement limited by pain."",
+  ""Objective"": ""No visible abnormalities on back/leg inspection. Spine palpation non-tender; right buttock/posterior thigh tender. Positive straight leg raise test (right) causing pain, negative on left. Sensory deficit: dull sensation right lateral lower leg. Motor strength equal bilaterally. Reflexes normal. No saddle anesthesia."",
+  ""Assessment"": ""Right-sided lumbar disc herniation (hernia) compressing a nerve root (likely S1). Clinical reasoning: Radiating pain pattern, sensory changes, tingling, and positive straight leg raise indicate nerve root compression. Absence of motor/reflex deficits suggests no severe nerve injury. History of heavy lifting supports mechanical etiology."",
+  ""Plan"": ""Start pregabalin for neuropathic pain (titrate gradually); advise no driving during dose changes. Refer to physiotherapy for spinal exercises/mobility. Conservative management first; no immediate imaging/surgery. Schedule phone follow-up in 1 week to assess pain control and medication tolerance. Advise urgent re-evaluation if saddle numbness, motor weakness, or bowel/bladder issues develop. Temporary work avoidance and no heavy lifting.""
+}","Subjective: Severe lower back pain for 1.5 weeks, worsening and radiating down the right leg (posterior thigh, lateral calf, to foot). Constant pain unresponsive to max-dose paracetamol/ibuprofen, causing sleep disruption. Pain began after heavy lifting at work; patient has stopped working/sports. Tingling in the painful area and slightly dull sensation on right lower leg. No bowel/bladder issues. Strength intact but movement limited by pain.
+Objective: No visible abnormalities on back/leg inspection. Spine palpation non-tender; right buttock/posterior thigh tender. Positive straight leg raise test (right) causing pain, negative on left. Sensory deficit: dull sensation right lateral lower leg. Motor strength equal bilaterally. Reflexes normal. No saddle anesthesia.
+Assessment: Right-sided lumbar disc herniation (hernia) compressing a nerve root (likely S1). Clinical reasoning: Radiating pain pattern, sensory changes, tingling, and positive straight leg raise indicate nerve root compression. Absence of motor/reflex deficits suggests no severe nerve injury. History of heavy lifting supports mechanical etiology.
+Plan: Start pregabalin for neuropathic pain (titrate gradually); advise no driving during dose changes. Refer to physiotherapy for spinal exercises/mobility. Conservative management first; no immediate imaging/surgery. Schedule phone follow-up in 1 week to assess pain control and medication tolerance. Advise urgent re-evaluation if saddle numbness, motor weakness, or bowel/bladder issues develop. Temporary work avoidance and no heavy lifting.",74.96
+Back Pain,Gemini-Flash-8B,Gemini,size_tier_1,standard,,,,,0.17
+Back Pain,Gemini-Flash-8B,Gemini,size_tier_1,few_shot,,,,,0.18
+Back Pain,Gemini-Flash-8B,Gemini,size_tier_1,cot,,,,,0.08
+Back Pain,Gemini-Flash,Gemini,size_tier_2,standard,,,,,0.1
+Back Pain,Gemini-Flash,Gemini,size_tier_2,few_shot,,,,,0.08
+Back Pain,Gemini-Flash,Gemini,size_tier_2,cot,,,,,0.07
+Back Pain,Gemini-1.0-Pro,Gemini,size_tier_3,standard,,,,,0.16
+Back Pain,Gemini-1.0-Pro,Gemini,size_tier_3,few_shot,,,,,0.12
+Back Pain,Gemini-1.0-Pro,Gemini,size_tier_3,cot,,,,,0.07
+Back Pain,Gemini-1.5-Pro,Gemini,size_tier_4,standard,,,,,0.1
+Back Pain,Gemini-1.5-Pro,Gemini,size_tier_4,few_shot,,,,,0.08
+Back Pain,Gemini-1.5-Pro,Gemini,size_tier_4,cot,,,,,0.16
+Back Pain,Gemini-Thinking,Gemini,reasoning,standard,,,,,0.12
+Back Pain,Gemini-Thinking,Gemini,reasoning,few_shot,,,,,0.13
+Back Pain,Gemini-Thinking,Gemini,reasoning,cot,,,,,0.13
+Back Pain,GPT-3.5-Turbo,OpenAI,size_tier_1,standard,,,,,3.43
+Back Pain,GPT-3.5-Turbo,OpenAI,size_tier_1,few_shot,,,,,3.72
+Back Pain,GPT-3.5-Turbo,OpenAI,size_tier_1,cot,,,,,2.68
+Back Pain,GPT-4o-mini,OpenAI,size_tier_2,standard,,,,,2.0
+Back Pain,GPT-4o-mini,OpenAI,size_tier_2,few_shot,,,,,2.18
+Back Pain,GPT-4o-mini,OpenAI,size_tier_2,cot,,,,,1.82
+Back Pain,GPT-4o,OpenAI,size_tier_3,standard,,,,,2.62
+Back Pain,GPT-4o,OpenAI,size_tier_3,few_shot,,,,,2.1
+Back Pain,GPT-4o,OpenAI,size_tier_3,cot,,,,,2.15
+Back Pain,GPT-4-Turbo,OpenAI,size_tier_4,standard,,,,,0.25
+Back Pain,GPT-4-Turbo,OpenAI,size_tier_4,few_shot,,,,,0.8
+Back Pain,GPT-4-Turbo,OpenAI,size_tier_4,cot,,,,,0.24
+Back Pain,o1-mini,OpenAI,reasoning,standard,,,,,0.24
+Back Pain,o1-mini,OpenAI,reasoning,few_shot,,,,,0.21
+Back Pain,o1-mini,OpenAI,reasoning,cot,,,,,0.3

@@ -1,0 +1,11 @@
+{
+  "Subjective": "Headache for 2 months, worsening. Right side worse, sometimes everywhere. Occasional nausea, no vomiting. Glare in vision. Paracetamol and ibuprofen provide some relief. Family history of migraines and cluster headaches. No stress, no coffee, no energy drinks. Headaches interfere with social activities. No smoking, occasional alcohol.",
+  "Objective": "BP 120/80, pulse 50. Neurological exam: Cranial nerves normal, fingertip-nose test normal, arm/leg strength normal, Romberg's normal, walking a straight line slightly off.",
+  "Assessment": "Suspected migraine. Does not fit cluster headache.",
+  "Plan": [
+    "Read about migraines on thuisarts.nl.",
+    "Take paracetamol 4x2 as soon as symptoms start, add ibuprofen if needed.",
+    "Keep a headache diary to identify triggers.",
+    "Follow up in 4 weeks, sooner if worse or changing."
+  ]
+}

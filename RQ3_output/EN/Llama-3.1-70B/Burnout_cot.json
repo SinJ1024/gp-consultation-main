@@ -1,0 +1,12 @@
+{
+  "Subjective": "Muscle tension; rapid heartbeat; heart palpitations; shortness of breath; fatigue; sleep problems; worrying and fretting about work. Unable to relax due to work-related stress. Difficulty falling asleep due to thoughts about work. Works as a doctor in internal medicine; recently graduated; lives with housemates who are also doctors; has a support system of friends and colleagues who understand work-related stress. Request: Rule out somatic causes for symptoms; discuss stress and work-related issues with a professional.",
+  "Objective": "BP 120/60; HR 65/min; oxygen level 98%; breathing rate 14/min. Normal heart sounds; no murmurs. No abdominal complaints.",
+  "Assessment": "Stress-related symptoms; possible burnout. No somatic causes identified on physical examination.",
+  "Plan": [
+    "Conduct blood test to rule out anaemia and other somatic causes.",
+    "Refer to mental health nurse for stress management and work-related issues.",
+    "Recommend regular relaxation techniques, such as taking breaks and engaging in activities that give energy.",
+    "Suggest contacting occupational health and safety service for support with work schedule and contract.",
+    "Follow-up appointment if symptoms worsen or concerns arise."
+  ]
+}

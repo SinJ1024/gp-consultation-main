@@ -1,0 +1,46 @@
+{
+  "Subjective": [
+    "Suffering from fatigue for approximately 2 months.",
+    "Fatigue did not arise suddenly.",
+    "No clear cause for the onset of fatigue.",
+    "Patient sleeps a lot.",
+    "Patient continues to feel tired despite sleeping a lot.",
+    "Patient can still exercise normally (climbing 2-3 times a week).",
+    "Patient can still cycle normally.",
+    "Patient experiences more muscle pain than normal.",
+    "Patient experiences more lower back pain than normal.",
+    "Patient experiences morning stiffness.",
+    "Patient has no respiratory complaints.",
+    "Patient has no palpitations.",
+    "Patient has no chest pain.",
+    "Appetite is stable.",
+    "Weight is stable.",
+    "Stool is soft.",
+    "Defecation frequency is 3-4 times per day.",
+    "Micturition is normal.",
+    "Patient's request for help is to determine the cause of fatigue."
+  ],
+  "Objective": [
+    "Blood pressure is 110/60 mmHg.",
+    "Pulse is 50-60 beats per minute and regular.",
+    "Auscultation of the lungs shows no abnormalities.",
+    "Abdomen has lively peristalsis.",
+    "Abdomen is not tender to pressure.",
+    "Patient has pain in the lower lumbar paravertebral region.",
+    "There are no abnormalities when pressure is applied to the pelvis.",
+    "There is no left-right difference in the long back muscles.",
+    "Neck muscles are fairly mobile."
+  ],
+  "Assessment": [
+    "Patient has had unexplained fatigue for 2 months.",
+    "Patient has mild muscle complaints.",
+    "Patient has mild lower back pain.",
+    "There are no alarming symptoms associated with the patient's complaints."
+  ],
+  "Plan": [
+    "Blood test requested: Hb/whole blood .",
+    "Blood test requested: thyroid function.",
+    "Blood test requested: inflammation parameters.",
+    "Follow-up policy depends on the blood test results."
+  ]
+}

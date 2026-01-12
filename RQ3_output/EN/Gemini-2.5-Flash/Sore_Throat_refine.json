@@ -1,0 +1,17 @@
+{
+  "Subjective": "Sore throat x 3 days, unbearable pain with swallowing. Fever this morning. Started with cough last week, now resolved. Took paracetamol, ibuprofen, but pain persists. Impact: Unbearable pain with swallowing. No shortness of breath, no runny nose, no current cough. No smoking/alcohol mentioned. Request: Wants antibiotics, concerned about abscess (friend had one), wants faster symptom relief.",
+  "Objective": "Temp 38.3°C (after 2 paracetamol this morning). SpO2 98%. Ears: Left: Air-filled eardrum, no inflammation. Right: Slight redness in ear canal, otherwise normal, no inflammation. Neck: Small submandibular lymph nodes, not pathological. Throat: Median uvula, slightly red pharyngeal arch, slightly enlarged tonsils (not kissing), little slough on both sides. No abscess suspected. Lungs: Vesicular breath sounds, no additional sounds.",
+  "Assessment": "Suspected viral pharyngitis/tonsillitis. No signs of abscess or bacterial infection.",
+  "Plan": [
+    "Explanation: Likely viral infection, antibiotics not indicated/helpful. Antibiotics may only shorten symptoms by half a day.",
+    "Medications:",
+    "  - Paracetamol: 4x/day.",
+    "  - Ibuprofen: 400mg, 3x/day (if paracetamol insufficient).",
+    "Lifestyle advice:",
+    "  - Keep drinking plenty of fluids.",
+    "  - Cold drinks/popsicles for pain relief.",
+    "Safety netting:",
+    "  - Contact if much sicker, shortness of breath, or unable to swallow properly.",
+    "Follow-up: PRN."
+  ]
+}

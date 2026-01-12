@@ -1,0 +1,12 @@
+{
+    "Subjective": "Busy job; tension in body; stiff muscles; rapid breathing; palpitations; heart beating; stress-related symptoms; no chest pain; no irregular heartbeat; no dizziness; no light-headedness; shortness of breath; trouble falling asleep; 6 hours of sleep; tired on non-work days; 38-hour work contract; symptoms last 30 minutes; no abdominal complaints; no fever; no cough; no shortness of breath; no smoking; no alcohol; good support system; colleagues and friends understand stress.",
+    "Objective": "BP: 120/60; HR: 65; O2: 98%; lungs: clear; heart: normal sounds; no murmurs; no abdominal complaints.",
+    "Assessment": "Stress-related symptoms; likely due to work overload; no signs of anaemia, thyroid, liver, or kidney dysfunction.",
+    "Plan": [
+     "Conduct blood test for haemoglobin, thyroid values, liver, and kidney function.",
+        "Discuss with mental health nurse.",
+        "Take care of self during work overload; build moments of relaxation into life.",
+        "Maintain regularity in life; go to bed on time; try to relax and unwind.",
+        "Consider occupational health and safety service for tips on adjusting schedules."
+    ]
+}

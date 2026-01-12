@@ -1,0 +1,1278 @@
+Case_ID,Model_Name,Model_Family,Strategy,Duration_Sec,Status,Reasoning_Trace,Generated_JSON,Raw_Output
+Back Pain,Llama-3.1-8B,Llama,standard,11.99,Success,,"{
+    ""Subjectief"": ""Anderhalve week last van rugpijn die uitstraalt naar rechterbeen via achterkant en zijkant naar voet. Pijn doet ontzettend veel zeer. Geen krachtverlies in been. Tintelingen in voet. Normaal gevoel in rijbroekgebied."",
+    ""Objectief"": ""Temp  normaal. Pharynx: normaal. Rechterbeen: pijn bij bewegen. Krachttest: normaal. Reflexen: normaal. "",
+ ""Assessment"": ""Likely hernia."",
+    ""Plan"": ""Pregabaline starten voor pijnstilling. Fysiotherapie voor oefeningen. Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling. ""
+}","{
+    ""Subjectief"": ""Anderhalve week last van rugpijn die uitstraalt naar rechterbeen via achterkant en zijkant naar voet. Pijn doet ontzettend veel zeer. Geen krachtverlies in been. Tintelingen in voet. Normaal gevoel in rijbroekgebied."",
+    ""Objectief"": ""Temp  normaal. Pharynx: normaal. Rechterbeen: pijn bij bewegen. Krachttest: normaal. Reflexen: normaal. "",
+ ""Assessment"": ""Likely hernia."",
+    ""Plan"": ""Pregabaline starten voor pijnstilling. Fysiotherapie voor oefeningen. Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling. ""
+}"
+Back Pain,Llama-3.1-8B,Llama,few_shot,10.37,Success,,"{
+    ""Subjectief"": ""Anderhalve week last van rugpijn die uitstraalt naar rechterbeen. Pijn in rug en been, stijfheid, moeite slapen. Gebruikte paracetamol en ibuprofen."",
+    ""Objectief"": ""Pijn bij beweging van rechterbeen. Pijn bij aanraking van rechterbeen en voet. Kracht in rechterbeen verminderd. Reflexen normaal."",
+    ""Assessment"": ""Hernia tussenwervelschijf."",
+    ""Plan"": ""Pregabaline starten voor pijnstilling. Fysiotherapie voor oefeningen om rug soepeler te maken. Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling.""
+}","{
+    ""Subjectief"": ""Anderhalve week last van rugpijn die uitstraalt naar rechterbeen. Pijn in rug en been, stijfheid, moeite slapen. Gebruikte paracetamol en ibuprofen."",
+    ""Objectief"": ""Pijn bij beweging van rechterbeen. Pijn bij aanraking van rechterbeen en voet. Kracht in rechterbeen verminderd. Reflexen normaal."",
+    ""Assessment"": ""Hernia tussenwervelschijf."",
+    ""Plan"": ""Pregabaline starten voor pijnstilling. Fysiotherapie voor oefeningen om rug soepeler te maken. Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling.""
+}"
+Back Pain,Llama-3.1-8B,Llama,cot,53.3,Success,"De patient heeft last van rugpijn die uitstraalt naar het rechterbeen. De pijn is aanwezig sinds anderhalve week en wordt erger. De patient merkt dat de pijn uitstraalt naar de achterkant en zijkant van het been en naar de voet. De patient heeft geprobeerd om de pijn te verlichten met paracetamol en ibuprofen, maar dat heeft niet geholpen.
+
+De patient heeft ook last van tintelingen in het been en voelt dat de kracht in het been verminderd is. De patient kan nog wel kracht gebruiken, maar de pijn houdt hem tegen. De patient heeft ook last van slapeloosheid en kan niet slapen door de pijn.
+
+Het lichamelijk onderzoek toont geen bijzonderheden op, maar de patient heeft wel pijn wanneer de rug en been worden aangeraakt. De patient voelt een verschil tussen het linker- en rechterbeen, met name aan de rechterkant voelt het doffer aan.
+
+De doctor vermoedt een hernia en legt uit dat dit een tussenwervelschijf is die uitstraalt en een zenuw kan verdrukken, waardoor pijn ontstaat. De doctor legt uit dat de behandeling bestaat uit twee delen: pijnstilling en het proberen om de zenuw minder beklemd te maken door oefeningen en fysiotherapie.
+
+De doctor schrijft een nieuw medicijn voor, pregabaline, om de pijn te verlichten. De patient mag niet autorijden en moet naar de apotheek om het medicijn op te halen. De doctor adviseert ook fysiotherapie om de rug soepeler te maken en de hernia te behandelen.","{
+  ""Subjectief"": ""Rugpijn x 1,5 week. Uitstralend naar rechterbeen. Tintelingen. Slapeloosheid."",
+  ""Objectief"": ""Temp: normaal. Pharynx: normaal. Pijn bij aanraking rug en been. Verschil linker- en rechterbeen."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": ""Pregabaline. Fysiotherapie. Niet autorijden. Volgende week belafspraak.""
+}","### Reasoning
+
+De patient heeft last van rugpijn die uitstraalt naar het rechterbeen. De pijn is aanwezig sinds anderhalve week en wordt erger. De patient merkt dat de pijn uitstraalt naar de achterkant en zijkant van het been en naar de voet. De patient heeft geprobeerd om de pijn te verlichten met paracetamol en ibuprofen, maar dat heeft niet geholpen.
+
+De patient heeft ook last van tintelingen in het been en voelt dat de kracht in het been verminderd is. De patient kan nog wel kracht gebruiken, maar de pijn houdt hem tegen. De patient heeft ook last van slapeloosheid en kan niet slapen door de pijn.
+
+Het lichamelijk onderzoek toont geen bijzonderheden op, maar de patient heeft wel pijn wanneer de rug en been worden aangeraakt. De patient voelt een verschil tussen het linker- en rechterbeen, met name aan de rechterkant voelt het doffer aan.
+
+De doctor vermoedt een hernia en legt uit dat dit een tussenwervelschijf is die uitstraalt en een zenuw kan verdrukken, waardoor pijn ontstaat. De doctor legt uit dat de behandeling bestaat uit twee delen: pijnstilling en het proberen om de zenuw minder beklemd te maken door oefeningen en fysiotherapie.
+
+De doctor schrijft een nieuw medicijn voor, pregabaline, om de pijn te verlichten. De patient mag niet autorijden en moet naar de apotheek om het medicijn op te halen. De doctor adviseert ook fysiotherapie om de rug soepeler te maken en de hernia te behandelen.
+
+### JSON Output
+
+{
+  ""Subjectief"": ""Rugpijn x 1,5 week. Uitstralend naar rechterbeen. Tintelingen. Slapeloosheid."",
+  ""Objectief"": ""Temp: normaal. Pharynx: normaal. Pijn bij aanraking rug en been. Verschil linker- en rechterbeen."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": ""Pregabaline. Fysiotherapie. Niet autorijden. Volgende week belafspraak.""
+}"
+Back Pain,Llama-3.1-8B,Llama,refine,18.03,Success,,"{
+    ""Subjectief"": ""Anderhalve week last van rugpijn die uitstraalt naar rechterbeen via achterkant, zijkant naar voet. Pijn doet niet slapen. Gebruikt paracetamol en ibuprofen, maar helpt niet. Werk in supermarkt, moet tillen. Kracht in been nog aanwezig, maar pijn houdt soms tegen."",
+    ""Objectief"": ""Temp 38,3C. Pharynx: Erythematous. Rechterbeen: Pijn bij bewegen. Krachttest: Kracht in beide benen aanwezig. Reflexen: Normaal. Tintelingen: Aanwezig in rechterbeen."",
+    ""Assessment"": ""Hernia"",
+    ""Plan"": ""Pregabaline starten voor pijnstilling. Fysiotherapie voor oefeningen om rug soepeler te maken. Niet autorijden na start van pregabaline. Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling.""}","{
+    ""Subjectief"": ""Anderhalve week last van rugpijn die uitstraalt naar rechterbeen via achterkant, zijkant naar voet. Pijn doet niet slapen. Gebruikt paracetamol en ibuprofen, maar helpt niet. Werk in supermarkt, moet tillen. Kracht in been nog aanwezig, maar pijn houdt soms tegen."",
+    ""Objectief"": ""Temp 38,3C. Pharynx: Erythematous. Rechterbeen: Pijn bij bewegen. Krachttest: Kracht in beide benen aanwezig. Reflexen: Normaal. Tintelingen: Aanwezig in rechterbeen."",
+    ""Assessment"": ""Hernia"",
+    ""Plan"": ""Pregabaline starten voor pijnstilling. Fysiotherapie voor oefeningen om rug soepeler te maken. Niet autorijden na start van pregabaline. Volgende week belafspraak om te bespreken hoe het gaat met pijnstilling.""}"
+Back Pain,Llama-3.1-70B,Llama,standard,8.0,Success,,"{""Subjective"": ""Rugpijn rechts, uitstralend naar been en voet, 1,5 week aanhoudend, verergerd, slaapproblemen"", ""Objective"": ""Temp: niet gemeten. Bloeddruk: niet gemeten. Rug: geen bijzonderheden. Rechterbeen: pijn bij tillen, doof gevoel aan de buitenkant van het onderbeen"", ""Assessment"": ""Waarschijnlijk een hernia"", ""Plan"": ""Pregabaline starten, fysiotherapie adviseren, controle-afspraak over 1 week inplannen""}","{""Subjective"": ""Rugpijn rechts, uitstralend naar been en voet, 1,5 week aanhoudend, verergerd, slaapproblemen"", ""Objective"": ""Temp: niet gemeten. Bloeddruk: niet gemeten. Rug: geen bijzonderheden. Rechterbeen: pijn bij tillen, doof gevoel aan de buitenkant van het onderbeen"", ""Assessment"": ""Waarschijnlijk een hernia"", ""Plan"": ""Pregabaline starten, fysiotherapie adviseren, controle-afspraak over 1 week inplannen""}
+"
+Back Pain,Llama-3.1-70B,Llama,few_shot,9.72,Success,,"{
+    ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen en voet, 1,5 week aanhoudend. Pijn 's nachts, slaapproblemen. Geen trauma. Paracetamol en ibuprofen ingenomen zonder verlichting."",
+    ""Objective"": ""Pijn bij bewegen rechterbeen. Kracht in been aanwezig, maar pijn beperkt bewegen. Gevoelsstoornissen rechteronderbeen. Reflexen normaal."",
+    ""Assessment"": ""Hernia, waarschijnlijk door tussenwervelschijf die zenuw verdrukt."",
+    ""Plan"": ""Pijnstilling: pregabaline starten. Fysiotherapie adviseren. Mogelijke scan of operatie in de toekomst. Belafspraak over 1 week om voortgang te bespreken.""
+}","{
+    ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen en voet, 1,5 week aanhoudend. Pijn 's nachts, slaapproblemen. Geen trauma. Paracetamol en ibuprofen ingenomen zonder verlichting."",
+    ""Objective"": ""Pijn bij bewegen rechterbeen. Kracht in been aanwezig, maar pijn beperkt bewegen. Gevoelsstoornissen rechteronderbeen. Reflexen normaal."",
+    ""Assessment"": ""Hernia, waarschijnlijk door tussenwervelschijf die zenuw verdrukt."",
+    ""Plan"": ""Pijnstilling: pregabaline starten. Fysiotherapie adviseren. Mogelijke scan of operatie in de toekomst. Belafspraak over 1 week om voortgang te bespreken.""
+}
+"
+Back Pain,Llama-3.1-70B,Llama,cot,11.43,Success,"De patiënt heeft last van zijn rug, die uitstraalt naar zijn rechterbeen, en ervaart pijn en tintelingen. De pijn is constant aanwezig en wordt niet verlicht door paracetamol en ibuprofen. De patiënt heeft ook moeite met slapen en heeft last van zijn dagelijkse activiteiten. De arts vermoedt een hernia en stelt een behandeling voor die bestaat uit pijnstilling en fysiotherapie.","{
+  ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen, 1,5 week aanwezig, constant, niet verlicht door paracetamol en ibuprofen, slaapproblemen"",
+  ""Objective"": ""Temp: niet gemeten, Bloeddruk: niet gemeten, Pijn rechts rug en been, Tintelingen rechterbeen, Kracht rechterbeen normaal, Reflexen normaal"",
+  ""Assessment"": ""Waarschijnlijk hernia"",
+  ""Plan"": ""Pijnstilling: pregabaline, Fysiotherapie: oefeningen om rug soepeler te maken, Mogelijke scan of operatie in de toekomst, Belafspraak over 1 week""
+}","### Reasoning
+
+De patiënt heeft last van zijn rug, die uitstraalt naar zijn rechterbeen, en ervaart pijn en tintelingen. De pijn is constant aanwezig en wordt niet verlicht door paracetamol en ibuprofen. De patiënt heeft ook moeite met slapen en heeft last van zijn dagelijkse activiteiten. De arts vermoedt een hernia en stelt een behandeling voor die bestaat uit pijnstilling en fysiotherapie.
+
+### JSON Output
+
+```
+{
+  ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen, 1,5 week aanwezig, constant, niet verlicht door paracetamol en ibuprofen, slaapproblemen"",
+  ""Objective"": ""Temp: niet gemeten, Bloeddruk: niet gemeten, Pijn rechts rug en been, Tintelingen rechterbeen, Kracht rechterbeen normaal, Reflexen normaal"",
+  ""Assessment"": ""Waarschijnlijk hernia"",
+  ""Plan"": ""Pijnstilling: pregabaline, Fysiotherapie: oefeningen om rug soepeler te maken, Mogelijke scan of operatie in de toekomst, Belafspraak over 1 week""
+}
+```"
+Back Pain,Llama-3.1-70B,Llama,refine,7.51,Success,,"{
+    ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen, 1,5 week aanhoudend, verergerd, slaapproblemen"",
+    ""Objective"": ""Temp en BP niet gemeten, rug en benen: geen bijzonderheden, rechterbeen: pijn bij tillen, kracht: normaal, reflexen: normaal, gevoel: doof aan rechterzijde"",
+    ""Assessment"": ""Waarschijnlijk hernia"",
+    ""Plan"": ""Pregabaline starten, fysiotherapie adviseren, controleafspraak over 1 week""
+}","{
+    ""Subjective"": ""Rugpijn rechts, uitstralend naar rechterbeen, 1,5 week aanhoudend, verergerd, slaapproblemen"",
+    ""Objective"": ""Temp en BP niet gemeten, rug en benen: geen bijzonderheden, rechterbeen: pijn bij tillen, kracht: normaal, reflexen: normaal, gevoel: doof aan rechterzijde"",
+    ""Assessment"": ""Waarschijnlijk hernia"",
+    ""Plan"": ""Pregabaline starten, fysiotherapie adviseren, controleafspraak over 1 week""
+}
+"
+Back Pain,Llama-3.1-405B,Llama,standard,43.01,Success,,"{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen en voet. Paracetamol en ibuprofen geven onvoldoende verlichting. Constante pijn, slaapproblemen."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie rug en benen. Pijn bij rechterbeen liften. Normaal gevoel in rijbroekgebied. Doof gevoel buitenzijde rechteronderbeen. Kracht in benen intact. Reflexen normaal."",
+  ""Assessment"": ""Hernia met zenuwpijn"",
+  ""Plan"": ""Start pregabaline, langzaam opbouwen. Geen autorijden eerste week of bij bijwerkingen. Fysiotherapie voor oefeningen. Belafspraak over een week. Bij verslechtering of uitvalsverschijnselen: contact opnemen.""
+}","{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen en voet. Paracetamol en ibuprofen geven onvoldoende verlichting. Constante pijn, slaapproblemen."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie rug en benen. Pijn bij rechterbeen liften. Normaal gevoel in rijbroekgebied. Doof gevoel buitenzijde rechteronderbeen. Kracht in benen intact. Reflexen normaal."",
+  ""Assessment"": ""Hernia met zenuwpijn"",
+  ""Plan"": ""Start pregabaline, langzaam opbouwen. Geen autorijden eerste week of bij bijwerkingen. Fysiotherapie voor oefeningen. Belafspraak over een week. Bij verslechtering of uitvalsverschijnselen: contact opnemen.""
+}"
+Back Pain,Llama-3.1-405B,Llama,few_shot,10.76,Success,,"{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen. Geen trauma. Slaapproblemen door pijn. Paracetamol en ibuprofen geven onvoldoende verlichting."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie rug en benen. Pijn bij rechterbeen liften. Verminderd gevoel rechter onderbeen lateraal. Kracht benen intact. Reflexen normaal."",
+  ""Assessment"": ""Hernia met zenuwpijn."",
+  ""Plan"": ""Start pregabaline voor pijn, langzaam opbouwen. Geen autorijden eerste week of bij bijwerkingen. Fysiotherapie voor oefeningen. Belafspraak volgende week. Instructies voor terugkomst bij verergering of nieuwe symptomen.""
+}","{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen. Geen trauma. Slaapproblemen door pijn. Paracetamol en ibuprofen geven onvoldoende verlichting."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie rug en benen. Pijn bij rechterbeen liften. Verminderd gevoel rechter onderbeen lateraal. Kracht benen intact. Reflexen normaal."",
+  ""Assessment"": ""Hernia met zenuwpijn."",
+  ""Plan"": ""Start pregabaline voor pijn, langzaam opbouwen. Geen autorijden eerste week of bij bijwerkingen. Fysiotherapie voor oefeningen. Belafspraak volgende week. Instructies voor terugkomst bij verergering of nieuwe symptomen.""
+}"
+Back Pain,Llama-3.1-405B,Llama,cot,19.65,Success,"De patiënt heeft al anderhalve week last van rugpijn die uitstraalt naar het rechterbeen en voet. De pijn is constant aanwezig en verhindert slaap. Paracetamol en ibuprofen helpen niet voldoende. Er is enig gevoelsverlies in het rechteronderbeen maar geen krachtsverlies. 
+
+Lichamelijk onderzoek toont pijn bij het tillen van het rechterbeen maar geen bijzonderheden aan de rug of benen. Reflexen en kracht zijn normaal. 
+
+De arts vermoedt een hernia van de tussenwervelschijf die een zenuw beknelt. Behandeling bestaat uit pijnstilling met pregabaline, fysiotherapie en oefeningen. Operatie is nu niet nodig tenzij klachten verergeren of complicaties optreden. Een belafspraak wordt gemaakt voor volgende week.","{
+  ""Subjective"": ""Anderhalve week rugpijn, uitstralend naar rechterbeen en voet. Constante pijn, slaapstoornissen. Paracetamol en ibuprofen onvoldoende effect."",
+  ""Objective"": ""Pijn bij tillen rechterbeen. Geen bijzonderheden rug of benen. Normale reflexen en kracht. Enig gevoelsverlies rechteronderbeen."",
+  ""Assessment"": ""Waarschijnlijk hernia van tussenwervelschijf met zenuwbeknelling."",
+  ""Plan"": [
+    ""Start pregabaline voor pijnstilling, langzaam opbouwen."",
+    ""Fysiotherapie en oefeningen."",
+    ""Geen operatie nodig tenzij klachten verergeren of complicaties."",
+    ""Belafspraak volgende week.""
+  ]
+}","### Reasoning
+De patiënt heeft al anderhalve week last van rugpijn die uitstraalt naar het rechterbeen en voet. De pijn is constant aanwezig en verhindert slaap. Paracetamol en ibuprofen helpen niet voldoende. Er is enig gevoelsverlies in het rechteronderbeen maar geen krachtsverlies. 
+
+Lichamelijk onderzoek toont pijn bij het tillen van het rechterbeen maar geen bijzonderheden aan de rug of benen. Reflexen en kracht zijn normaal. 
+
+De arts vermoedt een hernia van de tussenwervelschijf die een zenuw beknelt. Behandeling bestaat uit pijnstilling met pregabaline, fysiotherapie en oefeningen. Operatie is nu niet nodig tenzij klachten verergeren of complicaties optreden. Een belafspraak wordt gemaakt voor volgende week.
+
+### JSON Output
+{
+  ""Subjective"": ""Anderhalve week rugpijn, uitstralend naar rechterbeen en voet. Constante pijn, slaapstoornissen. Paracetamol en ibuprofen onvoldoende effect."",
+  ""Objective"": ""Pijn bij tillen rechterbeen. Geen bijzonderheden rug of benen. Normale reflexen en kracht. Enig gevoelsverlies rechteronderbeen."",
+  ""Assessment"": ""Waarschijnlijk hernia van tussenwervelschijf met zenuwbeknelling."",
+  ""Plan"": [
+    ""Start pregabaline voor pijnstilling, langzaam opbouwen."",
+    ""Fysiotherapie en oefeningen."",
+    ""Geen operatie nodig tenzij klachten verergeren of complicaties."",
+    ""Belafspraak volgende week.""
+  ]
+}"
+Back Pain,Llama-3.1-405B,Llama,refine,32.25,Success,,"{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen en voet. Slaapproblemen door pijn. Paracetamol en ibuprofen in maximale dosering, geen effect. Geen vermindering kracht in been, gevoel iets doffer aan buitenkant onderbeen."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie benen en rug. Pijn bij tillen rechterbeen, geen pijn bij linkerbeen. Verschil in gevoel tussen linker en rechtervoet. Kracht in benen goed, reflexen normaal."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": ""- Pregabaline starten, langzaam opbouwen. Niet autorijden tijdens start of bijwerkingen.\n- Fysiotherapie voor oefeningen om rug soepeler te maken.\n- Belafspraak over een week om pijnstilling te bespreken.\n- Contact opnemen bij verergering klachten, problemen met plas/ontlasting of verlies van kracht in been.""
+}","{
+  ""Subjective"": ""Anderhalve week last van rugpijn, uitstralend naar rechterbeen en voet. Slaapproblemen door pijn. Paracetamol en ibuprofen in maximale dosering, geen effect. Geen vermindering kracht in been, gevoel iets doffer aan buitenkant onderbeen."",
+  ""Objective"": ""Geen bijzonderheden bij inspectie benen en rug. Pijn bij tillen rechterbeen, geen pijn bij linkerbeen. Verschil in gevoel tussen linker en rechtervoet. Kracht in benen goed, reflexen normaal."",
+  ""Assessment"": ""Hernia"",
+  ""Plan"": ""- Pregabaline starten, langzaam opbouwen. Niet autorijden tijdens start of bijwerkingen.\n- Fysiotherapie voor oefeningen om rug soepeler te maken.\n- Belafspraak over een week om pijnstilling te bespreken.\n- Contact opnemen bij verergering klachten, problemen met plas/ontlasting of verlies van kracht in been.""
+}"
+Back Pain,Llama-Reasoning-70B,DeepSeek-Llama,standard,7.44,Success,,"{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzijde en zijkant) tot voet. Pijn in 1,5 week, verergerend. Slaapstoornis. Geen verlichting met paracetamol/ibuprofen. Tintelingen en doof gevoel rechteronderbeen. Geen krachtverlies, maar pijn beperkt bewegen."",
+  ""Objective"": ""Lichamelijk onderzoek: geen bijzonderheden aan rug en benen. Rechterbeen: pijn bij tillen. Doof gevoel rechteronderbeen. Reflexen normaal. Kracht in benen gelijk."",
+  ""Assessment"": ""Likely hernia van lumbale wervelkolom."",
+  ""Plan"": ""Start pregabaline. Fysiotherapie. Belafspraak over 1 week. Geen scan/operatie nodig voor nu.""
+}","{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzijde en zijkant) tot voet. Pijn in 1,5 week, verergerend. Slaapstoornis. Geen verlichting met paracetamol/ibuprofen. Tintelingen en doof gevoel rechteronderbeen. Geen krachtverlies, maar pijn beperkt bewegen."",
+  ""Objective"": ""Lichamelijk onderzoek: geen bijzonderheden aan rug en benen. Rechterbeen: pijn bij tillen. Doof gevoel rechteronderbeen. Reflexen normaal. Kracht in benen gelijk."",
+  ""Assessment"": ""Likely hernia van lumbale wervelkolom."",
+  ""Plan"": ""Start pregabaline. Fysiotherapie. Belafspraak over 1 week. Geen scan/operatie nodig voor nu.""
+}"
+Back Pain,Llama-Reasoning-70B,DeepSeek-Llama,few_shot,8.53,Success,,"{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzijde bovenbeen, zijkant onderbeen en voet) gedurende 1,5 week. Pijn verergert, niet van slapen. Gebruikt paracetamol en ibuprofen (maximale dosering) zonder voldoende verlichting. Geen trauma. Pijn bestaat de hele dag. Werk in supermarkt, tijdelijk gestopt vanwege pijn. Sporten niet mogelijk. Geen krachtverlies, maar pijn beperkt bewegen. Gevoelsstoornis (doof gevoel) rechteronderbeen buitenzijde. Tintelingen aanwezig."",
+  ""Objective"": ""Pijn bij extensie rechterbeen. Doof gevoel rechteronderbeen buitenzijde. Kracht intact. Reflexen normaal."",
+  ""Assessment"": ""Hernia (tussenwervelschijfprobleem rechts)"",
+  ""Plan"": ""Starten met pregabaline. Fysiotherapie adviseren. Belafspraak over 1 week. Geen scan of operatie nodig voor nu.""
+}","{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzijde bovenbeen, zijkant onderbeen en voet) gedurende 1,5 week. Pijn verergert, niet van slapen. Gebruikt paracetamol en ibuprofen (maximale dosering) zonder voldoende verlichting. Geen trauma. Pijn bestaat de hele dag. Werk in supermarkt, tijdelijk gestopt vanwege pijn. Sporten niet mogelijk. Geen krachtverlies, maar pijn beperkt bewegen. Gevoelsstoornis (doof gevoel) rechteronderbeen buitenzijde. Tintelingen aanwezig."",
+  ""Objective"": ""Pijn bij extensie rechterbeen. Doof gevoel rechteronderbeen buitenzijde. Kracht intact. Reflexen normaal."",
+  ""Assessment"": ""Hernia (tussenwervelschijfprobleem rechts)"",
+  ""Plan"": ""Starten met pregabaline. Fysiotherapie adviseren. Belafspraak over 1 week. Geen scan of operatie nodig voor nu.""
+}"
+Back Pain,Llama-Reasoning-70B,DeepSeek-Llama,cot,42.27,Success,"<think>
+Alright, I'm going to analyze this transcript step by step to create an accurate SOAP note. The transcript is in Dutch, so my output should be in Dutch as well.
+
+Starting with the Subjective section. The patient complains of severe lower back pain for a week and a half, which is getting worse. The pain radiates to the right leg, specifically the back of the thigh and the side of the lower leg, all the way to the foot. The patient mentions it's affecting sleep and daily activities, including work at a supermarket where heavy lifting is involved. They've tried paracetamol and ibuprofen without relief. There's no specific time when the pain is worse, and they've had to stop working. The patient also reports some numbness and tingling on the outer side of the lower leg but no issues with the perineal area (rijbroekgebied). They can still feel the need to urinate and defecate normally.
+
+Moving to the Objective section. The physical exam shows no visible abnormalities in the legs or back. The patient experiences pain when the right leg is lifted. There's a difference in sensation between the left and right legs, with the right feeling duller. Reflexes are normal, and muscle strength is preserved despite the pain.
+
+For the Assessment, the doctor suspects a herniated disc (hernia) causing nerve compression, leading to radicular pain and sensory changes.
+
+The Plan includes starting pregabaline for nerve pain, advising against driving for a week, and possibly referring to a physiotherapist. A follow-up call is scheduled in a week to monitor progress. No immediate need for scans or surgery unless symptoms worsen.
+
+I need to ensure the SOAP note is concise, uses clinical shorthand, and omits unnecessary phrases. Each section should be brief and to the point, avoiding full sentences and sticking to fragments.
+</think>
+
+
+De patiënt klaagt over hevige rugpijn rechts die uitstraalt naar het been, met name aan de achterzijde van het bovenbeen en via de zijkant van het onderbeen naar de voet. De pijn is aanwezig sinds anderhalve week, slaapverstoort en niet reagerend op paracetamol en ibuprofen. Fysiotherapie en pijnstilling (pregabaline) worden geadviseerd. Lichamelijk onderzoek toont gevoelsverschil en pijn bij tillen van het rechterbeen, maar geen krachtsverlies of reflexafwijkingen. De arts vermoedt een hernia.","{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzijde bovenbeen, zijkant onderbeen en voet) sinds 1,5 week. Pijn constant, verergert 's nachts. Paracetamol en ibuprofen zonder verlichting. Werk en sporten beperkt. Geen krachtsverlies, maar wel wat gevoelsverlies en tintelingen aan rechteronderbeen."",
+  ""Objective"": ""Geen zichtbare afwijkingen been/rug. Pijn bij tillen rechterbeen. Gevoelsverschil rechterbeen (dof). Reflexen normaal, kracht behouden."",
+  ""Assessment"": ""Verdachte hernia (tussenwervelschijf)"",
+  ""Plan"": ""Start pregabaline, 1 week niet autorijden, fysiotherapie adviseren, follow-up belafspraak over 1 week.""
+}","<think>
+Alright, I'm going to analyze this transcript step by step to create an accurate SOAP note. The transcript is in Dutch, so my output should be in Dutch as well.
+
+Starting with the Subjective section. The patient complains of severe lower back pain for a week and a half, which is getting worse. The pain radiates to the right leg, specifically the back of the thigh and the side of the lower leg, all the way to the foot. The patient mentions it's affecting sleep and daily activities, including work at a supermarket where heavy lifting is involved. They've tried paracetamol and ibuprofen without relief. There's no specific time when the pain is worse, and they've had to stop working. The patient also reports some numbness and tingling on the outer side of the lower leg but no issues with the perineal area (rijbroekgebied). They can still feel the need to urinate and defecate normally.
+
+Moving to the Objective section. The physical exam shows no visible abnormalities in the legs or back. The patient experiences pain when the right leg is lifted. There's a difference in sensation between the left and right legs, with the right feeling duller. Reflexes are normal, and muscle strength is preserved despite the pain.
+
+For the Assessment, the doctor suspects a herniated disc (hernia) causing nerve compression, leading to radicular pain and sensory changes.
+
+The Plan includes starting pregabaline for nerve pain, advising against driving for a week, and possibly referring to a physiotherapist. A follow-up call is scheduled in a week to monitor progress. No immediate need for scans or surgery unless symptoms worsen.
+
+I need to ensure the SOAP note is concise, uses clinical shorthand, and omits unnecessary phrases. Each section should be brief and to the point, avoiding full sentences and sticking to fragments.
+</think>
+
+### Reasoning
+De patiënt klaagt over hevige rugpijn rechts die uitstraalt naar het been, met name aan de achterzijde van het bovenbeen en via de zijkant van het onderbeen naar de voet. De pijn is aanwezig sinds anderhalve week, slaapverstoort en niet reagerend op paracetamol en ibuprofen. Fysiotherapie en pijnstilling (pregabaline) worden geadviseerd. Lichamelijk onderzoek toont gevoelsverschil en pijn bij tillen van het rechterbeen, maar geen krachtsverlies of reflexafwijkingen. De arts vermoedt een hernia.
+
+### JSON Output
+{
+  ""Subjective"": ""Rugpijn rechts met uitstraling naar rechterbeen (achterzijde bovenbeen, zijkant onderbeen en voet) sinds 1,5 week. Pijn constant, verergert 's nachts. Paracetamol en ibuprofen zonder verlichting. Werk en sporten beperkt. Geen krachtsverlies, maar wel wat gevoelsverlies en tintelingen aan rechteronderbeen."",
+  ""Objective"": ""Geen zichtbare afwijkingen been/rug. Pijn bij tillen rechterbeen. Gevoelsverschil rechterbeen (dof). Reflexen normaal, kracht behouden."",
+  ""Assessment"": ""Verdachte hernia (tussenwervelschijf)"",
+  ""Plan"": ""Start pregabaline, 1 week niet autorijden, fysiotherapie adviseren, follow-up belafspraak over 1 week.""
+}"
+Back Pain,Llama-Reasoning-70B,DeepSeek-Llama,refine,1.54,JSON_Parse_Fail,[1],,[1]
+Back Pain,Gemini-2.5-Flash-Lite,Gemini,standard,3.29,Success,,"{
+  ""Subjective"": ""Rugpijn rechts sinds 1.5 week, verergert, uitstralend naar rechterbeen/voet via achterkant/zijkant. Pijn bij slapen. Max dosis paracetamol/ibuprofen helpt niet. Werk in supermarkt, zwaar tillen, tijdelijk gestopt. Kracht been intact, pijn belemmert bewegen. Gevoel been/voet rechts doffer. Tintelingen rechterbeen. Rijbroekgebied/sfincterfunctie normaal. Geen problemen met plassen/poepen."",
+  ""Objective"": ""Pijn bij opkomen bank. Geen bijzonderheden bij inspectie rug/benen. Palpatie rug niet pijnlijk. Rechterbeen optillen pijnlijk, linkerbeen niet. Gevoel been/voet rechts doffer dan links. Kracht testen: benen gelijk, onderbenen gelijk, tenen omhoog/gas geven gelijk. Reflexen intact. Gevoel rijbroekgebied normaal."",
+  ""Assessment"": ""Hernia (waarschijnlijk)"",
+  ""Plan"": ""Start pregabaline (langzaam opbouwen, niet autorijden bij start/dosering/bijwerkingen). Advies fysiotherapie voor oefeningen. Belafspraak over 1 week om pijnstilling te evalueren. Contact opnemen bij verergering klachten, niet goed voelen rijbroekgebied, problemen plassen/poepen, of geen kracht meer in been.""
+}","{
+  ""Subjective"": ""Rugpijn rechts sinds 1.5 week, verergert, uitstralend naar rechterbeen/voet via achterkant/zijkant. Pijn bij slapen. Max dosis paracetamol/ibuprofen helpt niet. Werk in supermarkt, zwaar tillen, tijdelijk gestopt. Kracht been intact, pijn belemmert bewegen. Gevoel been/voet rechts doffer. Tintelingen rechterbeen. Rijbroekgebied/sfincterfunctie normaal. Geen problemen met plassen/poepen."",
+  ""Objective"": ""Pijn bij opkomen bank. Geen bijzonderheden bij inspectie rug/benen. Palpatie rug niet pijnlijk. Rechterbeen optillen pijnlijk, linkerbeen niet. Gevoel been/voet rechts doffer dan links. Kracht testen: benen gelijk, onderbenen gelijk, tenen omhoog/gas geven gelijk. Reflexen intact. Gevoel rijbroekgebied normaal."",
+  ""Assessment"": ""Hernia (waarschijnlijk)"",
+  ""Plan"": ""Start pregabaline (langzaam opbouwen, niet autorijden bij start/dosering/bijwerkingen). Advies fysiotherapie voor oefeningen. Belafspraak over 1 week om pijnstilling te evalueren. Contact opnemen bij verergering klachten, niet goed voelen rijbroekgebied, problemen plassen/poepen, of geen kracht meer in been.""
+}"
+Back Pain,Gemini-2.5-Flash-Lite,Gemini,few_shot,3.58,Success,,"{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, verergert. Uitstraling naar rechterbeen via achterkant, zijkant tot voet. Pijn bij bewegen, kan niet slapen. Gebruikt paracetamol en ibuprofen in maximale dosering, helpt niet. Werkzaam in supermarkt, ontstaan bij zwaar tillen. Tijdelijk gestopt met werk. Kracht in been intact, pijn belemmert bewegen. Gevoel been/voet iets doffer rechterbeen buitenkant. Tintelingen rechterbeen/voet. Geen problemen met blaas/darmen. Geen trauma."",
+  ""Objective"": ""Pijn bij opkomen bank. Geen bijzonderheden bij inspectie rug en benen. Pijn bij passief optillen rechterbeen. Verschil in gevoel linker/rechterbeen, rechterbeen doffer. Kracht testen: benen, onderbenen, tenen omhoog/gas geven: gelijk links/rechts, pijnlijk. Reflexen: hiel links/rechts, voetzool links/rechts: symmetrisch."",
+  ""Assessment"": ""Hernia (vermoedelijk)"",
+  ""Plan"": ""Start pregabaline (langzaam opbouwen, niet autorijden bij start/dosering/bijwerkingen). Pijnstilling gericht op slaap. Fysiotherapie adviseren voor oefeningen rug/zenuwontlasting. Geen CT/MRI scan of operatie nu. Controle over 1 week (belafspraak) m.b.t. pijnstilling. Advies: contact opnemen bij verergering klachten, verlies gevoel rijbroekgebied, problemen blaas/darmen, of geen kracht meer in been.""
+}","{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, verergert. Uitstraling naar rechterbeen via achterkant, zijkant tot voet. Pijn bij bewegen, kan niet slapen. Gebruikt paracetamol en ibuprofen in maximale dosering, helpt niet. Werkzaam in supermarkt, ontstaan bij zwaar tillen. Tijdelijk gestopt met werk. Kracht in been intact, pijn belemmert bewegen. Gevoel been/voet iets doffer rechterbeen buitenkant. Tintelingen rechterbeen/voet. Geen problemen met blaas/darmen. Geen trauma."",
+  ""Objective"": ""Pijn bij opkomen bank. Geen bijzonderheden bij inspectie rug en benen. Pijn bij passief optillen rechterbeen. Verschil in gevoel linker/rechterbeen, rechterbeen doffer. Kracht testen: benen, onderbenen, tenen omhoog/gas geven: gelijk links/rechts, pijnlijk. Reflexen: hiel links/rechts, voetzool links/rechts: symmetrisch."",
+  ""Assessment"": ""Hernia (vermoedelijk)"",
+  ""Plan"": ""Start pregabaline (langzaam opbouwen, niet autorijden bij start/dosering/bijwerkingen). Pijnstilling gericht op slaap. Fysiotherapie adviseren voor oefeningen rug/zenuwontlasting. Geen CT/MRI scan of operatie nu. Controle over 1 week (belafspraak) m.b.t. pijnstilling. Advies: contact opnemen bij verergering klachten, verlies gevoel rijbroekgebied, problemen blaas/darmen, of geen kracht meer in been.""
+}"
+Back Pain,Gemini-2.5-Flash-Lite,Gemini,cot,5.01,Success,"The patient presents with back pain that started about 1.5 weeks ago and is worsening. The pain radiates down the right leg, through the back of the thigh, and down the side of the lower leg to the foot. The patient experiences pain all day, affecting sleep. The pain started after heavy lifting at work in a supermarket. The patient has tried paracetamol and ibuprofen at maximum doses without relief. There is no loss of strength in the leg, but pain limits movement. The patient notes a slightly duller sensation on the outer side of the right lower leg and some tingling in the painful area. Sensation in the ""saddle area"" (buttocks, inner thighs) and bowel/bladder control are normal.
+
+Physical examination revealed pain upon getting onto the examination table. No abnormalities were noted in the appearance of the legs or the back upon inspection. Palpation of the spine did not elicit significant pain. Lifting the right leg caused pain, while lifting the left leg did not. Sensation was perceived as different (duller) on the right leg compared to the left. Strength testing of the legs and feet showed equal strength bilaterally, despite the patient experiencing pain during the maneuvers. Reflexes were normal.
+
+The doctor suspects a herniated disc (hernia) based on the history and physical exam findings, specifically nerve root compression. The plan includes pain management with pregabalin (started slowly due to potential side effects and driving restrictions) and physiotherapy for exercises to help the disc retract. Surgery is considered a last resort if conservative treatment fails. A follow-up phone call is scheduled in one week to assess the effectiveness of the pain medication. Red flag symptoms requiring immediate re-evaluation include worsening symptoms, loss of sensation in the saddle area, or inability to move the leg due to weakness.","{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, verergert. Uitstraling rechterbeen (achterkant bovenbeen, zijkant onderbeen tot voet). Pijn de hele dag, verstoort slaap. Begon na zwaar tillen. Paracetamol/ibuprofen max dosis helpt niet. Geen krachtverlies been, wel bewegingsbeperking door pijn. Iets doffer gevoel buitenkant rechter onderbeen. Tintelingen in pijngebied. Normaal gevoel rijbroekgebied, normale blaas/darmfunctie."",
+  ""Objective"": ""Pijn bij opstaan onderzoekstafel. Benen en rug geen bijzonderheden bij inspectie. Palpatie rug geen significante pijn. Rechterbeen optillen pijnlijk, linkerbeen niet. Gevoel rechterbeen doffer dan links. Kracht benen/voeten gelijk beiderzijds, ondanks pijn bij testen. Reflexen normaal."",
+  ""Assessment"": ""Hernia nuclei pulposi (HNP) met zenuwwortelcompressie."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies: niet autorijden tijdens starten/dosering opbouwen en bij bijwerkingen.\n- Fysiotherapie adviseren voor oefeningen.\n- Belafspraak over 1 week ter controle pijnstilling.\n- Instructie om contact op te nemen bij verergering klachten, verlies gevoel rijbroekgebied, of ernstig krachtverlies been.""
+}","### Reasoning
+The patient presents with back pain that started about 1.5 weeks ago and is worsening. The pain radiates down the right leg, through the back of the thigh, and down the side of the lower leg to the foot. The patient experiences pain all day, affecting sleep. The pain started after heavy lifting at work in a supermarket. The patient has tried paracetamol and ibuprofen at maximum doses without relief. There is no loss of strength in the leg, but pain limits movement. The patient notes a slightly duller sensation on the outer side of the right lower leg and some tingling in the painful area. Sensation in the ""saddle area"" (buttocks, inner thighs) and bowel/bladder control are normal.
+
+Physical examination revealed pain upon getting onto the examination table. No abnormalities were noted in the appearance of the legs or the back upon inspection. Palpation of the spine did not elicit significant pain. Lifting the right leg caused pain, while lifting the left leg did not. Sensation was perceived as different (duller) on the right leg compared to the left. Strength testing of the legs and feet showed equal strength bilaterally, despite the patient experiencing pain during the maneuvers. Reflexes were normal.
+
+The doctor suspects a herniated disc (hernia) based on the history and physical exam findings, specifically nerve root compression. The plan includes pain management with pregabalin (started slowly due to potential side effects and driving restrictions) and physiotherapy for exercises to help the disc retract. Surgery is considered a last resort if conservative treatment fails. A follow-up phone call is scheduled in one week to assess the effectiveness of the pain medication. Red flag symptoms requiring immediate re-evaluation include worsening symptoms, loss of sensation in the saddle area, or inability to move the leg due to weakness.
+
+### JSON Output
+```json
+{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, verergert. Uitstraling rechterbeen (achterkant bovenbeen, zijkant onderbeen tot voet). Pijn de hele dag, verstoort slaap. Begon na zwaar tillen. Paracetamol/ibuprofen max dosis helpt niet. Geen krachtverlies been, wel bewegingsbeperking door pijn. Iets doffer gevoel buitenkant rechter onderbeen. Tintelingen in pijngebied. Normaal gevoel rijbroekgebied, normale blaas/darmfunctie."",
+  ""Objective"": ""Pijn bij opstaan onderzoekstafel. Benen en rug geen bijzonderheden bij inspectie. Palpatie rug geen significante pijn. Rechterbeen optillen pijnlijk, linkerbeen niet. Gevoel rechterbeen doffer dan links. Kracht benen/voeten gelijk beiderzijds, ondanks pijn bij testen. Reflexen normaal."",
+  ""Assessment"": ""Hernia nuclei pulposi (HNP) met zenuwwortelcompressie."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies: niet autorijden tijdens starten/dosering opbouwen en bij bijwerkingen.\n- Fysiotherapie adviseren voor oefeningen.\n- Belafspraak over 1 week ter controle pijnstilling.\n- Instructie om contact op te nemen bij verergering klachten, verlies gevoel rijbroekgebied, of ernstig krachtverlies been.""
+}
+```"
+Back Pain,Gemini-2.5-Flash-Lite,Gemini,refine,3.46,Success,,"{
+  ""Subjective"": ""Rugpijn rechts sinds 1.5 week, verergert, uitstralend naar rechterbeen/voet via achterkant/zijkant. Pijn bij opstaan bank. Pijn bij optillen rechterbeen. Tintelingen rechteronderbeen buitenkant. Gevoel doffer rechteronderbeen buitenkant. Pijn belemmert bewegen, kracht been intact. Geen problemen met plassen/poepen. Slaap verstoord door pijn. Werkzaam supermarkt, zwaar tillen. Gestopt met werk. Geen baat paracetamol/ibuprofen max dosering. Geen momenten met meer/minder pijn, hele dag last."",
+  ""Objective"": ""Bij opkomen bank pijn rechts. Geen bijzonderheden bij inspectie rug/benen. Palpatie rug geen pijn. Pijn bij optillen rechterbeen. Linkerbeen optillen gaat goed. Gevoel been/voet anders rechts (doffer). Kracht testen: been/onderbeen/tenen/gas geven links/rechts gelijk, wel pijn rechts. Reflexen hiel/voetzool symmetrisch."",
+  ""Assessment"": ""Hernia nuclei pulposi (HNP) lumbaal, waarschijnlijk rechtszijdig."",
+  ""Plan"": ""Start pregabaline, langzaam opbouwen. Niet autorijden tijdens starten/dosering opbouwen/bijwerkingen. Fysiotherapie adviseren voor oefeningen. Belafspraak over 1 week. Bij verergering klachten, gevoelsverlies rijbroekgebied, problemen plassen/poepen, krachtverlies been: direct contact opnemen.""
+}","{
+  ""Subjective"": ""Rugpijn rechts sinds 1.5 week, verergert, uitstralend naar rechterbeen/voet via achterkant/zijkant. Pijn bij opstaan bank. Pijn bij optillen rechterbeen. Tintelingen rechteronderbeen buitenkant. Gevoel doffer rechteronderbeen buitenkant. Pijn belemmert bewegen, kracht been intact. Geen problemen met plassen/poepen. Slaap verstoord door pijn. Werkzaam supermarkt, zwaar tillen. Gestopt met werk. Geen baat paracetamol/ibuprofen max dosering. Geen momenten met meer/minder pijn, hele dag last."",
+  ""Objective"": ""Bij opkomen bank pijn rechts. Geen bijzonderheden bij inspectie rug/benen. Palpatie rug geen pijn. Pijn bij optillen rechterbeen. Linkerbeen optillen gaat goed. Gevoel been/voet anders rechts (doffer). Kracht testen: been/onderbeen/tenen/gas geven links/rechts gelijk, wel pijn rechts. Reflexen hiel/voetzool symmetrisch."",
+  ""Assessment"": ""Hernia nuclei pulposi (HNP) lumbaal, waarschijnlijk rechtszijdig."",
+  ""Plan"": ""Start pregabaline, langzaam opbouwen. Niet autorijden tijdens starten/dosering opbouwen/bijwerkingen. Fysiotherapie adviseren voor oefeningen. Belafspraak over 1 week. Bij verergering klachten, gevoelsverlies rijbroekgebied, problemen plassen/poepen, krachtverlies been: direct contact opnemen.""
+}"
+Back Pain,Gemini-2.5-Flash,Gemini,standard,5.12,Success,,"{
+  ""Subjective"": ""Rugpijn x 1.5 week, erger wordend. Uitstraling rechterbeen (achterkant bovenbeen, zijkant onderbeen) naar voet. Pijn 24/7. Slaapproblemen door pijn. Werk (zwaar tillen) gestopt, sporten lukt niet. Paracetamol en ibuprofen (max. dosering) helpen niet. Kracht in been behouden, bewegen moeilijk door pijn. Gevoel rechter onderbeen (buitenkant) doffer. Tintelingen op pijnlijke plek. Geen problemen rijbroekgebied, plassen/poepen."",
+  ""Objective"": ""Pijn bij bewegen naar onderzoeksbank. Geen bijzonderheden linker/rechterbeen. Geen bijzonderheden rug bij inspectie/palpatie wervels. Rechterbeen heffen pijnlijk. Gevoel rechterbeen/voet doffer. Kracht benen gelijk en goed. Reflexen goed."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start Pregabaline (langzaam opbouwen)."",
+    ""Niet autorijden bij start/opbouw dosering (minimaal 1 week)."",
+    ""Fysiotherapie voor oefeningen, rug soepeler maken."",
+    ""Geen scan/operatie nu."",
+    ""Belafspraak over 1 week voor evaluatie pijnstilling."",
+    ""Contact opnemen bij verergering klachten (rijbroekgebied, incontinentie, krachtsverlies been).""
+  ]
+}","{
+  ""Subjective"": ""Rugpijn x 1.5 week, erger wordend. Uitstraling rechterbeen (achterkant bovenbeen, zijkant onderbeen) naar voet. Pijn 24/7. Slaapproblemen door pijn. Werk (zwaar tillen) gestopt, sporten lukt niet. Paracetamol en ibuprofen (max. dosering) helpen niet. Kracht in been behouden, bewegen moeilijk door pijn. Gevoel rechter onderbeen (buitenkant) doffer. Tintelingen op pijnlijke plek. Geen problemen rijbroekgebied, plassen/poepen."",
+  ""Objective"": ""Pijn bij bewegen naar onderzoeksbank. Geen bijzonderheden linker/rechterbeen. Geen bijzonderheden rug bij inspectie/palpatie wervels. Rechterbeen heffen pijnlijk. Gevoel rechterbeen/voet doffer. Kracht benen gelijk en goed. Reflexen goed."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start Pregabaline (langzaam opbouwen)."",
+    ""Niet autorijden bij start/opbouw dosering (minimaal 1 week)."",
+    ""Fysiotherapie voor oefeningen, rug soepeler maken."",
+    ""Geen scan/operatie nu."",
+    ""Belafspraak over 1 week voor evaluatie pijnstilling."",
+    ""Contact opnemen bij verergering klachten (rijbroekgebied, incontinentie, krachtsverlies been).""
+  ]
+}"
+Back Pain,Gemini-2.5-Flash,Gemini,few_shot,5.55,Success,,"{
+  ""Subjective"": ""Rugpijn x1.5 week, erger wordend. Uitstraling naar rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot in voet. Kan niet slapen, nachten wakker. Paracetamol en ibuprofen (max. dosering) helpen niet. Pijn de hele dag door. Ontstaan mogelijk door zwaar tillen op werk (supermarkt). Tijdelijk gestopt met werken. Sporten lukt niet. Kracht in been behouden, maar pijn belemmert bewegen. Gevoel: iets doffer aan buitenkant onderbeen rechts. Tintelingen, moeilijk te lokaliseren. Geen problemen met rijbroekgebied, plassen/poepen."",
+  ""Objective"": ""Pijn bij opstaan/bewegen. Benen: geen bijzonderheden. Rug: geen bijzonderheden bij inspectie/palpatie wervels. Pijn meer bij billen/achterkant. Rechterbeen heffen: pijnlijk. Linkerbeen heffen: geen pijn. Aanraking been/voet: doffer gevoel rechterkant. Krachttest benen: kracht behouden, even sterk, wel pijnlijk. Reflexen: goed."",
+  ""Assessment"": ""Hernia (verdenking). Zenuwbeklemming door uitstralende tussenwervelschijf. Zenuwpijn."",
+  ""Plan"": ""Uitleg: Hernia, zenuwbeklemming, zenuwpijn. Pijnstilling: Start Pregabaline (langzaam opbouwen). Advies: Niet autorijden bij start/opbouw dosering (minimaal 1 week). Fysiotherapie: Oefeningen voor rugsoepelheid. Geen scan/operatie nu. Belafspraak over 1 week om pijnstilling te bespreken. Contact opnemen bij verergering klachten (gevoelsverlies rijbroekgebied, incontinentie, krachtsverlies been).""
+}","{
+  ""Subjective"": ""Rugpijn x1.5 week, erger wordend. Uitstraling naar rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot in voet. Kan niet slapen, nachten wakker. Paracetamol en ibuprofen (max. dosering) helpen niet. Pijn de hele dag door. Ontstaan mogelijk door zwaar tillen op werk (supermarkt). Tijdelijk gestopt met werken. Sporten lukt niet. Kracht in been behouden, maar pijn belemmert bewegen. Gevoel: iets doffer aan buitenkant onderbeen rechts. Tintelingen, moeilijk te lokaliseren. Geen problemen met rijbroekgebied, plassen/poepen."",
+  ""Objective"": ""Pijn bij opstaan/bewegen. Benen: geen bijzonderheden. Rug: geen bijzonderheden bij inspectie/palpatie wervels. Pijn meer bij billen/achterkant. Rechterbeen heffen: pijnlijk. Linkerbeen heffen: geen pijn. Aanraking been/voet: doffer gevoel rechterkant. Krachttest benen: kracht behouden, even sterk, wel pijnlijk. Reflexen: goed."",
+  ""Assessment"": ""Hernia (verdenking). Zenuwbeklemming door uitstralende tussenwervelschijf. Zenuwpijn."",
+  ""Plan"": ""Uitleg: Hernia, zenuwbeklemming, zenuwpijn. Pijnstilling: Start Pregabaline (langzaam opbouwen). Advies: Niet autorijden bij start/opbouw dosering (minimaal 1 week). Fysiotherapie: Oefeningen voor rugsoepelheid. Geen scan/operatie nu. Belafspraak over 1 week om pijnstilling te bespreken. Contact opnemen bij verergering klachten (gevoelsverlies rijbroekgebied, incontinentie, krachtsverlies been).""
+}"
+Back Pain,Gemini-2.5-Flash,Gemini,cot,11.04,Success,"De transcriptie is in het Nederlands, dus de output zal ook in het Nederlands zijn.
+
+**Subjective:**
+*   Patiënt klaagt over rugpijn sinds 1,5 week, wordt erger.
+*   Pijn straalt uit naar rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot voet.
+*   Pijn de hele dag door.
+*   Kan niet slapen, nachten wakker.
+*   Paracetamol en ibuprofen (maximale dosering) helpen niet.
+*   Werk (supermarkt, zwaar tillen) gestopt door pijn. Kan niet sporten.
+*   Kracht in been behouden, maar bewegen lastig door pijn.
+*   Doffer gevoel buitenkant rechter onderbeen.
+*   Tintelingen (moeilijk te lokaliseren, zelfde plek als pijn).
+*   Geen problemen met rijbroekgebied (gevoel normaal, geen problemen met plassen/poepen).
+
+**Objective:**
+*   Pijn bij opstaan op onderzoeksbank.
+*   Inspectie: Geen bijzonderheden linker/rechterbeen, geen bijzonderheden rug.
+*   Palpatie rug: Normaal, geen pijn bij duwen op wervels. Pijn meer bij billen/achterkant.
+*   Rechterbeen heffen: Doet zeer. Linkerbeen heffen: Gaat goed.
+*   Sensibiliteit: Rechterbeen/voet doffer gevoel vergeleken met links.
+*   Kracht: Kracht in benen gelijk en goed (links/rechts, tenen omhoog, gas geven).
+*   Reflexen: Goed (achillespees, babinski).
+
+**Assessment:**
+*   De dokter stelt expliciet de diagnose ""hernia"".
+
+**Plan:**
+*   Start pregabaline (langzaam opbouwen i.v.m. bijwerkingen).
+*   Advies: Niet autorijden bij start/opbouw (1 week).
+*   Fysiotherapie (oefeningen, rug soepeler maken, tussenwervelschijf laten krimpen).
+*   Belafspraak over 1 week (bespreken pijnstilling).
+*   Uitleg hernia: Zenuwbeklemming, zenuwpijn.
+*   Herstel kan weken/maanden duren.
+*   Geen scan/MRI nu nodig.
+*   Geen operatie nu nodig (eerst pijnstilling en fysiotherapie).
+*   Waarschuwingssignalen voor eerder contact: Verergering klachten, geen gevoel in rijbroekgebied, niet goed kunnen plassen/poepen, geen kracht meer in been (niet meer kunnen bewegen).","{
+  ""Subjective"": ""Rugpijn x1.5 week, erger wordend. Uitstraling rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot voet. Pijn hele dag door. Kan niet slapen, nachten wakker. Paracetamol/ibuprofen (max. dosering) helpen niet. Gestopt met werk (zwaar tillen). Doffer gevoel buitenkant rechter onderbeen, tintelingen. Kracht in been behouden, bewegen lastig door pijn. Geen problemen rijbroekgebied, plassen/poepen normaal."",
+  ""Objective"": ""Pijn bij opstaan op onderzoeksbank. Inspectie: Geen bijzonderheden benen/rug. Palpatie rug: Normaal, geen pijn bij wervels, pijn meer bij billen/achterkant. Rechterbeen heffen: Doet zeer. Linkerbeen heffen: Goed. Sensibiliteit: Rechterbeen/voet doffer gevoel. Kracht: Benen gelijk en goed. Reflexen: Goed."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start pregabaline (langzaam opbouwen)."",
+    ""Niet autorijden bij start/opbouw pregabaline (1 week)."",
+    ""Fysiotherapie (oefeningen, rug soepeler maken)."",
+    ""Belafspraak over 1 week (bespreken pijnstilling)."",
+    ""Uitleg hernia: Zenuwbeklemming, zenuwpijn. Herstel weken/maanden."",
+    ""Geen scan/MRI nu nodig."",
+    ""Geen operatie nu nodig (eerst pijnstilling en fysiotherapie)."",
+    ""Waarschuwingssignalen voor eerder contact: Verergering klachten, geen gevoel rijbroekgebied, niet goed kunnen plassen/poepen, geen kracht meer in been.""
+  ]
+}","### Reasoning
+
+De transcriptie is in het Nederlands, dus de output zal ook in het Nederlands zijn.
+
+**Subjective:**
+*   Patiënt klaagt over rugpijn sinds 1,5 week, wordt erger.
+*   Pijn straalt uit naar rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot voet.
+*   Pijn de hele dag door.
+*   Kan niet slapen, nachten wakker.
+*   Paracetamol en ibuprofen (maximale dosering) helpen niet.
+*   Werk (supermarkt, zwaar tillen) gestopt door pijn. Kan niet sporten.
+*   Kracht in been behouden, maar bewegen lastig door pijn.
+*   Doffer gevoel buitenkant rechter onderbeen.
+*   Tintelingen (moeilijk te lokaliseren, zelfde plek als pijn).
+*   Geen problemen met rijbroekgebied (gevoel normaal, geen problemen met plassen/poepen).
+
+**Objective:**
+*   Pijn bij opstaan op onderzoeksbank.
+*   Inspectie: Geen bijzonderheden linker/rechterbeen, geen bijzonderheden rug.
+*   Palpatie rug: Normaal, geen pijn bij duwen op wervels. Pijn meer bij billen/achterkant.
+*   Rechterbeen heffen: Doet zeer. Linkerbeen heffen: Gaat goed.
+*   Sensibiliteit: Rechterbeen/voet doffer gevoel vergeleken met links.
+*   Kracht: Kracht in benen gelijk en goed (links/rechts, tenen omhoog, gas geven).
+*   Reflexen: Goed (achillespees, babinski).
+
+**Assessment:**
+*   De dokter stelt expliciet de diagnose ""hernia"".
+
+**Plan:**
+*   Start pregabaline (langzaam opbouwen i.v.m. bijwerkingen).
+*   Advies: Niet autorijden bij start/opbouw (1 week).
+*   Fysiotherapie (oefeningen, rug soepeler maken, tussenwervelschijf laten krimpen).
+*   Belafspraak over 1 week (bespreken pijnstilling).
+*   Uitleg hernia: Zenuwbeklemming, zenuwpijn.
+*   Herstel kan weken/maanden duren.
+*   Geen scan/MRI nu nodig.
+*   Geen operatie nu nodig (eerst pijnstilling en fysiotherapie).
+*   Waarschuwingssignalen voor eerder contact: Verergering klachten, geen gevoel in rijbroekgebied, niet goed kunnen plassen/poepen, geen kracht meer in been (niet meer kunnen bewegen).
+
+### JSON Output
+
+```json
+{
+  ""Subjective"": ""Rugpijn x1.5 week, erger wordend. Uitstraling rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot voet. Pijn hele dag door. Kan niet slapen, nachten wakker. Paracetamol/ibuprofen (max. dosering) helpen niet. Gestopt met werk (zwaar tillen). Doffer gevoel buitenkant rechter onderbeen, tintelingen. Kracht in been behouden, bewegen lastig door pijn. Geen problemen rijbroekgebied, plassen/poepen normaal."",
+  ""Objective"": ""Pijn bij opstaan op onderzoeksbank. Inspectie: Geen bijzonderheden benen/rug. Palpatie rug: Normaal, geen pijn bij wervels, pijn meer bij billen/achterkant. Rechterbeen heffen: Doet zeer. Linkerbeen heffen: Goed. Sensibiliteit: Rechterbeen/voet doffer gevoel. Kracht: Benen gelijk en goed. Reflexen: Goed."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start pregabaline (langzaam opbouwen)."",
+    ""Niet autorijden bij start/opbouw pregabaline (1 week)."",
+    ""Fysiotherapie (oefeningen, rug soepeler maken)."",
+    ""Belafspraak over 1 week (bespreken pijnstilling)."",
+    ""Uitleg hernia: Zenuwbeklemming, zenuwpijn. Herstel weken/maanden."",
+    ""Geen scan/MRI nu nodig."",
+    ""Geen operatie nu nodig (eerst pijnstilling en fysiotherapie)."",
+    ""Waarschuwingssignalen voor eerder contact: Verergering klachten, geen gevoel rijbroekgebied, niet goed kunnen plassen/poepen, geen kracht meer in been.""
+  ]
+}
+```"
+Back Pain,Gemini-2.5-Flash,Gemini,refine,5.56,Success,,"{
+  ""Subjective"": ""Rugpijn x 1.5 week, erger wordend. Uitstraling naar rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot voet. Pijn rechterkant. Kan niet slapen, nachten wakker. Pijn de hele dag door. Paracetamol en ibuprofen (maximale dosering) helpen niet. Kracht in been behouden, maar pijn belemmert bewegen. Gevoel onderbeen (buitenkant) wat doffer. Tintelingen, moeilijk te lokaliseren, zelfde plek als pijn. Geen problemen met rijbroekgebied, plassen of poepen. Werkzaam in supermarkt, zwaar tillen. Pijn ontstaan na zwaar tillen. Tijdelijk gestopt met werken. Sporten lukt niet."",
+  ""Objective"": ""Pijn bij opstaan op onderzoeksbank. Benen: geen bijzonderheden. Rug: geen bijzonderheden bij inspectie, palpatie wervels niet pijnlijk. Rechterbeen heffen pijnlijk. Linkerbeen heffen niet pijnlijk. Gevoel rechterbeen/voet: doffer dan links. Kracht benen: gelijk en goed. Reflexen: goed (achillespees, voetzoolreflex)."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start pregabaline (langzaam opbouwen)."",
+    ""Advies: niet autorijden bij start/opbouw dosering (1 week)."",
+    ""Doel medicatie: pijnvermindering, betere slaap."",
+    ""Fysiotherapie voor oefeningen, soepeler maken rug, hopen op krimp tussenwervelschijf."",
+    ""Geen scan/operatie nu."",
+    ""Belangrijk: contact opnemen bij verergering klachten (rijbroekgebied, plassen/poepen, krachtverlies been)."",
+    ""Belafspraak over 1 week om pijnstilling te bespreken.""
+  ]
+}","{
+  ""Subjective"": ""Rugpijn x 1.5 week, erger wordend. Uitstraling naar rechterbeen (achterkant bovenbeen, zijkant onderbeen) tot voet. Pijn rechterkant. Kan niet slapen, nachten wakker. Pijn de hele dag door. Paracetamol en ibuprofen (maximale dosering) helpen niet. Kracht in been behouden, maar pijn belemmert bewegen. Gevoel onderbeen (buitenkant) wat doffer. Tintelingen, moeilijk te lokaliseren, zelfde plek als pijn. Geen problemen met rijbroekgebied, plassen of poepen. Werkzaam in supermarkt, zwaar tillen. Pijn ontstaan na zwaar tillen. Tijdelijk gestopt met werken. Sporten lukt niet."",
+  ""Objective"": ""Pijn bij opstaan op onderzoeksbank. Benen: geen bijzonderheden. Rug: geen bijzonderheden bij inspectie, palpatie wervels niet pijnlijk. Rechterbeen heffen pijnlijk. Linkerbeen heffen niet pijnlijk. Gevoel rechterbeen/voet: doffer dan links. Kracht benen: gelijk en goed. Reflexen: goed (achillespees, voetzoolreflex)."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start pregabaline (langzaam opbouwen)."",
+    ""Advies: niet autorijden bij start/opbouw dosering (1 week)."",
+    ""Doel medicatie: pijnvermindering, betere slaap."",
+    ""Fysiotherapie voor oefeningen, soepeler maken rug, hopen op krimp tussenwervelschijf."",
+    ""Geen scan/operatie nu."",
+    ""Belangrijk: contact opnemen bij verergering klachten (rijbroekgebied, plassen/poepen, krachtverlies been)."",
+    ""Belafspraak over 1 week om pijnstilling te bespreken.""
+  ]
+}"
+Back Pain,Gemini-2.5-Pro,Gemini,standard,15.47,Success,,"{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterkant rechterbeen naar laterale onderbeen en voet. Constante, hevige pijn, verstoort slaap. Geen effect van paracetamol en ibuprofen. Ontstaan na zwaar tillen. Gestopt met werk. Kracht intact. Doffer gevoel en tintelingen buitenzijde rechter onderbeen. Gevoel rijbroekgebied en mictie/defecatie normaal."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen niet-afwijkend. Geen asdrukpijn wervelkolom. Proef van Lasègue rechts positief, links negatief. Gevoelsstoornis (dof) rechterbeen. Kracht benen beiderzijds goed en symmetrisch. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Hernia nuclei pulposi (HNP)."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies fysiotherapie.\n- Uitleg over HNP, beleid en alarmbellen (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).\n- Rijverbod bij start/ophogen medicatie.\n- Belafspraak over 1 week.""
+}","{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterkant rechterbeen naar laterale onderbeen en voet. Constante, hevige pijn, verstoort slaap. Geen effect van paracetamol en ibuprofen. Ontstaan na zwaar tillen. Gestopt met werk. Kracht intact. Doffer gevoel en tintelingen buitenzijde rechter onderbeen. Gevoel rijbroekgebied en mictie/defecatie normaal."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen niet-afwijkend. Geen asdrukpijn wervelkolom. Proef van Lasègue rechts positief, links negatief. Gevoelsstoornis (dof) rechterbeen. Kracht benen beiderzijds goed en symmetrisch. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Hernia nuclei pulposi (HNP)."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies fysiotherapie.\n- Uitleg over HNP, beleid en alarmbellen (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).\n- Rijverbod bij start/ophogen medicatie.\n- Belafspraak over 1 week.""
+}"
+Back Pain,Gemini-2.5-Pro,Gemini,few_shot,15.96,Success,,"{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, progressief. Uitstraling rechterbeen via achterkant bovenbeen en zijkant onderbeen naar voet. Kan niet slapen van de pijn. Tintelingen en doffer gevoel in onderbeen. Kracht intact. Geen problemen mictie/defecatie, gevoel rijbroekgebied normaal. Ontstaan na zwaar tillen. Gestopt met werk. Paracetamol en ibuprofen max dosering zonder effect."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen afwijkingen. Geen drukpijn wervels. Positieve proef van Lasègue rechts, links negatief. Gevoel: verminderd/doof rechter onderbeen/voet. Kracht: symmetrisch en intact. Reflexen: symmetrisch en normaal."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""Uitleg over hernia. Start pregabaline, met uitleg over opbouwen en bijwerkingen (niet autorijden). Verwijzing fysiotherapie. Geen beeldvorming op dit moment. Belafspraak over 1 week. Instructies contact op te nemen bij 'rode vlaggen' (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).""
+}","{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, progressief. Uitstraling rechterbeen via achterkant bovenbeen en zijkant onderbeen naar voet. Kan niet slapen van de pijn. Tintelingen en doffer gevoel in onderbeen. Kracht intact. Geen problemen mictie/defecatie, gevoel rijbroekgebied normaal. Ontstaan na zwaar tillen. Gestopt met werk. Paracetamol en ibuprofen max dosering zonder effect."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen afwijkingen. Geen drukpijn wervels. Positieve proef van Lasègue rechts, links negatief. Gevoel: verminderd/doof rechter onderbeen/voet. Kracht: symmetrisch en intact. Reflexen: symmetrisch en normaal."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""Uitleg over hernia. Start pregabaline, met uitleg over opbouwen en bijwerkingen (niet autorijden). Verwijzing fysiotherapie. Geen beeldvorming op dit moment. Belafspraak over 1 week. Instructies contact op te nemen bij 'rode vlaggen' (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).""
+}"
+Back Pain,Gemini-2.5-Pro,Gemini,cot,23.79,Success,"De patiënt, een medewerker in een supermarkt, presenteert zich met sinds anderhalve week bestaande, progressieve lage rugpijn aan de rechterkant. De pijn is ontstaan na zwaar tillen. Er is sprake van uitstralende pijn via de achterkant van het rechter bovenbeen en de zijkant van het rechter onderbeen tot in de voet. De pijn is constant aanwezig, zeer hevig en verstoort de nachtrust. Zelfmedicatie met maximale doseringen paracetamol en ibuprofen had geen effect. De patiënt is gestopt met werken en sporten vanwege de pijn. Neurologisch meldt de patiënt een wat doffer gevoel aan de buitenzijde van het rechter onderbeen en lichte tintelingen in hetzelfde gebied. De kracht in het been voelt voor de patiënt onveranderd. Er zijn geen alarmerende symptomen zoals problemen met mictie, defecatie of een veranderd gevoel in het rijbroekgebied.
+
+Bij lichamelijk onderzoek is er pijn bij bewegen. Inspectie en palpatie van de rug en benen tonen geen afwijkingen; er is met name geen drukpijn op de wervels. De proef van Lasègue (gestrekt heffen van het been) is rechts positief (pijnlijk) en links negatief. Er is een objectieve gevoelsstoornis (hypesthesie) aan het rechter onderbeen/voet. De spierkracht in beide benen is echter symmetrisch en niet verminderd. De reflexen zijn symmetrisch en normaal opwekbaar.
+
+De werkdiagnose van de arts is een hernia (Hernia Nuclei Pulposi, HNP) die een lumbosacraal radiculair syndroom (LRS) rechts veroorzaakt.
+
+Het beleid bestaat uit het starten van medicatie voor zenuwpijn (pregabaline) en het adviseren van fysiotherapie voor oefeningen. Er wordt uitgebreide uitleg gegeven over het ziektebeeld, het conservatieve beleid (waarom nu geen scan of operatie) en de alarmsymptomen waarbij de patiënt direct contact moet opnemen. Er wordt gewezen op het rijverbod bij het starten van de nieuwe medicatie. Een telefonische controle wordt over een week ingepland om het effect van de pijnstilling te evalueren.","{
+  ""Subjective"": ""Lage rugpijn r-zijds sinds 1.5 week, progressief. Uitstraling via achterzijde bovenbeen en zijkant onderbeen naar rechter voet. Constante, hevige pijn, verstoort nachtrust. Geen effect van paracetamol/ibuprofen max dosering. Ontstaan na zwaar tillen. Gevoel in r-onderbeen wat doffer, lichte tintelingen. Kracht intact. Geen mictie/defecatieproblemen, gevoel rijbroekgebied normaal."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug/benen g.b. Geen drukpijn wervelkolom. Proef van Lasègue rechts positief, links negatief. Gevoelsstoornis (hypesthesie) r-onderbeen/voet. Kracht benen symmetrisch en intact. Reflexen symmetrisch en normaal opwekbaar."",
+  ""Assessment"": ""Waarschijnlijk hernia (HNP) met lumbosacraal radiculair syndroom rechts."",
+  ""Plan"": [
+    ""Start Pregabaline, opbouwschema."",
+    ""Advies fysiotherapie."",
+    ""Uitleg over HNP, beleid en alarmsymptomen (rijbroekgebied, mictie/defecatie, parese)."",
+    ""Rijverbod bij start/ophogen medicatie."",
+    ""Belafspraak over 1 week.""
+  ]
+}","### Reasoning
+De patiënt, een medewerker in een supermarkt, presenteert zich met sinds anderhalve week bestaande, progressieve lage rugpijn aan de rechterkant. De pijn is ontstaan na zwaar tillen. Er is sprake van uitstralende pijn via de achterkant van het rechter bovenbeen en de zijkant van het rechter onderbeen tot in de voet. De pijn is constant aanwezig, zeer hevig en verstoort de nachtrust. Zelfmedicatie met maximale doseringen paracetamol en ibuprofen had geen effect. De patiënt is gestopt met werken en sporten vanwege de pijn. Neurologisch meldt de patiënt een wat doffer gevoel aan de buitenzijde van het rechter onderbeen en lichte tintelingen in hetzelfde gebied. De kracht in het been voelt voor de patiënt onveranderd. Er zijn geen alarmerende symptomen zoals problemen met mictie, defecatie of een veranderd gevoel in het rijbroekgebied.
+
+Bij lichamelijk onderzoek is er pijn bij bewegen. Inspectie en palpatie van de rug en benen tonen geen afwijkingen; er is met name geen drukpijn op de wervels. De proef van Lasègue (gestrekt heffen van het been) is rechts positief (pijnlijk) en links negatief. Er is een objectieve gevoelsstoornis (hypesthesie) aan het rechter onderbeen/voet. De spierkracht in beide benen is echter symmetrisch en niet verminderd. De reflexen zijn symmetrisch en normaal opwekbaar.
+
+De werkdiagnose van de arts is een hernia (Hernia Nuclei Pulposi, HNP) die een lumbosacraal radiculair syndroom (LRS) rechts veroorzaakt.
+
+Het beleid bestaat uit het starten van medicatie voor zenuwpijn (pregabaline) en het adviseren van fysiotherapie voor oefeningen. Er wordt uitgebreide uitleg gegeven over het ziektebeeld, het conservatieve beleid (waarom nu geen scan of operatie) en de alarmsymptomen waarbij de patiënt direct contact moet opnemen. Er wordt gewezen op het rijverbod bij het starten van de nieuwe medicatie. Een telefonische controle wordt over een week ingepland om het effect van de pijnstilling te evalueren.
+
+### JSON Output
+```json
+{
+  ""Subjective"": ""Lage rugpijn r-zijds sinds 1.5 week, progressief. Uitstraling via achterzijde bovenbeen en zijkant onderbeen naar rechter voet. Constante, hevige pijn, verstoort nachtrust. Geen effect van paracetamol/ibuprofen max dosering. Ontstaan na zwaar tillen. Gevoel in r-onderbeen wat doffer, lichte tintelingen. Kracht intact. Geen mictie/defecatieproblemen, gevoel rijbroekgebied normaal."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug/benen g.b. Geen drukpijn wervelkolom. Proef van Lasègue rechts positief, links negatief. Gevoelsstoornis (hypesthesie) r-onderbeen/voet. Kracht benen symmetrisch en intact. Reflexen symmetrisch en normaal opwekbaar."",
+  ""Assessment"": ""Waarschijnlijk hernia (HNP) met lumbosacraal radiculair syndroom rechts."",
+  ""Plan"": [
+    ""Start Pregabaline, opbouwschema."",
+    ""Advies fysiotherapie."",
+    ""Uitleg over HNP, beleid en alarmsymptomen (rijbroekgebied, mictie/defecatie, parese)."",
+    ""Rijverbod bij start/ophogen medicatie."",
+    ""Belafspraak over 1 week.""
+  ]
+}
+```"
+Back Pain,Gemini-2.5-Pro,Gemini,refine,17.37,Success,,"{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, progressief. Uitstraling rechterbeen via achterzijde bovenbeen en zijkant onderbeen tot in de voet. Constante, hevige pijn. Slaapproblemen door pijn. Geen effect van paracetamol en ibuprofen (max dosering). Werk (supermarkt) en sporten gestaakt. Kracht in been onveranderd. Doffer gevoel en lichte tintelingen buitenzijde rechter onderbeen. Gevoel in rijbroekgebied normaal, geen mictie- of defecatieproblemen."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen bijzonderheden. Palpatie wervels niet pijnlijk. Proef van Lasègue rechts positief, links negatief. Verminderd (dof) gevoel rechter onderbeen en voet. Kracht in benen symmetrisch en intact (MRC 5/5). Reflexen symmetrisch en normaal opwekbaar."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""Start pregabaline, langzaam opbouwen. Advies fysiotherapie. Uitleg over hernia, beleid en alarmsymptomen (krachtsverlies, problemen mictie/defecatie, doofheid rijbroekgebied). Rijverbod bij start/dosiswijziging medicatie en bij bijwerkingen. Belafspraak over 1 week voor evaluatie.""
+}","{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, progressief. Uitstraling rechterbeen via achterzijde bovenbeen en zijkant onderbeen tot in de voet. Constante, hevige pijn. Slaapproblemen door pijn. Geen effect van paracetamol en ibuprofen (max dosering). Werk (supermarkt) en sporten gestaakt. Kracht in been onveranderd. Doffer gevoel en lichte tintelingen buitenzijde rechter onderbeen. Gevoel in rijbroekgebied normaal, geen mictie- of defecatieproblemen."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen bijzonderheden. Palpatie wervels niet pijnlijk. Proef van Lasègue rechts positief, links negatief. Verminderd (dof) gevoel rechter onderbeen en voet. Kracht in benen symmetrisch en intact (MRC 5/5). Reflexen symmetrisch en normaal opwekbaar."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""Start pregabaline, langzaam opbouwen. Advies fysiotherapie. Uitleg over hernia, beleid en alarmsymptomen (krachtsverlies, problemen mictie/defecatie, doofheid rijbroekgebied). Rijverbod bij start/dosiswijziging medicatie en bij bijwerkingen. Belafspraak over 1 week voor evaluatie.""
+}"
+Back Pain,Gemini-2.5-Pro-Thinking,Gemini,standard,14.85,Success,,"{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterkant rechterbeen en zijkant onderbeen naar de voet. Constante, hevige pijn, verstoort slaap. Doffer gevoel en tintelingen buitenzijde rechter onderbeen. Kracht is goed. Gevoel in rijbroekgebied en mictie/defecatie normaal. Paracetamol en ibuprofen maximaal gedoseerd zonder effect. Ontstaan na zwaar tillen. Gestopt met werk en sporten."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen bijzonderheden. Geen drukpijn op wervels. Proef van Lasègue rechts positief, links negatief. Gevoel rechter onderbeen/voet doffer dan links. Kracht in de benen symmetrisch en intact. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Vermoeden van hernia nuclei pulposi (HNP)."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies fysiotherapie.\n- Uitleg over HNP, beleid en alarmbellen (krachtverlies, incontinentie, doof gevoel rijbroekgebied).\n- Rijverbod bij start/ophogen medicatie.\n- Belafspraak over 1 week.""
+}","{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterkant rechterbeen en zijkant onderbeen naar de voet. Constante, hevige pijn, verstoort slaap. Doffer gevoel en tintelingen buitenzijde rechter onderbeen. Kracht is goed. Gevoel in rijbroekgebied en mictie/defecatie normaal. Paracetamol en ibuprofen maximaal gedoseerd zonder effect. Ontstaan na zwaar tillen. Gestopt met werk en sporten."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen bijzonderheden. Geen drukpijn op wervels. Proef van Lasègue rechts positief, links negatief. Gevoel rechter onderbeen/voet doffer dan links. Kracht in de benen symmetrisch en intact. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Vermoeden van hernia nuclei pulposi (HNP)."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies fysiotherapie.\n- Uitleg over HNP, beleid en alarmbellen (krachtverlies, incontinentie, doof gevoel rijbroekgebied).\n- Rijverbod bij start/ophogen medicatie.\n- Belafspraak over 1 week.""
+}"
+Back Pain,Gemini-2.5-Pro-Thinking,Gemini,few_shot,13.82,Success,,"{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, progressief. Uitstraling rechterbeen via achterzijde bovenbeen en zijkant onderbeen naar voet. Kan niet slapen van de pijn. Paracetamol en ibuprofen max dosering zonder effect. Ontstaan na zwaar tillen. Gestopt met werk en sporten. Kracht intact, bewegen pijnlijk. Doffer gevoel en lichte tintelingen buitenzijde rechter onderbeen. Geen problemen mictie, defecatie of gevoel in rijbroekgebied."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen bijzonderheden. Geen drukpijn wervels. Proef van Lasègue rechts positief, links negatief. Gevoel: verminderd/doof gevoel rechter onderbeen/voet. Kracht: symmetrisch en goed. Reflexen: intact en symmetrisch."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""Uitleg over hernia. Start Pregabaline, langzaam opbouwen. Advies niet autorijden bij start/ophogen. Advies fysiotherapie. Geen indicatie voor scan of operatie op dit moment. Belafspraak over 1 week. Instructies contact op te nemen bij alarmsymptomen (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).""
+}","{
+  ""Subjective"": ""Rugpijn sinds 1.5 week, progressief. Uitstraling rechterbeen via achterzijde bovenbeen en zijkant onderbeen naar voet. Kan niet slapen van de pijn. Paracetamol en ibuprofen max dosering zonder effect. Ontstaan na zwaar tillen. Gestopt met werk en sporten. Kracht intact, bewegen pijnlijk. Doffer gevoel en lichte tintelingen buitenzijde rechter onderbeen. Geen problemen mictie, defecatie of gevoel in rijbroekgebied."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen geen bijzonderheden. Geen drukpijn wervels. Proef van Lasègue rechts positief, links negatief. Gevoel: verminderd/doof gevoel rechter onderbeen/voet. Kracht: symmetrisch en goed. Reflexen: intact en symmetrisch."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""Uitleg over hernia. Start Pregabaline, langzaam opbouwen. Advies niet autorijden bij start/ophogen. Advies fysiotherapie. Geen indicatie voor scan of operatie op dit moment. Belafspraak over 1 week. Instructies contact op te nemen bij alarmsymptomen (krachtsverlies, incontinentie, doof gevoel rijbroekgebied).""
+}"
+Back Pain,Gemini-2.5-Pro-Thinking,Gemini,cot,22.01,Success,"De patiënt presenteert zich met lage rugpijn sinds anderhalve week, die progressief is. De pijn straalt uit vanaf de rechterkant van de rug, via de achterkant van het bovenbeen en de zijkant van het onderbeen, tot in de voet. De pijn is constant en ernstig, wat leidt tot slaapproblemen. Patiënt meldt ook tintelingen en een doffer gevoel aan de buitenzijde van het rechter onderbeen. De kracht in het been is behouden, hoewel bewegen pijnlijk is. Er zijn geen problemen met mictie, defecatie of gevoel in het rijbroekgebied. De klachten zijn ontstaan na zwaar tillen. Eerder gebruikte pijnstilling (paracetamol, ibuprofen) had geen effect.
+
+Bij lichamelijk onderzoek is er pijn bij bewegen. Inspectie en palpatie van de rug en wervels tonen geen afwijkingen. Het neurologisch onderzoek toont een positieve proef van Lasègue rechts. De sensibiliteit is verminderd (dof gevoel) aan het rechter onderbeen en de voet. De spierkracht in beide benen is normaal (5/5) en symmetrisch. De reflexen zijn symmetrisch en normaal opwekbaar.
+
+De arts stelt de werkdiagnose hernia.
+
+Het plan bestaat uit het starten van nieuwe pijnmedicatie (pregabaline) met uitleg over het langzaam opbouwen en het bijbehorende rijverbod. Er wordt geadviseerd om te starten met fysiotherapie. De patiënt krijgt uitleg over de aandoening, het conservatieve beleid (waarom nu geen scan of operatie) en de alarmbellen (krachtsverlies, incontinentie, zadelanesthesie). Er wordt een belafspraak ingepland voor over een week om de medicatie te evalueren.","{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling naar rechterbeen via achterzijde bovenbeen en zijkant onderbeen tot in de voet. Constante, hevige pijn, verstoort slaap. Tevens tintelingen en dof gevoel rechter onderbeen. Kracht intact. Geen mictie/defecatie problemen, geen zadelanesthesie. Ontstaan na zwaar tillen. Paracetamol en ibuprofen max dosering zonder effect."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen g.b. Geen drukpijn wervels. Neuro: Sensibiliteit verminderd/dof rechter onderbeen/voet. Kracht benen 5/5, symmetrisch. Reflexen symmetrisch, normaal opwekbaar. Proef van Lasègue rechts positief, links negatief."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start pregabaline, langzaam opbouwen."",
+    ""Advies fysiotherapie."",
+    ""Uitleg over aandoening, beleid en alarmbellen (krachtsverlies, mictie/defecatieproblemen, zadelanesthesie)."",
+    ""Tijdelijk rijverbod ivm start medicatie."",
+    ""Belafspraak over 1 week.""
+  ]
+}","### Reasoning
+De patiënt presenteert zich met lage rugpijn sinds anderhalve week, die progressief is. De pijn straalt uit vanaf de rechterkant van de rug, via de achterkant van het bovenbeen en de zijkant van het onderbeen, tot in de voet. De pijn is constant en ernstig, wat leidt tot slaapproblemen. Patiënt meldt ook tintelingen en een doffer gevoel aan de buitenzijde van het rechter onderbeen. De kracht in het been is behouden, hoewel bewegen pijnlijk is. Er zijn geen problemen met mictie, defecatie of gevoel in het rijbroekgebied. De klachten zijn ontstaan na zwaar tillen. Eerder gebruikte pijnstilling (paracetamol, ibuprofen) had geen effect.
+
+Bij lichamelijk onderzoek is er pijn bij bewegen. Inspectie en palpatie van de rug en wervels tonen geen afwijkingen. Het neurologisch onderzoek toont een positieve proef van Lasègue rechts. De sensibiliteit is verminderd (dof gevoel) aan het rechter onderbeen en de voet. De spierkracht in beide benen is normaal (5/5) en symmetrisch. De reflexen zijn symmetrisch en normaal opwekbaar.
+
+De arts stelt de werkdiagnose hernia.
+
+Het plan bestaat uit het starten van nieuwe pijnmedicatie (pregabaline) met uitleg over het langzaam opbouwen en het bijbehorende rijverbod. Er wordt geadviseerd om te starten met fysiotherapie. De patiënt krijgt uitleg over de aandoening, het conservatieve beleid (waarom nu geen scan of operatie) en de alarmbellen (krachtsverlies, incontinentie, zadelanesthesie). Er wordt een belafspraak ingepland voor over een week om de medicatie te evalueren.
+
+### JSON Output
+```json
+{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling naar rechterbeen via achterzijde bovenbeen en zijkant onderbeen tot in de voet. Constante, hevige pijn, verstoort slaap. Tevens tintelingen en dof gevoel rechter onderbeen. Kracht intact. Geen mictie/defecatie problemen, geen zadelanesthesie. Ontstaan na zwaar tillen. Paracetamol en ibuprofen max dosering zonder effect."",
+  ""Objective"": ""Pijn bij bewegen. Inspectie rug en benen g.b. Geen drukpijn wervels. Neuro: Sensibiliteit verminderd/dof rechter onderbeen/voet. Kracht benen 5/5, symmetrisch. Reflexen symmetrisch, normaal opwekbaar. Proef van Lasègue rechts positief, links negatief."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": [
+    ""Start pregabaline, langzaam opbouwen."",
+    ""Advies fysiotherapie."",
+    ""Uitleg over aandoening, beleid en alarmbellen (krachtsverlies, mictie/defecatieproblemen, zadelanesthesie)."",
+    ""Tijdelijk rijverbod ivm start medicatie."",
+    ""Belafspraak over 1 week.""
+  ]
+}
+```"
+Back Pain,Gemini-2.5-Pro-Thinking,Gemini,refine,13.03,Success,,"{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterkant rechter bovenbeen en zijkant onderbeen naar de voet. Constante, hevige pijn. Nachtrust verstoord. Paracetamol en ibuprofen max dosering zonder effect. Ontstaan na zwaar tillen. Gestopt met werk (supermarkt) en sporten. Geen krachtverlies, wel bewegingsbeperking door pijn. Doffer gevoel en tintelingen buitenzijde rechter onderbeen. Gevoel in rijbroekgebied normaal. Mictie en defecatie ongestoord."",
+  ""Objective"": ""Inspectie rug en benen: g.b. Palpatie wervelkolom niet pijnlijk. Pijn bij bewegen. Neurologisch onderzoek: Proef van Lasègue rechts positief, links negatief. Gevoel rechter onderbeen/voet doffer dan links. Kracht benen beiderzijds intact. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies fysiotherapie.\n- Uitleg over hernia, beloop en behandelopties.\n- Rijverbod bij start/ophogen medicatie en bij bijwerkingen.\n- Belinstructies bij alarmsymptomen (krachtsverlies, incontinentie, gevoelsverlies rijbroekgebied).\n- Belafspraak over 1 week voor evaluatie pijnstilling.""
+}","{
+  ""Subjective"": ""Lage rugpijn rechts sinds 1.5 week, progressief. Uitstraling via achterkant rechter bovenbeen en zijkant onderbeen naar de voet. Constante, hevige pijn. Nachtrust verstoord. Paracetamol en ibuprofen max dosering zonder effect. Ontstaan na zwaar tillen. Gestopt met werk (supermarkt) en sporten. Geen krachtverlies, wel bewegingsbeperking door pijn. Doffer gevoel en tintelingen buitenzijde rechter onderbeen. Gevoel in rijbroekgebied normaal. Mictie en defecatie ongestoord."",
+  ""Objective"": ""Inspectie rug en benen: g.b. Palpatie wervelkolom niet pijnlijk. Pijn bij bewegen. Neurologisch onderzoek: Proef van Lasègue rechts positief, links negatief. Gevoel rechter onderbeen/voet doffer dan links. Kracht benen beiderzijds intact. Reflexen symmetrisch en normaal."",
+  ""Assessment"": ""Hernia."",
+  ""Plan"": ""- Start pregabaline, langzaam opbouwen.\n- Advies fysiotherapie.\n- Uitleg over hernia, beloop en behandelopties.\n- Rijverbod bij start/ophogen medicatie en bij bijwerkingen.\n- Belinstructies bij alarmsymptomen (krachtsverlies, incontinentie, gevoelsverlies rijbroekgebied).\n- Belafspraak over 1 week voor evaluatie pijnstilling.""
+}"
+Burnout,Llama-3.1-8B,Llama,standard,13.15,Success,,"{
+    ""Subjectief"": ""Sinds 2 weken dagelijks last van hartkloppingen en snel ademen. Soms urenlang. Ook last van slaapklachten. Inschatten dat het door overbelasting komt."",
+    ""Objectief"": ""Hartslag 65/min. Bloeddruk 120/60 mmHg. Zuurstof 98%. Geen bijzonderheden bij lichamelijk onderzoek."",
+    ""Assessment"": ""Overspanning door overbelasting. Mogelijk burn-out."",
+    ""Plan"": ""Bloedonderzoek om somatische oorzaken uit te sluiten. Aanbeveling om met praktijkondersteuner te praten. Actief ontspanningsmomenten inbouwen in het leven. Reguliere rust en ontspanning belangrijk.""
+}","{
+    ""Subjectief"": ""Sinds 2 weken dagelijks last van hartkloppingen en snel ademen. Soms urenlang. Ook last van slaapklachten. Inschatten dat het door overbelasting komt."",
+    ""Objectief"": ""Hartslag 65/min. Bloeddruk 120/60 mmHg. Zuurstof 98%. Geen bijzonderheden bij lichamelijk onderzoek."",
+    ""Assessment"": ""Overspanning door overbelasting. Mogelijk burn-out."",
+    ""Plan"": ""Bloedonderzoek om somatische oorzaken uit te sluiten. Aanbeveling om met praktijkondersteuner te praten. Actief ontspanningsmomenten inbouwen in het leven. Reguliere rust en ontspanning belangrijk.""
+}"
+Burnout,Llama-3.1-8B,Llama,few_shot,15.36,Success,,"{
+    ""Subjectief"": ""Spanningsklachten sinds een paar maanden. Dagelijks last van hartkloppingen en snel ademen. Drukte op werk. Vermoeden dat dit door werk komt, maar wil somatische oorzaken uitsluiten."",
+    ""Objectief"": ""Hartslag: 65 per minuut. Bloeddruk: 120/60. Zuurstof: 98%. Ademfrequentie: 14 per minuut."",
+    ""Assessment"": ""Overspanning door werk. Mogelijk burn-out."",
+    ""Plan"": ""Bloedonderzoek om somatische oorzaken uit te sluiten. Aanbeveling om met praktijkondersteuner te praten. Actief ontspanningsmomenten inbouwen in leven. Reguliere slaap en ontspanning belangrijk.""
+}","{
+    ""Subjectief"": ""Spanningsklachten sinds een paar maanden. Dagelijks last van hartkloppingen en snel ademen. Drukte op werk. Vermoeden dat dit door werk komt, maar wil somatische oorzaken uitsluiten."",
+    ""Objectief"": ""Hartslag: 65 per minuut. Bloeddruk: 120/60. Zuurstof: 98%. Ademfrequentie: 14 per minuut."",
+    ""Assessment"": ""Overspanning door werk. Mogelijk burn-out."",
+    ""Plan"": ""Bloedonderzoek om somatische oorzaken uit te sluiten. Aanbeveling om met praktijkondersteuner te praten. Actief ontspanningsmomenten inbouwen in leven. Reguliere slaap en ontspanning belangrijk.""
+}"
+Burnout,Llama-3.1-8B,Llama,cot,28.06,Success,"Het gaat over een arts die last heeft van overbelasting en burn-out. Hij heeft last van hartkloppingen, snel ademen, en benauwdheid. Hij heeft deze klachten al een paar maanden, maar de afgelopen twee weken zijn ze erger geworden. Hij denkt dat het door zijn drukke werk komt, maar hij wil ook weten of er een somatische oorzaak is. Hij is bang dat hij misschien een anemie heeft. De dokter doet een lichamelijk onderzoek en vindt niets aan de hand. Hij stelt voor om een bloedonderzoek te doen om somatische oorzaken uit te sluiten. Hij adviseert de arts om met een praktijkondersteuner te praten over zijn gevoelens en om actief ontspanningsmomenten in te bouwen in zijn leven.","{
+  ""Subjectief"": ""Hartkloppingen, snel ademen, benauwdheid sinds een paar maanden. Afgelopen 2 weken erger geworden. Drukte werk denkt."",
+  ""Objectief"": ""Hartslag 65/min, bloeddruk 120/60, zuurstof 98%, ademfrequentie 14/min. Lichamelijk onderzoek normaal."",
+  ""Assessment"": ""Overbelasting en burn-out."",
+  ""Plan"": ""Bloedonderzoek, gesprek met praktijkondersteuner, actief ontspanningsmomenten inbouwen.""
+}","### Reasoning
+
+Het gaat over een arts die last heeft van overbelasting en burn-out. Hij heeft last van hartkloppingen, snel ademen, en benauwdheid. Hij heeft deze klachten al een paar maanden, maar de afgelopen twee weken zijn ze erger geworden. Hij denkt dat het door zijn drukke werk komt, maar hij wil ook weten of er een somatische oorzaak is. Hij is bang dat hij misschien een anemie heeft. De dokter doet een lichamelijk onderzoek en vindt niets aan de hand. Hij stelt voor om een bloedonderzoek te doen om somatische oorzaken uit te sluiten. Hij adviseert de arts om met een praktijkondersteuner te praten over zijn gevoelens en om actief ontspanningsmomenten in te bouwen in zijn leven.
+
+### JSON Output
+{
+  ""Subjectief"": ""Hartkloppingen, snel ademen, benauwdheid sinds een paar maanden. Afgelopen 2 weken erger geworden. Drukte werk denkt."",
+  ""Objectief"": ""Hartslag 65/min, bloeddruk 120/60, zuurstof 98%, ademfrequentie 14/min. Lichamelijk onderzoek normaal."",
+  ""Assessment"": ""Overbelasting en burn-out."",
+  ""Plan"": ""Bloedonderzoek, gesprek met praktijkondersteuner, actief ontspanningsmomenten inbouwen.""
+}"
+Burnout,Llama-3.1-8B,Llama,refine,14.87,Success,,"{
+    ""Subjectief"": ""Sinds 2 weken dagelijks last van hartkloppingen en snel ademen. Soms urenlang. Ook last van slaapklachten. Inschatten dat het door drukke baan komt, maar wil weten of er een somatische oorzaak is."",
+    ""Objectief"": ""Hartslag 65/min. Bloeddruk 120/60 mmHg. Zuurstof 98%. Ademfrequentie 14/min. Lichamelijk onderzoek normaal."",
+    ""Assessment"": ""Overspannenheid door werk. Mogelijk burn-out."",
+    ""Plan"": ""Bloedonderzoek (hb, schildklier, lever, nier). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Actief ontspanningsmomenten inbouwen in het leven. Reguliere slaap en ontspanning belangrijk.""
+}","{
+    ""Subjectief"": ""Sinds 2 weken dagelijks last van hartkloppingen en snel ademen. Soms urenlang. Ook last van slaapklachten. Inschatten dat het door drukke baan komt, maar wil weten of er een somatische oorzaak is."",
+    ""Objectief"": ""Hartslag 65/min. Bloeddruk 120/60 mmHg. Zuurstof 98%. Ademfrequentie 14/min. Lichamelijk onderzoek normaal."",
+    ""Assessment"": ""Overspannenheid door werk. Mogelijk burn-out."",
+    ""Plan"": ""Bloedonderzoek (hb, schildklier, lever, nier). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Actief ontspanningsmomenten inbouwen in het leven. Reguliere slaap en ontspanning belangrijk.""
+}"
+Burnout,Llama-3.1-70B,Llama,standard,8.19,Success,,"{
+    ""Subjective"": ""Spanningsklachten, stijve spieren, hartkloppingen, snel ademen, vermoeidheid. Klachten zijn erger geworden de laatste twee weken."",
+    ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart normaal."",
+    ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+    ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen in het leven.""
+}","{
+    ""Subjective"": ""Spanningsklachten, stijve spieren, hartkloppingen, snel ademen, vermoeidheid. Klachten zijn erger geworden de laatste twee weken."",
+    ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart normaal."",
+    ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+    ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen in het leven.""
+}
+"
+Burnout,Llama-3.1-70B,Llama,few_shot,12.88,Success,,"{
+    ""Subjective"": ""Spanningsklachten, hartkloppingen, snel ademen. Vooral 's avonds en bij rustmomenten. Slaapklachten, moeite met inslapen. Werkdruk, onzekerheid."",
+    ""Objective"": ""BP: 120/60. Hartslag: 65/min. Zuurstof: 98%. Ademhaling: 14/min. Lichamelijk onderzoek: geen bijzonderheden."",
+    ""Assessment"": ""Overspannenheid door werkdruk. Mogelijke burn-out."",
+    ""Plan"": ""Bloedonderzoek (Hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen. Regelmaat in leven houden. Mogelijkheid om met arbo arts te overleggen.""
+}","{
+    ""Subjective"": ""Spanningsklachten, hartkloppingen, snel ademen. Vooral 's avonds en bij rustmomenten. Slaapklachten, moeite met inslapen. Werkdruk, onzekerheid."",
+    ""Objective"": ""BP: 120/60. Hartslag: 65/min. Zuurstof: 98%. Ademhaling: 14/min. Lichamelijk onderzoek: geen bijzonderheden."",
+    ""Assessment"": ""Overspannenheid door werkdruk. Mogelijke burn-out."",
+    ""Plan"": ""Bloedonderzoek (Hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen. Regelmaat in leven houden. Mogelijkheid om met arbo arts te overleggen.""
+}
+"
+Burnout,Llama-3.1-70B,Llama,cot,21.33,Success,"De patiënt is een jonge arts die werkt in de interne geneeskunde en ervaart spanning en stress door de drukke baan. Hij heeft last van hartkloppingen, snel ademen en vermoeidheid. Hij vraagt zich af of er een somatische oorzaak kan zijn voor zijn klachten en of hij moet praten met een professional over zijn stress en burn-out.
+
+De dokter stelt vast dat de patiënt overspannen is door zijn werk en dat dit zijn klachten kan veroorzaken. Hij stelt voor om een bloedonderzoek te doen om somatische oorzaken uit te sluiten en raadt de patiënt aan om actief ontspanningsmomenten in te bouwen in zijn leven.","{
+  ""Subjectief"": ""Hartkloppingen, snel ademen, vermoeidheid, spanning en stress door drukke baan."",
+  ""Objectief"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min, longen en hart normaal."",
+  ""Assessie"": ""Overspannenheid door werk."",
+  ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie), afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg, actief ontspanningsmomenten inbouwen in leven.""
+}","### Reasoning
+
+De patiënt is een jonge arts die werkt in de interne geneeskunde en ervaart spanning en stress door de drukke baan. Hij heeft last van hartkloppingen, snel ademen en vermoeidheid. Hij vraagt zich af of er een somatische oorzaak kan zijn voor zijn klachten en of hij moet praten met een professional over zijn stress en burn-out.
+
+De dokter stelt vast dat de patiënt overspannen is door zijn werk en dat dit zijn klachten kan veroorzaken. Hij stelt voor om een bloedonderzoek te doen om somatische oorzaken uit te sluiten en raadt de patiënt aan om actief ontspanningsmomenten in te bouwen in zijn leven.
+
+### JSON Output
+
+```
+{
+  ""Subjectief"": ""Hartkloppingen, snel ademen, vermoeidheid, spanning en stress door drukke baan."",
+  ""Objectief"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min, longen en hart normaal."",
+  ""Assessie"": ""Overspannenheid door werk."",
+  ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie), afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg, actief ontspanningsmomenten inbouwen in leven.""
+}
+```"
+Burnout,Llama-3.1-70B,Llama,refine,8.4,Success,,"{
+    ""Subjective"": ""Spanningsklachten, stijve spieren, hartkloppingen, snel ademen. Klachten zijn erger geworden de laatste twee weken."",
+    ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart normaal."",
+    ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+    ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen in het leven.""
+}","{
+    ""Subjective"": ""Spanningsklachten, stijve spieren, hartkloppingen, snel ademen. Klachten zijn erger geworden de laatste twee weken."",
+    ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart normaal."",
+    ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+    ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever- en nierfunctie). Afspraak maken bij praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen in het leven.""
+}
+"
+Burnout,Llama-3.1-405B,Llama,standard,27.33,Success,,"{
+  ""Subjective"": ""Hartkloppingen en snel ademen sinds maanden, erger laatste 2 weken. Vermoeidheid, slaapproblemen door piekeren over werk. Arts-assistent met drukke baan."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart auscultatie normaal, geen bijzonderheden."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan, somatische oorzaken moeten worden uitgesloten."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie."",
+    ""Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Ontspanningsmomenten inbouwen, regelmaat in leven houden."",
+    ""Eventueel arbodienst raadplegen voor tips over werk-privé balans.""
+  ]
+}","{
+  ""Subjective"": ""Hartkloppingen en snel ademen sinds maanden, erger laatste 2 weken. Vermoeidheid, slaapproblemen door piekeren over werk. Arts-assistent met drukke baan."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart auscultatie normaal, geen bijzonderheden."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan, somatische oorzaken moeten worden uitgesloten."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie."",
+    ""Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Ontspanningsmomenten inbouwen, regelmaat in leven houden."",
+    ""Eventueel arbodienst raadplegen voor tips over werk-privé balans.""
+  ]
+}"
+Burnout,Llama-3.1-405B,Llama,few_shot,71.7,Success,,"{
+  ""Subjective"": ""Spanningsklachten, hartkloppingen en snel ademen sinds een paar maanden, toegenomen laatste 2 weken. Mogelijk gerelateerd aan drukke baan. Slaapproblemen, moeite met inslapen door piekeren."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademfrequentie 14/min. Longen: normaal ademgeruis, geen bijzonderheden. Hart: normale harttonen, geen souffles."",
+  ""Assessment"": ""Waarschijnlijk overspannenheid door werkgerelateerde stress."",
+  ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever/nierfunctie). Afspraak met praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen. Overwegen contact met arbodienst voor aanpassingen in rooster/contract.""
+}","{
+  ""Subjective"": ""Spanningsklachten, hartkloppingen en snel ademen sinds een paar maanden, toegenomen laatste 2 weken. Mogelijk gerelateerd aan drukke baan. Slaapproblemen, moeite met inslapen door piekeren."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademfrequentie 14/min. Longen: normaal ademgeruis, geen bijzonderheden. Hart: normale harttonen, geen souffles."",
+  ""Assessment"": ""Waarschijnlijk overspannenheid door werkgerelateerde stress."",
+  ""Plan"": ""Bloedonderzoek (hb, schildklierwaarden, lever/nierfunctie). Afspraak met praktijkondersteuner geestelijke gezondheidszorg. Regelmatige ontspanningsmomenten inbouwen. Overwegen contact met arbodienst voor aanpassingen in rooster/contract.""
+}"
+Burnout,Llama-3.1-405B,Llama,cot,28.71,Success,"De patiënt is een recent afgestudeerde arts die werkt in de interne geneeskunde. Ze ervaart spanning, stijve spieren, hartkloppingen en snelle ademhaling, vooral in rustmomenten. De klachten zijn de afgelopen twee weken erger geworden. Ze slaapt ongeveer 6 uur per nacht en heeft moeite met inslapen vanwege piekeren over werk. Ze maakt zich zorgen over mogelijke somatische oorzaken en overweegt om met een praktijkondersteuner te praten.","{
+  ""Subjective"": ""Spanning, stijve spieren, hartkloppingen, snelle ademhaling, vooral in rust. Slaapproblemen door piekeren over werk. Klachten verergeren afgelopen 2 weken."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Geen bijzonderheden bij lichamelijk onderzoek van hart en longen."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan. Somatische oorzaken nog te onderzoeken."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie."",
+    ""Afspraak maken met praktijkondersteuner GZZ."",
+    ""Ontspanningsmomenten inbouwen in dagelijks leven."",
+    ""Regelmaat in leven houden, op tijd naar bed."",
+    ""Eventueel afspraak maken met arbo arts.""
+  ]
+}","### Reasoning
+De patiënt is een recent afgestudeerde arts die werkt in de interne geneeskunde. Ze ervaart spanning, stijve spieren, hartkloppingen en snelle ademhaling, vooral in rustmomenten. De klachten zijn de afgelopen twee weken erger geworden. Ze slaapt ongeveer 6 uur per nacht en heeft moeite met inslapen vanwege piekeren over werk. Ze maakt zich zorgen over mogelijke somatische oorzaken en overweegt om met een praktijkondersteuner te praten.
+
+### JSON Output
+{
+  ""Subjective"": ""Spanning, stijve spieren, hartkloppingen, snelle ademhaling, vooral in rust. Slaapproblemen door piekeren over werk. Klachten verergeren afgelopen 2 weken."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Geen bijzonderheden bij lichamelijk onderzoek van hart en longen."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan. Somatische oorzaken nog te onderzoeken."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie."",
+    ""Afspraak maken met praktijkondersteuner GZZ."",
+    ""Ontspanningsmomenten inbouwen in dagelijks leven."",
+    ""Regelmaat in leven houden, op tijd naar bed."",
+    ""Eventueel afspraak maken met arbo arts.""
+  ]
+}"
+Burnout,Llama-3.1-405B,Llama,refine,42.53,Success,,"{
+  ""Subjective"": ""Spanningsklachten, spieren stijf, hartkloppingen, snel ademen. Sinds een paar maanden, erger laatste twee weken. Vermoeidheid, slaapproblemen."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart onderzoek normaal, geen bijzonderheden."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan. Somatische oorzaken moeten worden uitgesloten."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie controleren."",
+    ""Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Ontspanningsmomenten inbouwen, regelmaat in leven houden."",
+    ""Eventueel arbodienst raadplegen voor tips over balans werk-privé.""
+  ]
+}","{
+  ""Subjective"": ""Spanningsklachten, spieren stijf, hartkloppingen, snel ademen. Sinds een paar maanden, erger laatste twee weken. Vermoeidheid, slaapproblemen."",
+  ""Objective"": ""Bloeddruk 120/60, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Longen en hart onderzoek normaal, geen bijzonderheden."",
+  ""Assessment"": ""Waarschijnlijk overspannen door drukke baan. Somatische oorzaken moeten worden uitgesloten."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, lever- en nierfunctie controleren."",
+    ""Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg."",
+    ""Ontspanningsmomenten inbouwen, regelmaat in leven houden."",
+    ""Eventueel arbodienst raadplegen voor tips over balans werk-privé.""
+  ]
+}"
+Burnout,Llama-Reasoning-70B,DeepSeek-Llama,standard,5.84,Success,,"{
+  ""Subjective"": ""Spanningsklachten, stijve spieren, hartkloppingen, snel ademen. Werkdruk, onzekerheid, moeite met nee zeggen. Slaapklachten, inslapen moeilijk, piekeren over werk."",
+  ""Objective"": ""Bloeddruk 120/60 mmHg. Hartslag 65/min. Zuurstof 98%. Ademhaling 14/min. Hart en longen: geen bijzonderheden."",
+  ""Assessment"": ""Overspannenheid mogelijk door werkbelasting."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever en nierfunctie). Afspraak praktijkondersteuner GGZ. Advies: ontspanningsmomenten inbouwen, regelmaat in dagelijkse routine, contact met arbodienst.""
+}","{
+  ""Subjective"": ""Spanningsklachten, stijve spieren, hartkloppingen, snel ademen. Werkdruk, onzekerheid, moeite met nee zeggen. Slaapklachten, inslapen moeilijk, piekeren over werk."",
+  ""Objective"": ""Bloeddruk 120/60 mmHg. Hartslag 65/min. Zuurstof 98%. Ademhaling 14/min. Hart en longen: geen bijzonderheden."",
+  ""Assessment"": ""Overspannenheid mogelijk door werkbelasting."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever en nierfunctie). Afspraak praktijkondersteuner GGZ. Advies: ontspanningsmomenten inbouwen, regelmaat in dagelijkse routine, contact met arbodienst.""
+}"
+Burnout,Llama-Reasoning-70B,DeepSeek-Llama,few_shot,6.75,Success,,"{
+  ""Subjective"": ""Spanningsklachten en lichamelijke klachten (hartkloppingen, snel ademen) sinds enkele maanden, verergerd de laatste twee weken. Werkdruk en onzekerheid in de baan als arts. Moeite met nee zeggen en schuldgevoelens. Slaapklachten (inslapen) en piekeren over werk."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Hartslag: 65/min. Zuurstof: 98%. Ademfrequentie: 14/min. Hart en longen: geen bijzonderheden."",
+  ""Assessment"": ""Overspannenheid mogelijk door werkstress."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever- en nierfunctie). Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg. Advies: regelmatige ontspanningsmomenten, balans werk-privé en contact met arbodienst.""
+}","{
+  ""Subjective"": ""Spanningsklachten en lichamelijke klachten (hartkloppingen, snel ademen) sinds enkele maanden, verergerd de laatste twee weken. Werkdruk en onzekerheid in de baan als arts. Moeite met nee zeggen en schuldgevoelens. Slaapklachten (inslapen) en piekeren over werk."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Hartslag: 65/min. Zuurstof: 98%. Ademfrequentie: 14/min. Hart en longen: geen bijzonderheden."",
+  ""Assessment"": ""Overspannenheid mogelijk door werkstress."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever- en nierfunctie). Afspraak maken met praktijkondersteuner geestelijke gezondheidszorg. Advies: regelmatige ontspanningsmomenten, balans werk-privé en contact met arbodienst.""
+}"
+Burnout,Llama-Reasoning-70B,DeepSeek-Llama,cot,16.92,Success,"<think>
+Alright, I'm trying to summarize this doctor-patient transcript into a SOAP note. The transcript is in Dutch, so the JSON should be in Dutch too. Let me go through each section step by step.
+
+Starting with the Subjective part. The patient is experiencing muscle tension, heart palpitations, and rapid breathing. These symptoms have been getting worse over the past two weeks. The patient attributes this to a stressful job as a newly graduated doctor in internal medicine. They mention feeling uncertain and having trouble saying no, leading to inner conflict and unrest. They also have trouble sleeping, thinking about work the next day, and sometimes lie awake for hours. They don't have chest pain or irregular heartbeat, but they do experience shortness of breath, especially in quiet moments like taking a bath. They've tried reducing coffee intake, which helps a bit. They have a good support system with housemates and friends who are also doctors. They're worried about their health and whether there's an underlying somatic cause, possibly anemia, and think it might be wise to talk to a mental health professional.
+
+Moving to the Objective section. The doctor didn't mention any vital signs except blood pressure (120/60 mmHg), heart rate (65 bpm), oxygen saturation (98%), and respiratory rate (14/min). The physical exam of the heart and lungs was normal, no abdominal issues. Blood tests were ordered for Hb, thyroid, liver, and kidney function.
+
+For the Assessment, the doctor thinks the patient might be experiencing overstrain due to work, leading to these symptoms. No somatic cause found yet, but blood tests will confirm.
+
+The Plan includes making an appointment with a mental health nurse, doing the blood tests, and advice on relaxation techniques, maintaining a routine, and possibly contacting the occupational health service.
+</think>
+
+
+De patiënt is een beginnend arts met klachten over spierspanning, hartkloppingen en snel ademen, verergerd door een drukke en veeleisende baan. De klachten zijn de laatste twee weken toegenomen. De patiënt ervaart stress en onzekerheid, heeft moeite met nee zeggen en kampt met slaapstoornissen. Er zijn geen pijnklachten op de borst, geen duizeligheid of onregelmatige hartslag. Bloeddruk en hartslag zijn normaal. Lichamelijk onderzoek en longen zijn normaal. De arts vermoedt overbelasting en stelt voor om bloedonderzoek te doen en contact op te nemen met een praktijkondersteuner.","{
+  ""Subjective"": ""Spierpijn, hartkloppingen, snel ademen. Klachten verergerd door drukke baan. Slaapstoornissen, piekeren over werk. Geen pijn op borst, geen duizeligheid. Onzekerheid, moeite met nee zeggen."",
+  ""Objective"": ""Bloeddruk 120/60 mmHg, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Hart en longen normaal."",
+  ""Assessment"": ""Waarschijnlijk overspannen door werk."",
+  ""Plan"": ""Afspraak praktijkondersteuner geestelijke gezondheidszorg. Bloedonderzoek (Hb, schildklier, lever, nier). Advies: ontspanningsmomenten inbouwen, regelmaat in dagelijkse routine, contact arbo-arts.""
+}","<think>
+Alright, I'm trying to summarize this doctor-patient transcript into a SOAP note. The transcript is in Dutch, so the JSON should be in Dutch too. Let me go through each section step by step.
+
+Starting with the Subjective part. The patient is experiencing muscle tension, heart palpitations, and rapid breathing. These symptoms have been getting worse over the past two weeks. The patient attributes this to a stressful job as a newly graduated doctor in internal medicine. They mention feeling uncertain and having trouble saying no, leading to inner conflict and unrest. They also have trouble sleeping, thinking about work the next day, and sometimes lie awake for hours. They don't have chest pain or irregular heartbeat, but they do experience shortness of breath, especially in quiet moments like taking a bath. They've tried reducing coffee intake, which helps a bit. They have a good support system with housemates and friends who are also doctors. They're worried about their health and whether there's an underlying somatic cause, possibly anemia, and think it might be wise to talk to a mental health professional.
+
+Moving to the Objective section. The doctor didn't mention any vital signs except blood pressure (120/60 mmHg), heart rate (65 bpm), oxygen saturation (98%), and respiratory rate (14/min). The physical exam of the heart and lungs was normal, no abdominal issues. Blood tests were ordered for Hb, thyroid, liver, and kidney function.
+
+For the Assessment, the doctor thinks the patient might be experiencing overstrain due to work, leading to these symptoms. No somatic cause found yet, but blood tests will confirm.
+
+The Plan includes making an appointment with a mental health nurse, doing the blood tests, and advice on relaxation techniques, maintaining a routine, and possibly contacting the occupational health service.
+</think>
+
+### Reasoning
+De patiënt is een beginnend arts met klachten over spierspanning, hartkloppingen en snel ademen, verergerd door een drukke en veeleisende baan. De klachten zijn de laatste twee weken toegenomen. De patiënt ervaart stress en onzekerheid, heeft moeite met nee zeggen en kampt met slaapstoornissen. Er zijn geen pijnklachten op de borst, geen duizeligheid of onregelmatige hartslag. Bloeddruk en hartslag zijn normaal. Lichamelijk onderzoek en longen zijn normaal. De arts vermoedt overbelasting en stelt voor om bloedonderzoek te doen en contact op te nemen met een praktijkondersteuner.
+
+### JSON Output
+{
+  ""Subjective"": ""Spierpijn, hartkloppingen, snel ademen. Klachten verergerd door drukke baan. Slaapstoornissen, piekeren over werk. Geen pijn op borst, geen duizeligheid. Onzekerheid, moeite met nee zeggen."",
+  ""Objective"": ""Bloeddruk 120/60 mmHg, hartslag 65/min, zuurstof 98%, ademhaling 14/min. Hart en longen normaal."",
+  ""Assessment"": ""Waarschijnlijk overspannen door werk."",
+  ""Plan"": ""Afspraak praktijkondersteuner geestelijke gezondheidszorg. Bloedonderzoek (Hb, schildklier, lever, nier). Advies: ontspanningsmomenten inbouwen, regelmaat in dagelijkse routine, contact arbo-arts.""
+}"
+Burnout,Llama-Reasoning-70B,DeepSeek-Llama,refine,1.51,JSON_Parse_Fail,[1],,[1]
+Burnout,Gemini-2.5-Flash-Lite,Gemini,standard,4.32,Success,,"{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Werkdruk als arts-assistent interne geneeskunde. Onzekerheid, sneller nee willen zeggen maar niet kunnen. Vermijdend gedrag, doet wat ander wil. Minder koffie drinken helpt. Soms onrust, schuldgevoel collega's achterlaten. Klachten sinds maanden, laatste 2 weken dagelijks. Slaapproblemen (inslapen), piekeren over werk. Werkweek 38 uur, lange dagen. Klachten duren ca. 30 min, trekken spontaan weg. Zorgen over gezondheid, mogelijk lichamelijke oorzaak (anemie?)."",
+  ""Objective"": ""BP 120/60. Pols 65/min. SpO2 98%. Ademhaling 14/min. Longen: vesiculair ademgeruis, geen bijgeluiden. Hart: normale tonen, geen souffles. Geen buikklachten."",
+  ""Assessment"": ""Mogelijk overspannenheid door werk. Somatische oorzaken (anemie, schildklier, lever/nierfunctie) worden uitgesloten middels bloedonderzoek."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever/nierfunctie). Afspraak praktijkondersteuner GGZ plannen. Actieve ontspanningsmomenten inbouwen (min. 2x/week). Regelmaat in dag/nachtritme. Overweeg contact arbodienst ziekenhuis. Bij aanhoudende klachten/zorgen terugkomen op spreekuur.""
+}","{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Werkdruk als arts-assistent interne geneeskunde. Onzekerheid, sneller nee willen zeggen maar niet kunnen. Vermijdend gedrag, doet wat ander wil. Minder koffie drinken helpt. Soms onrust, schuldgevoel collega's achterlaten. Klachten sinds maanden, laatste 2 weken dagelijks. Slaapproblemen (inslapen), piekeren over werk. Werkweek 38 uur, lange dagen. Klachten duren ca. 30 min, trekken spontaan weg. Zorgen over gezondheid, mogelijk lichamelijke oorzaak (anemie?)."",
+  ""Objective"": ""BP 120/60. Pols 65/min. SpO2 98%. Ademhaling 14/min. Longen: vesiculair ademgeruis, geen bijgeluiden. Hart: normale tonen, geen souffles. Geen buikklachten."",
+  ""Assessment"": ""Mogelijk overspannenheid door werk. Somatische oorzaken (anemie, schildklier, lever/nierfunctie) worden uitgesloten middels bloedonderzoek."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever/nierfunctie). Afspraak praktijkondersteuner GGZ plannen. Actieve ontspanningsmomenten inbouwen (min. 2x/week). Regelmaat in dag/nachtritme. Overweeg contact arbodienst ziekenhuis. Bij aanhoudende klachten/zorgen terugkomen op spreekuur.""
+}"
+Burnout,Gemini-2.5-Flash-Lite,Gemini,few_shot,4.08,Success,,"{
+  ""Subjective"": ""Spanningsklachten, drukke baan, veel spanning in lichaam, stijve spieren, snelle ademhaling, hartkloppingen. Werkzaam als afgestudeerd arts interne geneeskunde, veel onderbezetting, extra diensten, lange dagen, onzekerheid. Innerlijke strijd bij nee zeggen. Vermijdend, doet wat ander wil. Minder koffie drinken, lol met collega's helpt. Zorgen om gezondheid, houdt aan. Vermoeden somatische oorzaak (bv. bloedarmoede). Wonen met huisgenoten die ook arts zijn, veel vrienden/collega's in de zorg. Klachten: hartkloppingen spontaan, met name in rust (bv. in bad, naar bed gaan). Geen pijn op borst, geen onregelmatige hartslag. Snel ademen, kan benauwd voelen, ook op werk (wc). Klachten bijna dagelijks laatste 2 weken, eerder al maanden. Moeite met inslapen door piekeren over werk, onzekerheid. Slaapt ca. 6 uur/nacht. Werkt fulltime (38u contract). Klachten duren ca. 30 min, trekken spontaan weg."",
+  ""Objective"": ""BP: 120/60 mmHg. Hartslag: 65/min, rustig. Zuurstofsaturatie: 98%. Ademhaling: 14/min, rustig. Longen: goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Somatische oorzaken (anemie, schildklier, lever/nierfunctie) worden uitgesloten middels bloedonderzoek."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever/nierfunctie). Afspraak praktijkondersteuner GGZ (kan vandaag). Actief ontspanningsmomenten inbouwen (paar keer/week, energie-gevend). Regelmaat in leven houden (werk, slaapritme). Overleg Arbo-arts ziekenhuis overwegen. Balans werk/privé bewaken. Uitslag bloedonderzoek afwachten (2 werkdagen), contact opnemen voor uitslag of online portaal. Bij aanhoudende klachten/zorgen, terug op spreekuur.""
+}","{
+  ""Subjective"": ""Spanningsklachten, drukke baan, veel spanning in lichaam, stijve spieren, snelle ademhaling, hartkloppingen. Werkzaam als afgestudeerd arts interne geneeskunde, veel onderbezetting, extra diensten, lange dagen, onzekerheid. Innerlijke strijd bij nee zeggen. Vermijdend, doet wat ander wil. Minder koffie drinken, lol met collega's helpt. Zorgen om gezondheid, houdt aan. Vermoeden somatische oorzaak (bv. bloedarmoede). Wonen met huisgenoten die ook arts zijn, veel vrienden/collega's in de zorg. Klachten: hartkloppingen spontaan, met name in rust (bv. in bad, naar bed gaan). Geen pijn op borst, geen onregelmatige hartslag. Snel ademen, kan benauwd voelen, ook op werk (wc). Klachten bijna dagelijks laatste 2 weken, eerder al maanden. Moeite met inslapen door piekeren over werk, onzekerheid. Slaapt ca. 6 uur/nacht. Werkt fulltime (38u contract). Klachten duren ca. 30 min, trekken spontaan weg."",
+  ""Objective"": ""BP: 120/60 mmHg. Hartslag: 65/min, rustig. Zuurstofsaturatie: 98%. Ademhaling: 14/min, rustig. Longen: goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Somatische oorzaken (anemie, schildklier, lever/nierfunctie) worden uitgesloten middels bloedonderzoek."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever/nierfunctie). Afspraak praktijkondersteuner GGZ (kan vandaag). Actief ontspanningsmomenten inbouwen (paar keer/week, energie-gevend). Regelmaat in leven houden (werk, slaapritme). Overleg Arbo-arts ziekenhuis overwegen. Balans werk/privé bewaken. Uitslag bloedonderzoek afwachten (2 werkdagen), contact opnemen voor uitslag of online portaal. Bij aanhoudende klachten/zorgen, terug op spreekuur.""
+}"
+Burnout,Gemini-2.5-Flash-Lite,Gemini,cot,10.03,Success,"The patient presents with symptoms of tension, including muscle stiffness, rapid breathing, and palpitations. She attributes these symptoms to a demanding job as a newly graduated doctor in internal medicine, citing understaffing, frequent requests for extra shifts, and long working hours. She experiences anxiety and an inner conflict when asked to take on extra duties, often feeling unable to say no and experiencing guilt. These physical symptoms, particularly palpitations and rapid breathing, have become almost daily occurrences over the past two weeks, impacting her sleep and causing her to worry about potential underlying physical causes like anemia. She also experiences difficulty falling asleep due to ruminating about work.
+
+The physical examination reveals normal vital signs: blood pressure 120/60, heart rate 65 bpm, oxygen saturation 98%, and respiratory rate 14/min. Lung and heart auscultation show no abnormalities. Abdominal examination is omitted as the patient reports no abdominal complaints.
+
+The doctor reassures the patient that the physical examination is normal and suggests the symptoms are likely due to being overstressed or on the verge of burnout. To rule out somatic causes, a blood test will be performed, including Hb, thyroid function, liver, and kidney function. The doctor also recommends consulting the mental health support worker (praktijkondersteuner GGZ) for further discussion about her work-related stress and coping mechanisms. The patient is advised to incorporate active relaxation moments, maintain regularity in her routine, and consider consulting the occupational health service (arbodienst) if available. The patient expresses relief about the blood test and the appointment with the praktijkondersteuner.
+
+**Subjective:**
+- Patient presents with tension symptoms: muscle stiffness, rapid breathing, palpitations.
+- Symptoms attributed to demanding job as a junior doctor (internal medicine).
+- Experiences inner conflict, difficulty saying ""no"", and guilt when unable to help colleagues.
+- Symptoms have worsened over the last two weeks, occurring almost daily.
+- Difficulty falling asleep due to work-related rumination and uncertainty about the next day.
+- Worried about potential underlying physical causes (e.g., anemia).
+- Reports palpitations, especially during rest/relaxation, and rapid breathing.
+- Denies chest pain or irregular heart rhythm.
+- Sleep duration approximately 6 hours per night.
+
+**Objective:**
+- Vitals: BP 120/60, HR 65 bpm, SpO2 98%, RR 14/min.
+- Lungs: Clear breath sounds, no adventitious sounds.
+- Heart: Normal heart sounds, no murmurs.
+- Abdomen: Not examined due to lack of complaints.
+
+**Assessment:**
+- Likely overstress/burnout due to work.
+- Somatic causes to be ruled out via blood tests.
+
+**Plan:**
+- Blood tests: Hb, thyroid function, liver function, kidney function.
+- Refer to praktijkondersteuner GGZ (mental health support worker) for stress management.
+- Advised to incorporate active relaxation, maintain routine, and consider Arbo service consultation.
+- Follow-up based on blood results and praktijkondersteuner consultation.","{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Klachten sinds 2 weken dagelijks, geleidelijk erger. Moeite met inslapen door piekeren over werk. Zorgen over somatische oorzaak (bv. bloedarmoede). Palpitaties bij rust, snelle ademhaling. Geen pijn op borst, geen onregelmatige hartslag. Slaapt ca. 6 uur/nacht."",
+  ""Objective"": ""BP 120/60, HR 65/min, SpO2 98%, RR 14/min. Longen: vesiculair ademgeruis, geen bijgeluiden. Hart: normale tonen, geen souffles. Abdomen niet onderzocht."",
+  ""Assessment"": ""Mogelijk overspannen/burn-out gerelateerd aan werk. Somatische oorzaken uit te sluiten."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklier-, lever-, nierfunctie.\n- Afspraak praktijkondersteuner GGZ.\n- Advies: actieve ontspanning inbouwen, regelmaat behouden, evt. arbo-arts consulteren.\n- Uitslagen bloedonderzoek afwachten, contact opnemen voor bespreking.\n- Terugkomen indien klachten toenemen of zorgen blijven.""
+}","### Reasoning
+The patient presents with symptoms of tension, including muscle stiffness, rapid breathing, and palpitations. She attributes these symptoms to a demanding job as a newly graduated doctor in internal medicine, citing understaffing, frequent requests for extra shifts, and long working hours. She experiences anxiety and an inner conflict when asked to take on extra duties, often feeling unable to say no and experiencing guilt. These physical symptoms, particularly palpitations and rapid breathing, have become almost daily occurrences over the past two weeks, impacting her sleep and causing her to worry about potential underlying physical causes like anemia. She also experiences difficulty falling asleep due to ruminating about work.
+
+The physical examination reveals normal vital signs: blood pressure 120/60, heart rate 65 bpm, oxygen saturation 98%, and respiratory rate 14/min. Lung and heart auscultation show no abnormalities. Abdominal examination is omitted as the patient reports no abdominal complaints.
+
+The doctor reassures the patient that the physical examination is normal and suggests the symptoms are likely due to being overstressed or on the verge of burnout. To rule out somatic causes, a blood test will be performed, including Hb, thyroid function, liver, and kidney function. The doctor also recommends consulting the mental health support worker (praktijkondersteuner GGZ) for further discussion about her work-related stress and coping mechanisms. The patient is advised to incorporate active relaxation moments, maintain regularity in her routine, and consider consulting the occupational health service (arbodienst) if available. The patient expresses relief about the blood test and the appointment with the praktijkondersteuner.
+
+**Subjective:**
+- Patient presents with tension symptoms: muscle stiffness, rapid breathing, palpitations.
+- Symptoms attributed to demanding job as a junior doctor (internal medicine).
+- Experiences inner conflict, difficulty saying ""no"", and guilt when unable to help colleagues.
+- Symptoms have worsened over the last two weeks, occurring almost daily.
+- Difficulty falling asleep due to work-related rumination and uncertainty about the next day.
+- Worried about potential underlying physical causes (e.g., anemia).
+- Reports palpitations, especially during rest/relaxation, and rapid breathing.
+- Denies chest pain or irregular heart rhythm.
+- Sleep duration approximately 6 hours per night.
+
+**Objective:**
+- Vitals: BP 120/60, HR 65 bpm, SpO2 98%, RR 14/min.
+- Lungs: Clear breath sounds, no adventitious sounds.
+- Heart: Normal heart sounds, no murmurs.
+- Abdomen: Not examined due to lack of complaints.
+
+**Assessment:**
+- Likely overstress/burnout due to work.
+- Somatic causes to be ruled out via blood tests.
+
+**Plan:**
+- Blood tests: Hb, thyroid function, liver function, kidney function.
+- Refer to praktijkondersteuner GGZ (mental health support worker) for stress management.
+- Advised to incorporate active relaxation, maintain routine, and consider Arbo service consultation.
+- Follow-up based on blood results and praktijkondersteuner consultation.
+### JSON Output
+```json
+{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Klachten sinds 2 weken dagelijks, geleidelijk erger. Moeite met inslapen door piekeren over werk. Zorgen over somatische oorzaak (bv. bloedarmoede). Palpitaties bij rust, snelle ademhaling. Geen pijn op borst, geen onregelmatige hartslag. Slaapt ca. 6 uur/nacht."",
+  ""Objective"": ""BP 120/60, HR 65/min, SpO2 98%, RR 14/min. Longen: vesiculair ademgeruis, geen bijgeluiden. Hart: normale tonen, geen souffles. Abdomen niet onderzocht."",
+  ""Assessment"": ""Mogelijk overspannen/burn-out gerelateerd aan werk. Somatische oorzaken uit te sluiten."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklier-, lever-, nierfunctie.\n- Afspraak praktijkondersteuner GGZ.\n- Advies: actieve ontspanning inbouwen, regelmaat behouden, evt. arbo-arts consulteren.\n- Uitslagen bloedonderzoek afwachten, contact opnemen voor bespreking.\n- Terugkomen indien klachten toenemen of zorgen blijven.""
+}
+```"
+Burnout,Gemini-2.5-Flash-Lite,Gemini,refine,5.82,Success,,"{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Werkdruk als arts interne geneeskunde, onderbezetting, lange dagen, onzekerheid. Vermijdend gedrag, doet wat ander wil. Minder koffie drinken helpt. Soms lol met collega's doorbreekt spanning. Zorgen om gezondheid, twijfel of dit door te zetten. Vraag of er somatische oorzaak is (bv. bloedarmoede). Overweegt gesprek met praktijkondersteuner. Hartkloppingen spontaan, vooral in rust (bv. in bad, naar bed gaan). Geen pijn op borst, geen onregelmatige hartslag. Snel ademen, kan benauwd voelen. Klachten nu dagelijks, laatste 2 weken toegenomen. Moeite met inslapen door piekeren over werk, onzekerheid. Slaapt ca. 6 uur. Op vrije dagen beter slapen, sneller in slaap vallen. Klachten duren ca. 30 min, trekken spontaan weg."",
+  ""Objective"": ""BP: 120/60. Pols: 65/min. SpO2: 98%. Ademhaling: 14/min, rustig. Longen: goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles. Geen buikklachten."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Somatische oorzaken (anemie, schildklier, lever/nierfunctie) worden uitgesloten middels bloedonderzoek."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever/nierfunctie). Afspraak praktijkondersteuner GGZ maken. Actieve ontspanningsmomenten inbouwen (bv. koffie, bellen vriend, wandelen, zwemmen). Regelmaat in leven houden (werk, slaapritme). Overweeg contact arbo-arts ziekenhuis. Bij aanhoudende zorgen of toename klachten, terugkomen op spreekuur.""
+}","{
+  ""Subjective"": ""Spanningsklachten, spierstijfheid, snelle ademhaling, hartkloppingen. Werkdruk als arts interne geneeskunde, onderbezetting, lange dagen, onzekerheid. Vermijdend gedrag, doet wat ander wil. Minder koffie drinken helpt. Soms lol met collega's doorbreekt spanning. Zorgen om gezondheid, twijfel of dit door te zetten. Vraag of er somatische oorzaak is (bv. bloedarmoede). Overweegt gesprek met praktijkondersteuner. Hartkloppingen spontaan, vooral in rust (bv. in bad, naar bed gaan). Geen pijn op borst, geen onregelmatige hartslag. Snel ademen, kan benauwd voelen. Klachten nu dagelijks, laatste 2 weken toegenomen. Moeite met inslapen door piekeren over werk, onzekerheid. Slaapt ca. 6 uur. Op vrije dagen beter slapen, sneller in slaap vallen. Klachten duren ca. 30 min, trekken spontaan weg."",
+  ""Objective"": ""BP: 120/60. Pols: 65/min. SpO2: 98%. Ademhaling: 14/min, rustig. Longen: goed ademgeruis, geen bijgeluiden. Hart: normale harttonen, geen souffles. Geen buikklachten."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Somatische oorzaken (anemie, schildklier, lever/nierfunctie) worden uitgesloten middels bloedonderzoek."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier, lever/nierfunctie). Afspraak praktijkondersteuner GGZ maken. Actieve ontspanningsmomenten inbouwen (bv. koffie, bellen vriend, wandelen, zwemmen). Regelmaat in leven houden (werk, slaapritme). Overweeg contact arbo-arts ziekenhuis. Bij aanhoudende zorgen of toename klachten, terugkomen op spreekuur.""
+}"
+Burnout,Gemini-2.5-Flash,Gemini,standard,6.76,Success,,"{
+  ""Subjective"": ""Spanningsklachten. Drukke baan (net afgestudeerd arts, interne geneeskunde). Spanning in lichaam, spieren stijf. Snel ademen, hartkloppingen. Correlatie met pittige baan, onderbezetting, lange diensten, onzekerheid. Moeite met 'nee' zeggen, innerlijke strijd. Hartkloppingen spontaan, bij rustmomenten (bv. in bad, 's avonds voor slapen). Geen pijn op de borst. Hartslag regelmatig, sneller en voelbaar. Geen duizeligheid. Benauwdheid door snel ademen, ook in rust. Klachten dagelijks, belemmerend. Slaapklachten: moeite met inslapen door piekeren over werk/onzekerheid. Slaapt ca. 6 uur/nacht. Klachten al maanden, laatste 2 weken dagelijks en toenemend. Goed steunsysteem. Vraag: somatische oorzaak uitsluiten? Praten met POH?"",
+  ""Objective"": ""Lichamelijk onderzoek: volledig goed. BP: 120/60 mmHg. HR: 65/min. Saturatie: 98%. Ademhaling: 14/min. Hart/longen: normale harttonen, geen souffles, goed ademgeruis, geen bijgeluiden. Geen buikklachten."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Afspraak POH-GGZ (vandaag al mogelijk)."",
+    ""Uitslag bloedonderzoek binnen 2 werkdagen (telefonisch/online portaal)."",
+    ""Actief ontspanningsmomenten inbouwen (paar keer per week)."",
+    ""Regelmaat in leven houden (opstaan, op tijd naar bed)."",
+    ""Overwegen afspraak arbo-arts (tips, contract/roosters)."",
+    ""Balans werk/privé, inspannen/ontspannen/ontladen."",
+    ""Terugkomen bij toename klachten of zorgen.""
+  ]
+}","{
+  ""Subjective"": ""Spanningsklachten. Drukke baan (net afgestudeerd arts, interne geneeskunde). Spanning in lichaam, spieren stijf. Snel ademen, hartkloppingen. Correlatie met pittige baan, onderbezetting, lange diensten, onzekerheid. Moeite met 'nee' zeggen, innerlijke strijd. Hartkloppingen spontaan, bij rustmomenten (bv. in bad, 's avonds voor slapen). Geen pijn op de borst. Hartslag regelmatig, sneller en voelbaar. Geen duizeligheid. Benauwdheid door snel ademen, ook in rust. Klachten dagelijks, belemmerend. Slaapklachten: moeite met inslapen door piekeren over werk/onzekerheid. Slaapt ca. 6 uur/nacht. Klachten al maanden, laatste 2 weken dagelijks en toenemend. Goed steunsysteem. Vraag: somatische oorzaak uitsluiten? Praten met POH?"",
+  ""Objective"": ""Lichamelijk onderzoek: volledig goed. BP: 120/60 mmHg. HR: 65/min. Saturatie: 98%. Ademhaling: 14/min. Hart/longen: normale harttonen, geen souffles, goed ademgeruis, geen bijgeluiden. Geen buikklachten."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Afspraak POH-GGZ (vandaag al mogelijk)."",
+    ""Uitslag bloedonderzoek binnen 2 werkdagen (telefonisch/online portaal)."",
+    ""Actief ontspanningsmomenten inbouwen (paar keer per week)."",
+    ""Regelmaat in leven houden (opstaan, op tijd naar bed)."",
+    ""Overwegen afspraak arbo-arts (tips, contract/roosters)."",
+    ""Balans werk/privé, inspannen/ontspannen/ontladen."",
+    ""Terugkomen bij toename klachten of zorgen.""
+  ]
+}"
+Burnout,Gemini-2.5-Flash,Gemini,few_shot,8.72,Success,,"{
+  ""Subjective"": ""Spanningsklachten, veel spanning in lichaam, stijve spieren, snelle ademhaling, hartkloppingen. Correlatie met drukke baan (net afgestudeerd arts, interne geneeskunde), onderbezetting, lange diensten, onzekerheid. Klachten dagelijks, laatste 2 weken toegenomen, al maanden af en toe. Hartkloppingen spontaan, vooral bij rustmomenten (bad, voor slapen). Hartslag regelmatig, sneller en voelbaar; geen pijn op borst, geen duizeligheid. Snelle ademhaling, soms benauwd gevoel, ook in rust of op werk. Moeite met inslapen door piekeren over werk, onzekerheid. Slaapt ~6 uur/nacht. Op vrije dagen sneller in slaap, langer slapen, uitgeruster. Werkt fulltime (38 uur contract, vaak langere dagen). Klachten duren soms half uur, trekken spontaan weg. Vermijdt koffie bij hartkloppingen. Moeite met 'nee' zeggen op werk, schuldgevoel. Vraag: uitsluiten somatische oorzaak, advies professionele hulp."",
+  ""Objective"": ""LO: volledig goed. BD: 120/60 mmHg. HF: 65/min. Saturatie: 98%. Ademhaling: 14/min. Hart/longen: normale harttonen, geen souffles, goed ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken."",
+  ""Plan"": ""Geruststelling: LO volledig goed. Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie. Afspraak praktijkondersteuner GGZ. Actief ontspanningsmomenten inbouwen. Regelmaat in leven houden. Overwegen afspraak arbo-arts. Terugkomen bij toename klachten/zorgen.""
+}","{
+  ""Subjective"": ""Spanningsklachten, veel spanning in lichaam, stijve spieren, snelle ademhaling, hartkloppingen. Correlatie met drukke baan (net afgestudeerd arts, interne geneeskunde), onderbezetting, lange diensten, onzekerheid. Klachten dagelijks, laatste 2 weken toegenomen, al maanden af en toe. Hartkloppingen spontaan, vooral bij rustmomenten (bad, voor slapen). Hartslag regelmatig, sneller en voelbaar; geen pijn op borst, geen duizeligheid. Snelle ademhaling, soms benauwd gevoel, ook in rust of op werk. Moeite met inslapen door piekeren over werk, onzekerheid. Slaapt ~6 uur/nacht. Op vrije dagen sneller in slaap, langer slapen, uitgeruster. Werkt fulltime (38 uur contract, vaak langere dagen). Klachten duren soms half uur, trekken spontaan weg. Vermijdt koffie bij hartkloppingen. Moeite met 'nee' zeggen op werk, schuldgevoel. Vraag: uitsluiten somatische oorzaak, advies professionele hulp."",
+  ""Objective"": ""LO: volledig goed. BD: 120/60 mmHg. HF: 65/min. Saturatie: 98%. Ademhaling: 14/min. Hart/longen: normale harttonen, geen souffles, goed ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Uitsluiten somatische oorzaken."",
+  ""Plan"": ""Geruststelling: LO volledig goed. Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie. Afspraak praktijkondersteuner GGZ. Actief ontspanningsmomenten inbouwen. Regelmaat in leven houden. Overwegen afspraak arbo-arts. Terugkomen bij toename klachten/zorgen.""
+}"
+Burnout,Gemini-2.5-Flash,Gemini,cot,9.34,Success,"The transcript is in Dutch, so the SOAP note will be in Dutch.
+
+**Subjective:**
+*   De patiënt meldt spanningsklachten, stijve spieren, snel ademen en hartkloppingen.
+*   Klachten correleren met een drukke baan als net afgestudeerd arts (interne geneeskunde), veel onderbezetting, lange diensten, onzekerheid.
+*   Moeite met 'nee' zeggen, innerlijke strijd, schuldgevoel.
+*   Hartkloppingen komen spontaan op, vaak in rust (bijv. in bad, voor slapen gaan), soms op werk (toilet). Geen pijn op de borst, geen onregelmatige hartslag, geen duizeligheid.
+*   Snel ademen kan benauwd voelen, ook in rust of op werk.
+*   Klachten zijn toegenomen, van af en toe naar bijna dagelijks de laatste twee weken, al maanden aanwezig.
+*   Slaapklachten: moeite met inslapen door piekeren over werk, onzekerheid. Slaapt gemiddeld 6 uur. Beter slapen op vrije dagen.
+*   Werkt fulltime (38 uur, vaak langer).
+*   Minder koffie drinken helpt tegen hartkloppingen.
+*   Zorgen over gezondheid, wil somatische oorzaken uitsluiten (denkt aan anemie).
+*   Heeft een goed steunsysteem (huisgenoten/vrienden zijn ook artsen).
+
+**Objective:**
+*   Lichamelijk onderzoek: volledig goed.
+*   Bloeddruk: 120/60.
+*   Hartslag: 65/min.
+*   Zuurstofsaturatie: 98%.
+*   Ademhaling: 14/min.
+*   Hart en longen: geen bijzonderheden, normale harttonen, geen souffles, goed ademgeruis.
+*   Geen buikklachten, dus geen buikonderzoek.
+
+**Assessment:**
+*   Mogelijk overspannen door werk.
+*   Randje burn-out.
+
+**Plan:**
+*   Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie.
+*   Afspraak praktijkondersteuner GGZ.
+*   Actief ontspanningsmomenten inbouwen.
+*   Regelmaat in leven houden (opstaan, op tijd naar bed).
+*   Overwegen afspraak arbo-arts.
+*   Balans werk en privé bewaken.
+*   Terug op spreekuur bij toename klachten of zorgen.","{
+  ""Subjective"": ""Spanningsklachten. Stijve spieren. Snel ademen, hartkloppingen, soms in rust. Geen pijn op borst, geen onregelmatige hartslag. Moeite met inslapen door piekeren over werk. Klachten bijna dagelijks laatste 2 weken, al maanden aanwezig. Drukke baan als arts, onderbezetting, lange diensten, onzekerheid. Moeite met 'nee' zeggen, schuldgevoel. Slaapt ~6 uur. Zorgen om gezondheid, wil somatische oorzaak uitsluiten (anemie). Minder koffie helpt. Goed steunsysteem."",
+  ""Objective"": ""Lichamelijk onderzoek: volledig goed. BP: 120/60. HR: 65/min. SpO2: 98%. RR: 14/min. Hart/longen: geen bijzonderheden, normale harttonen, geen souffles, goed ademgeruis."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Randje burn-out."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Afspraak praktijkondersteuner GGZ."",
+    ""Actief ontspanningsmomenten inbouwen."",
+    ""Regelmaat in leven houden."",
+    ""Overwegen afspraak arbo-arts."",
+    ""Balans werk en privé bewaken."",
+    ""Terug op spreekuur bij toename klachten/zorgen.""
+  ]
+}","### Reasoning
+
+The transcript is in Dutch, so the SOAP note will be in Dutch.
+
+**Subjective:**
+*   De patiënt meldt spanningsklachten, stijve spieren, snel ademen en hartkloppingen.
+*   Klachten correleren met een drukke baan als net afgestudeerd arts (interne geneeskunde), veel onderbezetting, lange diensten, onzekerheid.
+*   Moeite met 'nee' zeggen, innerlijke strijd, schuldgevoel.
+*   Hartkloppingen komen spontaan op, vaak in rust (bijv. in bad, voor slapen gaan), soms op werk (toilet). Geen pijn op de borst, geen onregelmatige hartslag, geen duizeligheid.
+*   Snel ademen kan benauwd voelen, ook in rust of op werk.
+*   Klachten zijn toegenomen, van af en toe naar bijna dagelijks de laatste twee weken, al maanden aanwezig.
+*   Slaapklachten: moeite met inslapen door piekeren over werk, onzekerheid. Slaapt gemiddeld 6 uur. Beter slapen op vrije dagen.
+*   Werkt fulltime (38 uur, vaak langer).
+*   Minder koffie drinken helpt tegen hartkloppingen.
+*   Zorgen over gezondheid, wil somatische oorzaken uitsluiten (denkt aan anemie).
+*   Heeft een goed steunsysteem (huisgenoten/vrienden zijn ook artsen).
+
+**Objective:**
+*   Lichamelijk onderzoek: volledig goed.
+*   Bloeddruk: 120/60.
+*   Hartslag: 65/min.
+*   Zuurstofsaturatie: 98%.
+*   Ademhaling: 14/min.
+*   Hart en longen: geen bijzonderheden, normale harttonen, geen souffles, goed ademgeruis.
+*   Geen buikklachten, dus geen buikonderzoek.
+
+**Assessment:**
+*   Mogelijk overspannen door werk.
+*   Randje burn-out.
+
+**Plan:**
+*   Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie.
+*   Afspraak praktijkondersteuner GGZ.
+*   Actief ontspanningsmomenten inbouwen.
+*   Regelmaat in leven houden (opstaan, op tijd naar bed).
+*   Overwegen afspraak arbo-arts.
+*   Balans werk en privé bewaken.
+*   Terug op spreekuur bij toename klachten of zorgen.
+
+### JSON Output
+```json
+{
+  ""Subjective"": ""Spanningsklachten. Stijve spieren. Snel ademen, hartkloppingen, soms in rust. Geen pijn op borst, geen onregelmatige hartslag. Moeite met inslapen door piekeren over werk. Klachten bijna dagelijks laatste 2 weken, al maanden aanwezig. Drukke baan als arts, onderbezetting, lange diensten, onzekerheid. Moeite met 'nee' zeggen, schuldgevoel. Slaapt ~6 uur. Zorgen om gezondheid, wil somatische oorzaak uitsluiten (anemie). Minder koffie helpt. Goed steunsysteem."",
+  ""Objective"": ""Lichamelijk onderzoek: volledig goed. BP: 120/60. HR: 65/min. SpO2: 98%. RR: 14/min. Hart/longen: geen bijzonderheden, normale harttonen, geen souffles, goed ademgeruis."",
+  ""Assessment"": ""Mogelijk overspannen door werk. Randje burn-out."",
+  ""Plan"": [
+    ""Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Afspraak praktijkondersteuner GGZ."",
+    ""Actief ontspanningsmomenten inbouwen."",
+    ""Regelmaat in leven houden."",
+    ""Overwegen afspraak arbo-arts."",
+    ""Balans werk en privé bewaken."",
+    ""Terug op spreekuur bij toename klachten/zorgen.""
+  ]
+}
+```"
+Burnout,Gemini-2.5-Flash,Gemini,refine,10.01,Success,,"{
+  ""Subjective"": ""Spanningsklachten. Drukke baan als net afgestudeerd arts interne geneeskunde. Spanning in lichaam, stijve spieren, snel ademen, hartkloppingen. Onzekerheid werk, innerlijke strijd bij extra diensten. Vermijdend gedrag, lichamelijke last van 'nee' zeggen. Klachten vaak in rustmomenten (bad), ook op werk. Duur: maanden, dagelijks laatste 2 weken. Belemmering dagelijks leven, wakker liggen, inslaapproblemen door piekeren. Slaapt ~6 uur/nacht. Minder koffie en lol met collega's helpt. Zorgen om gezondheid, somatische oorzaak uitsluiten, praten met professional. Goed steunsysteem (huisgenoten, vrienden, collega's ook dokters). Full-time werk, vaak lange dagen."",
+  ""Objective"": ""Lichamelijk onderzoek volledig goed. BP: 120/60 mmHg. HR: 65/min. SpO2: 98%. RR: 14/min. Longen: Goed ademgeruis, geen bijgeluiden. Hart: Normale harttonen, geen bijzonderheden, geen souffles. Geen buikklachten, buikonderzoek overgeslagen."",
+  ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+  ""Plan"": [
+    ""Geruststelling: Lichamelijk onderzoek goed."",
+    ""Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Verwijzing POH-GGZ."",
+    ""Advies: Actief ontspanningsmomenten inbouwen. Regelmaat in leven houden. Overwegen afspraak arbo arts. Balans werk/privé."",
+    ""Uitslag bloedonderzoek: Bellen over 2 werkdagen of via portaal."",
+    ""Terugkomen bij toename klachten/zorgen.""
+  ]
+}","{
+  ""Subjective"": ""Spanningsklachten. Drukke baan als net afgestudeerd arts interne geneeskunde. Spanning in lichaam, stijve spieren, snel ademen, hartkloppingen. Onzekerheid werk, innerlijke strijd bij extra diensten. Vermijdend gedrag, lichamelijke last van 'nee' zeggen. Klachten vaak in rustmomenten (bad), ook op werk. Duur: maanden, dagelijks laatste 2 weken. Belemmering dagelijks leven, wakker liggen, inslaapproblemen door piekeren. Slaapt ~6 uur/nacht. Minder koffie en lol met collega's helpt. Zorgen om gezondheid, somatische oorzaak uitsluiten, praten met professional. Goed steunsysteem (huisgenoten, vrienden, collega's ook dokters). Full-time werk, vaak lange dagen."",
+  ""Objective"": ""Lichamelijk onderzoek volledig goed. BP: 120/60 mmHg. HR: 65/min. SpO2: 98%. RR: 14/min. Longen: Goed ademgeruis, geen bijgeluiden. Hart: Normale harttonen, geen bijzonderheden, geen souffles. Geen buikklachten, buikonderzoek overgeslagen."",
+  ""Assessment"": ""Mogelijk overspannen vanwege werk."",
+  ""Plan"": [
+    ""Geruststelling: Lichamelijk onderzoek goed."",
+    ""Bloedonderzoek: Hb, schildklierwaarden, leverfunctie, nierfunctie."",
+    ""Verwijzing POH-GGZ."",
+    ""Advies: Actief ontspanningsmomenten inbouwen. Regelmaat in leven houden. Overwegen afspraak arbo arts. Balans werk/privé."",
+    ""Uitslag bloedonderzoek: Bellen over 2 werkdagen of via portaal."",
+    ""Terugkomen bij toename klachten/zorgen.""
+  ]
+}"
+Burnout,Gemini-2.5-Pro,Gemini,standard,16.66,Success,,"{
+  ""Subjective"": ""Spanningsklachten door hoge werkdruk als arts. Stijve spieren, hartkloppingen en snelle ademhaling. Klachten sinds enkele maanden, verergerd laatste 2 weken tot dagelijks. Hartkloppingen met name in rust, snel en voelbaar, maar regelmatig. Geen pijn op de borst of duizeligheid. Moeite met inslapen door piekeren, slaapt ca. 6 uur per nacht. Moeite met grenzen stellen op werk. Vraagt zich af of er een lichamelijke oorzaak is."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. Saturatie 98%. Ademhalingsfrequentie 14/min. Cor: normale harttonen, geen souffles. Pulm: vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkdruk."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie.\n- Verwijzing naar POH-GGZ voor gesprekken.\n- Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact met arbo-arts overwegen.\n- Uitslagen bloedonderzoek binnen 2 werkdagen.\n- Contact opnemen bij toename klachten of zorgen.""
+}","{
+  ""Subjective"": ""Spanningsklachten door hoge werkdruk als arts. Stijve spieren, hartkloppingen en snelle ademhaling. Klachten sinds enkele maanden, verergerd laatste 2 weken tot dagelijks. Hartkloppingen met name in rust, snel en voelbaar, maar regelmatig. Geen pijn op de borst of duizeligheid. Moeite met inslapen door piekeren, slaapt ca. 6 uur per nacht. Moeite met grenzen stellen op werk. Vraagt zich af of er een lichamelijke oorzaak is."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. Saturatie 98%. Ademhalingsfrequentie 14/min. Cor: normale harttonen, geen souffles. Pulm: vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkdruk."",
+  ""Plan"": ""- Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie.\n- Verwijzing naar POH-GGZ voor gesprekken.\n- Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact met arbo-arts overwegen.\n- Uitslagen bloedonderzoek binnen 2 werkdagen.\n- Contact opnemen bij toename klachten of zorgen.""
+}"
+Burnout,Gemini-2.5-Pro,Gemini,few_shot,15.62,Success,,"{
+  ""Subjective"": ""Spanningsklachten, sinds enkele maanden progressief, laatste 2 weken dagelijks. Symptomen: stijve spieren, snelle ademhaling, hartkloppingen (snel, regulair, voelbaar, geen pijn op de borst), met name in rust. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur/nacht. Werkt als arts-assistent interne geneeskunde, ervaart hoge werkdruk. Vraagt zich af of er een lichamelijke oorzaak is."",
+  ""Objective"": ""Bloeddruk: 120/60. Hartslag: 65/min, regulair. Saturatie: 98%. Ademhaling: 14/min. Cor: S1S2 regulair, geen souffles. Pulmones: Vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen door werk."",
+  ""Plan"": ""Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie. Verwijzing naar POH-GGZ. Advies: actieve ontspanningsmomenten inplannen, regelmaat behouden, contact met arbo-arts overwegen. Uitslag bloedonderzoek over 2 werkdagen opvragen. Terugkomen bij toename klachten of zorgen.""
+}","{
+  ""Subjective"": ""Spanningsklachten, sinds enkele maanden progressief, laatste 2 weken dagelijks. Symptomen: stijve spieren, snelle ademhaling, hartkloppingen (snel, regulair, voelbaar, geen pijn op de borst), met name in rust. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur/nacht. Werkt als arts-assistent interne geneeskunde, ervaart hoge werkdruk. Vraagt zich af of er een lichamelijke oorzaak is."",
+  ""Objective"": ""Bloeddruk: 120/60. Hartslag: 65/min, regulair. Saturatie: 98%. Ademhaling: 14/min. Cor: S1S2 regulair, geen souffles. Pulmones: Vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen door werk."",
+  ""Plan"": ""Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie. Verwijzing naar POH-GGZ. Advies: actieve ontspanningsmomenten inplannen, regelmaat behouden, contact met arbo-arts overwegen. Uitslag bloedonderzoek over 2 werkdagen opvragen. Terugkomen bij toename klachten of zorgen.""
+}"
+Burnout,Gemini-2.5-Pro,Gemini,cot,22.39,Success,"De patiënt, een recent afgestudeerde arts werkzaam bij de interne geneeskunde, presenteert zich met spanningsklachten.
+
+**Subjective:** De klachten bestaan uit stijve spieren, hartkloppingen en een snelle ademhaling. Deze zijn al enkele maanden aanwezig, maar de laatste twee weken bijna dagelijks. De hartkloppingen treden voornamelijk in rust op, zijn regulair maar snel en krachtig, zonder pijn op de borst of duizeligheid. De snelle ademhaling kan een benauwd gevoel geven. De patiënt heeft moeite met inslapen door piekeren over de werkdag en slaapt ongeveer zes uur per nacht. De werkdruk is hoog door onderbezetting en lange dagen. Patiënt vindt het moeilijk om 'nee' te zeggen tegen extra werk en voelt zich dan schuldig. De patiënt vraagt zich af of er een lichamelijke oorzaak is (zoals bloedarmoede) en of gesprekken met de praktijkondersteuner (POH-GGZ) kunnen helpen.
+
+**Objective:** Het lichamelijk onderzoek toont stabiele vitale parameters: bloeddruk 120/60 mmHg, hartslag 65/min regulair, saturatie 98% en ademhalingsfrequentie 14/min. Auscultatie van hart en longen laat geen afwijkingen zien.
+
+**Assessment:** De arts stelt de werkdiagnose 'mogelijk overspannen' door werkstress. Een somatische oorzaak wordt nog niet volledig uitgesloten.
+
+**Plan:** Er wordt aanvullend bloedonderzoek ingezet om somatische oorzaken uit te sluiten (Hb, schildklier-, lever- en nierfunctie). De patiënt wordt verwezen naar de POH-GGZ voor gesprekken. Er worden leefstijladviezen gegeven, zoals het inbouwen van actieve ontspanningsmomenten, het behouden van regelmaat en het overwegen van contact met de arbo-arts. De patiënt kan bellen voor de bloeduitslagen en wordt geadviseerd contact op te nemen bij toename van klachten.","{
+  ""Subjective"": ""Spanningsklachten door drukke baan. Sinds enkele maanden, laatste 2 weken dagelijks. Klachten: stijve spieren, hartkloppingen, snelle ademhaling. Hartkloppingen vnl. in rust, regulair, snel, krachtig. Geen pijn op de borst, geen duizeligheid. Soms benauwd gevoel bij snelle ademhaling. Moeite met inslapen door piekeren over werk, slaapduur ca. 6 uur. Moeite met 'nee' zeggen. Vraag naar uitsluiten somatische oorzaak."",
+  ""Objective"": ""RR: 120/60 mmHg. Pols: 65/min, regulair. SpO2: 98%. AF: 14/min. Cor: S1S2 regulair, geen souffles. Pulmones: VAG bdz, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkstress."",
+  ""Plan"": ""- Lab: Hb, TSH, lever- en nierfunctie.\n- Verwijzing POH-GGZ.\n- Advies: actieve ontspanning, regelmaat, contact arbo-arts overwegen.\n- Bellen voor uitslagen lab.\n- Contact opnemen bij toename klachten of zorgen.""
+}","### Reasoning
+De patiënt, een recent afgestudeerde arts werkzaam bij de interne geneeskunde, presenteert zich met spanningsklachten.
+
+**Subjective:** De klachten bestaan uit stijve spieren, hartkloppingen en een snelle ademhaling. Deze zijn al enkele maanden aanwezig, maar de laatste twee weken bijna dagelijks. De hartkloppingen treden voornamelijk in rust op, zijn regulair maar snel en krachtig, zonder pijn op de borst of duizeligheid. De snelle ademhaling kan een benauwd gevoel geven. De patiënt heeft moeite met inslapen door piekeren over de werkdag en slaapt ongeveer zes uur per nacht. De werkdruk is hoog door onderbezetting en lange dagen. Patiënt vindt het moeilijk om 'nee' te zeggen tegen extra werk en voelt zich dan schuldig. De patiënt vraagt zich af of er een lichamelijke oorzaak is (zoals bloedarmoede) en of gesprekken met de praktijkondersteuner (POH-GGZ) kunnen helpen.
+
+**Objective:** Het lichamelijk onderzoek toont stabiele vitale parameters: bloeddruk 120/60 mmHg, hartslag 65/min regulair, saturatie 98% en ademhalingsfrequentie 14/min. Auscultatie van hart en longen laat geen afwijkingen zien.
+
+**Assessment:** De arts stelt de werkdiagnose 'mogelijk overspannen' door werkstress. Een somatische oorzaak wordt nog niet volledig uitgesloten.
+
+**Plan:** Er wordt aanvullend bloedonderzoek ingezet om somatische oorzaken uit te sluiten (Hb, schildklier-, lever- en nierfunctie). De patiënt wordt verwezen naar de POH-GGZ voor gesprekken. Er worden leefstijladviezen gegeven, zoals het inbouwen van actieve ontspanningsmomenten, het behouden van regelmaat en het overwegen van contact met de arbo-arts. De patiënt kan bellen voor de bloeduitslagen en wordt geadviseerd contact op te nemen bij toename van klachten.
+
+### JSON Output
+```json
+{
+  ""Subjective"": ""Spanningsklachten door drukke baan. Sinds enkele maanden, laatste 2 weken dagelijks. Klachten: stijve spieren, hartkloppingen, snelle ademhaling. Hartkloppingen vnl. in rust, regulair, snel, krachtig. Geen pijn op de borst, geen duizeligheid. Soms benauwd gevoel bij snelle ademhaling. Moeite met inslapen door piekeren over werk, slaapduur ca. 6 uur. Moeite met 'nee' zeggen. Vraag naar uitsluiten somatische oorzaak."",
+  ""Objective"": ""RR: 120/60 mmHg. Pols: 65/min, regulair. SpO2: 98%. AF: 14/min. Cor: S1S2 regulair, geen souffles. Pulmones: VAG bdz, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspanning e.c.i. werkstress."",
+  ""Plan"": ""- Lab: Hb, TSH, lever- en nierfunctie.\n- Verwijzing POH-GGZ.\n- Advies: actieve ontspanning, regelmaat, contact arbo-arts overwegen.\n- Bellen voor uitslagen lab.\n- Contact opnemen bij toename klachten of zorgen.""
+}
+```"
+Burnout,Gemini-2.5-Pro,Gemini,refine,12.29,Success,,"{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts. Stijve spieren, snelle ademhaling en hartkloppingen. Klachten sinds enkele maanden, verergerd laatste 2 weken, nu dagelijks. Hartkloppingen treden op in rust (bv. in bad), duren ca. 30 min, verdwijnen spontaan. Hartslag voelt snel maar regelmatig. Geen pijn op de borst, duizeligheid of licht in het hoofd. Soms benauwd gevoel door snelle ademhaling, ook op werk. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur per nacht. Vraagt zich af of er een lichamelijke oorzaak is (bv. anemie) en of gesprek met POH-GGZ zinvol is."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. SpO2 98%. AF 14/min. Cor: S1S2 regulair, geen souffles. Pulm: vesiculair ademgeruis beiderzijds, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier-, lever- en nierfunctie). Verwijzing POH-GGZ, kan afspraak maken in afwachting van uitslagen. Uitslagen binnen 2 werkdagen bellen of online inzien. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact met arbo-arts overwegen. Laagdrempelig contact bij toename klachten of zorgen.""
+}","{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts. Stijve spieren, snelle ademhaling en hartkloppingen. Klachten sinds enkele maanden, verergerd laatste 2 weken, nu dagelijks. Hartkloppingen treden op in rust (bv. in bad), duren ca. 30 min, verdwijnen spontaan. Hartslag voelt snel maar regelmatig. Geen pijn op de borst, duizeligheid of licht in het hoofd. Soms benauwd gevoel door snelle ademhaling, ook op werk. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur per nacht. Vraagt zich af of er een lichamelijke oorzaak is (bv. anemie) en of gesprek met POH-GGZ zinvol is."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. SpO2 98%. AF 14/min. Cor: S1S2 regulair, geen souffles. Pulm: vesiculair ademgeruis beiderzijds, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier-, lever- en nierfunctie). Verwijzing POH-GGZ, kan afspraak maken in afwachting van uitslagen. Uitslagen binnen 2 werkdagen bellen of online inzien. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact met arbo-arts overwegen. Laagdrempelig contact bij toename klachten of zorgen.""
+}"
+Burnout,Gemini-2.5-Pro-Thinking,Gemini,standard,16.25,Success,,"{
+  ""Subjective"": ""Spanningsklachten door drukke baan. Stijve spieren, snelle ademhaling en hartkloppingen. Sinds enkele maanden, laatste 2 weken dagelijks. Hartkloppingen vnl. in rust, snel en voelbaar, maar regelmatig. Geen pijn op de borst of duizeligheid. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur per nacht. Moeite met grenzen stellen. Vraagt zich af of er een somatische oorzaak is."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. Saturatie 98%. Ademhalingsfrequentie 14/min. Cor: normale tonen, geen souffles. Pulmones: vesiculair ademgeruis, geen bijgeluiden. Lichamelijk onderzoek zonder afwijkingen."",
+  ""Assessment"": ""Spanningsklachten, mogelijk overspannenheid."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier-, lever-, nierfunctie). Verwijzing POH-GGZ. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact arbo-arts overwegen. Uitslagen over 2 werkdagen opvragen. Contact opnemen bij toename klachten of zorgen.""
+}","{
+  ""Subjective"": ""Spanningsklachten door drukke baan. Stijve spieren, snelle ademhaling en hartkloppingen. Sinds enkele maanden, laatste 2 weken dagelijks. Hartkloppingen vnl. in rust, snel en voelbaar, maar regelmatig. Geen pijn op de borst of duizeligheid. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur per nacht. Moeite met grenzen stellen. Vraagt zich af of er een somatische oorzaak is."",
+  ""Objective"": ""RR 120/60 mmHg. Pols 65/min, regulair. Saturatie 98%. Ademhalingsfrequentie 14/min. Cor: normale tonen, geen souffles. Pulmones: vesiculair ademgeruis, geen bijgeluiden. Lichamelijk onderzoek zonder afwijkingen."",
+  ""Assessment"": ""Spanningsklachten, mogelijk overspannenheid."",
+  ""Plan"": ""Bloedonderzoek (Hb, schildklier-, lever-, nierfunctie). Verwijzing POH-GGZ. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact arbo-arts overwegen. Uitslagen over 2 werkdagen opvragen. Contact opnemen bij toename klachten of zorgen.""
+}"
+Burnout,Gemini-2.5-Pro-Thinking,Gemini,few_shot,13.65,Success,,"{
+  ""Subjective"": ""Spanningsklachten met stijve spieren, snelle ademhaling en hartkloppingen. Sinds enkele maanden, verergerd en dagelijks sinds 2 weken. Hartkloppingen met name in rust, snel maar regulair. Soms benauwd gevoel. Moeite met inslapen door piekeren over werk (arts in opleiding, hoge werkdruk). Slaapt ca. 6 uur per nacht. Geen pijn op de borst of duizeligheid. Vraagt zich af of er een lichamelijke oorzaak is."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Hartslag: 65/min, regulair. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: normale tonen, geen souffles. Pulm: vesiculair ademgeruis, geen bijgeluiden. Lichamelijk onderzoek verder zonder afwijkingen."",
+  ""Assessment"": ""Mogelijk overspannen, werkgerelateerd."",
+  ""Plan"": ""Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie ter uitsluiting somatische oorzaak. Afspraak bij POH-GGZ. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts. Follow-up: bellen voor bloeduitslagen over 2 werkdagen. Terugkomen bij toename klachten of zorgen.""
+}","{
+  ""Subjective"": ""Spanningsklachten met stijve spieren, snelle ademhaling en hartkloppingen. Sinds enkele maanden, verergerd en dagelijks sinds 2 weken. Hartkloppingen met name in rust, snel maar regulair. Soms benauwd gevoel. Moeite met inslapen door piekeren over werk (arts in opleiding, hoge werkdruk). Slaapt ca. 6 uur per nacht. Geen pijn op de borst of duizeligheid. Vraagt zich af of er een lichamelijke oorzaak is."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Hartslag: 65/min, regulair. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: normale tonen, geen souffles. Pulm: vesiculair ademgeruis, geen bijgeluiden. Lichamelijk onderzoek verder zonder afwijkingen."",
+  ""Assessment"": ""Mogelijk overspannen, werkgerelateerd."",
+  ""Plan"": ""Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie ter uitsluiting somatische oorzaak. Afspraak bij POH-GGZ. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts. Follow-up: bellen voor bloeduitslagen over 2 werkdagen. Terugkomen bij toename klachten of zorgen.""
+}"
+Burnout,Gemini-2.5-Pro-Thinking,Gemini,cot,26.98,Success,"De patiënt, een recent afgestudeerde arts, presenteert zich met spanningsklachten die de laatste twee weken zijn verergerd. De klachten worden gekenmerkt door een gevoel van spanning, stijve spieren, hartkloppingen en snelle ademhaling. Deze symptomen treden voornamelijk op in rustmomenten en niet tijdens inspanning. De patiënt legt een direct verband met haar zeer drukke en stressvolle baan in de interne geneeskunde, waar sprake is van onderbezetting en lange werkdagen. Ze heeft moeite met grenzen stellen ('nee' zeggen) en ervaart daardoor innerlijke strijd en schuldgevoel. Dit leidt ook tot inslaapproblemen door piekeren, waardoor ze ongeveer 6 uur per nacht slaapt. Ze maakt zich zorgen over een mogelijke onderliggende lichamelijke oorzaak, zoals bloedarmoede, en vraagt om advies over professionele ondersteuning.
+
+Het lichamelijk onderzoek toont stabiele vitale parameters (bloeddruk 120/60, pols 65/min, saturatie 98%, ademhaling 14/min). Auscultatie van hart en longen is niet-afwijkend.
+
+De arts stelt als werkdiagnose dat de patiënt mogelijk overspannen is als gevolg van werkstress.
+
+Het plan is om somatische oorzaken uit te sluiten middels bloedonderzoek (Hb, schildklier-, lever- en nierfunctie). Er wordt een verwijzing naar de praktijkondersteuner GGZ (POH-GGZ) voorgesteld voor ondersteunende gesprekken. Daarnaast worden leefstijladviezen gegeven, zoals het inbouwen van ontspanningsmomenten, het behouden van regelmaat en het overwegen van contact met de arbo-arts. De patiënt kan de bloeduitslagen na twee dagen opvragen en wordt geadviseerd terug te komen bij toename van klachten.","{
+  ""Subjective"": ""Spanningsklachten sinds enkele maanden, verergerd laatste 2 weken, nu dagelijks. Klachten van stijve spieren, hartkloppingen (snel, regulair) en snelle ademhaling. Treden op in rust, niet bij inspanning. Geen pijn op de borst, geen duizeligheid. Linkt klachten aan hoge werkdruk als arts. Moeite met grenzen stellen. Inslapproblemen door piekeren, ca. 6 uur slaap per nacht. Zorgen over mogelijke somatische oorzaak (anemie)."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Pols: 65/min, regulair. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: S1S2 regulair, geen souffles. Pulm: Vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen door werk."",
+  ""Plan"": ""- Lab: Hb, schildklierfunctie, lever- en nierfunctie.\n- Verwijzing POH-GGZ voor gesprekken.\n- Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact met arbo-arts overwegen.\n- Follow-up: uitslagen lab over 2 dagen, contact bij toename klachten.""
+}","### Reasoning
+De patiënt, een recent afgestudeerde arts, presenteert zich met spanningsklachten die de laatste twee weken zijn verergerd. De klachten worden gekenmerkt door een gevoel van spanning, stijve spieren, hartkloppingen en snelle ademhaling. Deze symptomen treden voornamelijk op in rustmomenten en niet tijdens inspanning. De patiënt legt een direct verband met haar zeer drukke en stressvolle baan in de interne geneeskunde, waar sprake is van onderbezetting en lange werkdagen. Ze heeft moeite met grenzen stellen ('nee' zeggen) en ervaart daardoor innerlijke strijd en schuldgevoel. Dit leidt ook tot inslaapproblemen door piekeren, waardoor ze ongeveer 6 uur per nacht slaapt. Ze maakt zich zorgen over een mogelijke onderliggende lichamelijke oorzaak, zoals bloedarmoede, en vraagt om advies over professionele ondersteuning.
+
+Het lichamelijk onderzoek toont stabiele vitale parameters (bloeddruk 120/60, pols 65/min, saturatie 98%, ademhaling 14/min). Auscultatie van hart en longen is niet-afwijkend.
+
+De arts stelt als werkdiagnose dat de patiënt mogelijk overspannen is als gevolg van werkstress.
+
+Het plan is om somatische oorzaken uit te sluiten middels bloedonderzoek (Hb, schildklier-, lever- en nierfunctie). Er wordt een verwijzing naar de praktijkondersteuner GGZ (POH-GGZ) voorgesteld voor ondersteunende gesprekken. Daarnaast worden leefstijladviezen gegeven, zoals het inbouwen van ontspanningsmomenten, het behouden van regelmaat en het overwegen van contact met de arbo-arts. De patiënt kan de bloeduitslagen na twee dagen opvragen en wordt geadviseerd terug te komen bij toename van klachten.
+
+### JSON Output
+```json
+{
+  ""Subjective"": ""Spanningsklachten sinds enkele maanden, verergerd laatste 2 weken, nu dagelijks. Klachten van stijve spieren, hartkloppingen (snel, regulair) en snelle ademhaling. Treden op in rust, niet bij inspanning. Geen pijn op de borst, geen duizeligheid. Linkt klachten aan hoge werkdruk als arts. Moeite met grenzen stellen. Inslapproblemen door piekeren, ca. 6 uur slaap per nacht. Zorgen over mogelijke somatische oorzaak (anemie)."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Pols: 65/min, regulair. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: S1S2 regulair, geen souffles. Pulm: Vesiculair ademgeruis, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen door werk."",
+  ""Plan"": ""- Lab: Hb, schildklierfunctie, lever- en nierfunctie.\n- Verwijzing POH-GGZ voor gesprekken.\n- Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact met arbo-arts overwegen.\n- Follow-up: uitslagen lab over 2 dagen, contact bij toename klachten.""
+}
+```"
+Burnout,Gemini-2.5-Pro-Thinking,Gemini,refine,18.19,Success,,"{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts. Sinds enkele maanden, verergerd laatste 2 weken naar dagelijks. Klachten: stijve spieren, snelle ademhaling, hartkloppingen. Hartkloppingen vnl. in rust, niet bij inspanning, duren ca. 30 min, spontaan herstel. Hartslag voelt snel en krachtig, wel regelmatig. Geen pijn op de borst of duizeligheid. Soms benauwd gevoel door snelle ademhaling. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur per nacht. Vraagt zich af of er een lichamelijke oorzaak is en of praten met een professional kan helpen."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Hartslag: 65/min. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: normale harttonen, geen souffles. Pulmones: vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen tgv werk."",
+  ""Plan"": ""Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie. Uitslag binnen 2 werkdagen. Afspraak maken bij POH-GGZ. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts. Terugkomen bij toename klachten of zorgen.""
+}","{
+  ""Subjective"": ""Spanningsklachten door drukke baan als arts. Sinds enkele maanden, verergerd laatste 2 weken naar dagelijks. Klachten: stijve spieren, snelle ademhaling, hartkloppingen. Hartkloppingen vnl. in rust, niet bij inspanning, duren ca. 30 min, spontaan herstel. Hartslag voelt snel en krachtig, wel regelmatig. Geen pijn op de borst of duizeligheid. Soms benauwd gevoel door snelle ademhaling. Moeite met inslapen door piekeren over werk, slaapt ca. 6 uur per nacht. Vraagt zich af of er een lichamelijke oorzaak is en of praten met een professional kan helpen."",
+  ""Objective"": ""Bloeddruk: 120/60 mmHg. Hartslag: 65/min. Saturatie: 98%. Ademhalingsfrequentie: 14/min. Cor: normale harttonen, geen souffles. Pulmones: vesiculair ademgeruis over alle longvelden, geen bijgeluiden."",
+  ""Assessment"": ""Mogelijk overspannen tgv werk."",
+  ""Plan"": ""Bloedonderzoek: Hb, schildklier-, lever- en nierfunctie. Uitslag binnen 2 werkdagen. Afspraak maken bij POH-GGZ. Advies: actieve ontspanningsmomenten inbouwen, regelmaat behouden, contact opnemen met arbo-arts. Terugkomen bij toename klachten of zorgen.""
+}"

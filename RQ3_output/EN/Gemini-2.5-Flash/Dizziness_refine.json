@@ -1,0 +1,11 @@
+{
+  "Subjective": "Dizziness x 3 days; woke up with it. Room spinning > light-headed. Worse with head movement, moving from sitting to lying. Better when sitting still. Mild nausea; occasional fast heart beat. Impact: Stops from doing much. Recent cold. No vomiting, headache, hearing loss, tinnitus, speech difficulty, limb weakness, fainting, prolonged bed rest. No smoking, alcohol, drugs. Request: Wants to know cause, get rid of dizziness; fears brain tumor (friend's history).",
+  "Objective": "BP 110/70, P 62/min, steady. Neuro exam: Face sensation symmetrical. CNs intact (eyes closed tightly, eyebrows raised, teeth clenched, cheeks puffed, tongue out). Motor: Shoulders up, muscle flexion normal. Arms held out with eyes closed normal. Finger-to-nose test perfect bilateral. Gait: Normal, heel-to-toe normal. Eye movements: Follows finger, no nystagmus. HIT: Negative bilateral. Dix-Hallpike maneuver: Right side provokes intense dizziness, nausea, nystagmus. Left side less intense.",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV). R/o: Brain tumor, central neurological cause.",
+  "Plan": [
+    "Explain BPPV: Displaced crystals in vestibular system, not brain tumor. Reassurance.",
+    "Perform Epley maneuver in clinic today.",
+    "Provide instructions for self-Epley maneuver via thuisarts.nl.",
+    "Reassurance: Condition can resolve spontaneously."
+  ]
+}

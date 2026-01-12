@@ -1,0 +1,12 @@
+{
+  "Subjective": "Dizziness. Light-headed feeling. Room spinning around. Nausea. Fast heart rate. Vertigo. Feeling of fainting. No fever, headache, pain in head, hearing loss, ringing in ears, difficulty speaking, loss of function in arms or legs, vomiting, heart palpitations. Scared of serious condition. Wants to get rid of dizziness. Worried about impact on daily life.",
+  "Objective": "BP: 110/70. HR: 62. Normal neurological examination. No nystagmus. HIT test negative on both sides.",
+  "Assessment": "Benign paroxysmal positional vertigo (BPPV). Crystals in vestibular system shifted, causing vertigo.",
+  "Plan": [
+    "Epley manoeuvre to help shift crystals back into place.",
+    "Instructions on how to perform Epley manoeuvre at home.",
+    "Follow-up via thuisarts.nl.",
+    "Physiotherapist can also perform Epley manoeuvre.",
+    "Safety netting: if symptoms worsen or do not improve, seek medical attention."
+  ]
+}

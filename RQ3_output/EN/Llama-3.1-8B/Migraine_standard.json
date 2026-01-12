@@ -1,0 +1,12 @@
+{
+    "Subjective": "Headaches for 2 months; worsening; right-sided; nausea; glare; no vomiting; no flashes; no fever; no headache in childhood; family history of migraines and cluster headaches; no stress; no coffee; no energy drinks; no smoking; no alcohol; no drugs; prefers dark room; no work or sports impact; no sleep impact.",
+    "Objective": "BP: 120/80; pulse: 50/min; cranial nerves fine; fingertip-nose test good; arm and leg strength good; Romberg's normal; no neurological deficits.",
+    "Assessment": "Migraine syndrome, susp. trigger: sun glare; no signs of cluster headaches or other conditions.",
+    "Plan": [
+     "Read about migraines on thuisarts.nl",
+        "Start pain relief as soon as symptoms start: paracetamol 4x2, ibuprofen if necessary",
+        "Keep headache diary to identify triggers",
+        "Schedule follow-up in 4 weeks",
+        "Return sooner if symptoms worsen or change"
+    ]
+}

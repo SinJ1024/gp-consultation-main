@@ -1,0 +1,12 @@
+{
+  "Subjective": "Dizziness for 3 days, onset upon waking. Spinning sensation, worse with movement, not all day. Mild nausea. No vomiting, headache, hearing loss, tinnitus, speech difficulty, limb weakness, syncope. Palpitations with fast heart rate, resolves spontaneously. Recent mild cold. No smoking, alcohol, drugs. Fear of brain tumor due to friend's history. Request: Get rid of dizziness, reassurance about cause.",
+  "Objective": "BP 110/70, HR 62. Neuro exam: Sensation intact bilaterally. Cranial nerves intact (facial sensation, eye closure, eyebrow raise, teeth clench, puff cheeks, tongue protrusion). Shoulder shrug, muscle flexion intact. Romberg negative. Finger-to-nose intact bilaterally. Gait normal. No nystagmus on smooth pursuit. HIT test negative bilaterally. Dix-Hallpike positive, provoked vertigo and nystagmus (left > right).",
+  "Assessment": "Benign Paroxysmal Positional Vertigo (BPPV), likely posterior canalithiasis. No evidence of central nervous system pathology (e.g., brain tumor).",
+  "Plan": [
+    "Explanation of BPPV: Crystals in vestibular system dislodged, not indicative of tumor.",
+    "Epley maneuver performed in office today.",
+    "Instructions for home exercises via thuisarts.nl.",
+    "Reassurance regarding benign nature of condition.",
+    "Follow-up as needed."
+  ]
+}

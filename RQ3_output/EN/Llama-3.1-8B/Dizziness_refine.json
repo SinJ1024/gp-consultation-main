@@ -1,0 +1,11 @@
+{
+  "Subjective": "Sore throat; unable to play tennis due to fatigue; dizziness; scared of brain tumour; wants to get rid of dizziness; no fever, cough, or shortness of breath; no smoking, alcohol, or drug use; recent cold; no bed confinement; friend with brain tumour; worried about dizziness.",
+  "Objective": "BP: 110/70; HR: 62; neurological exam: normal; no nystagmus; HIT test: negative; BPPV symptoms provoked by head movement.",
+  "Assessment": "Benign paroxysmal positional vertigo (BPPV); no signs of brain tumour.",
+  "Plan": [
+    "Explain BPPV and its cause (crystals in vestibular system).",
+    "Perform Epley manoeuvre to help alleviate symptoms.",
+    "Provide instructions for self-performance via thuisarts.nl.",
+    "Follow-up to assess progress."
+  ]
+}

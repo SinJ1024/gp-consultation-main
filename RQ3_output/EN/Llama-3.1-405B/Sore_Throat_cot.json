@@ -1,0 +1,12 @@
+{
+  "Subjective": "Sore throat for 3 days; fever; painful swallowing. No cough, shortness of breath, or runny nose currently. Concerned about abscess; wants antibiotics.",
+  "Objective": "Temp 38.3°C. Throat: slightly red pharyngeal arch, slightly enlarged tonsils with slough bilaterally, no abscess. Ears: normal, slight redness in right ear canal. Lungs: normal vesicular breath sounds, no additional sounds. Neck: small submandibular lymph nodes, non-pathological. Saturation 98%.",
+  "Assessment": "Viral pharyngitis. No signs of abscess or bacterial infection.",
+  "Plan": [
+    "Continue paracetamol (up to 4 times/day) and ibuprofen (up to 3 times/day, 400mg) for pain",
+    "Drink plenty of fluids, try cold drinks or popsicles for pain relief",
+    "Rest and wait it out",
+    "Safety net: contact if worsening symptoms, shortness of breath, or difficulty swallowing",
+    "No antibiotics indicated as likely viral; would only marginally shorten course"
+  ]
+}

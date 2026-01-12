@@ -1,0 +1,11 @@
+{
+    "Subjective": "Slightly irritated Right Eye. Redness, red veins, and discomfort. Unable to play tennis due to fatigue. No fever, cough, or shortness of breath. No smoking. No alcohol. No other day cream or mascara. No lens wear. No pain when looking normally. No extra light pain. No flu or other illness. No strange things at home. No difficulty managing with little one. No work issues. Request: Wants to know if it's contagious and how to soothe it.",
+    "Objective": "Vitals: normal. Physical Exam: Right Eye: redness, red veins, and discomfort. Left Eye: redness. Pupils: normal reaction. No specks or hairs on the bottom or inside of the eyes.",
+    "Assessment": "Inflammation of the surface layer of the eye, likely viral. No signs of bacterial infection.",
+    "Plan": [
+     "Explain: viral eye infection, will go away on its own. No need to rub or rinse. Use artificial tears to soothe. No need to boil water for rinsing.",
+        "Meds: artificial tears (get at kruidvat)",
+        "Lifestyle advice: don't rub, use artificial tears, and wait 2 weeks before returning if still not gone.",
+        "Safety netting: return if pain, pus, or stuck shut; or if see things; or if still not gone after 2 weeks."
+    ]
+}

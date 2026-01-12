@@ -1,0 +1,12 @@
+{
+  "Subjective": "1.5-week history of lower back pain radiating down right leg, posterior thigh, and lateral lower leg to foot; worse on right side. Taking paracetamol and ibuprofen without relief. Unable to work or exercise; trouble sleeping. Decreased sensation and tingling on right lower leg. No bowel/bladder dysfunction. Request: Pain relief; concerned about surgery.",
+  "Objective": "No fever. Right leg: decreased sensation; positive straight leg raise test. Strength normal. Reflexes intact. No muscle atrophy.",
+  "Assessment": "Lumbosacral radicular syndrome, likely lumbar disc herniation. No signs of cauda equina syndrome.",
+  "Plan": [
+    "Start pregabalin 75mg twice daily, titrate as needed.",
+    "Recommend physiotherapy for core strengthening.",
+    "Advise activity modification: avoid heavy lifting.",
+    "Schedule follow-up in 1 week.",
+    "Safety net: Seek immediate care if bowel/bladder changes or leg weakness occur."
+  ]
+}

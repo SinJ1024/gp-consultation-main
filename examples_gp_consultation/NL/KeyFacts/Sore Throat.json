@@ -1,0 +1,46 @@
+{
+  "Subjective": [
+    "Sinds 3 dagen keelpijn.",
+    "Keelpijn is pijnlijk bij slikken.",
+    "Sinds vanochtend koorts.",
+    "Sinds vorige week hoesten.",
+    "Gebruikt paracetamol.",
+    "Gebruikt ibuprofen.",
+    "Keelpijn persisteert ondanks gebruik van paracetamol en ibuprofen.",
+    "Geen benauwdheid.",
+    "Kan nog normaal drinken.",
+    "Geen verkoudheidsklachten gemeld.",
+    "Patiënt vraagt om antibiotica.",
+    "Patiënt vermoedt een keelabces."
+  ],
+  "Objective": [
+    "Temperatuur 38,3°C.",
+    "Trommelvliezen zijn lucht houdend.",
+    "Geen tekenen van otitis media.",
+    "Rechter gehoorgang is licht rood.",
+    "Rechter gehoorgang is verder rustig.",
+    "In de hals zijn enkele kleine, niet-pathologische lymfeklieren palpabel.",
+    "Uvula staat mediaan.",
+    "Farynx is rood.",
+    "Tonsillen zijn vergroot.",
+    "Er is beslag op beide tonsillen.",
+    "Tonsillen zijn niet kissing.",
+    "Longen: vesiculair ademgeruis.",
+    "Bij auscultatie zijn geen bijgeluiden hoorbaar.",
+    "Saturatie is 98%."
+  ],
+  "Assessment": [
+    "Waarschijnlijke virale keelonsteking."
+  ],
+  "Plan": [
+    "Patiënt is uitgelegd dat de keelontsteking waarschijnlijk viraal is.",
+    "Patiënt is uitgelegd dat antibiotica in deze situatie niet nodig zijn.",
+    "Advies om paracetamol te gebruiken 4dd 1000 mg.",
+    "Advies om aavullend ibuprofen te gebruiken 3dd 400 mg.",
+    "Advies om koude drankjes te gebruiken ter pijnverlichting.",
+    "Advies om waterijsjes te gebruiken ter pijnverlichting.",
+    "Advies om opnieuw contact op te nemen bij verslechtering.",
+    "Advies om opnieuw contact op te nemen bij benauwdheid.",
+    "Advies om opnieuw contact op te nemen bij toename slikklachten."
+  ]
+}

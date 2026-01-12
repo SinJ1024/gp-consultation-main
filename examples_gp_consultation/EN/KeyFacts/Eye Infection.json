@@ -1,0 +1,33 @@
+{
+  "Subjective": [
+    "Complaints of irritation in the right eye since Tuesday morning.",
+    "Right eye is red.",
+    "Right eye is swollen.",
+    "Patient feels like there is something in the right eye.",
+    "Patient has no pain in the eye.",
+    "Since yesterday, there is also redness in the other eye.",
+    "Patient does not wear contact lenses.",
+    "Patient has no sensitivity to light.",
+    "Patient has no other symptoms.",
+    "Patient asks whether the symptoms are consistent with normal eye inflammation.",
+    "Patient asks whether antibiotic eye drops are necessary."
+  ],
+  "Objective": [
+    "The right eye is redder than the left eye.",
+    "The right eye is more swollen than the left eye.",
+    "There is no foreign body visible in the eye.",
+    "Both pupils respond normally to light."
+  ],
+  "Assessment": ["The image best fits viral conjunctivitis."],
+  "Plan": [
+    "Information provided about viral conjunctivitis.",
+    "Patient advised not to rub their eyes.",
+    "Use of artificial tears recommended for relief.",
+    "Rinsing the eyes with lukewarm water recommended in case of irritation.",
+    "Patient instructed to contact again if symptoms persist for more than 2 weeks.",
+    "Patient instructed to contact again if pain increases.",
+    "Patient instructed to contact again if pus production increases.",
+    "The patient has been instructed to contact us again if their eyes become stuck shut.",
+    "The patient has been instructed to contact us again if their vision deteriorates."
+  ]
+}

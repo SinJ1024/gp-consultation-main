@@ -1,0 +1,15 @@
+{
+  "Subjective": "Stress-related symptoms, tension in body, stiff muscles, rapid breathing, heart palpitations. Gradual worsening over months, daily for last 2 weeks. Palpitations: unpleasant, spontaneous, at rest (e.g., bath, bed), feel in neck, sometimes audible, regular but faster/noticeable. Rapid breathing: feels like shortness of breath, unconscious, at rest or at work (e.g., toilet). Aggravated by coffee, relaxation. Alleviated by less coffee, fun with colleagues, evening rest. Associated: fatigue, difficulty falling asleep (worrying about work, uncertainty), wakes up tired. No chest pain, no irregular heartbeat, no dizziness, no light-headedness, no symptoms with exertion, no abdominal complaints. Impact: Affects sleep (approx. 6 hrs/night vs. 7-8 hrs on non-work days), keeps awake, causes annoyance. Work impact: inner struggle to say no, guilt. Social: Recently graduated doctor, full-time (38-hr contract, often longer days) in internal medicine. Finds job tough (understaffing, extra shifts, long days, feeling unsure). Does not want hospital work long-term, aims for GP. Lives with doctor housemates, good support system, discusses issues. No smoking/alcohol mentioned. Request: Rule out somatic cause (e.g., anemia); advice on talking to professional (practice nurse).",
+  "Objective": "BP 120/60, HR 65 bpm, O2 Sat 98%, RR 14 bpm. Lungs: Clear to auscultation bilaterally, good breath sounds, no abnormal sounds. Heart: Normal heart sounds, no murmurs. Abdomen: Not examined (no complaints). General: Calm.",
+  "Assessment": "Stress-related symptoms, likely due to demanding work environment (new doctor, understaffing, long hours, difficulty saying no). No signs of cardiac pathology (normal heart sounds, regular rhythm, no chest pain, no dizziness/lightheadedness). No respiratory distress (normal O2 sat, RR, clear lungs).",
+  "Plan": [
+    "Diagnostics: Blood test (Hb, thyroid values, liver/kidney function) to rule out somatic causes. Results in 2 working days, check online portal or call practice.",
+    "Referral: Appointment with mental health nurse (can schedule today, no need to wait for blood results).",
+    "Lifestyle Advice:",
+    "- Actively build moments of relaxation (few times/week): e.g., nice coffee, call friend, walk, swim, activities that give energy.",
+    "- Maintain regularity: wake up, go to bed on time.",
+    "- Consider occupational health doctor consultation: tips, contract/schedule adjustments.",
+    "- Balance work and private life.",
+    "Safety Netting: Return if symptoms worsen or new concerns arise."
+  ]
+}

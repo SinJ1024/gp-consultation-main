@@ -1,0 +1,33 @@
+{
+  "Subjective": [
+    "Pain in the left ear for several days.",
+    "Patient feels as if there is water in the left ear.",
+    "The pain in the left ear increases after showering.",
+    "The pain score has increased from 4 to 6–7 after showering.",
+    "Patient has no fever.",
+    "Patient reports no other complaints.",
+    "Patient wants to know what is wrong.",
+    "Patient wants to get rid of the earache."
+  ],
+  "Objective": [
+    "Temperature 36.2 °C (afebrile).",
+    "Left ear canal is red.",
+    "Left ear canal is swollen.",
+    "Left ear canal shows signs of inflammation.",
+    "The left eardrum is poorly visible.",
+    "Right ear canal is clean.",
+    "Right eardrum appears calm."
+  ],
+  "Assessment": ["Otitis externa on the left side."],
+  "Plan": [
+    "The patient has been informed about the diagnosis of otitis externa.",
+    "The patient has been informed about the expected course of otitis externa.",
+    "Paracetamol 1000 mg up to a maximum of 4 times a day for pain has been recommended.",
+    "Ear drops with anti-inflammatory medication have been prescribed for the left ear.",
+    "The ear drops must be used 3 times a day.",
+    "The ear drops must be used for 1 week.",
+    "Advice given to keep the left ear dry.",
+    "Advice given not to clean the left ear with cotton buds.",
+    "Follow-up appointment scheduled in 1 week."
+  ]
+}
