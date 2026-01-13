@@ -1,12 +1,12 @@
 Case_ID,Overall_Score,Subjective,Objective,Assessment,Plan
-Eye Infection,0.0,,,,
-Earache,0.0,,,,
-Skin Lesion,0.0,,,,
-Dizziness,0.0,,,,
-Constipation,0.0,,,,
-Fatigue,0.0,,,,
-Sore Throat,0.0,,,,
-Burnout,0.0,,,,
-Back Pain,0.0,,,,
-Migraine,0.0,,,,
-Average,0.0,,,,
+Constipation,97.14,100.0,85.71,100.0,100.0
+Earache,97.3,92.86,100.0,100.0,100.0
+Skin Lesion,94.87,100.0,77.78,100.0,100.0
+Eye Infection,97.37,100.0,100.0,100.0,90.0
+Sore Throat,95.12,93.33,92.86,100.0,100.0
+Fatigue,92.31,100.0,100.0,66.67,77.78
+Dizziness,95.83,95.65,94.12,100.0,100.0
+Back Pain,100.0,100.0,100.0,100.0,100.0
+Migraine,98.15,100.0,100.0,100.0,92.31
+Burnout,93.75,93.55,100.0,100.0,90.0
+Average,96.184,97.539,95.047,96.667,95.00899999999999
