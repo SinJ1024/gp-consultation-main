@@ -13,6 +13,6 @@ conda activate dsait4090
 
 -.env file: Stores Keys.
 
--models.json file: A configuration file that defines the model matrix. It includes settings for Open-Source (Qwen, Llama via DeepInfra) and Closed-Source (GPT-4o, Gemini) models across various sizes (Tiny, Small, Medium, Large, Reasoning).
+-models.json file: A configuration file that defines the model matrix. It includes settings for Open-Source (Llama via DeepInfra) and Closed-Source (Gemini) models across various sizes (Small, Medium, Large, Reasoning).
 
 -environment.yaml file: The Conda configuration file used to set up the dsait4090 python environment.
